@@ -22,6 +22,7 @@ export default function hoverFollowerAction(node: HTMLElement, props?: Props) {
 	overlay.style.zIndex = "1"
 	overlay.style.pointerEvents = "none"
 	overlay.style.margin = "0"
+	overlay.style.maxWidth = "100%"
 
 	if (orientation === "vertical") {
 		overlay.style.transition =

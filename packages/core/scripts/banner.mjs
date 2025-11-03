@@ -2,7 +2,7 @@ import chalk from "chalk"
 
 export default function banner() {
 	const header = chalk.bold.white("fefade")
-	const description = chalk.blue.underline("https://fefade.dev")
+	const description = chalk.blue.underline("https://fefade.dxdns.dev")
 
 	const commands = []
 

@@ -31,7 +31,7 @@
 
 ## Documentation
 
-Coming soon in the [https://fefade.dev](https://fefade.dev).
+Coming soon in the [https://fefade.dxdns.dev](https://fefade.dxdns.dev).
 
 ## Contributing
 

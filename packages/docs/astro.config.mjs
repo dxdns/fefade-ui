@@ -9,7 +9,7 @@ import sitemap from "@astrojs/sitemap"
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://fefade.dev",
+	site: "https://fefade.dxdns.dev",
 	integrations: [
 		sitemap(),
 		starlight({
