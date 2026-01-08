@@ -1,6 +1,6 @@
 {
 	"name": "@fefade-ui/svelte",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"description": "Reusable Svelte UI components powered by the Fefade UI core system.",
 	"private": false,
 	"author": "Diógenes Rodrigues <https://github.com/dxdns>",

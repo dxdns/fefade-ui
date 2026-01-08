@@ -4,14 +4,14 @@
 
 <h1 align="center">fefade</h1>
 
-[![license](https://img.shields.io/github/license/dxdns/fefade)](https://github.com/dxdns/fefade/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/dxdns/fefade)](https://github.com/dxdns/fefade-ui/blob/master/LICENSE)
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-green)
 
-**fefade** is a lightweight and dependency-free UI component library.
+**Fefade UI** is a lightweight and dependency-free UI component library.
 
 > Minimal, accessible, dependency-free — made by a developer who loves clean UI.
 
-## Why fefade?
+## Why Fefade UI?
 
 - Lightweight by design
 - Isolated styles using CSS Modules — no bleeding styles
@@ -31,12 +31,12 @@
 
 ## Documentation
 
-Coming soon in the [https://fefade.dxdns.dev](https://fefade.dxdns.dev).
+Coming soon in the [https://fefade-ui.dev](https://fefade-ui.dev).
 
 ## Contributing
 
 Please see the [Contributing Guide](CONTRIBUTING.md) for information on
-contributing to fefade.
+contributing to Fefade UI.
 
 ## License
 

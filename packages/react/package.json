@@ -1,6 +1,6 @@
 {
 	"name": "@fefade-ui/react",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"description": "Reusable React UI components powered by the Fefade UI core system.",
 	"private": false,
 	"author": "Diógenes Rodrigues <https://github.com/dxdns>",
