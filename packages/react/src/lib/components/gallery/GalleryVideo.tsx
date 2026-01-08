@@ -2,8 +2,8 @@ import type {
 	GalleryItemType,
 	HTMLAttrAnchor,
 	VideoType
-} from "@fefade/core/types"
-import { classMapUtil, handleClickUtil } from "@fefade/core/utils"
+} from "@fefade-ui/core/types"
+import { classMapUtil, handleClickUtil } from "@fefade-ui/core/utils"
 import {
 	CSSProperties,
 	forwardRef,
@@ -15,7 +15,7 @@ import {
 import { Video } from "../video"
 import { createPortal } from "react-dom"
 import Modal from "../modal"
-import styles from "@fefade/core/styles/GalleryItem.module.css"
+import styles from "@fefade-ui/core/styles/GalleryItem.module.css"
 
 type HTMLVideoAttr = Omit<VideoHTMLAttributes<HTMLVideoElement>, "src">
 

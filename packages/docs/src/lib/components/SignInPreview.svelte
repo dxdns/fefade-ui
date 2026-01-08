@@ -7,7 +7,7 @@
 		PasswordInput,
 		Separator,
 		TextField
-	} from "@fefade/svelte"
+	} from "@fefade-ui/svelte"
 </script>
 
 <div class="container">

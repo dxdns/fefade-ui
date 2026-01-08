@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLTextareaAttributes } from "svelte/elements"
-	import styles from "@fefade/core/styles/Textarea.module.css"
+	import styles from "@fefade-ui/core/styles/Textarea.module.css"
 
 	interface Props extends HTMLTextareaAttributes {}
 

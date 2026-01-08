@@ -1,8 +1,8 @@
 <script setup lang="ts">
 	import { computed, useAttrs, IntrinsicElementAttributes } from "vue"
-	import { classMapUtil, handleClickUtil } from "@fefade/core/utils"
-	import type { ButtonType, HTMLAttrAnchor } from "@fefade/core/types"
-	import styles from "@fefade/core/styles/Button.module.css"
+	import { classMapUtil, handleClickUtil } from "@fefade-ui/core/utils"
+	import type { ButtonType, HTMLAttrAnchor } from "@fefade-ui/core/types"
+	import styles from "@fefade-ui/core/styles/Button.module.css"
 	import { Spinner } from "../spinner"
 
 	interface Props extends ButtonType, HTMLAttrAnchor {}

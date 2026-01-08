@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Kbd } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Kbd } from "@fefade-ui/svelte"
 </script>
 
 {#each Constants.sizes as size (size)}

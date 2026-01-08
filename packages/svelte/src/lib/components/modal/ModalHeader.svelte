@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import Button from "../button/index.js"
-	import type { AlignType } from "@fefade/core/types"
-	import { closeIcon } from "@fefade/core/icons"
-	import styles from "@fefade/core/styles/ModalHeader.module.css"
+	import type { AlignType } from "@fefade-ui/core/types"
+	import { closeIcon } from "@fefade-ui/core/icons"
+	import styles from "@fefade-ui/core/styles/ModalHeader.module.css"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
 		align?: AlignType

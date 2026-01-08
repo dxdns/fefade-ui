@@ -4,9 +4,9 @@
 		classMapUtil,
 		mergeStyleUtil,
 		normalizeSizeUtil
-	} from "@fefade/core/utils"
-	import type { GridType } from "@fefade/core/types"
-	import styles from "@fefade/core/styles/Grid.module.css"
+	} from "@fefade-ui/core/utils"
+	import type { GridType } from "@fefade-ui/core/types"
+	import styles from "@fefade-ui/core/styles/Grid.module.css"
 
 	interface Props extends HTMLAttributes<HTMLDivElement>, GridType {}
 

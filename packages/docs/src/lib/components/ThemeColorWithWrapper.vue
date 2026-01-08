@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { Provider } from "@fefade/vue"
+	import { Provider } from "@fefade-ui/vue"
 	import ThemeColorPreview from "./ThemeColorPreview.vue"
 </script>
 

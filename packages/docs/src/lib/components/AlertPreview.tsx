@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import { Alert } from "@fefade/react"
+import { Constants } from "@fefade-ui/core"
+import { Alert } from "@fefade-ui/react"
 
 export default function () {
 	return (

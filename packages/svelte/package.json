@@ -1,17 +1,17 @@
 {
-	"name": "@fefade/svelte",
-	"version": "0.0.5",
-	"description": "Reusable Svelte UI components powered by the fefade core system.",
+	"name": "@fefade-ui/svelte",
+	"version": "0.0.1",
+	"description": "Reusable Svelte UI components powered by the Fefade UI core system.",
 	"private": false,
 	"author": "Diógenes Rodrigues <https://github.com/dxdns>",
 	"publishConfig": {
 		"access": "public"
 	},
 	"license": "MIT",
-	"homepage": "https://fefade.dxdns.dev",
+	"homepage": "https://fefade-ui.dev",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dxdns/fefade.git"
+		"url": "git+https://github.com/dxdns/fefade-ui.git"
 	},
 	"scripts": {
 		"dev": "vite dev",
@@ -40,18 +40,21 @@
 		}
 	},
 	"peerDependencies": {
-		"@fefade/core": "^0.0.4",
+		"@fefade-ui/core": "^0.0.1",
 		"svelte": "^5.0.0"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.8",
-		"@sveltejs/kit": "^2.16.0",
+		"@eslint/compat": "^1.4.0",
+		"@fefade-ui/core": "*",
+		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/kit": "^2.49.3",
 		"@sveltejs/package": "^2.0.0",
-		"@sveltejs/vite-plugin-svelte": "^6.0.0",
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"eslint-plugin-svelte": "^3.13.1",
+		"prettier-plugin-svelte": "^3.4.0",
 		"publint": "^0.3.2",
-		"svelte": "^5.0.0",
-		"svelte-check": "^4.0.0",
-		"@fefade/core": "*"
+		"svelte": "^5.45.6",
+		"svelte-check": "^4.3.4"
 	},
 	"keywords": [
 		"svelte",

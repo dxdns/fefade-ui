@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Constants } from "@fefade/core"
+import { Constants } from "@fefade-ui/core"
 import { NumberInput } from "@/index.js"
 
 export default function () {

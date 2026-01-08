@@ -6,7 +6,7 @@
 		Select,
 		Separator,
 		Text
-	} from "@fefade/svelte"
+	} from "@fefade-ui/svelte"
 
 	interface Props {
 		data: {

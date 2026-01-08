@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { NumberInput } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { NumberInput } from "@fefade-ui/svelte"
 
 	let quantity = $state(0)
 </script>

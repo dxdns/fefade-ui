@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Tooltip } from "@fefade/svelte"
+	import { Tooltip } from "@fefade-ui/svelte"
 
 	const positions = ["top", "bottom", "left", "right"] as const
 </script>

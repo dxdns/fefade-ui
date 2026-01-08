@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { themeConfig, Navbar, Toaster } from "@/index.js"
-	import { infoIcon } from "@fefade/core/icons"
+	import { infoIcon } from "@fefade-ui/core/icons"
 
 	let { children } = $props()
 

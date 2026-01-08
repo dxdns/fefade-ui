@@ -1,5 +1,5 @@
-import type { ThemeColorType, ThemeModeType } from "@fefade/core/types"
-import { Constants } from "@fefade/core"
+import type { ThemeColorType, ThemeModeType } from "@fefade-ui/core/types"
+import { Constants } from "@fefade-ui/core"
 
 let data = $state<{
 	mode: ThemeModeType

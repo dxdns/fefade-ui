@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { useMediaQuery } from "@fefade/svelte"
+	import { useMediaQuery } from "@fefade-ui/svelte"
 
 	const isSm = useMediaQuery("max-width", "sm")
 	const isMd = useMediaQuery("max-width", "md")

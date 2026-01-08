@@ -1,4 +1,4 @@
-import { ColorPicker } from "@fefade/react"
+import { ColorPicker } from "@fefade-ui/react"
 import { useState, type CSSProperties } from "react"
 
 export default function () {

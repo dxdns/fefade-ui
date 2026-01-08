@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { OrientationType } from "@fefade/core/types"
-	import { mergeStyleUtil } from "@fefade/core/utils"
+	import type { OrientationType } from "@fefade-ui/core/types"
+	import { mergeStyleUtil } from "@fefade-ui/core/utils"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
 		orientation?: OrientationType
@@ -9,7 +9,7 @@
 
 	let {
 		class: className = "",
-		orientation = "horizontal",
+		orientation = $bindable("horizontal"),
 		children,
 		...rest
 	}: Props = $props()

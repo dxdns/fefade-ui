@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import { Avatar, Card, Status, Tooltip } from "@fefade/react"
+import { Constants } from "@fefade-ui/core"
+import { Avatar, Card, Status, Tooltip } from "@fefade-ui/react"
 
 export default function () {
 	const avatarOn = () => (

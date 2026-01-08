@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { videoAction } from "@fefade/core/actions"
-	import type { VideoType } from "@fefade/core/types"
-	import { videoUtil } from "@fefade/core/utils"
+	import { videoAction } from "@fefade-ui/core/actions"
+	import type { VideoType } from "@fefade-ui/core/types"
+	import { videoUtil } from "@fefade-ui/core/utils"
 	import type { HTMLVideoAttributes } from "svelte/elements"
 
 	interface Props

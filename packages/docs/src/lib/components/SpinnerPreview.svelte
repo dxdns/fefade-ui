@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Spinner } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Spinner } from "@fefade-ui/svelte"
 </script>
 
 <div

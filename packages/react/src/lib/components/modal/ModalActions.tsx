@@ -1,7 +1,7 @@
-import type { AlignType } from "@fefade/core/types"
-import { classMapUtil } from "@fefade/core/utils"
+import type { AlignType } from "@fefade-ui/core/types"
+import { classMapUtil } from "@fefade-ui/core/utils"
 import { CSSProperties, forwardRef, HTMLAttributes } from "react"
-import styles from "@fefade/core/styles/ModalActions.module.css"
+import styles from "@fefade-ui/core/styles/ModalActions.module.css"
 
 interface Props extends Omit<HTMLAttributes<HTMLDivElement>, "color"> {
 	align?: AlignType

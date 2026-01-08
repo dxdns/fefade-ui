@@ -1,14 +1,15 @@
 <script lang="ts">
-	import type { ToastType } from "@fefade/core/types"
-	import { classMapUtil } from "@fefade/core/utils"
+	import type { ToastType } from "@fefade-ui/core/types"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLAttributes } from "svelte/elements"
 	import Button from "../button/index.js"
 	import { Alert } from "../alert/index.js"
 	import { toastState } from "../../states/index.js"
 	import { onDestroy } from "svelte"
 	import ProgressLoader from "../progress-loader/index.js"
-	import { closeIcon } from "@fefade/core/icons"
-	import styles from "@fefade/core/styles/Toast.module.css"
+	import { closeIcon } from "@fefade-ui/core/icons"
+	import styles from "@fefade-ui/core/styles/Toast.module.css"
+	import { Constants } from "@fefade-ui/core"
 
 	interface Props
 		extends Omit<Omit<HTMLAttributes<HTMLDivElement>, "color">, "id">,
@@ -25,10 +26,10 @@
 	}: Props = $props()
 
 	const _toastState = toastState()
-	const toast = _toastState.data.get(id)
-	const duration = toast?.duration ?? 3000
+	const toast = $derived(_toastState.data.get(id))
+	const duration = $derived(toast?.duration ?? 3000)
 
-	let timerValue = $state(duration)
+	let timerValue = $state(Constants.TOAST_DEFAULT_DURATION)
 	let paused = $state(false)
 
 	const interval = setInterval(() => {
@@ -38,6 +39,8 @@
 	}, 100)
 
 	$effect(() => {
+		timerValue = duration
+
 		if (timerValue <= 0) {
 			_toastState.remove(id)
 		}

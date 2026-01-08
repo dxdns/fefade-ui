@@ -1,15 +1,15 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
+	import { Constants } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade/core/utils"
-	import type { AlertType } from "@fefade/core/types"
+	import { classMapUtil } from "@fefade-ui/core/utils"
+	import type { AlertType } from "@fefade-ui/core/types"
 	import {
 		checkCircleIcon,
 		errorIcon,
 		infoIcon,
 		warningIcon
-	} from "@fefade/core/icons"
-	import styles from "@fefade/core/styles/Alert.module.css"
+	} from "@fefade-ui/core/icons"
+	import styles from "@fefade-ui/core/styles/Alert.module.css"
 
 	interface Props
 		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
@@ -17,7 +17,7 @@
 
 	let {
 		class: className = "",
-		color = "info",
+		color = $bindable("info"),
 		children,
 		...rest
 	}: Props = $props()

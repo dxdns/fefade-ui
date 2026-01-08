@@ -1,8 +1,8 @@
 import { forwardRef, HTMLAttributes, ReactNode } from "react"
-import { CardType, HTMLAttrAnchor } from "@fefade/core/types"
+import { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
 import { Card } from "../card"
 import { Badge } from "../badge"
-import styles from "@fefade/core/styles/Window.module.css"
+import styles from "@fefade-ui/core/styles/Window.module.css"
 
 interface Props
 	extends Omit<HTMLAttributes<HTMLDivElement>, "color">,

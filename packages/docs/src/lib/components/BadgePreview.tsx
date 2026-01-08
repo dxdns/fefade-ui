@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import { Badge } from "@fefade/react"
+import { Constants } from "@fefade-ui/core"
+import { Badge } from "@fefade-ui/react"
 
 export default function () {
 	const badgeVariants = ["outlined", "contained"] as const

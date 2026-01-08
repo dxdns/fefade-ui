@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { Button } from "@fefade/vue"
+	import { Button } from "@fefade-ui/vue"
 </script>
 
 <template>

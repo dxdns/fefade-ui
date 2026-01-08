@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { categoriesData } from "@/data"
 	import type { CategoryType } from "@/types"
-	import { Button, Card, Gallery, Text } from "@fefade/svelte"
+	import { Button, Card, Gallery, Text } from "@fefade-ui/svelte"
 
 	interface Props {
 		data: {

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Card, Code, Window } from "@fefade/svelte"
+	import { Button, Card, Code, Window } from "@fefade-ui/svelte"
 
 	let elCode: HTMLElement | undefined = $state()
 	let copied = $state(false)

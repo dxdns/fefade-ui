@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { classMapUtil, mergeStyleUtil } from "@fefade/core/utils"
-	import type { OrientationType, SizeType } from "@fefade/core/types"
+	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
+	import type { OrientationType, SizeType } from "@fefade-ui/core/types"
 	import type { HTMLAttributes } from "svelte/elements"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
@@ -12,9 +12,9 @@
 
 	let {
 		orientation = "horizontal",
-		variant = "solid",
-		size = "xs",
-		height = "5px",
+		variant = $bindable("solid"),
+		size = $bindable("xs"),
+		height = $bindable("5px"),
 		...rest
 	}: Props = $props()
 

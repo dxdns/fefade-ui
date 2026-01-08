@@ -1,6 +1,6 @@
 <script setup lang="ts">
 	import { ref } from "vue"
-	import { Card } from "@fefade/vue"
+	import { Card } from "@fefade-ui/vue"
 
 	const borderWidth = ref(1)
 

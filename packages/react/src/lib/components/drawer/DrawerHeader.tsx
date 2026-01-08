@@ -1,8 +1,8 @@
 import { forwardRef, HTMLAttributes } from "react"
-import { classMapUtil } from "@fefade/core/utils"
-import { closeIcon } from "@fefade/core/icons"
+import { classMapUtil } from "@fefade-ui/core/utils"
+import { closeIcon } from "@fefade-ui/core/icons"
 import { Button } from "../button"
-import styles from "@fefade/core/styles/DrawerHeader.module.css"
+import styles from "@fefade-ui/core/styles/DrawerHeader.module.css"
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
 	handleClose?: () => void

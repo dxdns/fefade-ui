@@ -1,15 +1,15 @@
-import { Constants } from "@fefade/core"
-import type { CardType, HTMLAttrAnchor } from "@fefade/core/types"
+import { Constants } from "@fefade-ui/core"
+import type { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
 import {
 	classMapUtil,
 	getPropValueUtil,
 	handleClickUtil,
 	normalizeSizeUtil
-} from "@fefade/core/utils"
+} from "@fefade-ui/core/utils"
 import { CSSProperties, forwardRef, HTMLAttributes } from "react"
 import { useAction } from "../../utils"
-import { glowOnHoverAction } from "@fefade/core/actions"
-import styles from "@fefade/core/styles/Card.module.css"
+import { glowOnHoverAction } from "@fefade-ui/core/actions"
+import styles from "@fefade-ui/core/styles/Card.module.css"
 
 interface Props
 	extends Omit<HTMLAttributes<HTMLDivElement>, "color">,

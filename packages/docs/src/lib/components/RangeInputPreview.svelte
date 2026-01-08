@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Badge, RangeInput } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Badge, RangeInput } from "@fefade-ui/svelte"
 
 	const homeIcon = `
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="red">

@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import { SearchInput } from "@fefade/react"
+import { Constants } from "@fefade-ui/core"
+import { SearchInput } from "@fefade-ui/react"
 
 export default function () {
 	return (

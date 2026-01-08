@@ -5,14 +5,14 @@ import {
 	useEffect,
 	useState
 } from "react"
-import type { ToastType } from "@fefade/core/types"
-import { closeIcon } from "@fefade/core/icons"
-import { classMapUtil } from "@fefade/core/utils"
+import type { ToastType } from "@fefade-ui/core/types"
+import { closeIcon } from "@fefade-ui/core/icons"
+import { classMapUtil } from "@fefade-ui/core/utils"
 import { Alert } from "../alert"
 import { Button } from "../button"
 import { ToastContext } from "../../contexts/ToastContext"
 import { ProgressLoader } from "../progress-loader"
-import styles from "@fefade/core/styles/Toast.module.css"
+import styles from "@fefade-ui/core/styles/Toast.module.css"
 
 interface Props
 	extends Omit<Omit<HTMLAttributes<HTMLDivElement>, "color">, "id">,

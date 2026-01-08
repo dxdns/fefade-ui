@@ -1,6 +1,6 @@
 import { themeConfigState } from "../states/index.js"
-import { providerUtil } from "@fefade/core/utils"
-import type { ThemeConfigUtilType } from "@fefade/core/types"
+import { providerUtil } from "@fefade-ui/core/utils"
+import type { ThemeConfigUtilType } from "@fefade-ui/core/types"
 
 export default function themeConfigUtil(): ThemeConfigUtilType {
 	const themeConfig = themeConfigState()

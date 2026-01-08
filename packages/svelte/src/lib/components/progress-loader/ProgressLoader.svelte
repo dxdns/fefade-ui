@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil, mergeStyleUtil } from "@fefade/core/utils"
-	import type { StatusColorType } from "@fefade/core/types"
-	import styles from "@fefade/core/styles/ProgressLoader.module.css"
+	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
+	import type { StatusColorType } from "@fefade-ui/core/types"
+	import styles from "@fefade-ui/core/styles/ProgressLoader.module.css"
 
 	interface Props extends Omit<HTMLAttributes<HTMLDivElement>, "color"> {
 		value: number

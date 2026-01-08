@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { VisibilityListener } from "@fefade/svelte"
+	import { VisibilityListener } from "@fefade-ui/svelte"
 
 	let isVisible = $state(false)
 	const n = 50

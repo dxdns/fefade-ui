@@ -7,7 +7,7 @@
 		Separator,
 		Switch,
 		themeConfig
-	} from "@fefade/svelte"
+	} from "@fefade-ui/svelte"
 
 	const theme = $derived(themeConfig())
 

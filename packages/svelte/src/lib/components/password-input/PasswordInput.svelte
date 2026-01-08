@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { HTMLInputAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade/core/utils"
-	import type { ColorType, SizeType, VariantType } from "@fefade/core/types"
+	import { classMapUtil } from "@fefade-ui/core/utils"
+	import type { ColorType, SizeType, VariantType } from "@fefade-ui/core/types"
 	import Button from "../button/index.js"
 	import TextField from "../text-field/index.js"
-	import { visibilityIcon, visibilityOffIcon } from "@fefade/core/icons"
+	import { visibilityIcon, visibilityOffIcon } from "@fefade-ui/core/icons"
 	import styles from "./PasswordInput.module.css"
 
 	interface Props extends Omit<Omit<HTMLInputAttributes, "size">, "type"> {

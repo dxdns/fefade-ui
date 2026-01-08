@@ -1,5 +1,5 @@
-import { Gallery, Text } from "@fefade/react"
-import { videoUtil } from "@fefade/core/utils"
+import { Gallery, Text } from "@fefade-ui/react"
+import { videoUtil } from "@fefade-ui/core/utils"
 
 export default function () {
 	const sizes = [200, 250, 650, 750, 850, 950, 300, 350, 450, 550]

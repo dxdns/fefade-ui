@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { HTMLButtonAttributes } from "svelte/elements"
-	import { classMapUtil, mergeStyleUtil } from "@fefade/core/utils"
+	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
 	import styles from "./Rating.module.css"
 
 	interface Props extends HTMLButtonAttributes {
@@ -11,7 +11,7 @@
 
 	let {
 		class: className = "",
-		startIn = 0,
+		startIn = $bindable(0),
 		color = "#fde047",
 		onChange,
 		...rest

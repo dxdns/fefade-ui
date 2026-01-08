@@ -1,14 +1,14 @@
-import { Constants } from "@fefade/core"
+import { Constants } from "@fefade-ui/core"
 import { forwardRef, HTMLAttributes } from "react"
-import type { AlertType } from "@fefade/core/types"
+import type { AlertType } from "@fefade-ui/core/types"
 import {
 	checkCircleIcon,
 	errorIcon,
 	infoIcon,
 	warningIcon
-} from "@fefade/core/icons"
-import { classMapUtil } from "@fefade/core/utils"
-import styles from "@fefade/core/styles/Alert.module.css"
+} from "@fefade-ui/core/icons"
+import { classMapUtil } from "@fefade-ui/core/utils"
+import styles from "@fefade-ui/core/styles/Alert.module.css"
 
 interface Props
 	extends Omit<HTMLAttributes<HTMLDivElement>, "color">,

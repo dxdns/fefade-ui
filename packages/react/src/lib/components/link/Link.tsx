@@ -1,5 +1,5 @@
-import type { LinkType } from "@fefade/core/types"
-import { classMapUtil } from "@fefade/core/utils"
+import type { LinkType } from "@fefade-ui/core/types"
+import { classMapUtil } from "@fefade-ui/core/utils"
 import {
 	ComponentPropsWithoutRef,
 	CSSProperties,
@@ -9,8 +9,8 @@ import {
 	PropsWithChildren,
 	Ref
 } from "react"
-import styles from "@fefade/core/styles/Link.module.css"
-import buttonStyles from "@fefade/core/styles/Button.module.css"
+import styles from "@fefade-ui/core/styles/Link.module.css"
+import buttonStyles from "@fefade-ui/core/styles/Button.module.css"
 
 type AsProp<C extends ElementType> = {
 	as?: C

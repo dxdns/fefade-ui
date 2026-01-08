@@ -1,17 +1,17 @@
 {
-	"name": "@fefade/vue",
-	"version": "0.0.4",
-	"description": "Reusable Vue UI components powered by the fefade core system.",
+	"name": "@fefade-ui/vue",
+	"version": "0.0.1",
+	"description": "Reusable Vue UI components powered by the Fefade UI core system.",
 	"private": false,
 	"author": "Diógenes Rodrigues <https://github.com/dxdns>",
 	"publishConfig": {
 		"access": "public"
 	},
 	"license": "MIT",
-	"homepage": "https://fefade.dxdns.dev",
+	"homepage": "https://fefade-ui.dev",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dxdns/fefade.git"
+		"url": "git+https://github.com/dxdns/fefade-ui.git"
 	},
 	"type": "module",
 	"main": "dist/index.js",
@@ -26,21 +26,22 @@
 		"build:watch": "vue-tsc -b --watch & vite build --watch"
 	},
 	"peerDependencies": {
-		"@fefade/core": "^0.0.4"
+		"@fefade-ui/core": "^0.0.1"
 	},
 	"devDependencies": {
-		"@fefade/core": "*",
+		"@fefade-ui/core": "*",
 		"@vitejs/plugin-vue": "^6.0.0",
 		"@vue/tsconfig": "^0.7.0",
 		"glob": "^11.0.3",
 		"vue": "^3.5.17",
+		"eslint-plugin-vue": "^10.3.0",
 		"vue-tsc": "^2.2.12"
 	},
 	"keywords": [
 		"vue",
 		"vue-ui",
 		"ui",
-		"fefade",
+		"fefade-ui",
 		"components",
 		"ui-components",
 		"vue-pkg",

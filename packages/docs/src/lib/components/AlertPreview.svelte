@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Alert } from "@fefade/svelte"
-	import { Constants } from "@fefade/core"
+	import { Alert } from "@fefade-ui/svelte"
+	import { Constants } from "@fefade-ui/core"
 </script>
 
 <br />

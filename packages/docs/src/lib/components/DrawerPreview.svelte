@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Drawer, Window } from "@fefade/svelte"
+	import { Button, Drawer, Window } from "@fefade-ui/svelte"
 
 	let drawerStates = $state({
 		top: false,

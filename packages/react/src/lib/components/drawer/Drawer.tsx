@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react"
-import { classMapUtil } from "@fefade/core/utils"
-import type { DrawerType } from "@fefade/core/types"
-import styles from "@fefade/core/styles/Drawer.module.css"
+import { classMapUtil } from "@fefade-ui/core/utils"
+import type { DrawerType } from "@fefade-ui/core/types"
+import styles from "@fefade-ui/core/styles/Drawer.module.css"
 
 export interface Props
 	extends React.HTMLAttributes<HTMLDivElement>,

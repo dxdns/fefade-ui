@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Modal } from "@fefade/svelte"
+	import { Button, Modal } from "@fefade-ui/svelte"
 	import { onMount } from "svelte"
 
 	let isOpen = $state(false)

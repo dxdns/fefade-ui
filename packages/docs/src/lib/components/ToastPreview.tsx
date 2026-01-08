@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import { Button, Toaster, useToast } from "@fefade/react"
+import { Constants } from "@fefade-ui/core"
+import { Button, Toaster, useToast } from "@fefade-ui/react"
 
 function ToastPreview() {
 	const toast = useToast()

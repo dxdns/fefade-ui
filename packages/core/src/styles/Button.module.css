@@ -53,6 +53,7 @@
 .button:disabled {
 	cursor: not-allowed;
 	color: var(--ff-on-disabled);
+	pointer-events: none;
 }
 
 .button.outlined:disabled {

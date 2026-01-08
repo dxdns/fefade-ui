@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil, mergeStyleUtil } from "@fefade/core/utils"
-	import type { AlignType } from "@fefade/core/types"
-	import styles from "@fefade/core/styles/ModalActions.module.css"
+	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
+	import type { AlignType } from "@fefade-ui/core/types"
+	import styles from "@fefade-ui/core/styles/ModalActions.module.css"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
 		align?: AlignType

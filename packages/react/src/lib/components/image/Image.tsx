@@ -1,7 +1,7 @@
-import type { ImageType } from "@fefade/core/types"
+import type { ImageType } from "@fefade-ui/core/types"
 import { forwardRef, ImgHTMLAttributes } from "react"
 import { useAction } from "../../utils"
-import { imageAction } from "@fefade/core/actions"
+import { imageAction } from "@fefade-ui/core/actions"
 
 interface Props
 	extends Omit<ImgHTMLAttributes<Omit<HTMLImageElement, "src">>, "color">,

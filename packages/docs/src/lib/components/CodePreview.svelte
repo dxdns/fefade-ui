@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Code } from "@fefade/svelte"
+	import { Code } from "@fefade-ui/svelte"
 
 	const data = `
         .card {

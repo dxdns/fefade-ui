@@ -1,6 +1,6 @@
-import type { MediaQueryType, BreakpointType } from "@fefade/core/types"
-import { sizeToNumberUtil } from "@fefade/core/utils"
-import { Constants } from "@fefade/core"
+import type { MediaQueryType, BreakpointType } from "@fefade-ui/core/types"
+import { sizeToNumberUtil } from "@fefade-ui/core/utils"
+import { Constants } from "@fefade-ui/core"
 
 export default function mediaQueryState(...args: MediaQueryType) {
 	const [operator, size, node] = args

@@ -1,14 +1,14 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
+	import { Constants } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
-	import { activeLineAction } from "@fefade/core/actions"
+	import { activeLineAction } from "@fefade-ui/core/actions"
 	import HoverFollower from "../hover-follower/index.js"
-	import type { ActionType, OrientationType } from "@fefade/core/types"
+	import type { ActionType, OrientationType } from "@fefade-ui/core/types"
 	import {
 		classMapUtil,
 		getPropValueUtil,
 		mergeStyleUtil
-	} from "@fefade/core/utils"
+	} from "@fefade-ui/core/utils"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
 		lineStyle?:
@@ -24,9 +24,9 @@
 
 	let {
 		class: className = "",
-		lineStyle,
-		hoverFollower,
-		orientation = "horizontal",
+		lineStyle = $bindable(),
+		hoverFollower = $bindable(),
+		orientation = $bindable("horizontal"),
 		scrollable = true,
 		children,
 		...rest

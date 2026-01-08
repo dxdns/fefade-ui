@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Autocomplete, Link } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Autocomplete, Link } from "@fefade-ui/svelte"
 
 	const data = Array.from(Array(30)).map((_, i) => ({
 		id: i,

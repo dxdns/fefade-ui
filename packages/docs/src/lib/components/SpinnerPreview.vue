@@ -1,6 +1,6 @@
 <script setup lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Spinner } from "@fefade/vue"
+	import { Constants } from "@fefade-ui/core"
+	import { Spinner } from "@fefade-ui/vue"
 </script>
 
 <template>

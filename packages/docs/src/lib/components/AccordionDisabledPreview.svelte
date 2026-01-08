@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Accordion } from "@fefade/svelte"
+	import { Accordion } from "@fefade-ui/svelte"
 </script>
 
 <Accordion id="disabled" label="Disabled" disabled>

@@ -1,8 +1,8 @@
-import { Constants } from "@fefade/core"
+import { Constants } from "@fefade-ui/core"
 import { CSSProperties, forwardRef, HTMLAttributes } from "react"
-import type { StatusType } from "@fefade/core/types"
-import { classMapUtil, normalizeSizeUtil } from "@fefade/core/utils"
-import styles from "@fefade/core/styles/Status.module.css"
+import type { StatusType } from "@fefade-ui/core/types"
+import { classMapUtil, normalizeSizeUtil } from "@fefade-ui/core/utils"
+import styles from "@fefade-ui/core/styles/Status.module.css"
 
 interface Props extends HTMLAttributes<HTMLDivElement>, StatusType {}
 

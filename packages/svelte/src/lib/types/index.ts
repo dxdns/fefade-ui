@@ -1,1 +1,1 @@
-export * from "@fefade/core/types"
+export * from "@fefade-ui/core/types"

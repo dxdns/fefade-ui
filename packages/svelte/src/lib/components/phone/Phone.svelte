@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { Snippet } from "svelte"
 	import type { HTMLAttributes } from "svelte/elements"
 

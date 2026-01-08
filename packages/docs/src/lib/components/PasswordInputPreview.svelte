@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { PasswordInput } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { PasswordInput } from "@fefade-ui/svelte"
 </script>
 
 <div style="max-width: 300px; margin: 0 auto;">

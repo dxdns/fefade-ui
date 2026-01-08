@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fefade.dxdns.dev/sitemap-0.xml
+Sitemap: https://fefade-ui.dev/sitemap-0.xml

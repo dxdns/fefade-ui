@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Badge } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Badge } from "@fefade-ui/svelte"
 
 	const badgeVariants = ["outlined", "contained"] as const
 </script>

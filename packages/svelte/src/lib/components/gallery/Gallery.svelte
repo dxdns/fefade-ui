@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { GridType } from "@fefade/core/types"
+	import type { GridType } from "@fefade-ui/core/types"
 	import { Grid } from "../grid/index.js"
 
 	interface Props extends HTMLAttributes<HTMLDivElement>, GridType {}

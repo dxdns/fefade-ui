@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, ProgressLoader } from "@fefade/svelte"
+	import { Button, ProgressLoader } from "@fefade-ui/svelte"
 
 	let progress = $state(0)
 

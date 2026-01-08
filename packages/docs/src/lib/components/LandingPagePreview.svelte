@@ -11,7 +11,7 @@
 		themeConfig,
 		useMediaQuery,
 		Drawer
-	} from "@fefade/svelte"
+	} from "@fefade-ui/svelte"
 
 	let isOpen = $state(false)
 	let el: HTMLDivElement | undefined = $state()
@@ -384,7 +384,7 @@
 				justify-content: center;
 				"
 			>
-				<Link href="https://github.com/dxdns/fefade" target="_blank">
+				<Link href="https://github.com/dxdns/fefade-ui" target="_blank">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 20 20"

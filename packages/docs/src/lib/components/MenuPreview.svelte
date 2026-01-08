@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Menu } from "@fefade/svelte"
+	import { Button, Menu } from "@fefade-ui/svelte"
 </script>
 
 <div

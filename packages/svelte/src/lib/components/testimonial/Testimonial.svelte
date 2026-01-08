@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLAttributes } from "svelte/elements"
 	import Card from "../card/index.js"
 	import Avatar from "../avatar/index.js"
 	import { Rating } from "../rating/index.js"
 	import type { Snippet } from "svelte"
-	import type { CardType, HTMLAttrAnchor } from "@fefade/core/types"
+	import type { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
 
 	interface Props
 		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,

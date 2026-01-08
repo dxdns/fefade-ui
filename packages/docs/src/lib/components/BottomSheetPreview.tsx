@@ -1,4 +1,4 @@
-import { BottomSheet, Button } from "@fefade/react"
+import { BottomSheet, Button } from "@fefade-ui/react"
 import { useEffect, useState } from "react"
 
 export default function () {

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Switch, themeConfig } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Switch, themeConfig } from "@fefade-ui/svelte"
 
 	const { colors } = $derived(themeConfig())
 </script>

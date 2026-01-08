@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Phone } from "@fefade/svelte"
+	import { Phone } from "@fefade-ui/svelte"
 </script>
 
 <Phone>

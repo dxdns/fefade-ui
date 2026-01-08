@@ -7,7 +7,7 @@
 		themeConfig,
 		useMediaQuery,
 		Window
-	} from "@fefade/svelte"
+	} from "@fefade-ui/svelte"
 
 	let isOpen = $state({
 		1: false,

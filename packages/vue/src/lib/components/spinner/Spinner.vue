@@ -1,8 +1,8 @@
 <script setup lang="ts">
 	import { computed, useAttrs, IntrinsicElementAttributes } from "vue"
-	import { classMapUtil } from "@fefade/core/utils"
-	import type { SpinnerType } from "@fefade/core/types"
-	import styles from "@fefade/core/styles/Spinner.module.css"
+	import { classMapUtil } from "@fefade-ui/core/utils"
+	import type { SpinnerType } from "@fefade-ui/core/types"
+	import styles from "@fefade-ui/core/styles/Spinner.module.css"
 
 	interface Props extends SpinnerType {}
 

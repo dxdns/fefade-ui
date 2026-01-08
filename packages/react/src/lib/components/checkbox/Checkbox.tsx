@@ -1,8 +1,8 @@
 import { forwardRef, InputHTMLAttributes } from "react"
-import type { CheckboxType } from "@fefade/core/types"
-import { classMapUtil } from "@fefade/core/utils"
-import { checkmarkIcon } from "@fefade/core/icons"
-import styles from "@fefade/core/styles/Checkbox.module.css"
+import type { CheckboxType } from "@fefade-ui/core/types"
+import { classMapUtil } from "@fefade-ui/core/utils"
+import { checkmarkIcon } from "@fefade-ui/core/icons"
+import styles from "@fefade-ui/core/styles/Checkbox.module.css"
 
 interface Props
 	extends Omit<

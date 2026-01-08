@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { TextField } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { TextField } from "@fefade-ui/svelte"
 </script>
 
 <div style="max-width: 300px; margin: 0 auto;">

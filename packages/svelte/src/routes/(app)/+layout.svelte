@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>fefade + Svelte</title>
+	<title>Fefade UI + Svelte</title>
 </svelte:head>
 
 <Provider {theme} defaultThemeMode="light">

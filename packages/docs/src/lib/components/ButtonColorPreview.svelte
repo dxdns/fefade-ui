@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Button } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Button } from "@fefade-ui/svelte"
 </script>
 
 <div style="display:flex; align-items: baseline; gap: 1rem; flex-wrap: wrap;">

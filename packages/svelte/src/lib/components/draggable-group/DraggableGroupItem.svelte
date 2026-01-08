@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade/core/utils"
-	import styles from "@fefade/core/styles/DraggableGroupItem.module.css"
+	import { classMapUtil } from "@fefade-ui/core/utils"
+	import styles from "@fefade-ui/core/styles/DraggableGroupItem.module.css"
 
 	interface Props extends HTMLAttributes<Omit<HTMLDivElement, "id">> {
 		id: string

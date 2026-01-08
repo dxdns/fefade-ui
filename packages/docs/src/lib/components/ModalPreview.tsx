@@ -1,4 +1,4 @@
-import { Button, Modal } from "@fefade/react"
+import { Button, Modal } from "@fefade-ui/react"
 import { useEffect, useState } from "react"
 
 export default function () {

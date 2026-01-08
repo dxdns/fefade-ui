@@ -1,4 +1,4 @@
-import { DateInput } from "@fefade/react"
+import { DateInput } from "@fefade-ui/react"
 
 export default function () {
 	return (

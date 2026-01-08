@@ -1,4 +1,4 @@
-import { Link } from "@fefade/react"
+import { Link } from "@fefade-ui/react"
 
 export default function () {
 	return (

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, useMediaQuery } from "@fefade/svelte"
+	import { Button, useMediaQuery } from "@fefade-ui/svelte"
 	import type { Snippet } from "svelte"
 
 	type DeviceType = "mobile" | "tablet" | "desktop"

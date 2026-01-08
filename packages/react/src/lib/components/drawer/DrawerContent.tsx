@@ -1,6 +1,6 @@
 import { forwardRef, HTMLAttributes } from "react"
-import styles from "@fefade/core/styles/DrawerContent.module.css"
-import { classMapUtil } from "@fefade/core/utils"
+import styles from "@fefade-ui/core/styles/DrawerContent.module.css"
+import { classMapUtil } from "@fefade-ui/core/utils"
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {}
 

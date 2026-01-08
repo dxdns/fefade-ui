@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { HTMLInputAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade/core/utils"
-	import styles from "@fefade/core/styles/DateInput.module.css"
+	import { classMapUtil } from "@fefade-ui/core/utils"
+	import styles from "@fefade-ui/core/styles/DateInput.module.css"
 
 	interface Props extends Omit<HTMLInputAttributes, "type"> {
 		type?: "date" | "month"

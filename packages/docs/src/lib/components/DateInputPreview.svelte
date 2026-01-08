@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { DateInput } from "@fefade/svelte"
+	import { DateInput } from "@fefade-ui/svelte"
 </script>
 
 <DateInput />

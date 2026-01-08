@@ -1,17 +1,21 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
+	import { Constants } from "@fefade-ui/core"
 	import { toastState } from "../../states/index.js"
 	import Toast from "./Toast.svelte"
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil, mergeStyleUtil } from "@fefade/core/utils"
-	import type { AlignmentType } from "@fefade/core/types"
-	import styles from "@fefade/core/styles/Toaster.module.css"
+	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
+	import type { AlignmentType } from "@fefade-ui/core/types"
+	import styles from "@fefade-ui/core/styles/Toaster.module.css"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
 		fullWidth?: boolean
 	}
 
-	let { class: className = "", fullWidth = false, ...rest }: Props = $props()
+	let {
+		class: className = "",
+		fullWidth = $bindable(false),
+		...rest
+	}: Props = $props()
 
 	let isHovered = $state(false)
 

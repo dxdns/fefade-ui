@@ -1,6 +1,6 @@
 <script setup lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Button } from "@fefade/vue"
+	import { Constants } from "@fefade-ui/core"
+	import { Button } from "@fefade-ui/vue"
 
 	const colors = ["error", "success", "warning", "info", "primary"] as const
 </script>

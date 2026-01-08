@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
+	import { Constants } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
 	import {
 		classMapUtil,
@@ -7,10 +7,10 @@
 		handleClickUtil,
 		mergeStyleUtil,
 		normalizeSizeUtil
-	} from "@fefade/core/utils"
-	import { glowOnHoverAction } from "@fefade/core/actions"
-	import type { CardType, HTMLAttrAnchor } from "@fefade/core/types"
-	import styles from "@fefade/core/styles/Card.module.css"
+	} from "@fefade-ui/core/utils"
+	import { glowOnHoverAction } from "@fefade-ui/core/actions"
+	import type { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
+	import styles from "@fefade-ui/core/styles/Card.module.css"
 
 	interface Props
 		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
@@ -21,7 +21,7 @@
 		class: className = "",
 		isTranslucent = false,
 		glowOnHover = false,
-		animatedBorder,
+		animatedBorder = $bindable(),
 		variant = "outlined",
 		href,
 		target = "_self",

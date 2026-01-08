@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Avatar, Card, Status, Tooltip } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Avatar, Card, Status, Tooltip } from "@fefade-ui/svelte"
 </script>
 
 {#snippet avatarOn()}

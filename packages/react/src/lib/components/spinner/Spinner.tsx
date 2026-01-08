@@ -1,7 +1,7 @@
-import type { SpinnerType } from "@fefade/core/types"
+import type { SpinnerType } from "@fefade-ui/core/types"
 import { forwardRef, HTMLAttributes } from "react"
-import { classMapUtil } from "@fefade/core/utils"
-import styles from "@fefade/core/styles/Spinner.module.css"
+import { classMapUtil } from "@fefade-ui/core/utils"
+import styles from "@fefade-ui/core/styles/Spinner.module.css"
 
 interface Props extends HTMLAttributes<HTMLSpanElement>, SpinnerType {}
 

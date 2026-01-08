@@ -8,7 +8,7 @@ import type {
 } from "./types/index.js"
 import { capitalizeUtil, toKebabCaseUtil } from "./utils/index.js"
 
-export const APP_NAME = "fefade"
+export const APP_NAME = "fefade-ui"
 export const APP_NAME_ACRONYM = "ff"
 export const META_NAME = "x-library-name"
 

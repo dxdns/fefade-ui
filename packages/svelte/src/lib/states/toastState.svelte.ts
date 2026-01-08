@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import type { ToasterType } from "@fefade/core/types"
+import { Constants } from "@fefade-ui/core"
+import type { ToasterType } from "@fefade-ui/core/types"
 import { SvelteMap } from "svelte/reactivity"
 
 let data: SvelteMap<string, ToasterType> = new SvelteMap()

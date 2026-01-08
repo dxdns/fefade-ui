@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { VisibilityListener } from "@fefade/react"
+import { VisibilityListener } from "@fefade-ui/react"
 
 export default function () {
 	const [isVisible, setIsVisible] = useState(false)

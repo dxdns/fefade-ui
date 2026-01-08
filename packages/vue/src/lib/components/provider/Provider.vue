@@ -1,15 +1,15 @@
 <script setup lang="ts">
 	import { ref, onMounted, provide, onUnmounted } from "vue"
-	import { Constants } from "@fefade/core"
-	import { providerUtil } from "@fefade/core/utils"
+	import { Constants } from "@fefade-ui/core"
+	import { providerUtil } from "@fefade-ui/core/utils"
 	import type {
 		ThemeColorType,
 		ThemeConfigType,
 		ThemeModeType
-	} from "@fefade/core/types"
+	} from "@fefade-ui/core/types"
 	import { ThemeConfigSymbol } from "../../symbols"
 	// @ts-ignore
-	import rawStyle from "@fefade/core/styles/Provider.css?raw"
+	import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
 
 	interface Props {
 		theme?: ThemeConfigType

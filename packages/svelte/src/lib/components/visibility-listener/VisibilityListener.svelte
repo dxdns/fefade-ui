@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { checkVisibilityAction } from "@fefade/core/actions"
+	import { checkVisibilityAction } from "@fefade-ui/core/actions"
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { VisibilityListenerType } from "@fefade/core/types"
+	import type { VisibilityListenerType } from "@fefade-ui/core/types"
 
 	interface Props
 		extends HTMLAttributes<HTMLDivElement>,

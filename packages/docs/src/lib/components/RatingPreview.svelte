@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Rating } from "@fefade/svelte"
+	import { Rating } from "@fefade-ui/svelte"
 </script>
 
 <div

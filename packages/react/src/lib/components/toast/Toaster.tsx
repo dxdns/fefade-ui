@@ -1,10 +1,10 @@
 import { CSSProperties, useState, type PropsWithChildren } from "react"
-import type { AlignmentType, ToasterType } from "@fefade/core/types"
+import type { AlignmentType, ToasterType } from "@fefade-ui/core/types"
 import { ToastContext } from "../../contexts/ToastContext"
-import { Constants } from "@fefade/core"
-import { classMapUtil } from "@fefade/core/utils"
+import { Constants } from "@fefade-ui/core"
+import { classMapUtil } from "@fefade-ui/core/utils"
 import Toast from "./Toast"
-import styles from "@fefade/core/styles/Toaster.module.css"
+import styles from "@fefade-ui/core/styles/Toaster.module.css"
 
 type Props = PropsWithChildren & {
 	fullWidth?: boolean

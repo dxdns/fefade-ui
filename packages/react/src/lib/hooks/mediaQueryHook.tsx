@@ -1,7 +1,7 @@
-import type { MediaQueryType, BreakpointType } from "@fefade/core/types"
+import type { MediaQueryType, BreakpointType } from "@fefade-ui/core/types"
 import { useEffect, useState } from "react"
-import { sizeToNumberUtil } from "@fefade/core/utils"
-import { Constants } from "@fefade/core"
+import { sizeToNumberUtil } from "@fefade-ui/core/utils"
+import { Constants } from "@fefade-ui/core"
 
 export function mediaQueryHook(...args: MediaQueryType) {
 	const [operator, size, node] = args

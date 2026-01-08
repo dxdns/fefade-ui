@@ -1,17 +1,17 @@
 {
-	"name": "@fefade/core",
-	"version": "0.0.4",
-	"description": "Shared logic and foundational utilities for fefade UI libraries.",
+	"name": "@fefade-ui/core",
+	"version": "0.0.1",
+	"description": "Shared logic and foundational utilities for Fefade UI UI libraries.",
 	"private": false,
 	"author": "Diógenes Rodrigues <https://github.com/dxdns>",
 	"publishConfig": {
 		"access": "public"
 	},
 	"license": "MIT",
-	"homepage": "https://fefade.dxdns.dev",
+	"homepage": "https://fefade-ui.dev",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dxdns/fefade.git"
+		"url": "git+https://github.com/dxdns/fefade-ui.git"
 	},
 	"scripts": {
 		"build": "tsc && node esbuild.config.mjs",
@@ -54,7 +54,7 @@
 		"components",
 		"ui",
 		"ui-kit",
-		"fefade",
+		"fefade-ui",
 		"react",
 		"svelte",
 		"next",

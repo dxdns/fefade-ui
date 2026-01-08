@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Accordion } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Accordion } from "@fefade-ui/svelte"
 </script>
 
 <div style="display: flex; flex-direction: column; gap: 1rem;">

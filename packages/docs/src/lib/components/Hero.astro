@@ -5,7 +5,7 @@ import { Code } from "@astrojs/starlight/components"
 import { getTranslations } from "@/i18n"
 import { getPath } from "@/i18n"
 import type { StarlightIcon } from "@astrojs/starlight/types"
-import { capitalizeUtil } from "@fefade/core/utils"
+import { capitalizeUtil } from "@fefade-ui/core/utils"
 
 const { buttons } = getTranslations(Astro.currentLocale)
 const { data } = Astro.locals.starlightRoute.entry
@@ -76,7 +76,7 @@ const iconsData: Record<string, StarlightIcon> = {
 						Object.keys(iconsData).map((item) => (
 							<TabItem label={capitalizeUtil(item)} icon={iconsData[item]}>
 								<Code
-									code={`npm install @fefade/core @fefade/${item}`}
+									code={`npm install @fefade-ui/core @fefade-ui/${item}`}
 									lang="bash"
 									title={capitalizeUtil(item)}
 								/>

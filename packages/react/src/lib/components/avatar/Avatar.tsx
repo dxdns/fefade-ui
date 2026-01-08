@@ -1,7 +1,7 @@
 import { forwardRef, useState, type ImgHTMLAttributes } from "react"
-import styles from "@fefade/core/styles/Avatar.module.css"
-import { classMapUtil } from "@fefade/core/utils"
-import type { AvatarType } from "@fefade/core/types"
+import styles from "@fefade-ui/core/styles/Avatar.module.css"
+import { classMapUtil } from "@fefade-ui/core/utils"
+import type { AvatarType } from "@fefade-ui/core/types"
 
 interface Props
 	extends Omit<ImgHTMLAttributes<HTMLImageElement>, "width" | "height">,

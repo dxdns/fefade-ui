@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { AutoScroll, Testimonial } from "@fefade/svelte"
+	import { AutoScroll, Testimonial } from "@fefade-ui/svelte"
 
 	const reviews = [
 		{

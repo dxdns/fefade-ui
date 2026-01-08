@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { onMount, type Snippet } from "svelte"
-	import { Constants } from "@fefade/core"
-	import type { ThemeConfigType, ThemeModeType } from "@fefade/core/types"
-	import { providerUtil } from "@fefade/core/utils"
+	import { Constants } from "@fefade-ui/core"
+	import type { ThemeConfigType, ThemeModeType } from "@fefade-ui/core/types"
+	import { providerUtil } from "@fefade-ui/core/utils"
 	import { themeConfigState } from "../../states/index.js"
-	import rawStyle from "@fefade/core/styles/Provider.css?raw"
+	import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
 
 	interface Props {
 		theme?: ThemeConfigType
@@ -12,7 +12,11 @@
 		children: Snippet<[]>
 	}
 
-	let { theme, defaultThemeMode = "light", children }: Props = $props()
+	let {
+		theme = $bindable(),
+		defaultThemeMode = $bindable("light"),
+		children
+	}: Props = $props()
 
 	const provider = providerUtil()
 	const scriptString = provider.script(defaultThemeMode)

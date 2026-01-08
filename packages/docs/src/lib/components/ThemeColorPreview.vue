@@ -1,6 +1,6 @@
 <script setup lang="ts">
 	import { reactive } from "vue"
-	import { Badge, Button, themeConfig, Grid, Card } from "@fefade/vue"
+	import { Badge, Button, themeConfig, Grid, Card } from "@fefade-ui/vue"
 
 	const theme = reactive(themeConfig())
 </script>

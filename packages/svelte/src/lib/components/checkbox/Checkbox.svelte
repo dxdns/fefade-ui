@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLInputAttributes } from "svelte/elements"
-	import type { CheckboxType } from "@fefade/core/types"
-	import { checkmarkIcon } from "@fefade/core/icons"
-	import styles from "@fefade/core/styles/Checkbox.module.css"
+	import type { CheckboxType } from "@fefade-ui/core/types"
+	import { checkmarkIcon } from "@fefade-ui/core/icons"
+	import styles from "@fefade-ui/core/styles/Checkbox.module.css"
 
 	interface Props
 		extends Omit<Omit<Omit<HTMLInputAttributes, "size">, "type">, "color">,

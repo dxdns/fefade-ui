@@ -1,13 +1,13 @@
 /**
  *  @license MIT
- *  dxdns
- *  https://github.com/dxdns
+ *  Fefade UI
+ *  https://github.com/dxdns/fefade-ui
  */
 
 export { default as Provider } from "./components/provider/index.js"
 
 export { themeConfigUtil as themeConfig } from "./utils/index.js"
-export { createTheme } from "@fefade/core/utils"
+export { createTheme } from "@fefade-ui/core/utils"
 
 export * from "./components/spinner/index.js"
 export * from "./components/button/index.js"

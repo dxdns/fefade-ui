@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import { Accordion } from "@fefade/react"
+import { Constants } from "@fefade-ui/core"
+import { Accordion } from "@fefade-ui/react"
 
 export default function () {
 	return (

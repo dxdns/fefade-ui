@@ -1,4 +1,4 @@
-import { Window } from "@fefade/react"
+import { Window } from "@fefade-ui/react"
 
 export default function () {
 	const windowVariants = ["contained", "outlined"] as const

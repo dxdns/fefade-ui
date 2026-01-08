@@ -1,4 +1,4 @@
-import { Card } from "@fefade/react"
+import { Card } from "@fefade-ui/react"
 import { useState } from "react"
 
 export default function () {

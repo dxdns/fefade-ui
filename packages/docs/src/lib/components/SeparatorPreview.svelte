@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Separator } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Separator } from "@fefade-ui/svelte"
 
 	const separatorVariants = ["dotted", "dashed", "solid"] as const
 </script>

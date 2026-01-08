@@ -1,4 +1,4 @@
-import { Tooltip } from "@fefade/react"
+import { Tooltip } from "@fefade-ui/react"
 
 export default function () {
 	const positions = ["top", "bottom", "left", "right"] as const

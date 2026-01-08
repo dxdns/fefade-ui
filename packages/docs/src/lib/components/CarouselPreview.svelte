@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Card, Carousel, RadioButton } from "@fefade/svelte"
+	import { Button, Card, Carousel, RadioButton } from "@fefade-ui/svelte"
 
 	let currentIndex = $state(0)
 </script>

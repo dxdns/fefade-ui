@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Window } from "@fefade/svelte"
+	import { Window } from "@fefade-ui/svelte"
 
 	const windowVariants = ["contained", "outlined"] as const
 </script>

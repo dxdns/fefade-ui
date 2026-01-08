@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ColorPicker } from "@fefade/svelte"
+	import { ColorPicker } from "@fefade-ui/svelte"
 
 	let color = $state("#fde6b0")
 </script>

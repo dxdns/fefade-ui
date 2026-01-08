@@ -1,8 +1,8 @@
 <script lang="ts" generics="T">
-	import type { ActionType, VariantType } from "@fefade/core/types"
-	import { keyboardNavigationAction } from "@fefade/core/actions"
+	import type { ActionType, VariantType } from "@fefade-ui/core/types"
+	import { keyboardNavigationAction } from "@fefade-ui/core/actions"
 	import styles from "./Autocomplete.module.css"
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLInputAttributes } from "svelte/elements"
 	import type { Snippet } from "svelte"
 	import { SearchInput } from "../search-input/index.js"

@@ -1,7 +1,7 @@
 import { CSSProperties, forwardRef, HTMLAttributes } from "react"
-import type { StatusColorType } from "@fefade/core/types"
-import { classMapUtil } from "@fefade/core/utils"
-import styles from "@fefade/core/styles/ProgressLoader.module.css"
+import type { StatusColorType } from "@fefade-ui/core/types"
+import { classMapUtil } from "@fefade-ui/core/utils"
+import styles from "@fefade-ui/core/styles/ProgressLoader.module.css"
 
 interface Props extends Omit<HTMLAttributes<HTMLDivElement>, "color"> {
 	value: number

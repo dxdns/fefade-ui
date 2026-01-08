@@ -1,5 +1,5 @@
-import type { RangeInputType } from "@fefade/core/types"
-import { classMapUtil, dataIconUrlUtil } from "@fefade/core/utils"
+import type { RangeInputType } from "@fefade-ui/core/types"
+import { classMapUtil, dataIconUrlUtil } from "@fefade-ui/core/utils"
 import {
 	CSSProperties,
 	forwardRef,
@@ -7,8 +7,8 @@ import {
 	useMemo,
 	useState
 } from "react"
-import { Constants } from "@fefade/core"
-import styles from "@fefade/core/styles/RangeInput.module.css"
+import { Constants } from "@fefade-ui/core"
+import styles from "@fefade-ui/core/styles/RangeInput.module.css"
 
 interface Props
 	extends Omit<

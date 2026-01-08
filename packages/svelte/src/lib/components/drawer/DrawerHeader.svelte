@@ -1,9 +1,9 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import Button from "../button/index.js"
-	import { closeIcon } from "@fefade/core/icons"
-	import styles from "@fefade/core/styles/DrawerHeader.module.css"
+	import { closeIcon } from "@fefade-ui/core/icons"
+	import styles from "@fefade-ui/core/styles/DrawerHeader.module.css"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
 		handleClose?: () => void

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Alert } from "@/index.js"
-	import { Constants } from "@fefade/core"
+	import { Constants } from "@fefade-ui/core"
 </script>
 
 <br />

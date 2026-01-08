@@ -4,7 +4,7 @@
 
 <div class="circle">
 	<Link
-		href="https://fefade.dxdns.dev"
+		href="https://fefade-ui.dev"
 		target="_blank"
 		style="transform: translate(50%, 100%);"
 	>

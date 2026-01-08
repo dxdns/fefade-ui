@@ -1,16 +1,16 @@
 <script lang="ts">
-	import type { SectionType } from "@fefade/core/types"
+	import type { SectionType } from "@fefade-ui/core/types"
 	import Button from "../button/index.js"
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLAttributes } from "svelte/elements"
 	import {
 		checkVisibilityAction,
 		scrollNavigatorAction
-	} from "@fefade/core/actions"
+	} from "@fefade-ui/core/actions"
 	import {
 		keyboardArrowLeftIcon,
 		keyboardArrowRightIcon
-	} from "@fefade/core/icons"
+	} from "@fefade-ui/core/icons"
 	import styles from "./ScrollSection.module.css"
 
 	interface Props extends HTMLAttributes<HTMLElement> {

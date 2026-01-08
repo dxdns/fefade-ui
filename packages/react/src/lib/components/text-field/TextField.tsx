@@ -1,7 +1,7 @@
-import type { TextFieldType } from "@fefade/core/types"
-import { classMapUtil } from "@fefade/core/utils"
+import type { TextFieldType } from "@fefade-ui/core/types"
+import { classMapUtil } from "@fefade-ui/core/utils"
 import { forwardRef, InputHTMLAttributes, useEffect, useRef } from "react"
-import styles from "@fefade/core/styles/TextField.module.css"
+import styles from "@fefade-ui/core/styles/TextField.module.css"
 
 interface Props
 	extends Omit<InputHTMLAttributes<HTMLInputElement>, "size">,

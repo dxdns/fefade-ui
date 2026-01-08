@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
+	import { Constants } from "@fefade-ui/core"
 	import { Badge, Select } from "@/index.js"
 
 	let currentOption = $state("v2")

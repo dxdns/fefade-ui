@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
 	import styles from "./Carousel.module.css"
-	import { scrollNavigatorAction } from "@fefade/core/actions"
-	import { classMapUtil } from "@fefade/core/utils"
+	import { scrollNavigatorAction } from "@fefade-ui/core/actions"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import { onDestroy, onMount, type Snippet } from "svelte"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {

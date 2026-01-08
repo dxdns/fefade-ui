@@ -1,6 +1,6 @@
-import { classMapUtil } from "@fefade/core/utils"
+import { classMapUtil } from "@fefade-ui/core/utils"
 import { forwardRef, HTMLAttributes } from "react"
-import styles from "@fefade/core/styles/ModalContent.module.css"
+import styles from "@fefade-ui/core/styles/ModalContent.module.css"
 
 interface Props extends Omit<HTMLAttributes<HTMLDivElement>, "color"> {}
 

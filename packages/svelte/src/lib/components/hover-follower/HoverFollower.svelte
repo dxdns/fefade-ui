@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { actionUtil, classMapUtil } from "@fefade/core/utils"
-	import { hoverFollowerAction } from "@fefade/core/actions"
-	import type { ActionEntryType, OrientationType } from "@fefade/core/types"
+	import { actionUtil, classMapUtil } from "@fefade-ui/core/utils"
+	import { hoverFollowerAction } from "@fefade-ui/core/actions"
+	import type { ActionEntryType, OrientationType } from "@fefade-ui/core/types"
 	import type { HTMLAttributes } from "svelte/elements"
 
 	interface Props extends Omit<HTMLAttributes<HTMLDivElement>, "color"> {

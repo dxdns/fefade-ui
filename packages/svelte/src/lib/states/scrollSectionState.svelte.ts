@@ -1,4 +1,4 @@
-import type { ElementReferenceType, SectionType } from "@fefade/core/types"
+import type { ElementReferenceType, SectionType } from "@fefade-ui/core/types"
 
 const data = $state<{
 	sections: ElementReferenceType[]

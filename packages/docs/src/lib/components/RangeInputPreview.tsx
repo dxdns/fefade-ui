@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import { Badge, RangeInput } from "@fefade/react"
+import { Constants } from "@fefade-ui/core"
+import { Badge, RangeInput } from "@fefade-ui/react"
 import { useState } from "react"
 
 export default function () {

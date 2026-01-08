@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ProgressCircle, themeConfig } from "@fefade/svelte"
+	import { ProgressCircle, themeConfig } from "@fefade-ui/svelte"
 
 	const { colors } = $derived(themeConfig())
 

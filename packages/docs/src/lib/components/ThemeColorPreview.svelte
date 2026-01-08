@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Badge, Button, Card, Grid, themeConfig } from "@fefade/svelte"
+	import { Badge, Button, Card, Grid, themeConfig } from "@fefade-ui/svelte"
 
 	const theme = $derived(themeConfig())
 </script>

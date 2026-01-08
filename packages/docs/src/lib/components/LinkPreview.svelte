@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Link } from "@fefade/svelte"
+	import { Link } from "@fefade-ui/svelte"
 </script>
 
 <div style="display: flex; flex-direction: column; gap: 1rem;">

@@ -1,7 +1,7 @@
 import { useAction } from "@/utils"
-import { videoAction } from "@fefade/core/actions"
-import type { HTMLAttrAnchor, VideoType } from "@fefade/core/types"
-import { videoUtil } from "@fefade/core/utils"
+import { videoAction } from "@fefade-ui/core/actions"
+import type { HTMLAttrAnchor, VideoType } from "@fefade-ui/core/types"
+import { videoUtil } from "@fefade-ui/core/utils"
 import { forwardRef, ImgHTMLAttributes } from "react"
 
 interface Props

@@ -1,14 +1,14 @@
 import { useState, useMemo, useEffect, type PropsWithChildren } from "react"
-import { Constants } from "@fefade/core"
-import { providerUtil } from "@fefade/core/utils"
+import { Constants } from "@fefade-ui/core"
+import { providerUtil } from "@fefade-ui/core/utils"
 import type {
 	ThemeColorType,
 	ThemeConfigType,
 	ThemeModeType
-} from "@fefade/core/types"
+} from "@fefade-ui/core/types"
 import { ThemeConfigContext } from "../../contexts"
 // @ts-ignore
-import rawStyle from "@fefade/core/styles/Provider.css?raw"
+import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
 
 type Props = PropsWithChildren & {
 	theme?: ThemeConfigType

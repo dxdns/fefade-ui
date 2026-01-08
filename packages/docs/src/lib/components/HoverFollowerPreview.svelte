@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Card, HoverFollower } from "@fefade/svelte"
+	import { Card, HoverFollower } from "@fefade-ui/svelte"
 </script>
 
 <HoverFollower>

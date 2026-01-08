@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Button, Drawer, Window } from "@fefade/react"
+import { Button, Drawer, Window } from "@fefade-ui/react"
 
 export default function () {
 	const [drawerStates, setDrawerStates] = useState({

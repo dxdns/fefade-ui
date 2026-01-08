@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button } from "@fefade/svelte"
+	import { Button } from "@fefade-ui/svelte"
 </script>
 
 <Button pressedEffect={false}>No pressed effect</Button>

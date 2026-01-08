@@ -9,11 +9,11 @@ import sitemap from "@astrojs/sitemap"
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://fefade.dxdns.dev",
+	site: "https://fefade-ui.dev",
 	integrations: [
 		sitemap(),
 		starlight({
-			title: "fefade",
+			title: "Fefade UI",
 			defaultLocale: "root",
 			locales: {
 				root: {
@@ -41,7 +41,7 @@ export default defineConfig({
 				{
 					icon: "github",
 					label: "GitHub",
-					href: "https://github.com/dxdns/fefade"
+					href: "https://github.com/dxdns/fefade-ui"
 				}
 			],
 			sidebar: [

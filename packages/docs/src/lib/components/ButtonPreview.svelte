@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Constants } from "@fefade/core"
-	import { Button, toast } from "@fefade/svelte"
+	import { Constants } from "@fefade-ui/core"
+	import { Button, toast } from "@fefade-ui/svelte"
 </script>
 
 <div

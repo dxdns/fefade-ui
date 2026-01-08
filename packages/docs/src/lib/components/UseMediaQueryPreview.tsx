@@ -1,4 +1,4 @@
-import { useMediaQuery } from "@fefade/react"
+import { useMediaQuery } from "@fefade-ui/react"
 
 export default function () {
 	const isSm = useMediaQuery("max-width", "sm")

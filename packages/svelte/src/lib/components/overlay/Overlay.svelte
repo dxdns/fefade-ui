@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { HTMLButtonAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade/core/utils"
-	import styles from "@fefade/core/styles/Overlay.module.css"
+	import { classMapUtil } from "@fefade-ui/core/utils"
+	import styles from "@fefade-ui/core/styles/Overlay.module.css"
 
 	interface Props extends HTMLButtonAttributes {
 		isOpen: boolean

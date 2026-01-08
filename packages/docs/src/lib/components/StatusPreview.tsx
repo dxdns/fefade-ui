@@ -1,5 +1,5 @@
-import { Status } from "@fefade/react"
-import { Constants } from "@fefade/core"
+import { Status } from "@fefade-ui/react"
+import { Constants } from "@fefade-ui/core"
 
 export default function () {
 	return (

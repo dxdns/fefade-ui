@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Kbd, ShortcutListener } from "@fefade/svelte"
+	import { Kbd, ShortcutListener } from "@fefade-ui/svelte"
 
 	let message = $state("waiting...")
 

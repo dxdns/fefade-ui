@@ -1,7 +1,7 @@
 {
-	"name": "@fefade/docs",
+	"name": "@fefade-ui/docs",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"dev": "astro dev",
@@ -16,10 +16,10 @@
 		"@astrojs/starlight": "^0.34.1",
 		"@astrojs/svelte": "^7.0.11",
 		"@astrojs/vue": "^5.1.0",
-		"@fefade/core": "*",
-		"@fefade/react": "*",
-		"@fefade/svelte": "*",
-		"@fefade/vue": "*",
+		"@fefade-ui/core": "*",
+		"@fefade-ui/react": "*",
+		"@fefade-ui/svelte": "*",
+		"@fefade-ui/vue": "*",
 		"@types/react": "^19.1.8",
 		"@types/react-dom": "^19.1.6",
 		"astro": "^5.6.1",
@@ -29,5 +29,8 @@
 		"sharp": "^0.32.5",
 		"svelte": "^5.28.2",
 		"vue": "^3.5.17"
+	},
+	"devDependencies": {
+		"prettier-plugin-astro": "0.14.1"
 	}
 }

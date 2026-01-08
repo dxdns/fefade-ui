@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Text } from "@fefade/svelte"
+	import { Text } from "@fefade-ui/svelte"
 </script>
 
 <div

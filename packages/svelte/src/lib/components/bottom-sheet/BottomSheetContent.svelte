@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { classMapUtil } from "@fefade/core/utils"
+	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLAttributes } from "svelte/elements"
-	import styles from "@fefade/core/styles/BottomSheetContent.module.css"
+	import styles from "@fefade-ui/core/styles/BottomSheetContent.module.css"
 
 	interface Props extends Omit<HTMLAttributes<HTMLDivElement>, "color"> {}
 

@@ -1,13 +1,13 @@
 ---
 title: Installation
-description: How to install and set up fefade in your project
+description: How to install and set up Fefade UI in your project
 head:
   - tag: title
     content: Installation in React
 categories: ["react"]
 ---
 
-import { Button } from "@fefade/react"
+import { Button } from "@fefade-ui/react"
 import { Tabs, TabItem } from "@astrojs/starlight/components"
 import { Steps } from "@astrojs/starlight/components"
 import { FileTree } from "@astrojs/starlight/components"
@@ -19,12 +19,12 @@ import { FileTree } from "@astrojs/starlight/components"
             <Tabs>
                 <TabItem label="npm" icon="npm">
                     ```bash
-                    npm install @fefade/core @fefade/react
+                    npm install @fefade-ui/core @fefade-ui/react
                     ```
                 </TabItem>
                 <TabItem label="pnpm" icon="pnpm">
                     ```bash
-                    pnpm add @fefade/core @fefade/react
+                    pnpm add @fefade-ui/core @fefade-ui/react
                     ```
                 </TabItem>
             </Tabs>
@@ -32,7 +32,7 @@ import { FileTree } from "@astrojs/starlight/components"
 
         <li>
             ### Setup provider
-            Wrap your application with the `Provider` to enable all fefade components.
+            Wrap your application with the `Provider` to enable all Fefade UI components.
             This should be done at the layout level to ensure global access.
 
             > Recommended: Place this in `src/main.tsx` (React root element)
@@ -46,7 +46,7 @@ import { FileTree } from "@astrojs/starlight/components"
             import { StrictMode } from "react"
             import { createRoot } from "react-dom/client"
             import App from "./App"
-            import { Provider } from "@fefade/react"
+            import { Provider } from "@fefade-ui/react"
 
             createRoot(document.getElementById("root")!).render(
                 <StrictMode>
@@ -63,7 +63,7 @@ import { FileTree } from "@astrojs/starlight/components"
             <Tabs>
                 <TabItem label="Code">
                     ```tsx
-                    import { Button } from "@fefade/react"
+                    import { Button } from "@fefade-ui/react"
 
                     function App() {
                         return (

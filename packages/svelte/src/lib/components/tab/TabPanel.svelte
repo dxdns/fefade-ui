@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { fade, fly } from "svelte/transition"
-	import type { TransitionEntry } from "@fefade/core/types"
-	import { transitionUtil } from "@fefade/core/utils"
+	import type { TransitionEntry } from "@fefade-ui/core/types"
+	import { transitionUtil } from "@fefade-ui/core/utils"
 	import type { HTMLAttributes } from "svelte/elements"
-	import { mergeStyleUtil } from "@fefade/core/utils"
+	import { mergeStyleUtil } from "@fefade-ui/core/utils"
 
 	export interface TabContentProps {
 		isActive?: boolean

@@ -1,4 +1,4 @@
-import { Textarea } from "@fefade/react"
+import { Textarea } from "@fefade-ui/react"
 
 export default function () {
 	return <Textarea />

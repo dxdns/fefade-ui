@@ -1,5 +1,5 @@
-import { Constants } from "@fefade/core"
-import { Checkbox } from "@fefade/react"
+import { Constants } from "@fefade-ui/core"
+import { Checkbox } from "@fefade-ui/react"
 
 export default function () {
 	const colors = [...Constants.statusColors, "secondary"] as const

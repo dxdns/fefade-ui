@@ -1,7 +1,7 @@
 import { forwardRef, type ButtonHTMLAttributes } from "react"
-import type { ButtonType, HTMLAttrAnchor } from "@fefade/core/types"
-import styles from "@fefade/core/styles/Button.module.css"
-import { classMapUtil } from "@fefade/core/utils"
+import type { ButtonType, HTMLAttrAnchor } from "@fefade-ui/core/types"
+import styles from "@fefade-ui/core/styles/Button.module.css"
+import { classMapUtil } from "@fefade-ui/core/utils"
 import { Spinner } from "../spinner"
 
 interface Props
