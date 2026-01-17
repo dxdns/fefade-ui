@@ -53,7 +53,7 @@
 		"eslint-plugin-svelte": "^3.13.1",
 		"prettier-plugin-svelte": "^3.4.0",
 		"publint": "^0.3.2",
-		"svelte": "^5.45.6",
+		"svelte": "^5.46.4",
 		"svelte-check": "^4.3.4"
 	},
 	"keywords": [
