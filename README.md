@@ -31,7 +31,7 @@
 
 ## Documentation
 
-Coming soon in the [https://fefade-ui.dev](https://fefade-ui.dev).
+Coming soon in the [https://fefade-ui.dev](https://ui.fefade.com).
 
 ## Contributing
 
