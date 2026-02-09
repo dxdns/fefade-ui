@@ -2,16 +2,16 @@
   <img src="./packages/docs/public/logo.png" width="150" height="120" />
 </p>
 
-<h1 align="center">fefade</h1>
+<h1 align="center">fefade-ui</h1>
 
-[![license](https://img.shields.io/github/license/dxdns/fefade)](https://github.com/dxdns/fefade-ui/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/fefade/ui)](https://github.com/fefade/ui/blob/master/LICENSE)
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-green)
 
-**Fefade UI** is a lightweight and dependency-free UI component library.
+**fefade-ui** is a lightweight and dependency-free UI component library.
 
 > Minimal, accessible, dependency-free — made by a developer who loves clean UI.
 
-## Why Fefade UI?
+## Why fefade-ui?
 
 - Lightweight by design
 - Isolated styles using CSS Modules — no bleeding styles
@@ -36,7 +36,7 @@ Coming soon in the [https://ui.fefade.com](https://ui.fefade.com).
 ## Contributing
 
 Please see the [Contributing Guide](CONTRIBUTING.md) for information on
-contributing to Fefade UI.
+contributing to fefade-ui.
 
 ## License
 

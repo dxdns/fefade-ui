@@ -29,14 +29,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dxdns/fefade-ui.git"
+		"url": "git+https://github.com/fefade/ui.git"
 	},
-	"author": "Diógenes Rodrigues <https://github.com/dxdns>",
+	"author": "fefade <https://github.com/fefade>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/dxdns/fefade-ui/issues"
+		"url": "https://github.com/fefade/ui/issues"
 	},
-	"homepage": "https://github.com/dxdns/fefade#readme",
+	"homepage": "https://github.com/fefade/ui#readme",
 	"devDependencies": {
 		"@types/node": "^22.14.1",
 		"concurrently": "^9.2.0",

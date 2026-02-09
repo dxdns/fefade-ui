@@ -4,11 +4,11 @@
 
 <div class="circle">
 	<Link
-		href="https://fefade-ui.dev"
+		href="https://ui.fefade.com"
 		target="_blank"
 		style="transform: translate(50%, 100%);"
 	>
-		<h1>fefade</h1>
+		<h1>fefade-ui</h1>
 	</Link>
 </div>
 

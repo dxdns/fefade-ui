@@ -1,17 +1,17 @@
 {
 	"name": "@fefade-ui/vue",
 	"version": "0.0.1",
-	"description": "Reusable Vue UI components powered by the Fefade UI core system.",
+	"description": "Reusable Vue UI components powered by the fefade-ui core system.",
 	"private": false,
-	"author": "Diógenes Rodrigues <https://github.com/dxdns>",
+	"author": "fefade <https://github.com/fefade>",
 	"publishConfig": {
 		"access": "public"
 	},
 	"license": "MIT",
-	"homepage": "https://fefade-ui.dev",
+	"homepage": "https://ui.fefade.com",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dxdns/fefade-ui.git"
+		"url": "git+https://github.com/fefade/ui.git"
 	},
 	"type": "module",
 	"main": "dist/index.js",

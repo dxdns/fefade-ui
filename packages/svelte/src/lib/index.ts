@@ -1,7 +1,7 @@
 /**
  *  @license MIT
- *  Fefade UI
- *  https://github.com/dxdns/fefade-ui
+ *  fefade-ui
+ *  https://github.com/fefade/ui
  */
 
 export { default as Provider } from "./components/provider/index.js"

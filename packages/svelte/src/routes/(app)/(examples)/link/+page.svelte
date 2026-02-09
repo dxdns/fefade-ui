@@ -3,14 +3,14 @@
 </script>
 
 <div style="width: 500px; margin: 3rem auto; line-height: 3;">
-	<Link href="https://github.com/dxdns" target="_blank">
+	<Link href="/">
 		<h1>normal</h1>
 	</Link>
 	<br />
-	<Link href="https://github.com/dxdns" hover="underlineNone">underline</Link>
+	<Link href="/" hover="underlineNone">underline</Link>
 	<br />
 	<br />
-	<Link href="https://github.com/dxdns">
+	<Link href="/">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			height="16px"
@@ -25,7 +25,7 @@
 		heart
 	</Link>
 	<br />
-	<Link href="https://github.com/dxdns" hover="left" target="_blank">
+	<Link href="/" hover="left" target="_blank">
 		<h1>left</h1>
 	</Link>
 	<br />
@@ -38,17 +38,8 @@
 	</Link>
 	<p>
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus
-		pariatur maiores cumque <Link
-			href="https://github.com/dxdns"
-			hover="center"
-		>
-			obcaecati
-		</Link>, eum quod porro harum magni quisquam sunt nihil, eos modi officia
-		molestiae. Illum <Link
-			href="https://github.com/dxdns"
-			hover="underlineNone"
-		>
-			minima
-		</Link> ad ducimus.
+		pariatur maiores cumque <Link href="/" hover="center">obcaecati</Link>, eum
+		quod porro harum magni quisquam sunt nihil, eos modi officia molestiae.
+		Illum <Link href="/" hover="underlineNone">minima</Link> ad ducimus.
 	</p>
 </div>

@@ -193,7 +193,7 @@
 					/>
 				</svg>
 			</Link>
-			<Link href="https://github.com/dxdns" target="_blank">
+			<Link href="/">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					height="24px"
@@ -206,7 +206,7 @@
 					/>
 				</svg>
 			</Link>
-			<Link href="https://github.com/dxdns" target="_blank">
+			<Link href="/">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 48 48"
@@ -269,9 +269,7 @@
 				"
 			>
 				<span class="text-muted">© 2025</span>
-				<Link href="https://github.com/dxdns" target="_blank" hover="right">
-					dxdns
-				</Link>
+				<Link href="/" target="_blank" hover="right">dxdns</Link>
 			</div>
 			<Switch onclick={theme.toggle} checked={theme.mode === "dark"}>
 				<svg

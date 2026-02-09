@@ -7,14 +7,38 @@ import react from "@astrojs/react"
 import vue from "@astrojs/vue"
 import sitemap from "@astrojs/sitemap"
 
+const googleAnalyticsId = "G-FZ5T41CT85"
+
 // https://astro.build/config
 export default defineConfig({
-	site: "https://fefade-ui.dev",
+	site: "https://ui.fefade.com",
 	integrations: [
 		sitemap(),
 		starlight({
-			title: "Fefade UI",
+			title: "fefade-ui",
+			titleDelimiter: " | ",
 			defaultLocale: "root",
+			head: [
+				{
+					tag: "script",
+					attrs: {
+						async: true,
+						src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`
+					}
+				},
+				{
+					tag: "script",
+					content: `
+					<script>
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+
+						gtag('config', '${googleAnalyticsId}');
+					</script>
+					`
+				}
+			],
 			locales: {
 				root: {
 					label: "English",
@@ -35,13 +59,13 @@ export default defineConfig({
 			logo: {
 				src: "./public/logo.png",
 				alt: "logo",
-				replacesTitle: false
+				replacesTitle: true
 			},
 			social: [
 				{
 					icon: "github",
 					label: "GitHub",
-					href: "https://github.com/dxdns/fefade-ui"
+					href: "https://github.com/fefade/ui"
 				}
 			],
 			sidebar: [

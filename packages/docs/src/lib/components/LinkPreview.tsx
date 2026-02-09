@@ -3,15 +3,15 @@ import { Link } from "@fefade-ui/react"
 export default function () {
 	return (
 		<div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-			<Link href="https://github.com/dxdns" target="_blank">
+			<Link href="/">
 				<h1>none</h1>
 			</Link>
 
-			<Link href="https://github.com/dxdns" hover="underlineNone">
+			<Link href="/" hover="underlineNone">
 				underline
 			</Link>
 
-			<Link href="https://github.com/dxdns">
+			<Link href="/">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					height="16px"
@@ -24,7 +24,7 @@ export default function () {
 				heart
 			</Link>
 
-			<Link href="https://github.com/dxdns" hover="left" target="_blank">
+			<Link href="/" hover="left" target="_blank">
 				<h1>left</h1>
 			</Link>
 
@@ -39,12 +39,12 @@ export default function () {
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
 				voluptatibus pariatur maiores cumque{" "}
-				<Link href="https://github.com/dxdns" hover="center">
+				<Link href="/" hover="center">
 					<strong style={{ color: "red" }}>obcaecati</strong>
 				</Link>
 				, eum quod porro harum magni quisquam sunt nihil, eos modi officia
 				molestiae. Illum{" "}
-				<Link href="https://github.com/dxdns" hover="underlineNone">
+				<Link href="/" hover="underlineNone">
 					minima
 				</Link>{" "}
 				ad ducimus.
@@ -54,9 +54,8 @@ export default function () {
 				className={({ isActive }) =>
 					isActive ? "text-on-error" : "text-on-info"
 				}
-				pathname="https://github.com/dxdns"
-				href="https://github.com/dxdns"
-				target="_blank"
+				pathname="/"
+				href="/"
 			>
 				check active 1
 			</Link>

@@ -9,7 +9,7 @@
 	<h2>test1</h2>
 </Card>
 <br />
-<Card href="https://github.com/dxdns" target="_blank">
+<Card href="/">
 	<h2>link</h2>
 </Card>
 <br />

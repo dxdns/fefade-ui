@@ -19,9 +19,7 @@ export default function () {
 					{variant}
 				</Button>
 			))}
-			<Button href="https://github.com/dxdns" target="_blank">
-				link
-			</Button>
+			<Button href="/">link</Button>
 
 			{Constants.variants.map((variant) => (
 				<Button key={variant} disabled variant={variant}>

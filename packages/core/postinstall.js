@@ -1,6 +1,6 @@
 console.log(`
     ╔══════════════════════════════════════════════╗
-    ║    Thanks for using Fefade UI                ║
-    ║    📚 Docs: https://fefade-ui.dev            ║
+    ║    Thanks for using fefade-ui                ║
+    ║    📚 Docs: https://ui.fefade.com            ║
     ╚══════════════════════════════════════════════╝
 `)

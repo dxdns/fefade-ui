@@ -3,13 +3,13 @@
 </script>
 
 <div style="display: flex; flex-direction: column; gap: 1rem;">
-	<Link href="https://github.com/dxdns" target="_blank">
+	<Link href="/">
 		<h1>none</h1>
 	</Link>
 
-	<Link href="https://github.com/dxdns" hover="underlineNone">underline</Link>
+	<Link href="/" hover="underlineNone">underline</Link>
 
-	<Link href="https://github.com/dxdns">
+	<Link href="/">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			height="16px"
@@ -24,7 +24,7 @@
 		heart
 	</Link>
 
-	<Link href="https://github.com/dxdns" hover="left" target="_blank">
+	<Link href="/" hover="left" target="_blank">
 		<h1>left</h1>
 	</Link>
 
@@ -38,33 +38,23 @@
 
 	<p>
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus
-		pariatur maiores cumque <Link
-			href="https://github.com/dxdns"
-			hover="center"
-		>
+		pariatur maiores cumque <Link href="/" hover="center">
 			<strong style="color: red;">obcaecati</strong>
 		</Link>, eum quod porro harum magni quisquam sunt nihil, eos modi officia
-		molestiae. Illum <Link
-			href="https://github.com/dxdns"
-			hover="underlineNone"
-		>
-			minima
-		</Link> ad ducimus.
+		molestiae. Illum <Link href="/" hover="underlineNone">minima</Link> ad ducimus.
 	</p>
 
 	<Link
 		class={({ isActive }) => (isActive ? "text-on-error" : "text-on-info")}
-		pathname="https://github.com/dxdns"
-		href="https://github.com/dxdns"
-		target="_blank"
+		pathname="/"
+		href="/"
 	>
 		check active 1
 	</Link>
 
 	<Link
-		pathname="https://github.com/dxdns"
-		href="https://github.com/dxdns"
-		target="_blank"
+		pathname="/"
+		href="/"
 		style={({ isActive }) => ({ color: isActive ? "red" : "aqua" })}
 	>
 		check active 2
