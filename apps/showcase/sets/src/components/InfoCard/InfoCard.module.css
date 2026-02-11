@@ -1,0 +1,10 @@
+.image {
+	transition: all 0.3s ease;
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+}
+
+.image:hover {
+	transform: scale(103%);
+}

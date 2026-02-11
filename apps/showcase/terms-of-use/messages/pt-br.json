@@ -1,0 +1,53 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"title": "Termos de Uso",
+	"introduction": "Estes Termos de Uso estabelecem as regras para acesso e utilização do nosso site e serviços. Ao continuar a utilizá-los, você concorda com as condições descritas abaixo.",
+	"userResponsibilities": {
+		"title": "Responsabilidades do usuário",
+		"items": {
+			"accuracy": "Fornecer informações corretas e atualizadas quando solicitado.",
+			"lawfulUse": "Utilizar os serviços em conformidade com as leis e regulamentos aplicáveis.",
+			"accountSecurity": "Manter suas credenciais de acesso em sigilo e não compartilhá-las com terceiros.",
+			"respect": "Respeitar outros usuários e evitar comportamento abusivo, discriminatório ou prejudicial."
+		}
+	},
+	"prohibitedUses": {
+		"title": "Usos proibidos",
+		"items": {
+			"illegal": "Utilizar o site para fins ilegais ou fraudulentos.",
+			"interference": "Tentar interferir na segurança, estabilidade ou disponibilidade do sistema.",
+			"unauthorizedAccess": "Tentar acessar áreas restritas ou dados de outros usuários sem autorização.",
+			"distribution": "Distribuir vírus, códigos maliciosos ou qualquer conteúdo prejudicial."
+		}
+	},
+	"intellectualProperty": {
+		"title": "Propriedade intelectual",
+		"description": "Todo o conteúdo disponível no site, incluindo textos, imagens, logotipos e softwares, é protegido por direitos de propriedade intelectual. É proibida a reprodução, distribuição ou modificação sem autorização prévia."
+	},
+	"serviceAvailability": {
+		"title": "Disponibilidade dos serviços",
+		"description": "Nos empenhamos para manter o site e os serviços disponíveis, mas não garantimos funcionamento ininterrupto ou livre de erros. Manutenções ou atualizações podem causar indisponibilidade temporária."
+	},
+	"modifications": {
+		"title": "Alterações nos Termos",
+		"description": "Estes Termos de Uso podem ser atualizados periodicamente. Recomendamos verificar esta página regularmente para estar ciente de eventuais mudanças."
+	},
+	"limitationOfLiability": {
+		"title": "Limitação de responsabilidade",
+		"description": "Não nos responsabilizamos por danos decorrentes do uso inadequado dos serviços, falhas técnicas ou ações de terceiros fora do nosso controle."
+	},
+	"termination": {
+		"title": "Suspensão e encerramento",
+		"description": "Reservamo-nos o direito de suspender ou encerrar o acesso ao site ou serviços caso o usuário viole estes Termos de Uso ou realize atividades que comprometam a segurança ou integridade do sistema."
+	},
+	"applicableLaw": {
+		"title": "Legislação aplicável e foro",
+		"description": "Estes Termos de Uso são regidos pelas leis brasileiras. Eventuais disputas serão resolvidas no foro da comarca do usuário, salvo disposição legal em contrário."
+	},
+	"contact": {
+		"title": "Contato",
+		"description": "Se você tiver dúvidas sobre estes Termos de Uso, entre em contato conosco:",
+		"email": "suporte@fefade.com"
+	},
+	"backButton": "Voltar"
+}

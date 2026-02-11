@@ -1,0 +1,53 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"title": "Terms of Use",
+	"introduction": "These Terms of Use establish the rules for accessing and using our website and services. By continuing to use them, you agree to the conditions described below.",
+	"userResponsibilities": {
+		"title": "User responsibilities",
+		"items": {
+			"accuracy": "Provide accurate and updated information when requested.",
+			"lawfulUse": "Use the services in compliance with applicable laws and regulations.",
+			"accountSecurity": "Keep login credentials confidential and do not share them with third parties.",
+			"respect": "Respect other users and avoid abusive, discriminatory, or harmful behavior."
+		}
+	},
+	"prohibitedUses": {
+		"title": "Prohibited uses",
+		"items": {
+			"illegal": "Use the website for illegal or fraudulent purposes.",
+			"interference": "Attempt to interfere with the security, stability, or availability of the system.",
+			"unauthorizedAccess": "Try to access restricted areas or data from other users without authorization.",
+			"distribution": "Distribute viruses, malicious code, or any harmful content."
+		}
+	},
+	"intellectualProperty": {
+		"title": "Intellectual property",
+		"description": "All content available on the website, including texts, images, logos, and software, is protected by intellectual property rights. Unauthorized reproduction, distribution, or modification is prohibited without prior authorization."
+	},
+	"serviceAvailability": {
+		"title": "Service availability",
+		"description": "We strive to keep the website and services available, but we do not guarantee uninterrupted or error-free operation. Maintenance or updates may cause temporary unavailability."
+	},
+	"modifications": {
+		"title": "Changes to the Terms",
+		"description": "These Terms of Use may be updated periodically. We recommend checking this page regularly to be aware of any changes."
+	},
+	"limitationOfLiability": {
+		"title": "Limitation of liability",
+		"description": "We are not responsible for damages arising from misuse of the services, technical failures, or actions of third parties beyond our control."
+	},
+	"termination": {
+		"title": "Suspension and termination",
+		"description": "We reserve the right to suspend or terminate access to the website or services if the user violates these Terms of Use or engages in activities that compromise security or the integrity of the system."
+	},
+	"applicableLaw": {
+		"title": "Applicable law and jurisdiction",
+		"description": "These Terms of Use are governed by Brazilian law. Any disputes will be resolved in the courts of the user's jurisdiction, unless otherwise provided by applicable legislation."
+	},
+	"contact": {
+		"title": "Contact",
+		"description": "If you have any questions about these Terms of Use, please contact us:",
+		"email": "support@fefade.com"
+	},
+	"backButton": "Back"
+}

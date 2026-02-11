@@ -1,0 +1,78 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"title": "Política de Privacidade",
+	"introduction": "Esta Política de Privacidade está em conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) e descreve como coletamos, utilizamos, armazenamos, compartilhamos e protegemos seus dados pessoais ao utilizar nosso site e serviços.",
+	"whatAreCookies": {
+		"title": "O que são cookies?",
+		"description": "Cookies são pequenos arquivos de texto que são armazenados no seu computador ou dispositivo móvel quando você visita um site. Eles ajudam a tornar sua experiência online mais eficiente e personalizada."
+	},
+	"whyWeUseCookies": {
+		"title": "Por que usamos cookies?",
+		"items": {
+			"essential": "Cookies essenciais: Necessários para o funcionamento do site.",
+			"performance": "Cookies de desempenho: Usados para analisar como os visitantes usam o site, permitindo melhorias contínuas.",
+			"functionality": "Cookies de funcionalidade: Permitem lembrar suas preferências e personalizar sua experiência.",
+			"marketing": "Cookies de marketing: Usados para fornecer publicidade relevante e mensurar sua eficácia."
+		}
+	},
+	"controlCookies": {
+		"title": "Como você pode controlar os cookies?",
+		"description": "Você pode configurar seu navegador para recusar cookies ou para alertá-lo quando cookies estiverem sendo enviados. No entanto, se você desativar os cookies, algumas partes do site podem não funcionar corretamente."
+	},
+	"changes": {
+		"title": "Atualizações desta política",
+		"description": "Esta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças na legislação ou em nossos serviços. Recomendamos que você revise esta página com regularidade."
+	},
+	"contact": {
+		"title": "Encarregado pelo tratamento de dados (DPO)",
+		"description": "Se você tiver dúvidas, solicitações ou quiser exercer seus direitos relacionados aos seus dados pessoais, entre em contato com nosso Encarregado pelo Tratamento de Dados Pessoais (DPO):",
+		"email": "dpo@fefade.com"
+	},
+	"backButton": "Voltar",
+	"legalBasis": {
+		"title": "Base legal para tratamento de dados",
+		"description": "Tratamos seus dados pessoais com base em fundamentos legais previstos na LGPD, como o consentimento, execução de contratos, cumprimento de obrigações legais e legítimo interesse, sempre respeitando seus direitos e liberdades fundamentais."
+	},
+	"informationWeCollect": {
+		"title": "Quais dados pessoais coletamos?",
+		"items": {
+			"identification": "Dados de identificação: nome, e-mail, número de telefone e outros dados fornecidos voluntariamente por você.",
+			"navigation": "Dados de navegação: endereço IP, data e hora de acesso, localização aproximada, tipo de navegador, dispositivo e páginas acessadas.",
+			"usage": "Dados de uso: interações com funcionalidades do site e comportamento de navegação."
+		}
+	},
+	"purposeOfUse": {
+		"title": "Para que usamos seus dados?",
+		"items": {
+			"service": "Prestação e aprimoramento de nossos serviços.",
+			"communication": "Envio de comunicações, avisos e suporte ao usuário.",
+			"legal": "Cumprimento de obrigações legais e regulatórias.",
+			"security": "Garantia da segurança do site, prevenção a fraudes e proteção de direitos."
+		}
+	},
+	"dataSharing": {
+		"title": "Compartilhamento de dados",
+		"description": "Seus dados podem ser compartilhados com terceiros somente quando necessário para a prestação dos serviços, cumprimento de obrigações legais ou com parceiros que atuam sob contratos de confidencialidade e segurança compatíveis com esta política. Não comercializamos seus dados pessoais."
+	},
+	"dataRetention": {
+		"title": "Prazo de retenção dos dados",
+		"description": "Armazenamos seus dados apenas pelo tempo necessário para cumprir as finalidades para as quais foram coletados, salvo quando houver outra exigência legal ou regulatória que determine prazo diferente."
+	},
+	"yourRights": {
+		"title": "Seus direitos sob a LGPD",
+		"items": {
+			"confirmation": "Confirmação da existência de tratamento.",
+			"access": "Acesso aos dados pessoais.",
+			"correction": "Correção de dados incompletos, inexatos ou desatualizados.",
+			"anonymization": "Anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos.",
+			"portability": "Portabilidade dos dados a outro fornecedor de serviço.",
+			"deletion": "Eliminação dos dados tratados com base no consentimento.",
+			"information": "Informação sobre compartilhamento de dados com terceiros.",
+			"consent": "Revogação do consentimento, quando aplicável."
+		}
+	},
+	"dataSecurity": {
+		"title": "Segurança da informação",
+		"description": "Adotamos medidas técnicas e administrativas para proteger os dados pessoais contra acessos não autorizados, perda, alteração ou destruição. Apesar disso, nenhum sistema é completamente seguro, e incentivamos que os usuários adotem boas práticas de segurança."
+	}
+}

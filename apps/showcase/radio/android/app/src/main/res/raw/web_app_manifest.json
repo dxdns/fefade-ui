@@ -1,0 +1,14 @@
+{
+	"name": "Listen Live on Radio",
+	"short_name": "Radio",
+	"description": "Discover live streams, top hits, and your favorite stations anytime, anywhere.",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"background_color": "#0a0a0a",
+	"theme_color": "#171717",
+	"icons": [
+		{ "src": "192x192.png", "sizes": "192x192", "type": "image/png" },
+		{ "src": "512x512.png", "sizes": "512x512", "type": "image/png" }
+	]
+}

@@ -1,0 +1,221 @@
+[
+	{
+		"label": "Realtime Colors",
+		"link": "https://www.realtimecolors.com",
+		"tags": ["Preview"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513042/screenshots/screenshots/realtime_colors.png"
+	},
+	{
+		"label": "AI Colors",
+		"link": "https://tintmint.net",
+		"tags": ["AI", "Preview"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513048/screenshots/screenshots/ai_colors.png"
+	},
+	{
+		"label": "Color selector",
+		"link": "https://www.color-selector.com",
+		"tags": ["Catalogue"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513055/screenshots/screenshots/color_selector.png"
+	},
+	{
+		"label": "Coolors",
+		"link": "https://coolors.co",
+		"tags": ["Image"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513065/screenshots/screenshots/coolors.png"
+	},
+	{
+		"label": "Hypercolor",
+		"link": "https://hypercolor.dev/",
+		"tags": ["Generator", "Gradients", "Tailwind"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513072/screenshots/screenshots/hypercolor.png"
+	},
+	{
+		"label": "hue.tools",
+		"link": "https://hue.tools/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513076/screenshots/screenshots/hue_tools.png"
+	},
+	{
+		"label": "Picular",
+		"link": "https://picular.co",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513080/screenshots/screenshots/picular.png"
+	},
+	{
+		"label": "Color Leap",
+		"link": "https://colorleap.app/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513086/screenshots/screenshots/color_leap.png"
+	},
+	{
+		"label": "Pigment",
+		"link": "https://pigment.shapefactory.co",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513090/screenshots/screenshots/pigment.png"
+	},
+	{
+		"label": "Colormind",
+		"link": "http://colormind.io/"
+	},
+	{
+		"label": "Werner",
+		"link": "https://www.c82.net/werner/",
+		"tags": ["Catalogue"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513101/screenshots/screenshots/werner.png"
+	},
+	{
+		"label": "HueSnap",
+		"link": "https://www.huesnap.com",
+		"tags": ["Image"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513104/screenshots/screenshots/huesnap.png"
+	},
+	{
+		"label": "Adobe Color",
+		"link": "https://color.adobe.com/es/create/color-wheel",
+		"tags": ["Images"]
+	},
+	{
+		"label": "Palette Maker",
+		"link": "https://palettemaker.com/app",
+		"tags": ["Preview"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513120/screenshots/screenshots/palette_maker.png"
+	},
+	{
+		"label": "Randoma11y",
+		"link": "https://randoma11y.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513125/screenshots/screenshots/randoma11y.png"
+	},
+	{
+		"label": "WebGradients",
+		"link": "https://webgradients.com",
+		"tags": ["Gradients"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513135/screenshots/screenshots/webgradients.png"
+	},
+	{
+		"label": "Palette",
+		"link": "https://palettte.app/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513142/screenshots/screenshots/palette.png"
+	},
+	{
+		"label": "Flat UI Colors",
+		"link": "https://flatuicolors.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513149/screenshots/screenshots/flat_ui_colors.png"
+	},
+	{
+		"label": "Material UI",
+		"link": "https://materialui.co/colors",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513157/screenshots/screenshots/material_ui.png"
+	},
+	{
+		"label": "Happy Hues",
+		"link": "https://www.happyhues.co",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513163/screenshots/screenshots/happy_hues.png"
+	},
+	{
+		"label": "tints.dev",
+		"link": "https://www.tints.dev/brand/8C1AE5",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513167/screenshots/screenshots/tints_dev.png"
+	},
+	{
+		"label": "Color Hunt",
+		"link": "https://colorhunt.co",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513183/screenshots/screenshots/color_hunt.png"
+	},
+	{
+		"label": "Shaper",
+		"link": "https://hihayk.github.io/shaper/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513188/screenshots/screenshots/shaper.png"
+	},
+	{
+		"label": "Toptal",
+		"link": "https://www.toptal.com/designers/colourcode/freebuild-color-builder",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513193/screenshots/screenshots/toptal.png"
+	},
+	{
+		"label": "UI Colors",
+		"link": "https://uicolors.app/create",
+		"tags": ["Preview"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513199/screenshots/screenshots/ui_colors.png"
+	},
+	{
+		"label": "Poline",
+		"link": "https://meodai.github.io/poline/",
+		"tags": ["Library"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513204/screenshots/screenshots/poline.png"
+	},
+	{
+		"label": "Khroma",
+		"link": "https://www.khroma.co"
+	},
+	{
+		"label": "Paletton",
+		"link": "https://www.paletton.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513306/screenshots/screenshots/paletton.png"
+	},
+	{
+		"label": "M.D. Palette Generator",
+		"link": "https://materialpalettes.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513310/screenshots/screenshots/m_d__palette_generator.png"
+	},
+	{
+		"label": "Scale",
+		"link": "https://hihayk.github.io/scale/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513315/screenshots/screenshots/scale.png"
+	},
+	{
+		"label": "uiGradients",
+		"link": "https://uigradients.com/",
+		"tags": ["Gradients"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513320/screenshots/screenshots/uigradients.png"
+	},
+	{
+		"label": "Inspotype",
+		"link": "https://www.inspotype.com",
+		"tags": ["Preview"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513333/screenshots/screenshots/inspotype.png"
+	},
+	{
+		"label": "CSS Gradient",
+		"link": "https://cssgradient.io",
+		"tags": ["Gradients"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513344/screenshots/screenshots/css_gradient.png"
+	},
+	{
+		"label": "Colorable",
+		"link": "https://colorable.jxnblk.com",
+		"tags": ["Preview"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513350/screenshots/screenshots/colorable.png"
+	},
+	{
+		"label": "Culrs",
+		"link": "https://culrs.com",
+		"tags": ["Palettes"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513355/screenshots/screenshots/culrs.png"
+	},
+	{
+		"label": "Cool Contrast",
+		"link": "https://coolcontrast.vercel.app/",
+		"tags": ["Preview", "Contrast"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513359/screenshots/screenshots/cool_contrast.png"
+	},
+	{
+		"label": "ColorBeta",
+		"link": "https://colorbeta.com/",
+		"tags": ["Gradients"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513364/screenshots/screenshots/colorbeta.png"
+	},
+	{
+		"label": "ColorHexa",
+		"link": "https://www.colorhexa.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513369/screenshots/screenshots/colorhexa.png"
+	},
+	{
+		"label": "ColorMagic",
+		"link": "https://colormagic.app/",
+		"tags": ["Generator", "AI"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513391/screenshots/screenshots/colormagic.png"
+	},
+	{
+		"label": "Material Theme Builder",
+		"link": "https://material-foundation.github.io/material-theme-builder/",
+		"tags": ["Generator", "Preview"],
+		"license": "Apache V2.0"
+	}
+]

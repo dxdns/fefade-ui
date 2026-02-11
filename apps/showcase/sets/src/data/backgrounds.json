@@ -1,0 +1,183 @@
+[
+	{
+		"label": "bg.ibelick",
+		"link": "https://bg.ibelick.com",
+		"tags": ["Tailwind"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512369/screenshots/screenshots/bg_ibelick.png"
+	},
+	{
+		"label": "CSS Background Patterns",
+		"link": "https://www.magicpattern.design/tools/css-backgrounds",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512374/screenshots/screenshots/css_background_patterns.png"
+	},
+	{
+		"label": "Pattern Generator",
+		"link": "https://doodad.dev/pattern-generator/",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512379/screenshots/screenshots/pattern_generator.png"
+	},
+	{
+		"label": "Pattern Monster",
+		"link": "https://pattern.monster",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512388/screenshots/screenshots/pattern_monster.png"
+	},
+	{
+		"label": "pattern.css",
+		"link": "https://bansal.io/pattern-css",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512393/screenshots/screenshots/pattern_css.png"
+	},
+	{
+		"label": "Haikei",
+		"link": "https://haikei.app/generators/",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512399/screenshots/screenshots/haikei.png"
+	},
+	{
+		"label": "Hero Patterns",
+		"link": "https://www.heropatterns.com",
+		"license": "CC BY 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512404/screenshots/screenshots/hero_patterns.png"
+	},
+	{
+		"label": "Cool Backgrounds",
+		"link": "https://coolbackgrounds.io",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512410/screenshots/screenshots/cool_backgrounds.png"
+	},
+	{
+		"label": "PatternPad",
+		"link": "https://patternpad.com",
+		"license": "CC BY 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512419/screenshots/screenshots/patternpad.png"
+	},
+	{
+		"label": "Visiwig",
+		"link": "https://www.visiwig.com/patterns/",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512425/screenshots/screenshots/visiwig.png"
+	},
+	{
+		"label": "Tartanify",
+		"link": "https://tartanify.com/",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512433/screenshots/screenshots/tartanify.png"
+	},
+	{
+		"label": "SVG Backgrounds",
+		"link": "https://www.svgbackgrounds.com/",
+		"license": "CC BY 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512438/screenshots/screenshots/svg_backgrounds.png"
+	},
+	{
+		"label": "CSS Pattern",
+		"link": "https://css-pattern.com/",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512444/screenshots/screenshots/css_pattern.png"
+	},
+	{
+		"label": "Super designer",
+		"link": "https://superdesigner.co",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512450/screenshots/screenshots/super_designer.png"
+	},
+	{
+		"label": "CSS3 Patterns Gallery",
+		"link": "https://projects.verou.me/css3patterns/",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512454/screenshots/screenshots/css3_patterns_gallery.png"
+	},
+	{
+		"label": "UVCanvas",
+		"link": "https://uvcanvas.com",
+		"license": "MIT",
+		"tags": ["React", "Package"]
+	},
+	{
+		"label": "SVG Patterns",
+		"link": "https://nucleoapp.com/svg-patterns",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512552/screenshots/screenshots/svg_patterns.png"
+	},
+	{
+		"label": "Basic Pattern Repository",
+		"link": "https://patterns.helloyes.dev/",
+		"tags": ["SVG"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512557/screenshots/screenshots/basic_pattern_repository.png"
+	},
+	{
+		"label": "fffuel",
+		"link": "https://fffuel.co/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512562/screenshots/screenshots/fffuel.png"
+	},
+	{
+		"label": "Shape Divider App",
+		"link": "https://www.shapedivider.app",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512571/screenshots/screenshots/shape_divider_app.png"
+	},
+	{
+		"label": "Tabbied",
+		"link": "https://tabbied.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512577/screenshots/screenshots/tabbied.png"
+	},
+	{
+		"label": "ColorBeta",
+		"link": "https://colorbeta.com/",
+		"tags": ["Gradients"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512583/screenshots/screenshots/colorbeta.png"
+	},
+	{
+		"label": "NEAT",
+		"link": "https://neat.firecms.co/",
+		"tags": ["Gradients", "Package"],
+		"license": "GPL-3.0"
+	},
+	{
+		"label": "Gradienty",
+		"link": "https://gradienty.codes/",
+		"tags": ["Tailwind"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512682/screenshots/screenshots/gradienty.png"
+	},
+	{
+		"label": "Magic UI",
+		"link": "https://magicui.design/docs/components/animated-grid-pattern",
+		"tags": ["Tailwind"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512687/screenshots/screenshots/magic_ui.png"
+	},
+	{
+		"label": "Shader Gradient",
+		"link": "https://www.shadergradient.co/",
+		"tags": ["React", "Framer", "Figma"]
+	},
+	{
+		"label": "Photo Gradient",
+		"link": "https://photogradient.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512784/screenshots/screenshots/photo_gradient.png"
+	},
+	{
+		"label": "CSS mesh gradients",
+		"link": "https://csshero.org/mesher/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512789/screenshots/screenshots/css_mesh_gradients.png"
+	},
+	{
+		"label": "Mazeletter",
+		"link": "http://mazeletter.xyz/"
+	},
+	{
+		"label": "Pattern Collection",
+		"link": "https://wpshout.com/pattern-collection/",
+		"tags": ["Inspiration"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512801/screenshots/screenshots/pattern_collection.png"
+	},
+	{
+		"label": "Shape Dividers",
+		"link": "https://www.shapedivider.app/",
+		"tags": ["Section separator"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512810/screenshots/screenshots/shape_dividers.png"
+	},
+	{
+		"label": "Gradii",
+		"link": "https://www.gradii.fun/",
+		"tags": ["Gradients"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512817/screenshots/screenshots/gradii.png"
+	}
+]

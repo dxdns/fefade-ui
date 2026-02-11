@@ -1,0 +1,162 @@
+[
+	{
+		"label": "Poly Haven",
+		"link": "https://polyhaven.com",
+		"tags": ["HDRIs", "Textures", "Models"],
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754511969/screenshots/screenshots/poly_haven.png"
+	},
+	{
+		"label": "Itchio",
+		"link": "https://itch.io/game-assets/free",
+		"license": "Multiple",
+		"tags": ["Store"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754511975/screenshots/screenshots/itchio.png"
+	},
+	{
+		"label": "Kenney",
+		"link": "https://kenney.nl",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754511982/screenshots/screenshots/kenney.png"
+	},
+	{
+		"label": "ambientCG",
+		"link": "https://ambientcg.com",
+		"tags": ["HDRIs", "Textures", "Models"],
+		"license": "CC0 1.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754511990/screenshots/screenshots/ambientcg.png"
+	},
+	{
+		"label": "Share Textures",
+		"link": "https://www.sharetextures.com",
+		"tags": ["Atlases", "Textures", "Models"],
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754511998/screenshots/screenshots/share_textures.png"
+	},
+	{
+		"label": "BlenderKit",
+		"link": "https://www.blenderkit.com",
+		"tags": ["Textures", "Models", "HDRIs", "Brushes"],
+		"license": "RF & CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512006/screenshots/screenshots/blenderkit.png"
+	},
+	{
+		"label": "CG Bookcase",
+		"link": "https://www.cgbookcase.com",
+		"tags": ["Textures"],
+		"license": "CC0 1.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512011/screenshots/screenshots/cg_bookcase.png"
+	},
+	{
+		"label": "3Dassets.one",
+		"link": "https://3dassets.one",
+		"tags": ["HDRIs", "Textures", "Models"],
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512021/screenshots/screenshots/3dassets_one.png"
+	},
+	{
+		"label": "Quaternius",
+		"link": "https://quaternius.com/",
+		"tags": ["Models"],
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512027/screenshots/screenshots/quaternius.png"
+	},
+	{
+		"label": "Turbosquid",
+		"link": "https://www.turbosquid.com/",
+		"tags": ["Models"],
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512033/screenshots/screenshots/turbosquid.png"
+	},
+	{
+		"label": "Game Art 2D",
+		"link": "https://www.gameart2d.com/freebies.html",
+		"tags": ["Sprites", "Tileset", "GUI"],
+		"license": "CC0"
+	},
+	{
+		"label": "textures.com",
+		"link": "https://www.textures.com/free",
+		"tags": ["Textures"],
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512132/screenshots/screenshots/textures_com.png"
+	},
+	{
+		"label": "Quixel",
+		"link": "https://quixel.com/megascans/free",
+		"tags": ["Decals", "Textures", "Models"],
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512138/screenshots/screenshots/quixel.png"
+	},
+	{
+		"label": "Poliigon",
+		"link": "https://www.poliigon.com/search/free",
+		"tags": ["HDRIs", "Textures", "Models"],
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512146/screenshots/screenshots/poliigon.png"
+	},
+	{
+		"label": "CGTrader",
+		"link": "https://www.cgtrader.com/free-3d-models",
+		"tags": ["Models"],
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512155/screenshots/screenshots/cgtrader.png"
+	},
+	{
+		"label": "3DExport",
+		"link": "https://3dexport.com/",
+		"tags": ["Models"],
+		"license": "Multiple"
+	},
+	{
+		"label": "ArtStation Marketplace",
+		"link": "https://www.artstation.com/marketplace/game-dev?section=trending&price_to=0",
+		"license": "Multiple",
+		"tags": ["Store"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512168/screenshots/screenshots/artstation_marketplace.png"
+	},
+	{
+		"label": "Sketchfab",
+		"link": "https://sketchfab.com/features/free-3d-models",
+		"license": "Multiple",
+		"tags": ["Store"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512174/screenshots/screenshots/sketchfab.png"
+	},
+	{
+		"label": "NormalMap-Online",
+		"link": "https://cpetry.github.io/NormalMap-Online/",
+		"tags": ["Tool"]
+	},
+	{
+		"label": "Online 3D Viewer",
+		"link": "https://3dviewer.net/",
+		"tags": ["Tool"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512274/screenshots/screenshots/online_3d_viewer.png"
+	},
+	{
+		"label": "3dsky",
+		"link": "https://3dsky.org/3dmodels?types=free",
+		"tags": ["Store"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512284/screenshots/screenshots/3dsky.png"
+	},
+	{
+		"label": "Dimensiva",
+		"link": "https://dimensiva.com/free-3d-models/",
+		"tags": ["Models"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512292/screenshots/screenshots/dimensiva.png"
+	},
+	{
+		"label": "3D model collection",
+		"link": "https://sketchfab.com/nebulousflynn/collections/cc0-9e9b8c5442ab4b59ba16b6fa5e43b8da",
+		"tags": ["Models", "Heritage", "Models"],
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512300/screenshots/screenshots/3d_model_collection.png"
+	},
+	{
+		"label": "Blend Swap",
+		"link": "https://www.blendswap.com/",
+		"tags": ["Models"],
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512365/screenshots/screenshots/blend_swap.png"
+	}
+]

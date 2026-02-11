@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./packages/docs/public/logo.png" width="150" height="120" />
+  <img src="./assets/images/logo.png" width="150" height="120" />
 </p>
 
 <h1 align="center">fefade-ui</h1>

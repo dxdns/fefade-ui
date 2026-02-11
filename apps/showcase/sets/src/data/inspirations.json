@@ -1,0 +1,283 @@
+[
+	{
+		"label": "Curated Design",
+		"link": "https://www.curated.design",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515136/screenshots/screenshots/curated_design.png"
+	},
+	{
+		"label": "Godly",
+		"link": "https://godly.website",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515144/screenshots/screenshots/godly.png"
+	},
+	{
+		"label": "Laand-book",
+		"link": "https://land-book.com",
+		"licence": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515151/screenshots/screenshots/laand_book.png"
+	},
+	{
+		"label": "BentoGrids",
+		"link": "https://bentogrids.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515157/screenshots/screenshots/bentogrids.png"
+	},
+	{
+		"label": "Darkmode Design",
+		"link": "https://www.darkmodedesign.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515162/screenshots/screenshots/darkmode_design.png"
+	},
+	{
+		"label": "Dark Design",
+		"link": "https://www.dark.design",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515171/screenshots/screenshots/dark_design.png"
+	},
+	{
+		"label": "Landing Love",
+		"link": "https://www.landing.love",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515189/screenshots/screenshots/landing_love.png"
+	},
+	{
+		"label": "Minimal Gallery",
+		"link": "https://minimal.gallery",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515199/screenshots/screenshots/minimal_gallery.png"
+	},
+	{
+		"label": "MaxiBestOf",
+		"link": "https://maxibestof.one",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515206/screenshots/screenshots/maxibestof.png"
+	},
+	{
+		"label": "Pinterest",
+		"link": "https://pinterest.com/"
+	},
+	{
+		"label": "Landing Gallery",
+		"link": "https://www.landing.gallery",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515219/screenshots/screenshots/landing_gallery.png"
+	},
+	{
+		"label": "Pattern Collection",
+		"link": "https://wpshout.com/pattern-collection/",
+		"tags": ["Patterns"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515228/screenshots/screenshots/pattern_collection.png"
+	},
+	{
+		"label": "Dribbble",
+		"link": "https://dribbble.com/"
+	},
+	{
+		"label": "Behance",
+		"link": "https://www.behance.net/"
+	},
+	{
+		"label": "a-fresh",
+		"link": "https://a-fresh.website",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515245/screenshots/screenshots/a_fresh.png"
+	},
+	{
+		"label": "Layers",
+		"link": "https://layers.to/"
+	},
+	{
+		"label": "Three.js",
+		"link": "https://threejs.org",
+		"tags": ["3D"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515260/screenshots/screenshots/three_js.png"
+	},
+	{
+		"label": "Awwwards",
+		"link": "https://www.awwwards.com/websites/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515270/screenshots/screenshots/awwwards.png"
+	},
+	{
+		"label": "Sass Landing Page",
+		"link": "https://saaslandingpage.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515277/screenshots/screenshots/sass_landing_page.png"
+	},
+	{
+		"label": "Navbar Gallery",
+		"link": "https://www.navbar.gallery",
+		"tags": ["Navbars"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515286/screenshots/screenshots/navbar_gallery.png"
+	},
+	{
+		"label": "Unsection",
+		"link": "https://www.unsection.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515297/screenshots/screenshots/unsection.png"
+	},
+	{
+		"label": "404s",
+		"link": "https://www.404s.design/",
+		"tags": ["404"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515307/screenshots/screenshots/404s.png"
+	},
+	{
+		"label": "HUDS+GUIS",
+		"link": "https://www.hudsandguis.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515315/screenshots/screenshots/huds_guis.png"
+	},
+	{
+		"label": "Design Vault",
+		"link": "https://designvault.io/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515318/screenshots/screenshots/design_vault.png"
+	},
+	{
+		"label": "lookup.design",
+		"link": "https://lookup.design/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515323/screenshots/screenshots/lookup_design.png"
+	},
+	{
+		"label": "CallToInspiration",
+		"link": "https://calltoinspiration.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515331/screenshots/screenshots/calltoinspiration.png"
+	},
+	{
+		"label": "Design Spells",
+		"link": "https://www.designspells.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515338/screenshots/screenshots/design_spells.png"
+	},
+	{
+		"label": "Httpster",
+		"link": "https://httpster.net/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515348/screenshots/screenshots/httpster.png"
+	},
+	{
+		"label": "OGimage.gallery",
+		"link": "https://www.ogimage.gallery/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515363/screenshots/screenshots/ogimage_gallery.png"
+	},
+	{
+		"label": "Siteinspire",
+		"link": "https://www.siteinspire.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515369/screenshots/screenshots/siteinspire.png"
+	},
+	{
+		"label": "ArchDaily",
+		"link": "https://www.archdaily.com/",
+		"tags": ["Architecture"]
+	},
+	{
+		"label": "Site of Sites",
+		"link": "https://www.siteofsites.co/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515389/screenshots/screenshots/site_of_sites.png"
+	},
+	{
+		"label": "LogoFav",
+		"link": "https://www.logofav.com/",
+		"tags": ["Logos"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515394/screenshots/screenshots/logofav.png"
+	},
+	{
+		"label": "Dead Simple Sites",
+		"link": "https://deadsimplesites.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515401/screenshots/screenshots/dead_simple_sites.png"
+	},
+	{
+		"label": "Wall of Portfolios",
+		"link": "https://www.wallofportfolios.in/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515409/screenshots/screenshots/wall_of_portfolios.png"
+	},
+	{
+		"label": "Footer",
+		"link": "https://www.footer.design/",
+		"tags": ["Footers"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515414/screenshots/screenshots/footer.png"
+	},
+	{
+		"label": "Prettyfolio",
+		"link": "https://www.prettyfolio.com/",
+		"tags": ["Portfolios"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515419/screenshots/screenshots/prettyfolio.png"
+	},
+	{
+		"label": "Landings",
+		"link": "https://landings.dev/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515425/screenshots/screenshots/landings.png"
+	},
+	{
+		"label": "Design Everywhere",
+		"link": "https://designeverywhere.co/",
+		"tags": ["Products"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515436/screenshots/screenshots/design_everywhere.png"
+	},
+	{
+		"label": "Browsing Mode",
+		"link": "https://browsingmode.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515443/screenshots/screenshots/browsing_mode.png"
+	},
+	{
+		"label": "App Motion",
+		"link": "https://appmotion.design/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515453/screenshots/screenshots/app_motion.png"
+	},
+	{
+		"label": "Minimum",
+		"link": "https://mnmm.xyz",
+		"tags": ["Minimalist"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515457/screenshots/screenshots/minimum.png"
+	},
+	{
+		"label": "One Page Love",
+		"link": "https://onepagelove.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515462/screenshots/screenshots/one_page_love.png"
+	},
+	{
+		"label": "3D Websites",
+		"link": "https://3dwebsites.design/",
+		"tags": ["3D"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515473/screenshots/screenshots/3d_websites.png"
+	},
+	{
+		"label": "Web Interactions Gallery",
+		"link": "https://www.webinteractions.gallery/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515480/screenshots/screenshots/web_interactions_gallery.png"
+	},
+	{
+		"label": "Viewport UI",
+		"link": "https://viewport-ui.design/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515485/screenshots/screenshots/viewport_ui.png"
+	},
+	{
+		"label": "Logo System",
+		"link": "https://logosystem.co/",
+		"tags": ["Logos"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515492/screenshots/screenshots/logo_system.png"
+	},
+	{
+		"label": "Adfolio",
+		"link": "https://www.adfolio.design/",
+		"tags": ["Ads"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515503/screenshots/screenshots/adfolio.png"
+	},
+	{
+		"label": "A1",
+		"link": "https://www.a1.gallery/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515511/screenshots/screenshots/a1.png"
+	},
+	{
+		"label": "Daily Delights",
+		"link": "https://delights.design",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515518/screenshots/screenshots/daily_delights.png"
+	},
+	{
+		"label": "CTA.gallery",
+		"link": "https://www.cta.gallery/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515529/screenshots/screenshots/cta_gallery.png"
+	},
+	{
+		"label": "Supahero",
+		"link": "https://www.supahero.io/",
+		"tags": ["Hero sections"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515536/screenshots/screenshots/supahero.png"
+	},
+	{
+		"label": "Websitevice",
+		"link": "https://websitevice.com/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515544/screenshots/screenshots/websitevice.png"
+	},
+	{
+		"label": "60fps",
+		"link": "https://60fps.design/",
+		"tags": ["Apps", "Animations"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515552/screenshots/screenshots/60fps.png"
+	}
+]

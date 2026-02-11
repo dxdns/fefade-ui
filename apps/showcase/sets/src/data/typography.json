@@ -1,0 +1,130 @@
+[
+	{
+		"label": "Google fonts",
+		"link": "https://fonts.google.com/",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516426/screenshots/screenshots/google_fonts.png"
+	},
+	{
+		"label": "Fontsource",
+		"link": "https://fontsource.org",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516431/screenshots/screenshots/fontsource.png"
+	},
+	{
+		"label": "Typewolf",
+		"link": "https://www.typewolf.com/",
+		"tags": ["Inspiration"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516436/screenshots/screenshots/typewolf.png"
+	},
+	{
+		"label": "Typo/graphic",
+		"link": "https://www.typographicposters.com",
+		"tags": ["Inspiration"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516445/screenshots/screenshots/typo_graphic.png"
+	},
+	{
+		"label": "Fontshare",
+		"link": "https://www.fontshare.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516449/screenshots/screenshots/fontshare.png"
+	},
+	{
+		"label": "Fontpair",
+		"link": "https://www.fontpair.co",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516458/screenshots/screenshots/fontpair.png"
+	},
+	{
+		"label": "Free Faces",
+		"link": "https://www.freefaces.gallery",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516463/screenshots/screenshots/free_faces.png"
+	},
+	{
+		"label": "Font Meme",
+		"link": "https://fontmeme.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516467/screenshots/screenshots/font_meme.png"
+	},
+	{
+		"label": "Fontjoy",
+		"link": "https://fontjoy.com",
+		"tags": ["Tool"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516473/screenshots/screenshots/fontjoy.png"
+	},
+	{
+		"label": "Font style matcher",
+		"link": "https://meowni.ca/font-style-matcher/",
+		"tags": ["Tool"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516477/screenshots/screenshots/font_style_matcher.png"
+	},
+	{
+		"label": "Fonts In Use",
+		"link": "https://fontsinuse.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516482/screenshots/screenshots/fonts_in_use.png"
+	},
+	{
+		"label": "Fluid typography",
+		"link": "https://modern-fluid-typography.vercel.app",
+		"tags": ["Tool"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516487/screenshots/screenshots/fluid_typography.png"
+	},
+	{
+		"label": "DaFont",
+		"link": "https://www.dafont.com",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516496/screenshots/screenshots/dafont.png"
+	},
+	{
+		"label": "OnlineWebFonts.COM",
+		"link": "https://www.onlinewebfonts.com/fonts",
+		"license": "Free with attribution",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516500/screenshots/screenshots/onlinewebfonts_com.png"
+	},
+	{
+		"label": "UNCUT.wtf",
+		"link": "https://uncut.wtf/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516505/screenshots/screenshots/uncut_wtf.png"
+	},
+	{
+		"label": "Beautiful web type",
+		"link": "https://beautifulwebtype.com/",
+		"tags": ["Inspiration"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516509/screenshots/screenshots/beautiful_web_type.png"
+	},
+	{
+		"label": "Font Brief",
+		"link": "https://www.fontbrief.com/home",
+		"tags": ["Tool"],
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516517/screenshots/screenshots/font_brief.png"
+	},
+	{
+		"label": "Font Pairings",
+		"link": "https://fontpairings.bypeople.com/",
+		"license": "Freemium",
+		"tags": ["Tool"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516526/screenshots/screenshots/font_pairings.png"
+	},
+	{
+		"label": "Modern Font Stacks",
+		"link": "https://modernfontstacks.com/",
+		"tags": ["CSS"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516531/screenshots/screenshots/modern_font_stacks.png"
+	},
+	{
+		"label": "Archetype",
+		"link": "https://archetypeapp.com/",
+		"tags": ["Tool"]
+	},
+	{
+		"label": "Typescale",
+		"link": "https://typescale.io/",
+		"tags": ["Plugin"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516537/screenshots/screenshots/typescale.png"
+	},
+	{
+		"label": "Font.Download",
+		"link": "https://font.download/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516542/screenshots/screenshots/font_download.png"
+	}
+]

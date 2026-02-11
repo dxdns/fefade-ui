@@ -1,0 +1,134 @@
+[
+	{
+		"label": "Josh Comeau",
+		"link": "https://www.joshwcomeau.com",
+		"tags": ["Web"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512822/screenshots/screenshots/josh_comeau.png"
+	},
+	{
+		"label": "DEV",
+		"link": "https://dev.to",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512829/screenshots/screenshots/dev.png"
+	},
+	{
+		"label": "Modern CSS",
+		"link": "https://moderncss.dev",
+		"tags": ["CSS"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512833/screenshots/screenshots/modern_css.png"
+	},
+	{
+		"label": "Medium",
+		"link": "https://www.medium.com",
+		"tags": ["Community"]
+	},
+	{
+		"label": "Rauno Craft",
+		"link": "https://rauno.me/craft",
+		"tags": ["UI"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512844/screenshots/screenshots/rauno_craft.png"
+	},
+	{
+		"label": "Not a Number",
+		"link": "https://www.nan.fyi",
+		"tags": ["Animation", "svg"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512848/screenshots/screenshots/not_a_number.png"
+	},
+	{
+		"label": "Maximeheckel",
+		"link": "https://blog.maximeheckel.com",
+		"tags": ["Three.js", "React", "3D"]
+	},
+	{
+		"label": "Varun Vachhar",
+		"link": "https://varun.ca/writing/",
+		"tags": ["Three.js", "3D"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512947/screenshots/screenshots/varun_vachhar.png"
+	},
+	{
+		"label": "Overreacted",
+		"link": "https://overreacted.io",
+		"tags": ["React", "JavaScript"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512952/screenshots/screenshots/overreacted.png"
+	},
+	{
+		"label": "CSS-Tricks",
+		"link": "https://css-tricks.com",
+		"tags": ["CSS"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512959/screenshots/screenshots/css_tricks.png"
+	},
+	{
+		"label": "Smashing Magazine",
+		"link": "https://www.smashingmagazine.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512964/screenshots/screenshots/smashing_magazine.png"
+	},
+	{
+		"label": "web.dev",
+		"link": "https://web.dev/blog",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512971/screenshots/screenshots/web_dev.png"
+	},
+	{
+		"label": "Design Systems",
+		"link": "https://www.designsystems.com",
+		"tags": ["Design system"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512979/screenshots/screenshots/design_systems.png"
+	},
+	{
+		"label": "Hashnode",
+		"link": "https://www.hashnode.com",
+		"tags": ["Community"]
+	},
+	{
+		"label": "Design good practices",
+		"link": "https://goodpractices.design",
+		"tags": ["UI/UX"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512991/screenshots/screenshots/design_good_practices.png"
+	},
+	{
+		"label": "Paul Scanlon Articles",
+		"link": "https://www.paulie.dev/articles/",
+		"tags": ["Three.js"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754512996/screenshots/screenshots/paul_scanlon_articles.png"
+	},
+	{
+		"label": "Patterns.dev",
+		"link": "https://www.patterns.dev",
+		"tags": ["Patterns"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513000/screenshots/screenshots/patterns_dev.png"
+	},
+	{
+		"label": "A List Apart",
+		"link": "https://www.alistapart.com",
+		"tags": ["Community"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513005/screenshots/screenshots/a_list_apart.png"
+	},
+	{
+		"label": "Sitepoint",
+		"link": "https://www.sitepoint.com",
+		"tags": ["Learning"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513012/screenshots/screenshots/sitepoint.png"
+	},
+	{
+		"label": "The Shape of AI",
+		"link": "https://www.shapeof.ai/",
+		"tags": ["AI", "Patterns"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513017/screenshots/screenshots/the_shape_of_ai.png"
+	},
+	{
+		"label": "Zajno Digital Studio",
+		"link": "https://motion.zajno.com/",
+		"tags": ["Animation", "Design"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513025/screenshots/screenshots/zajno_digital_studio.png"
+	},
+	{
+		"label": "Emil Kowalski",
+		"link": "https://emilkowal.ski/",
+		"tags": ["Animation", "Design"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513029/screenshots/screenshots/emil_kowalski.png"
+	},
+	{
+		"label": "Codrops",
+		"link": "https://tympanus.net/codrops/demos/",
+		"tags": ["Three.js", "Webgl"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513038/screenshots/screenshots/codrops.png"
+	}
+]

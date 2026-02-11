@@ -1,18 +1,19 @@
 {
-	"name": "fefade-ui",
-	"version": "0.0.0",
+	"name": "ui",
+	"version": "1.0.0",
 	"description": "A flexible UI library for modern web development.",
 	"private": true,
 	"type": "module",
 	"workspaces": [
-		"packages/*"
+		"packages/*",
+		"apps/**"
 	],
 	"scripts": {
 		"dev:core": "npm run dev -w @fefade-ui/core",
 		"dev:svelte": "concurrently --names \"CORE,SVELTE\" --prefix-colors \"gray,yellow\" \"npm run dev:core\" \"npm run dev -w @fefade-ui/svelte\"",
 		"dev:react": "concurrently --names \"CORE,REACT\" --prefix-colors \"gray,magenta\" \"npm run dev:core\" \"npm run dev -w @fefade-ui/react\"",
 		"dev:vue": "concurrently --names \"CORE,VUE\" --prefix-colors \"gray,cyan\" \"npm run dev:core\" \"npm run dev -w @fefade-ui/vue\"",
-		"dev:docs": "concurrently --names \"CORE,DOCS\" --prefix-colors \"gray,white\" \"npm run dev:core\" \"npm run dev -w @fefade-ui/docs\"",
+		"dev:docs": "concurrently --names \"CORE,DOCS\" --prefix-colors \"gray,white\" \"npm run dev:core\" \"npm run dev -w docs\"",
 		"build:core": "npm run build -w @fefade-ui/core",
 		"build:svelte": "npm run build -w @fefade-ui/svelte",
 		"build:react": "npm run build -w @fefade-ui/react",

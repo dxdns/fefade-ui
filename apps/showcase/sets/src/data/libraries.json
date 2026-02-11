@@ -1,0 +1,275 @@
+[
+	{
+		"label": "Matter.js",
+		"link": "https://brm.io/matter-js/",
+		"tags": ["Physics"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515557/screenshots/screenshots/matter_js.png"
+	},
+	{
+		"label": "react-magic-motion",
+		"link": "https://www.react-magic-motion.com",
+		"tags": ["Animation", "React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515561/screenshots/screenshots/react_magic_motion.png"
+	},
+	{
+		"label": "useHooks",
+		"link": "https://usehooks.com",
+		"tags": ["Hooks"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515566/screenshots/screenshots/usehooks.png"
+	},
+	{
+		"label": "AutoAnimate",
+		"link": "https://auto-animate.formkit.com",
+		"tags": ["Animations"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515572/screenshots/screenshots/autoanimate.png"
+	},
+	{
+		"label": "Mousetrap",
+		"link": "https://craig.is/killing/mice",
+		"tags": ["Keyboard shortcuts"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515577/screenshots/screenshots/mousetrap.png"
+	},
+	{
+		"label": "next-video",
+		"link": "https://next-video.dev",
+		"tags": ["Video", "Next.js"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515582/screenshots/screenshots/next_video.png"
+	},
+	{
+		"label": "Luxon",
+		"link": "https://moment.github.io/luxon/",
+		"tags": ["Time", "Dates"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515588/screenshots/screenshots/luxon.png"
+	},
+	{
+		"label": "GSAP",
+		"link": "https://gsap.com",
+		"tags": ["Animations"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515596/screenshots/screenshots/gsap.png"
+	},
+	{
+		"label": "react-spring",
+		"link": "https://www.react-spring.dev",
+		"tags": ["Animations", "React"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515605/screenshots/screenshots/react_spring.png"
+	},
+	{
+		"label": "Locomotive Scroll",
+		"link": "https://locomotivemtl.github.io/locomotive-scroll/",
+		"tags": ["Scroll"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515610/screenshots/screenshots/locomotive_scroll.png"
+	},
+	{
+		"label": "Vaul",
+		"link": "https://vaul.emilkowal.ski",
+		"tags": ["Drawer", "React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515614/screenshots/screenshots/vaul.png"
+	},
+	{
+		"label": "Atropos",
+		"link": "https://atroposjs.com",
+		"tags": ["Parallax"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515621/screenshots/screenshots/atropos.png"
+	},
+	{
+		"label": "Sandpack",
+		"link": "https://sandpack.codesandbox.io",
+		"tags": ["Live coding"],
+		"license": "Apache License 2.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515627/screenshots/screenshots/sandpack.png"
+	},
+	{
+		"label": "Framer Motion",
+		"link": "https://www.framer.com/motion/",
+		"tags": ["Animations", "React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515634/screenshots/screenshots/framer_motion.png"
+	},
+	{
+		"label": "RoughNotation",
+		"link": "https://roughnotation.com",
+		"tags": ["Annotations"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515639/screenshots/screenshots/roughnotation.png"
+	},
+	{
+		"label": "lightGallery",
+		"link": "https://www.lightgalleryjs.com",
+		"tags": ["Image gallery"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515645/screenshots/screenshots/lightgallery.png"
+	},
+	{
+		"label": "PhotoSwipe",
+		"link": "https://photoswipe.com",
+		"tags": ["Image gallery"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515650/screenshots/screenshots/photoswipe.png"
+	},
+	{
+		"label": "Plyr",
+		"link": "https://plyr.io",
+		"tags": ["Media player"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515658/screenshots/screenshots/plyr.png"
+	},
+	{
+		"label": "FilePond",
+		"link": "https://pqina.nl/filepond/",
+		"tags": ["Uploads"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515663/screenshots/screenshots/filepond.png"
+	},
+	{
+		"label": "yup",
+		"link": "https://github.com/jquense/yup",
+		"tags": ["Form validation"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515672/screenshots/screenshots/yup.png"
+	},
+	{
+		"label": "Tempo",
+		"link": "https://tempo.formkit.com",
+		"tags": ["Time", "Dates"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515681/screenshots/screenshots/tempo.png"
+	},
+	{
+		"label": "Editor.js",
+		"link": "https://editorjs.io",
+		"tags": ["Block-style editor"],
+		"license": "Apache License 2.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515686/screenshots/screenshots/editor_js.png"
+	},
+	{
+		"label": "tldraw SDK",
+		"link": "https://editorjs.io",
+		"tags": ["Infinite canvas"],
+		"license": "tldraw license",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515691/screenshots/screenshots/tldraw_sdk.png"
+	},
+	{
+		"label": "Driver.js",
+		"link": "https://driverjs.com",
+		"tags": ["Drive user's focus"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515695/screenshots/screenshots/driver_js.png"
+	},
+	{
+		"label": "Tilt",
+		"link": "https://jdion.xyz/tilt",
+		"tags": ["Parallax"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515699/screenshots/screenshots/tilt.png"
+	},
+	{
+		"label": "swup",
+		"link": "https://swup.js.org/",
+		"tags": ["Transitions for server-rendered pages"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515703/screenshots/screenshots/swup.png"
+	},
+	{
+		"label": "React Google Maps",
+		"link": "https://visgl.github.io/react-google-maps/",
+		"license": "MIT",
+		"tags": ["Maps"]
+	},
+	{
+		"label": "Mapbox",
+		"link": "https://www.mapbox.com/",
+		"tags": ["Maps"],
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515804/screenshots/screenshots/mapbox.png"
+	},
+	{
+		"label": "Draggable JS",
+		"link": "https://shopify.github.io/draggable/",
+		"tags": ["Drag and drop"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515809/screenshots/screenshots/draggable_js.png"
+	},
+	{
+		"label": "ipad-cursor",
+		"link": "https://cursor.oooo.so/",
+		"tags": ["iPad's mouse effect"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515814/screenshots/screenshots/ipad_cursor.png"
+	},
+	{
+		"label": "PDFSlick",
+		"link": "https://pdfslick.dev/",
+		"tags": ["View and Interact with PDFs"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515819/screenshots/screenshots/pdfslick.png"
+	},
+	{
+		"label": "Swiper",
+		"link": "https://swiperjs.com/",
+		"tags": ["Sliders"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515829/screenshots/screenshots/swiper.png"
+	},
+	{
+		"label": "Haiku",
+		"link": "https://www.reacthaiku.dev",
+		"tags": ["React", "Hooks", "Utilities"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515835/screenshots/screenshots/haiku.png"
+	},
+	{
+		"label": "COBE",
+		"link": "https://cobe.vercel.app/",
+		"tags": ["WebGL globe"],
+		"license": "MIT"
+	},
+	{
+		"label": "MotionNumber for Framer Motion",
+		"link": "https://motion-number.barvian.me/",
+		"tags": ["Transition, format, and localize numbers"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515934/screenshots/screenshots/motionnumber_for_framer_motion.png"
+	},
+	{
+		"label": "Tweakpane",
+		"link": "https://tweakpane.github.io/docs/",
+		"tags": ["GUI"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515939/screenshots/screenshots/tweakpane.png"
+	},
+	{
+		"label": "Yoopta-Editor",
+		"link": "https://yoopta.dev/",
+		"tags": ["Rich-text editor"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515946/screenshots/screenshots/yoopta_editor.png"
+	},
+	{
+		"label": "Swapy",
+		"link": "https://swapy.tahazsh.com/",
+		"tags": ["drag-to-swap layout"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515950/screenshots/screenshots/swapy.png"
+	},
+	{
+		"label": "Blendy",
+		"link": "https://blendy.tahazsh.com/",
+		"tags": ["Transitions", "framework-agnostic"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515955/screenshots/screenshots/blendy.png"
+	},
+	{
+		"label": "Unpic",
+		"link": "https://unpic.pics/",
+		"tags": ["Image tools"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754515960/screenshots/screenshots/unpic.png"
+	},
+	{
+		"label": "Anime.js",
+		"link": "https://animejs.com/",
+		"tags": ["Animation Engine"]
+	},
+	{
+		"label": "Starlight",
+		"link": "https://starlight.astro.build/",
+		"tags": ["Documentation sites", "Astro"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516056/screenshots/screenshots/starlight.png"
+	}
+]

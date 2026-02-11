@@ -1,0 +1,78 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"title": "Privacy Policy",
+	"introduction": "This Privacy Policy complies with the Brazilian General Data Protection Law (LGPD - Law No. 13.709/2018) and describes how we collect, use, store, share, and protect your personal data when you use our website and services.",
+	"whatAreCookies": {
+		"title": "What are cookies?",
+		"description": "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They help make your online experience more efficient and personalized."
+	},
+	"whyWeUseCookies": {
+		"title": "Why do we use cookies?",
+		"items": {
+			"essential": "Essential cookies: Necessary for the website to function properly.",
+			"performance": "Performance cookies: Used to analyze how visitors use the site, allowing continuous improvements.",
+			"functionality": "Functionality cookies: Allow us to remember your preferences and personalize your experience.",
+			"marketing": "Marketing cookies: Used to deliver relevant advertising and measure its effectiveness."
+		}
+	},
+	"controlCookies": {
+		"title": "How can you control cookies?",
+		"description": "You can set your browser to refuse cookies or to alert you when cookies are being sent. However, if you disable cookies, some parts of the site may not function properly."
+	},
+	"changes": {
+		"title": "Policy updates",
+		"description": "This Privacy Policy may be updated periodically to reflect legal changes or changes in our services. We recommend reviewing this page regularly."
+	},
+	"contact": {
+		"title": "Data Protection Officer (DPO)",
+		"description": "If you have any questions, requests, or wish to exercise your rights related to your personal data, please contact our Data Protection Officer (DPO):",
+		"email": "dpo@fefade.com"
+	},
+	"backButton": "Back",
+	"legalBasis": {
+		"title": "Legal basis for data processing",
+		"description": "We process your personal data based on the legal grounds established by the LGPD, such as consent, contract execution, legal obligations, and legitimate interest — always respecting your rights and fundamental freedoms."
+	},
+	"informationWeCollect": {
+		"title": "What personal data do we collect?",
+		"items": {
+			"identification": "Identification data: name, email, phone number, and other data voluntarily provided by you.",
+			"navigation": "Browsing data: IP address, date and time of access, approximate location, browser type, device, and accessed pages.",
+			"usage": "Usage data: interactions with website features and browsing behavior."
+		}
+	},
+	"purposeOfUse": {
+		"title": "Why do we use your data?",
+		"items": {
+			"service": "To provide and improve our services.",
+			"communication": "To send communications, notifications, and user support.",
+			"legal": "To comply with legal and regulatory obligations.",
+			"security": "To ensure site security, prevent fraud, and protect rights."
+		}
+	},
+	"dataSharing": {
+		"title": "Data sharing",
+		"description": "Your data may be shared with third parties only when necessary to provide our services, fulfill legal obligations, or with trusted partners operating under confidentiality and security agreements consistent with this policy. We do not sell your personal data."
+	},
+	"dataRetention": {
+		"title": "Data retention period",
+		"description": "We retain your data only as long as necessary to fulfill the purposes for which it was collected, unless a different period is required by legal or regulatory obligations."
+	},
+	"yourRights": {
+		"title": "Your rights under LGPD",
+		"items": {
+			"confirmation": "Confirm whether we process your data.",
+			"access": "Access your personal data.",
+			"correction": "Request correction of incomplete, inaccurate, or outdated data.",
+			"anonymization": "Request anonymization, blocking, or deletion of unnecessary or excessive data.",
+			"portability": "Request data portability to another service provider.",
+			"deletion": "Request deletion of data processed with your consent.",
+			"information": "Request information about data sharing with third parties.",
+			"consent": "Withdraw consent where applicable."
+		}
+	},
+	"dataSecurity": {
+		"title": "Information security",
+		"description": "We adopt technical and administrative measures to protect your personal data from unauthorized access, loss, alteration, or destruction. However, no system is completely secure, so we encourage users to adopt good security practices."
+	}
+}

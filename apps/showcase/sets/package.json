@@ -1,0 +1,33 @@
+{
+	"name": "sets",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@fefade-ui/core": "^0.0.1",
+		"@fefade-ui/react": "^0.0.1",
+		"lucide-react": "^0.536.0",
+		"next": "^16.1.6",
+		"puppeteer-core": "^24.15.0",
+		"react": "19.1.0",
+		"react-dom": "19.1.0",
+		"zod": "^4.0.14"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "^15.4.5",
+		"eslint-config-prettier": "^10.1.8",
+		"prettier": "^3.6.2",
+		"typescript": "^5"
+	}
+}

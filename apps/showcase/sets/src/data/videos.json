@@ -1,0 +1,65 @@
+[
+	{
+		"label": "Pixabay",
+		"link": "https://pixabay.com/videos/",
+		"license": "Pixabay License",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516550/screenshots/screenshots/pixabay.png"
+	},
+	{
+		"label": "Pexels",
+		"link": "https://www.pexels.com/videos/",
+		"license": "Free"
+	},
+	{
+		"label": "Coverr",
+		"link": "https://coverr.co",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516570/screenshots/screenshots/coverr.png"
+	},
+	{
+		"label": "ISO Republic",
+		"link": "https://isorepublic.com",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516095/screenshots/screenshots/iso_republic.png"
+	},
+	{
+		"label": "Focastock",
+		"link": "https://focastock.com/videos/",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516604/screenshots/screenshots/focastock.png"
+	},
+	{
+		"label": "Videezy",
+		"link": "https://www.videezy.com",
+		"license": "Multiple"
+	},
+	{
+		"label": "Mixkit",
+		"link": "https://mixkit.co/free-stock-video/",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516703/screenshots/screenshots/mixkit.png"
+	},
+	{
+		"label": "Vidsplay",
+		"link": "https://www.vidsplay.com/",
+		"license": "Free with attribution",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516710/screenshots/screenshots/vidsplay.png"
+	},
+	{
+		"label": "Dareful",
+		"link": "https://dareful.com",
+		"license": "CC BY 4.0 DEED",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516717/screenshots/screenshots/dareful.png"
+	},
+	{
+		"label": "Freepik",
+		"link": "https://www.freepik.com/videos",
+		"license": "Freepik License"
+	},
+	{
+		"label": "Vimeo",
+		"link": "https://vimeo.com/groups/freehd/",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516731/screenshots/screenshots/vimeo.png"
+	}
+]

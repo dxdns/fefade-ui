@@ -1,0 +1,33 @@
+{
+	"name": "image-to-text",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format": "npx prettier --write ."
+	},
+	"dependencies": {
+		"@fefade-ui/core": "^0.0.1",
+		"@fefade-ui/react": "^0.0.1",
+		"next": "^16.1.6",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"tesseract.js": "^5.0.5"
+	},
+	"devDependencies": {
+		"@types/node": "^20.17.30",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.4.21",
+		"eslint": "^9.39.1",
+		"postcss": "^8.5.3",
+		"prettier": "^3.4.2",
+		"typescript": "^5"
+	},
+	"trustedDependencies": [
+		"tesseract.js"
+	]
+}

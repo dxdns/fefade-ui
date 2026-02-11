@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.2;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+p,
+ul {
+	line-height: 1.5;
+}

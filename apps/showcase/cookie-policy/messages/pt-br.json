@@ -1,0 +1,32 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"title": "Política de Cookies",
+	"introduction": "Esta Política de Cookies explica como usamos cookies e tecnologias semelhantes para reconhecer você quando visita nosso site. Ela explica o que são essas tecnologias, por que as usamos e quais são seus direitos de controlar o uso delas.",
+	"whatAreCookies": {
+		"title": "O que são cookies?",
+		"description": "Cookies são pequenos arquivos de texto que são armazenados no seu computador ou dispositivo móvel quando você visita um site. Eles ajudam a tornar sua experiência online mais eficiente e personalizada."
+	},
+	"whyWeUseCookies": {
+		"title": "Por que usamos cookies?",
+		"items": {
+			"essential": "Cookies essenciais: Necessários para o funcionamento do site.",
+			"performance": "Cookies de desempenho: Usados para analisar como os visitantes usam o site, permitindo melhorias contínuas.",
+			"functionality": "Cookies de funcionalidade: Permitem lembrar suas preferências e personalizar sua experiência.",
+			"marketing": "Cookies de marketing: Usados para fornecer publicidade relevante e mensurar sua eficácia."
+		}
+	},
+	"controlCookies": {
+		"title": "Como você pode controlar os cookies?",
+		"description": "Você pode configurar seu navegador para recusar cookies ou para alertá-lo quando cookies estiverem sendo enviados. No entanto, se você desativar os cookies, algumas partes do site podem não funcionar corretamente."
+	},
+	"changes": {
+		"title": "Alterações nesta política",
+		"description": "Podemos atualizar esta Política de Cookies ocasionalmente. Recomendamos que você reveja esta página periodicamente para se manter informado sobre como estamos utilizando cookies."
+	},
+	"contact": {
+		"title": "Contato",
+		"description": "Se você tiver dúvidas sobre nossa Política de Cookies, entre em contato conosco pelo e-mail:",
+		"email": "support@fefade.com"
+	},
+	"backButton": "Voltar"
+}

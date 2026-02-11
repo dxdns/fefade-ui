@@ -1,0 +1,442 @@
+[
+	{
+		"label": "Iconify",
+		"link": "https://icon-sets.iconify.design",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514181/screenshots/screenshots/iconify.png"
+	},
+	{
+		"label": "Google icons",
+		"link": "https://fonts.google.com/icons",
+		"license": "Apache V2.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514186/screenshots/screenshots/google_icons.png"
+	},
+	{
+		"label": "Simple Icons",
+		"link": "https://simpleicons.org",
+		"tags": ["Brands"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514191/screenshots/screenshots/simple_icons.png"
+	},
+	{
+		"label": "Tabler icons",
+		"link": "https://tabler-icons.io",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514198/screenshots/screenshots/tabler_icons.png"
+	},
+	{
+		"label": "SVG Repo",
+		"link": "https://www.svgrepo.com",
+		"license": "Multiple",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514205/screenshots/screenshots/svg_repo.png"
+	},
+	{
+		"label": "Reshot",
+		"link": "https://www.reshot.com/free-svg-icons/",
+		"license": "Reshot Free License",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514211/screenshots/screenshots/reshot.png"
+	},
+	{
+		"label": "Radix Icons",
+		"link": "https://www.radix-ui.com/icons",
+		"license": "MIT",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514215/screenshots/screenshots/radix_icons.png"
+	},
+	{
+		"label": "Iconoir",
+		"link": "https://iconoir.com",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514221/screenshots/screenshots/iconoir.png"
+	},
+	{
+		"label": "Hero Icons",
+		"link": "https://heroicons.com/",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514227/screenshots/screenshots/hero_icons.png"
+	},
+	{
+		"label": "Lucide",
+		"link": "https://lucide.dev",
+		"license": "ISC License",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514231/screenshots/screenshots/lucide.png"
+	},
+	{
+		"label": "Phosphor",
+		"link": "https://phosphoricons.com",
+		"license": "MIT",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514238/screenshots/screenshots/phosphor.png"
+	},
+	{
+		"label": "React Icons",
+		"link": "https://react-icons.github.io/react-icons/",
+		"license": "MIT",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514243/screenshots/screenshots/react_icons.png"
+	},
+	{
+		"label": "Remix Icon",
+		"link": "https://remixicon.com/",
+		"license": "Apache License V2.0",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514251/screenshots/screenshots/remix_icon.png"
+	},
+	{
+		"label": "Feather Icons",
+		"link": "https://feathericons.com/",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514257/screenshots/screenshots/feather_icons.png"
+	},
+	{
+		"label": "Ionicons",
+		"link": "https://ionic.io/ionicons",
+		"license": "MIT",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514263/screenshots/screenshots/ionicons.png"
+	},
+	{
+		"label": "Eva Icons",
+		"link": "https://akveo.github.io/eva-icons/",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514270/screenshots/screenshots/eva_icons.png"
+	},
+	{
+		"label": "svgl",
+		"link": "https://svgl.app",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514275/screenshots/screenshots/svgl.png"
+	},
+	{
+		"label": "Font Awesome Icons",
+		"link": "https://fontawesome.com/icons",
+		"license": "Multiple",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514284/screenshots/screenshots/font_awesome_icons.png"
+	},
+	{
+		"label": "useAnimations",
+		"link": "https://useanimations.com",
+		"license": "CC",
+		"tags": ["Animated"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514292/screenshots/screenshots/useanimations.png"
+	},
+	{
+		"label": "MingCute Design",
+		"link": "https://www.mingcute.com",
+		"license": "Apache 2.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514299/screenshots/screenshots/mingcute_design.png"
+	},
+	{
+		"label": "Carbon",
+		"link": "https://carbondesignsystem.com/elements/icons/library/",
+		"license": "Apache 2.0",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514308/screenshots/screenshots/carbon.png"
+	},
+	{
+		"label": "Icons for AI",
+		"link": "https://iconsforai.com/",
+		"license": "CC BY 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514313/screenshots/screenshots/icons_for_ai.png"
+	},
+	{
+		"label": "Animatedicons",
+		"link": "https://animatedicons.co/icons",
+		"license": "Free",
+		"tags": ["Animated"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514317/screenshots/screenshots/animatedicons.png"
+	},
+	{
+		"label": "CSS Icons",
+		"link": "https://css.gg/",
+		"license": "MIT",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514324/screenshots/screenshots/css_icons.png"
+	},
+	{
+		"label": "Boxicons",
+		"link": "https://boxicons.com/",
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514332/screenshots/screenshots/boxicons.png"
+	},
+	{
+		"label": "Ikonate",
+		"link": "https://ikonate.com",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514338/screenshots/screenshots/ikonate.png"
+	},
+	{
+		"label": "ManyPixels",
+		"link": "https://www.manypixels.co/gallery",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514347/screenshots/screenshots/manypixels.png"
+	},
+	{
+		"label": "Zondicons",
+		"link": "http://www.zondicons.com/",
+		"license": "CC",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514352/screenshots/screenshots/zondicons.png"
+	},
+	{
+		"label": "ICONSVG",
+		"link": "https://iconsvg.xyz",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514359/screenshots/screenshots/iconsvg.png"
+	},
+	{
+		"label": "Streamline Icons",
+		"link": "https://www.streamlinehq.com",
+		"license": "CC by 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514368/screenshots/screenshots/streamline_icons.png"
+	},
+	{
+		"label": "TDesign Icons",
+		"link": "https://tdesign.tencent.com/design/icon",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514383/screenshots/screenshots/tdesign_icons.png"
+	},
+	{
+		"label": "3D Icons",
+		"link": "https://3dicons.co/",
+		"license": "CC0",
+		"tags": ["3D"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514390/screenshots/screenshots/3d_icons.png"
+	},
+	{
+		"label": "Mage Icons",
+		"link": "https://mageicons.com/",
+		"license": "Apache 2.0",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514399/screenshots/screenshots/mage_icons.png"
+	},
+	{
+		"label": "Iconmonstr",
+		"link": "https://iconmonstr.com",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514403/screenshots/screenshots/iconmonstr.png"
+	},
+	{
+		"label": "Drawkit",
+		"link": "https://www.drawkit.com/illustration-types/icons",
+		"license": "DrawKit License",
+		"tags": ["3D"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514410/screenshots/screenshots/drawkit.png"
+	},
+	{
+		"label": "Basicons",
+		"link": "https://basicons.xyz",
+		"license": "MIT",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514415/screenshots/screenshots/basicons.png"
+	},
+	{
+		"label": "Clarity",
+		"link": "https://clarity.design/documentation/icons/shapes",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514422/screenshots/screenshots/clarity.png"
+	},
+	{
+		"label": "Core UI Icons",
+		"link": "https://coreui.io/icons/",
+		"license": "Freemium",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514430/screenshots/screenshots/core_ui_icons.png"
+	},
+	{
+		"label": "Unicorn icons",
+		"link": "https://unicornicons.com",
+		"license": "Unicorn icons License",
+		"tags": ["Animated"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514435/screenshots/screenshots/unicorn_icons.png"
+	},
+	{
+		"label": "Bootstrap Icons",
+		"link": "https://icons.getbootstrap.com/",
+		"license": "MIT",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514441/screenshots/screenshots/bootstrap_icons.png"
+	},
+	{
+		"label": "Teenyicons",
+		"link": "https://teenyicons.com/",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514445/screenshots/screenshots/teenyicons.png"
+	},
+	{
+		"label": "Sargam Icons",
+		"link": "https://sargamicons.com",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514457/screenshots/screenshots/sargam_icons.png"
+	},
+	{
+		"label": "Keyicons",
+		"link": "https://keyicons.com",
+		"license": "CC BY 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514463/screenshots/screenshots/keyicons.png"
+	},
+	{
+		"label": "Zwicon",
+		"link": "http://zwicon.com",
+		"license": "CC BY-ND 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514473/screenshots/screenshots/zwicon.png"
+	},
+	{
+		"label": "Notion-style Icons",
+		"link": "https://maryamato88.gumroad.com/l/pbmkt",
+		"license": "Free",
+		"tags": ["Scribble"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514481/screenshots/screenshots/notion_style_icons.png"
+	},
+	{
+		"label": "Flagpack",
+		"link": "https://flagpack.xyz",
+		"license": "Free",
+		"tags": ["Flags"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514487/screenshots/screenshots/flagpack.png"
+	},
+	{
+		"label": "Grumpyicons",
+		"link": "https://www.petrbilek.com/products/grumpyicons",
+		"license": "Free",
+		"tags": ["Scribble"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514492/screenshots/screenshots/grumpyicons.png"
+	},
+	{
+		"label": "Icon Freebies Glimsy",
+		"link": "https://orenjistudio.gumroad.com/l/glimsy",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514499/screenshots/screenshots/icon_freebies_glimsy.png"
+	},
+	{
+		"label": "Line Icon Pack",
+		"link": "https://www.petrbilek.com/products/line-icon-pack",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514505/screenshots/screenshots/line_icon_pack.png"
+	},
+	{
+		"label": "Tilda Icons",
+		"link": "https://tilda.cc/free-icons/",
+		"license": "Free with attribution",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514514/screenshots/screenshots/tilda_icons.png"
+	},
+	{
+		"label": "Noun Project",
+		"link": "https://thenounproject.com/icons/",
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514519/screenshots/screenshots/noun_project.png"
+	},
+	{
+		"label": "IconaMoon",
+		"link": "https://www.figma.com/community/file/1014143897459418663",
+		"license": "CC BY 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514532/screenshots/screenshots/iconamoon.png"
+	},
+	{
+		"label": "Solar",
+		"link": "https://www.figma.com/community/file/1166831539721848736",
+		"license": "CC BY 4.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514538/screenshots/screenshots/solar.png"
+	},
+	{
+		"label": "Icon Icons",
+		"link": "https://icon-icons.com",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514543/screenshots/screenshots/icon_icons.png"
+	},
+	{
+		"label": "FlatIcon",
+		"link": "https://www.flaticon.com/",
+		"license": "Freemium"
+	},
+	{
+		"label": "Iconscout",
+		"link": "https://iconscout.com/icons",
+		"license": "Freemium",
+		"tags": ["Package"]
+	},
+	{
+		"label": "Untitled UI Icons",
+		"link": "https://www.untitledui.com/icons",
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514566/screenshots/screenshots/untitled_ui_icons.png"
+	},
+	{
+		"label": "Majesticons",
+		"link": "https://www.majesticons.com",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514573/screenshots/screenshots/majesticons.png"
+	},
+	{
+		"label": "Gravity UI",
+		"link": "https://preview.gravity-ui.com/icons/",
+		"license": "MIT",
+		"tags": ["Package", "React"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514583/screenshots/screenshots/gravity_ui.png"
+	},
+	{
+		"label": "Octicons",
+		"link": "https://primer.style/foundations/icons",
+		"license": "MIT",
+		"tags": ["Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514599/screenshots/screenshots/octicons.png"
+	},
+	{
+		"label": "SVG Flag Icons",
+		"link": "https://nucleoapp.com/svg-flag-icons",
+		"tags": ["Flags"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514606/screenshots/screenshots/svg_flag_icons.png"
+	},
+	{
+		"label": "Unicons",
+		"link": "https://iconscout.com/unicons",
+		"license": "Freemium",
+		"tags": ["Package"]
+	},
+	{
+		"label": "Iconic",
+		"link": "https://iconic.app/",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514626/screenshots/screenshots/iconic.png"
+	},
+	{
+		"label": "Isocons",
+		"link": "https://www.isocons.app/",
+		"license": "CC BY 4.0 ",
+		"tags": ["3D"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514629/screenshots/screenshots/isocons.png"
+	},
+	{
+		"label": "Pixelarticons",
+		"link": "https://pixelarticons.com/",
+		"license": "Freemium",
+		"tags": ["Pixelart", "Package"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514634/screenshots/screenshots/pixelarticons.png"
+	},
+	{
+		"label": "pqoqubbw/icons",
+		"link": "https://icons.pqoqubbw.dev/",
+		"license": "MIT",
+		"tags": ["Motion", "Lucide", "Package", "React"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514639/screenshots/screenshots/pqoqubbw_icons.png"
+	},
+	{
+		"label": "magecdn SVG Loaders",
+		"link": "https://magecdn.com/tools/svg-loaders",
+		"license": "MIT",
+		"tags": ["Loaders"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514647/screenshots/screenshots/magecdn_svg_loaders.png"
+	},
+	{
+		"label": "Spectrum",
+		"link": "https://spectrums.framer.website/",
+		"tags": ["Logos"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514652/screenshots/screenshots/spectrum.png"
+	},
+	{
+		"label": "coolshapes",
+		"link": "https://coolshap.es/",
+		"tags": ["Package", "Logos"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514657/screenshots/screenshots/coolshapes.png"
+	}
+]

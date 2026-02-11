@@ -1,0 +1,525 @@
+[
+	{
+		"label": "shadcn/ui",
+		"link": "https://ui.shadcn.com",
+		"tags": ["React", "Tailwind", "Chart"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513488/screenshots/screenshots/shadcn_ui.png"
+	},
+	{
+		"label": "Radix UI",
+		"link": "https://www.radix-ui.com",
+		"tags": ["React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513494/screenshots/screenshots/radix_ui.png"
+	},
+	{
+		"label": "HeroUI",
+		"link": "https://www.heroui.com",
+		"tags": ["Tailwind", "React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513499/screenshots/screenshots/heroui.png"
+	},
+	{
+		"label": "Float UI",
+		"link": "https://floatui.com",
+		"tags": ["Tailwind", "React", "Vue", "Svelte", "Alpine", "Templates"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513503/screenshots/screenshots/float_ui.png"
+	},
+	{
+		"label": "Tailblocks",
+		"link": "https://tailblocks.cc",
+		"tags": ["Tailwind", "HTML", "Copy&Paste"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513511/screenshots/screenshots/tailblocks.png"
+	},
+	{
+		"label": "Component Gallery",
+		"link": "https://component.gallery/components/",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513516/screenshots/screenshots/component_gallery.png"
+	},
+	{
+		"label": "Headless UI",
+		"link": "https://headlessui.com",
+		"tags": ["Tailwind", "React", "Vue"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513521/screenshots/screenshots/headless_ui.png"
+	},
+	{
+		"label": "Mantine UI",
+		"link": "https://ui.mantine.dev",
+		"tags": ["React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513527/screenshots/screenshots/mantine_ui.png"
+	},
+	{
+		"label": "Tailus UI",
+		"link": "https://tailus.io",
+		"tags": ["Tailwind", "Templates"],
+		"license": "CC",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513533/screenshots/screenshots/tailus_ui.png"
+	},
+	{
+		"label": "Rewind-UI",
+		"link": "https://rewind-ui.dev",
+		"tags": ["React", "Tailwind"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513538/screenshots/screenshots/rewind_ui.png"
+	},
+	{
+		"label": "Preline UI",
+		"link": "https://preline.co/",
+		"tags": ["Tailwind", "React", "Vue", "Templates"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513550/screenshots/screenshots/preline_ui.png"
+	},
+	{
+		"label": "HyperUI",
+		"link": "https://www.hyperui.dev",
+		"tags": ["Tailwind", "HTML", "Copy&Paste"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513555/screenshots/screenshots/hyperui.png"
+	},
+	{
+		"label": "LangUI",
+		"link": "https://www.langui.dev",
+		"tags": ["HTML", "Tailwind", "Copy&Paste"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513560/screenshots/screenshots/langui.png"
+	},
+	{
+		"label": "Shadcn for Vue",
+		"link": "https://www.shadcn-vue.com",
+		"tags": ["Vue", "Tailwind"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513565/screenshots/screenshots/shadcn_for_vue.png"
+	},
+	{
+		"label": "daisyUI",
+		"link": "https://daisyui.com",
+		"tags": ["Tailwind"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513572/screenshots/screenshots/daisyui.png"
+	},
+	{
+		"label": "magecdn SVG Loaders",
+		"link": "https://magecdn.com/tools/svg-loaders",
+		"license": "MIT",
+		"tags": ["Loaders"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513579/screenshots/screenshots/magecdn_svg_loaders.png"
+	},
+	{
+		"label": "UIverse",
+		"link": "https://uiverse.io",
+		"tags": ["HTML", "Copy&Paste"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513585/screenshots/screenshots/uiverse.png"
+	},
+	{
+		"label": "Material UI",
+		"link": "https://mui.com/material-ui/",
+		"tags": ["React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513591/screenshots/screenshots/material_ui.png"
+	},
+	{
+		"label": "Material Tailwind",
+		"link": "https://www.material-tailwind.com",
+		"tags": ["React", "Remix", "Gatsby", "Tailwind"],
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513596/screenshots/screenshots/material_tailwind.png"
+	},
+	{
+		"label": "Ark UI",
+		"link": "https://ark-ui.com",
+		"tags": ["Headless", "React", "Solid", "Vue"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513602/screenshots/screenshots/ark_ui.png"
+	},
+	{
+		"label": "Park UI",
+		"link": "https://park-ui.com",
+		"tags": ["React", "Solid", "Panda", "Tailwind"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513608/screenshots/screenshots/park_ui.png"
+	},
+	{
+		"label": "Wedges",
+		"link": "https://www.lemonsqueezy.com/wedges",
+		"tags": ["React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513615/screenshots/screenshots/wedges.png"
+	},
+	{
+		"label": "Melt UI",
+		"link": "https://melt-ui.com",
+		"tags": ["Svelte", "Accessible"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513621/screenshots/screenshots/melt_ui.png"
+	},
+	{
+		"label": "Tremor",
+		"link": "https://www.tremor.so",
+		"tags": ["Chart", "React"],
+		"license": "Apache License 2.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513628/screenshots/screenshots/tremor.png"
+	},
+	{
+		"label": "Vuesax",
+		"link": "https://vuesax.com",
+		"tags": ["Vue"],
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513634/screenshots/screenshots/vuesax.png"
+	},
+	{
+		"label": "Chart.js",
+		"link": "https://www.chartjs.org",
+		"tags": ["Chart", "React", "Vue", "Svelte", "Angular"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513638/screenshots/screenshots/chart_js.png"
+	},
+	{
+		"label": "Sonner",
+		"link": "https://sonner.emilkowal.ski",
+		"tags": ["Toast", "React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513643/screenshots/screenshots/sonner.png"
+	},
+	{
+		"label": "Aceternity UI",
+		"link": "https://ui.aceternity.com",
+		"tags": ["React", "Tailwind", "Motion"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513653/screenshots/screenshots/aceternity_ui.png"
+	},
+	{
+		"label": "LayerChart",
+		"link": "https://www.layerchart.com",
+		"tags": ["Svelte", "Chart"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513659/screenshots/screenshots/layerchart.png"
+	},
+	{
+		"label": "Bits UI",
+		"link": "https://www.bits-ui.com/",
+		"tags": ["Svelte", "Headless"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513665/screenshots/screenshots/bits_ui.png"
+	},
+	{
+		"label": "Angular Material",
+		"link": "https://material.angular.io",
+		"tags": ["Angular"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513670/screenshots/screenshots/angular_material.png"
+	},
+	{
+		"label": "Svelte UX",
+		"link": "https://svelte-ux.techniq.dev",
+		"tags": ["Svelte"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513675/screenshots/screenshots/svelte_ux.png"
+	},
+	{
+		"label": "buttons.ibelick",
+		"link": "https://buttons.ibelick.com",
+		"tags": ["Buttons", "Tailwind", "Copy&Paste"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513679/screenshots/screenshots/buttons_ibelick.png"
+	},
+	{
+		"label": "3D buttons",
+		"link": "https://csspro.com/css-3d-buttons/",
+		"tags": ["3D", "Buttons", "Copy&Paste"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513684/screenshots/screenshots/3d_buttons.png"
+	},
+	{
+		"label": "Zag",
+		"link": "https://zagjs.com",
+		"tags": ["React", "Vue", "Solid"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513688/screenshots/screenshots/zag.png"
+	},
+	{
+		"label": "Chakra UI",
+		"link": "https://chakra-ui.com",
+		"tags": ["React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513696/screenshots/screenshots/chakra_ui.png"
+	},
+	{
+		"label": "Pines",
+		"link": "https://devdojo.com/pines",
+		"tags": ["Tailwind", "Alpine"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513702/screenshots/screenshots/pines.png"
+	},
+	{
+		"label": "TW Elements",
+		"link": "https://tw-elements.com",
+		"tags": ["Tailwind"],
+		"license": "AGPL",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513710/screenshots/screenshots/tw_elements.png"
+	},
+	{
+		"label": "CSS checkboxes",
+		"link": "https://getcssscan.com/css-checkboxes-examples?ref=css-3d-buttons-bottom",
+		"tags": ["HTML", "Checkboxes", "Copy&Paste"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513715/screenshots/screenshots/css_checkboxes.png"
+	},
+	{
+		"label": "CSS box-shadow",
+		"link": "https://getcssscan.com/css-box-shadow-examples",
+		"tags": ["HTML", "Shadows", "Copy&Paste"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513719/screenshots/screenshots/css_box_shadow.png"
+	},
+	{
+		"label": "LoaderShip",
+		"link": "https://www.loadership.com",
+		"tags": ["Loaders", "CSS", "Copy&Paste"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513724/screenshots/screenshots/loadership.png"
+	},
+	{
+		"label": "Flowbite",
+		"link": "https://flowbite.com",
+		"tags": ["Tailwind", "Copy&Paste"],
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513732/screenshots/screenshots/flowbite.png"
+	},
+	{
+		"label": "Lightweight charts",
+		"link": "https://www.tradingview.com/lightweight-charts/",
+		"tags": ["Chart"],
+		"license": "Freemium with attribution"
+	},
+	{
+		"label": "Toggles",
+		"link": "https://toggles.dev",
+		"tags": ["Toggles", "HTML", "Copy&Paste"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513742/screenshots/screenshots/toggles.png"
+	},
+	{
+		"label": "tailwindUI",
+		"link": "https://tailwindui.com",
+		"tags": ["Tailwind", "React", "Vue", "Copy&Paste"],
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513749/screenshots/screenshots/tailwindui.png"
+	},
+	{
+		"label": "Tailwind UI KIT",
+		"link": "https://www.tailwind-kit.com",
+		"tags": ["Tailwind", "HTML", "Copy&Paste"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513755/screenshots/screenshots/tailwind_ui_kit.png"
+	},
+	{
+		"label": "Hola svg",
+		"link": "https://loaders.holasvg.com",
+		"tags": ["Loaders"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513763/screenshots/screenshots/hola_svg.png"
+	},
+	{
+		"label": "LDRS",
+		"link": "https://uiball.com/ldrs",
+		"tags": ["Loaders"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513768/screenshots/screenshots/ldrs.png"
+	},
+	{
+		"label": "10015 Tools",
+		"link": "https://10015.io/tools/css-loader-generator",
+		"tags": ["Loaders"],
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513778/screenshots/screenshots/10015_tools.png"
+	},
+	{
+		"label": "React Responsive Pagination",
+		"link": "https://react-responsive-pagination.elantha.com",
+		"tags": ["Pagination", "React"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513783/screenshots/screenshots/react_responsive_pagination.png"
+	},
+	{
+		"label": "SVG Loaders",
+		"link": "https://samherbert.net/svg-loaders/",
+		"tags": ["Loaders"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513788/screenshots/screenshots/svg_loaders.png"
+	},
+	{
+		"label": "CSS loaders",
+		"link": "https://css-loaders.com",
+		"tags": ["Loaders"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513793/screenshots/screenshots/css_loaders.png"
+	},
+	{
+		"label": "CSS loaders and spinners",
+		"link": "https://cssloaders.github.io",
+		"tags": ["Loaders"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513806/screenshots/screenshots/css_loaders_and_spinners.png"
+	},
+	{
+		"label": "ui.ibelick",
+		"link": "https://ui.ibelick.com",
+		"tags": ["Effects", "React", "Tailwind"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513812/screenshots/screenshots/ui_ibelick.png"
+	},
+	{
+		"label": "Lobe UI",
+		"link": "https://ui.lobehub.com",
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513820/screenshots/screenshots/lobe_ui.png"
+	},
+	{
+		"label": "Drams",
+		"link": "https://drams.framer.website",
+		"tags": ["Framer"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513836/screenshots/screenshots/drams.png"
+	},
+	{
+		"label": "enhanced-button",
+		"link": "https://enhanced-button.vercel.app/",
+		"tags": ["Buttons"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513840/screenshots/screenshots/enhanced_button.png"
+	},
+	{
+		"label": "Kibo UI",
+		"link": "https://www.kibo-ui.com/",
+		"tags": ["TypeScript", "React", "Tailwind", "Shadcn", "Lucide"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513846/screenshots/screenshots/kibo_ui.png"
+	},
+	{
+		"label": "PrimeReact",
+		"link": "https://primereact.org/",
+		"tags": ["React"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513851/screenshots/screenshots/primereact.png"
+	},
+	{
+		"label": "cult/ui",
+		"link": "https://www.cult-ui.com/",
+		"tags": ["Tailwind", "React"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513859/screenshots/screenshots/cult_ui.png"
+	},
+	{
+		"label": "Magic UI",
+		"link": "https://magicui.design/",
+		"tags": ["Tailwind", "React", "Typescript", "Framer", "Templates"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513867/screenshots/screenshots/magic_ui.png"
+	},
+	{
+		"label": "AnimatiSS",
+		"link": "https://xsgames.co/animatiss/",
+		"tags": ["Animations", "CSS"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513876/screenshots/screenshots/animatiss.png"
+	},
+	{
+		"label": "Codrops",
+		"link": "https://tympanus.net/codrops/demos/",
+		"tags": ["Three.js", "Webgl"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513885/screenshots/screenshots/codrops.png"
+	},
+	{
+		"label": "Intent UI",
+		"link": "https://intentui.com/",
+		"tags": ["Accessible", "Aria", "React", "Tailwind"]
+	},
+	{
+		"label": "Tailbits",
+		"link": "https://www.tailbits.com",
+		"license": "CC-BY-4.0",
+		"tags": ["Templates", "Tailwind", "HTML", "Copy&Paste"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754513906/screenshots/screenshots/tailbits.png"
+	},
+	{
+		"label": "React Bits",
+		"link": "https://www.reactbits.dev",
+		"tags": ["React", "Animations", "Copy&Paste"]
+	},
+	{
+		"label": "Cuicui",
+		"link": "https://cuicui.day",
+		"tags": ["React", "Typescript", "Motion", "Tailwind"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514014/screenshots/screenshots/cuicui.png"
+	},
+	{
+		"label": "Eldora UI",
+		"link": "https://eldoraui.site/",
+		"tags": ["Tailwind", "React", "Typescript", "Framer"],
+		"license": "MIT"
+	},
+	{
+		"label": "SmoothUI",
+		"link": "https://www.smoothui.dev/",
+		"tags": ["React", "Tailwind", "Animations", "Motion"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514112/screenshots/screenshots/smoothui.png"
+	},
+	{
+		"label": "TW Components",
+		"link": "https://www.creative-tim.com/twcomponents",
+		"tags": ["Tailwind", "HTML", "Copy&Paste"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514119/screenshots/screenshots/tw_components.png"
+	},
+	{
+		"label": "React Hot Toast",
+		"link": "https://react-hot-toast.com/",
+		"tags": ["React", "Toast"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514123/screenshots/screenshots/react_hot_toast.png"
+	},
+	{
+		"label": "Motion-Primitives",
+		"link": "https://motion-primitives.com",
+		"tags": ["Framer", "React"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514129/screenshots/screenshots/motion_primitives.png"
+	},
+	{
+		"label": "Fulldev UI",
+		"link": "https://ui.full.dev",
+		"tags": ["Astro"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514135/screenshots/screenshots/fulldev_ui.png"
+	},
+	{
+		"label": "Origin UI",
+		"link": "https://originui.com/",
+		"tags": ["React", "Tailwind", "Next.js", "Copy&Paste"],
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514140/screenshots/screenshots/origin_ui.png"
+	},
+	{
+		"label": "Fancy Components",
+		"link": "https://www.fancycomponents.dev/",
+		"tags": ["React", "Tailwind", "TypeScript", "Motion"],
+		"license": "MIT",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514148/screenshots/screenshots/fancy_components.png"
+	},
+	{
+		"label": "HTMLrev",
+		"link": "https://htmlrev.com/",
+		"tags": ["Templates", "Tailwind", "React", "Vue", "Svelte", "Astro"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514155/screenshots/screenshots/htmlrev.png"
+	},
+	{
+		"label": "Stepperize",
+		"link": "https://stepperize.vercel.app/",
+		"tags": ["Multi-Step Flows", "Forms", "React", "Vue", "Solid", "Svelte"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514159/screenshots/screenshots/stepperize.png"
+	},
+	{
+		"label": "Mvpblocks",
+		"link": "https://blocks.mvp-subha.me/",
+		"tags": ["React", "Tailwind"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514167/screenshots/screenshots/mvpblocks.png"
+	},
+	{
+		"label": "SHSF UI",
+		"link": "https://www.shsfui.com/",
+		"tags": ["TypeScript", "React", "Tailwind", "Motion", "Shadcn"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514172/screenshots/screenshots/shsf_ui.png"
+	},
+	{
+		"label": "fefade",
+		"link": "https://fefade.com",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754514177/screenshots/screenshots/feflow.png",
+		"tags": ["Svelte", "React", "Vue"],
+		"license": "MIT"
+	}
+]

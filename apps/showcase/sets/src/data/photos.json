@@ -1,0 +1,143 @@
+[
+	{
+		"label": "Pexels",
+		"link": "https://www.pexels.com",
+		"license": "Free"
+	},
+	{
+		"label": "PixaBay",
+		"link": "https://pixabay.com/photos/",
+		"license": "Pixabay License",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516068/screenshots/screenshots/pixabay.png"
+	},
+	{
+		"label": "Unsplash",
+		"link": "https://unsplash.com",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516074/screenshots/screenshots/unsplash.png"
+	},
+	{
+		"label": "Picography",
+		"link": "https://picography.co",
+		"license": "CC0 1.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516079/screenshots/screenshots/picography.png"
+	},
+	{
+		"label": "BURST",
+		"link": "https://www.shopify.com/stock-photos",
+		"license": "Burst license",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516088/screenshots/screenshots/burst.png"
+	},
+	{
+		"label": "ISO Republic",
+		"link": "https://isorepublic.com",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516095/screenshots/screenshots/iso_republic.png"
+	},
+	{
+		"label": "Foodiesfeed",
+		"link": "https://www.foodiesfeed.com",
+		"tags": ["Food", "IA"],
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516105/screenshots/screenshots/foodiesfeed.png"
+	},
+	{
+		"label": "Foca stock",
+		"link": "https://focastock.com",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516113/screenshots/screenshots/foca_stock.png"
+	},
+	{
+		"label": "Librestock",
+		"link": "https://librestock.com/",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516121/screenshots/screenshots/librestock.png"
+	},
+	{
+		"label": "StockSnap",
+		"link": "https://stocksnap.io",
+		"license": "CC0 1.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516131/screenshots/screenshots/stocksnap.png"
+	},
+	{
+		"label": "Little Visuals",
+		"link": "https://littlevisuals.co",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516138/screenshots/screenshots/little_visuals.png"
+	},
+	{
+		"label": "Barnimages",
+		"link": "https://barnimages.com",
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516143/screenshots/screenshots/barnimages.png"
+	},
+	{
+		"label": "Shotstash",
+		"link": "https://shotstash.com",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516151/screenshots/screenshots/shotstash.png"
+	},
+	{
+		"label": "Nappy",
+		"link": "https://nappy.co",
+		"license": "CC0 1.0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516160/screenshots/screenshots/nappy.png"
+	},
+	{
+		"label": "Gratisography",
+		"link": "https://gratisography.com",
+		"tags": ["IA"],
+		"license": "Free",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516167/screenshots/screenshots/gratisography.png"
+	},
+	{
+		"label": "Picjumbo",
+		"link": "https://picjumbo.com/",
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516172/screenshots/screenshots/picjumbo.png"
+	},
+	{
+		"label": "Noun Project",
+		"link": "https://thenounproject.com/photos/",
+		"license": "Freemium",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516180/screenshots/screenshots/noun_project.png"
+	},
+	{
+		"label": "Openverse",
+		"link": "https://openverse.org",
+		"license": "CC",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516187/screenshots/screenshots/openverse.png"
+	},
+	{
+		"label": "Lummi Photos",
+		"link": "https://www.lummi.ai/",
+		"license": "Free",
+		"tags": ["AI"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516195/screenshots/screenshots/lummi_photos.png"
+	},
+	{
+		"label": "Neurascapes",
+		"link": "https://www.neurascapes.com",
+		"license": "Free",
+		"tags": ["AI"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516202/screenshots/screenshots/neurascapes.png"
+	},
+	{
+		"label": "Skitterphoto",
+		"link": "https://skitterphoto.com",
+		"license": "CC0",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516211/screenshots/screenshots/skitterphoto.png"
+	},
+	{
+		"label": "Freepik",
+		"link": "https://www.freepik.com/",
+		"license": "Freepik License",
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516217/screenshots/screenshots/freepik.png"
+	},
+	{
+		"label": "Public Work by Cosmos",
+		"link": "https://public.work/",
+		"tags": ["Vintage"],
+		"image": "https://res.cloudinary.com/dkufrbqih/image/upload/v1754516224/screenshots/screenshots/public_work_by_cosmos.png"
+	}
+]
