@@ -5,7 +5,8 @@
 	import type { HTMLVideoAttributes } from "svelte/elements"
 
 	interface Props
-		extends Omit<Omit<Omit<HTMLVideoAttributes, "src">, "color">, "type">,
+		extends
+			Omit<Omit<Omit<HTMLVideoAttributes, "src">, "color">, "type">,
 			VideoType {}
 
 	let { class: className = "", lazy, dataSrc, ...rest }: Props = $props()

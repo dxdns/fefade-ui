@@ -26,7 +26,8 @@
 	<footer class="footer muted">
 		<div style="display: flex; align-items: baseline; gap: 0.5rem;">
 			<span>&copy; 2025</span>
-			<Link href="https://fefade.com" target="_blank" hover="right">fefade</Link>
+			<Link href="https://fefade.com" target="_blank" hover="right">fefade</Link
+			>
 		</div>
 	</footer>
 </div>

@@ -7,9 +7,7 @@
 	import styles from "@fefade-ui/core/styles/Window.module.css"
 
 	interface Props
-		extends HTMLAttributes<HTMLDivElement>,
-			CardType,
-			HTMLAttrAnchor {
+		extends HTMLAttributes<HTMLDivElement>, CardType, HTMLAttrAnchor {
 		label?: string | Snippet<[]>
 	}
 

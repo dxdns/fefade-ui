@@ -15,7 +15,8 @@ import { ProgressLoader } from "../progress-loader"
 import styles from "@fefade-ui/core/styles/Toast.module.css"
 
 interface Props
-	extends Omit<Omit<HTMLAttributes<HTMLDivElement>, "color">, "id">,
+	extends
+		Omit<Omit<HTMLAttributes<HTMLDivElement>, "color">, "id">,
 		ToastType {}
 
 export default forwardRef<HTMLDivElement, Props>(

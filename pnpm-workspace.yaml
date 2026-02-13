@@ -1,0 +1,13 @@
+packages:
+  - packages/*
+  - apps/**
+
+ignoredBuiltDependencies:
+  - canvas
+  - sharp
+  - tesseract.js
+  - unrs-resolver
+
+onlyBuiltDependencies:
+  - '@fefade-ui/core'
+  - esbuild

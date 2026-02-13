@@ -5,8 +5,7 @@
 	import type { AvatarType } from "@fefade-ui/core/types"
 
 	interface Props
-		extends Omit<HTMLImgAttributes, "width" | "height">,
-			AvatarType {}
+		extends Omit<HTMLImgAttributes, "width" | "height">, AvatarType {}
 
 	let {
 		class: className = "",

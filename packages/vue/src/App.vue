@@ -1,13 +1,13 @@
 <script setup lang="ts">
-	import { ref } from "vue"
-	import { Badge, Button, Card, Spinner, themeConfig } from "./lib"
+import { ref } from "vue"
+import { Badge, Button, Card, Spinner, themeConfig } from "./lib"
 
-	const { mode, toggle } = themeConfig()
-	const borderWidth = ref(1)
+const { mode, toggle } = themeConfig()
+const borderWidth = ref(1)
 
-	function handleClick() {
-		borderWidth.value += 4
-	}
+function handleClick() {
+	borderWidth.value += 4
+}
 </script>
 
 <template>
@@ -17,7 +17,7 @@
 		:animated-border="{
 			primaryColor: 'red',
 			secondaryColor: 'green',
-			width: `${borderWidth}px`
+			width: `${borderWidth}px`,
 		}"
 		style="cursor: pointer"
 		@click="handleClick"

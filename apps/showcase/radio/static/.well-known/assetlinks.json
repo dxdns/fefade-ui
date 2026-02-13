@@ -1,12 +1,12 @@
 [
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.fefade.radio",
-      "sha256_cert_fingerprints": [
-        "E7:C5:2B:9F:ED:E5:20:F7:09:DF:6A:09:7D:DD:BE:14:D4:5B:A2:6E:49:7E:E9:21:0B:CA:5D:88:93:6A:D7:A9"
-      ]
-    }
-  }
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.fefade.radio",
+			"sha256_cert_fingerprints": [
+				"E7:C5:2B:9F:ED:E5:20:F7:09:DF:6A:09:7D:DD:BE:14:D4:5B:A2:6E:49:7E:E9:21:0B:CA:5D:88:93:6A:D7:A9"
+			]
+		}
+	}
 ]

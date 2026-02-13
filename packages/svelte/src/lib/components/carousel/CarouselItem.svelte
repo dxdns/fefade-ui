@@ -5,8 +5,7 @@
 	import type { HTMLAttrAnchor } from "@fefade-ui/core/types"
 
 	interface Props
-		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
-			HTMLAttrAnchor {}
+		extends Omit<HTMLAttributes<HTMLDivElement>, "color">, HTMLAttrAnchor {}
 
 	let {
 		class: className = "",

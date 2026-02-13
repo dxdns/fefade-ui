@@ -9,8 +9,7 @@
 	import styles from "@fefade-ui/core/styles/Text.module.css"
 
 	interface Props<T extends HTMLTagTextType>
-		extends HTMLAttributes<HTMLTagMap[T]>,
-			TextType {}
+		extends HTMLAttributes<HTMLTagMap[T]>, TextType {}
 	let {
 		class: className = "",
 		as = "p",

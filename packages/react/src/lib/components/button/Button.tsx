@@ -5,9 +5,7 @@ import { classMapUtil } from "@fefade-ui/core/utils"
 import { Spinner } from "../spinner"
 
 interface Props
-	extends ButtonHTMLAttributes<HTMLButtonElement>,
-		ButtonType,
-		HTMLAttrAnchor {}
+	extends ButtonHTMLAttributes<HTMLButtonElement>, ButtonType, HTMLAttrAnchor {}
 
 export default forwardRef<HTMLButtonElement, Props>((props, ref) => {
 	const {

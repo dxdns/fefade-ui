@@ -22,10 +22,10 @@
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
 		"autoprefixer": "^10.4.21",
-		"eslint": "^9.39.1",
+		"eslint": "^9.39.2",
 		"postcss": "^8.5.3",
 		"prettier": "^3.4.2",
-		"typescript": "^5"
+		"typescript": "^5.9.3"
 	},
 	"trustedDependencies": [
 		"tesseract.js"

@@ -1,11 +1,14 @@
 import { CSSProperties, forwardRef, HTMLAttributes, Ref } from "react"
-import type { HTMLTagMap, HTMLTagTextType, TextType } from "@fefade-ui/core/types"
+import type {
+	HTMLTagMap,
+	HTMLTagTextType,
+	TextType
+} from "@fefade-ui/core/types"
 import { classMapUtil } from "@fefade-ui/core/utils"
 import styles from "@fefade-ui/core/styles/Text.module.css"
 
 interface Props<T extends HTMLTagTextType>
-	extends HTMLAttributes<HTMLTagMap[T]>,
-		TextType {}
+	extends HTMLAttributes<HTMLTagMap[T]>, TextType {}
 
 export default forwardRef(
 	<T extends HTMLTagTextType = "p">(

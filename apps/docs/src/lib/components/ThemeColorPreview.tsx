@@ -1,4 +1,11 @@
-import { Badge, Button, Card, Grid, Provider, themeConfig } from "@fefade-ui/react"
+import {
+	Badge,
+	Button,
+	Card,
+	Grid,
+	Provider,
+	themeConfig
+} from "@fefade-ui/react"
 
 function ThemeColorPreview() {
 	const theme = themeConfig()

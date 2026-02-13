@@ -5,8 +5,7 @@
 	import styles from "@fefade-ui/core/styles/Tooltip.module.css"
 
 	interface Props
-		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
-			TooltipType {}
+		extends Omit<HTMLAttributes<HTMLDivElement>, "color">, TooltipType {}
 
 	let {
 		class: className = "",

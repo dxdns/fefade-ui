@@ -8,7 +8,8 @@
 	import type { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
 
 	interface Props
-		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
+		extends
+			Omit<HTMLAttributes<HTMLDivElement>, "color">,
 			CardType,
 			HTMLAttrAnchor {
 		name: string

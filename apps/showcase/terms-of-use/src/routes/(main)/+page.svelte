@@ -69,6 +69,8 @@
 	<h2>{m["contact.title"]()}</h2>
 	<p>
 		{m["contact.description"]()}
-		<Link href="mailto:support@fefade.com" hover="underlineNone">support@fefade.com</Link>
+		<Link href="mailto:support@fefade.com" hover="underlineNone"
+			>support@fefade.com</Link
+		>
 	</p>
 </section>

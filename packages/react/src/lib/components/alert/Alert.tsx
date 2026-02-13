@@ -11,8 +11,7 @@ import { classMapUtil } from "@fefade-ui/core/utils"
 import styles from "@fefade-ui/core/styles/Alert.module.css"
 
 interface Props
-	extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
-		AlertType {}
+	extends Omit<HTMLAttributes<HTMLDivElement>, "color">, AlertType {}
 
 export default forwardRef<HTMLDivElement, Props>(
 	({ className = "", color = "info", children, ...rest }, ref) => {

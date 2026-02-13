@@ -7,8 +7,7 @@
 	import styles from "@fefade-ui/core/styles/SearchInput.module.css"
 
 	interface Props
-		extends Omit<Omit<HTMLInputAttributes, "type">, "size">,
-			TextFieldType {}
+		extends Omit<Omit<HTMLInputAttributes, "type">, "size">, TextFieldType {}
 
 	let {
 		class: className = "",

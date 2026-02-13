@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from "$app/paths"
 	import { Button, Drawer, Navbar, Window } from "@/index.js"
 
 	let drawerStates = $state({
@@ -31,7 +32,7 @@
 
 {#snippet content()}
 	<Drawer.Content>
-		<a href="/">label</a>
+		<a href={resolve("/")}>label</a>
 	</Drawer.Content>
 {/snippet}
 

@@ -9,7 +9,7 @@ import { fileURLToPath } from "url"
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 const LIB_DIR = "src/lib"
-const isDev = process.env.NODE_ENV === "development"
+const isDev = process.env.NODE_ENV === "development" || !process.env.VITE_BUILD
 
 // https://vite.dev/config/
 export default defineConfig({

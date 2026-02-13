@@ -8,10 +8,10 @@ const app = createApp({
 			Provider,
 			{ theme: createTheme({ colors: { light: { bg: "orange" } } }) },
 			{
-				default: () => h(App)
-			}
+				default: () => h(App),
+			},
 		)
-	}
+	},
 })
 
 app.mount("#app")

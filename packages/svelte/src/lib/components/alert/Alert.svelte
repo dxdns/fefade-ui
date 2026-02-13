@@ -12,8 +12,7 @@
 	import styles from "@fefade-ui/core/styles/Alert.module.css"
 
 	interface Props
-		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
-			AlertType {}
+		extends Omit<HTMLAttributes<HTMLDivElement>, "color">, AlertType {}
 
 	let {
 		class: className = "",

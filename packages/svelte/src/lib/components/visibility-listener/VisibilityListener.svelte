@@ -4,8 +4,7 @@
 	import type { VisibilityListenerType } from "@fefade-ui/core/types"
 
 	interface Props
-		extends HTMLAttributes<HTMLDivElement>,
-			VisibilityListenerType {}
+		extends HTMLAttributes<HTMLDivElement>, VisibilityListenerType {}
 
 	let { class: className = "", callback, children, ...rest }: Props = $props()
 </script>

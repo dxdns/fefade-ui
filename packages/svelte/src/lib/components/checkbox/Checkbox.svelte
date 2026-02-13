@@ -6,7 +6,8 @@
 	import styles from "@fefade-ui/core/styles/Checkbox.module.css"
 
 	interface Props
-		extends Omit<Omit<Omit<HTMLInputAttributes, "size">, "type">, "color">,
+		extends
+			Omit<Omit<Omit<HTMLInputAttributes, "size">, "type">, "color">,
 			CheckboxType {}
 
 	let {

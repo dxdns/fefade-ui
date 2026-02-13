@@ -2,7 +2,7 @@ import { type Ref, ref, onMounted, onBeforeUnmount, watch } from "vue"
 
 export type ActionType<T extends HTMLElement = HTMLElement, P = any> = (
 	node: T,
-	props?: P
+	props?: P,
 ) => {
 	update?: (props: P) => void
 	destroy?: () => void
@@ -10,11 +10,11 @@ export type ActionType<T extends HTMLElement = HTMLElement, P = any> = (
 
 export default function actionUtil<
 	T extends HTMLElement = HTMLElement,
-	P = any
+	P = any,
 >(
 	action: ActionType<T, P>,
 	props?: P,
-	externalRef?: Ref<T | null>
+	externalRef?: Ref<T | null>,
 ): Ref<T | null> {
 	const internalRef = ref<T>(null!)
 	const elementRef = externalRef ?? internalRef
@@ -47,7 +47,7 @@ export default function actionUtil<
 				actionResult.value.update(newProps!)
 			}
 		},
-		{ deep: true, immediate: true }
+		{ deep: true, immediate: true },
 	)
 
 	return elementRef as Ref<T | null>

@@ -1,52 +1,38 @@
 {
-	"name": "ui",
-	"version": "1.0.0",
-	"description": "A flexible UI library for modern web development.",
-	"private": true,
-	"type": "module",
-	"workspaces": [
-		"packages/*",
-		"apps/**"
-	],
-	"scripts": {
-		"dev:core": "npm run dev -w @fefade-ui/core",
-		"dev:svelte": "concurrently --names \"CORE,SVELTE\" --prefix-colors \"gray,yellow\" \"npm run dev:core\" \"npm run dev -w @fefade-ui/svelte\"",
-		"dev:react": "concurrently --names \"CORE,REACT\" --prefix-colors \"gray,magenta\" \"npm run dev:core\" \"npm run dev -w @fefade-ui/react\"",
-		"dev:vue": "concurrently --names \"CORE,VUE\" --prefix-colors \"gray,cyan\" \"npm run dev:core\" \"npm run dev -w @fefade-ui/vue\"",
-		"dev:docs": "concurrently --names \"CORE,DOCS\" --prefix-colors \"gray,white\" \"npm run dev:core\" \"npm run dev -w docs\"",
-		"build:core": "npm run build -w @fefade-ui/core",
-		"build:svelte": "npm run build -w @fefade-ui/svelte",
-		"build:react": "npm run build -w @fefade-ui/react",
-		"build:vue": "npm run build -w @fefade-ui/vue",
-		"build:all": "npm run build:core && npm run build:svelte && npm run build:react && npm run build:vue",
-		"git:push": "git push && git push --tags",
-		"release:core:patch": "npm run build:core && npm version patch -w @fefade-ui/core --no-git-tag-version && git add packages/core && git commit -m \"chore(release): bump version core\" && git tag core-v$(node -p \"require('./packages/core/package.json').version\") && npm run git:push",
-		"release:svelte:patch": "npm run build:svelte && npm version patch -w @fefade-ui/svelte --no-git-tag-version && git add packages/svelte && git commit -m \"chore(release): bump version svelte\" && git tag svelte-v$(node -p \"require('./packages/svelte/package.json').version\") && npm run git:push",
-		"release:react:patch": "npm run build:react && npm version patch -w @fefade-ui/react --no-git-tag-version && git add packages/react && git commit -m \"chore(release): bump version react\" && git tag react-v$(node -p \"require('./packages/react/package.json').version\") && npm run git:push",
-		"release:vue:patch": "npm run build:vue && npm version patch -w @fefade-ui/vue --no-git-tag-version && git add packages/vue && git commit -m \"chore(release): bump version vue\" && git tag vue-v$(node -p \"require('./packages/vue/package.json').version\") && npm run git:push",
-		"prepare": "npm run build:all",
-		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/fefade/ui.git"
-	},
-	"author": "fefade <https://github.com/fefade>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/fefade/ui/issues"
-	},
-	"homepage": "https://github.com/fefade/ui#readme",
-	"devDependencies": {
-		"@types/node": "^22.14.1",
-		"concurrently": "^9.2.0",
-		"eslint": "^9.31.0",
-		"eslint-config-prettier": "^10.1.8",
-		"globals": "^16.3.0",
-		"prettier": "^3.7.4",
-		"typescript": "~5.8.3",
-		"typescript-eslint": "^8.37.0",
-		"vite": "^7.2.6"
-	}
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "A flexible UI library for modern web development.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:core": "pnpm --filter @fefade-ui/core dev",
+    "dev:svelte": "concurrently --names \"CORE,SVELTE\" --prefix-colors \"gray,yellow\" \"pnpm run dev:core\" \"pnpm --filter @fefade-ui/svelte dev\"",
+    "dev:react": "concurrently --names \"CORE,REACT\" --prefix-colors \"gray,magenta\" \"pnpm run dev:core\" \"pnpm --filter @fefade-ui/react dev\"",
+    "dev:vue": "concurrently --names \"CORE,VUE\" --prefix-colors \"gray,cyan\" \"pnpm run dev:core\" \"pnpm --filter @fefade-ui/vue dev\"",
+    "dev:docs": "concurrently --names \"CORE,DOCS\" --prefix-colors \"gray,white\" \"pnpm run dev:core\" \"pnpm --filter docs dev\"",
+    "build:core": "pnpm --filter @fefade-ui/core build",
+    "build:svelte": "pnpm --filter @fefade-ui/svelte build",
+    "build:react": "pnpm --filter @fefade-ui/react build",
+    "build:vue": "pnpm --filter @fefade-ui/vue build",
+    "build:all": "pnpm run build:core && pnpm run build:svelte && pnpm run build:react && pnpm run build:vue",
+    "git:push": "git push && git push --tags",
+    "release:core:patch": "pnpm run build:core && pnpm version patch -w @fefade-ui/core --no-git-tag-version && git add packages/core && git commit -m \"chore(release): bump version core\" && git tag core-v$(node -p \"require('./packages/core/package.json').version\") && pnpm run git:push",
+    "release:svelte:patch": "pnpm run build:svelte && pnpm version patch -w @fefade-ui/svelte --no-git-tag-version && git add packages/svelte && git commit -m \"chore(release): bump version svelte\" && git tag svelte-v$(node -p \"require('./packages/svelte/package.json').version\") && pnpm run git:push",
+    "release:react:patch": "pnpm run build:react && pnpm version patch -w @fefade-ui/react --no-git-tag-version && git add packages/react && git commit -m \"chore(release): bump version react\" && git tag react-v$(node -p \"require('./packages/react/package.json').version\") && pnpm run git:push",
+    "release:vue:patch": "pnpm run build:vue && pnpm version patch -w @fefade-ui/vue --no-git-tag-version && git add packages/vue && git commit -m \"chore(release): bump version vue\" && git tag vue-v$(node -p \"require('./packages/vue/package.json').version\") && pnpm run git:push",
+    "prepare": "pnpm run build:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fefade/ui.git"
+  },
+  "author": "fefade <https://github.com/fefade>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fefade/ui/issues"
+  },
+  "homepage": "https://github.com/fefade/ui#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
 }

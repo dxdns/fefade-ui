@@ -5,7 +5,8 @@ import { checkmarkIcon } from "@fefade-ui/core/icons"
 import styles from "@fefade-ui/core/styles/Checkbox.module.css"
 
 interface Props
-	extends Omit<
+	extends
+		Omit<
 			Omit<Omit<InputHTMLAttributes<HTMLInputElement>, "size">, "type">,
 			"color"
 		>,

@@ -13,7 +13,8 @@
 	import styles from "@fefade-ui/core/styles/Card.module.css"
 
 	interface Props
-		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
+		extends
+			Omit<HTMLAttributes<HTMLDivElement>, "color">,
 			CardType,
 			HTMLAttrAnchor {}
 

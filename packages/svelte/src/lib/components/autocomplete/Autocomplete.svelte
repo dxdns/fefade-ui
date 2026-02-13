@@ -7,8 +7,10 @@
 	import type { Snippet } from "svelte"
 	import { SearchInput } from "../search-input/index.js"
 
-	interface Props<T>
-		extends Omit<Omit<Omit<HTMLInputAttributes, "color">, "type">, "size"> {
+	interface Props<T> extends Omit<
+		Omit<Omit<HTMLInputAttributes, "color">, "type">,
+		"size"
+	> {
 		variant?: VariantType
 		data: T[]
 		filter: (item: T) => string

@@ -5,7 +5,8 @@ import { videoUtil } from "@fefade-ui/core/utils"
 import { forwardRef, ImgHTMLAttributes } from "react"
 
 interface Props
-	extends Omit<
+	extends
+		Omit<
 			Omit<ImgHTMLAttributes<Omit<HTMLVideoElement, "src">>, "color">,
 			"type"
 		>,
