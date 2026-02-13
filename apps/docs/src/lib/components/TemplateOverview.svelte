@@ -1,19 +1,12 @@
 <script lang="ts">
-	import {
-		Badge,
-		Button,
-		Gallery,
-		Select,
-		Separator,
-		Text
-	} from "@fefade-ui/svelte"
+	import { Badge, Button, Gallery, Separator, Text } from "@fefade-ui/svelte"
 
 	interface Props {
 		data: {
 			title: string
 			description: string
 			tags: string[]
-			codeUrl: string
+			codeUrl?: string
 			name: string
 			image: string
 		}
@@ -21,9 +14,9 @@
 
 	let { data }: Props = $props()
 
-	let frameworkSelected = $state("svelte")
-
-	const href = $derived(`/templates/${frameworkSelected}/${data.name}`)
+	const href = $derived(
+		`https://github.com/fefade/ui/apps/showcase/${data.name}`
+	)
 
 	function getClassNames(s: string) {
 		switch (s.toLowerCase()) {
@@ -73,7 +66,7 @@
 					</Badge>
 				{/each}
 			</div>
-			<Select
+			<!-- <Select
 				style="width: auto;"
 				onchange={(e) => {
 					const { value } = e.currentTarget
@@ -84,8 +77,8 @@
 				<option value="react" disabled>React</option>
 				<option value="vue" disabled>Vue</option>
 				<option value="svelte">Svelte</option>
-			</Select>
-			<Button variant="outlined" href={data.codeUrl} target="_blank">
+			</Select> -->
+			<Button variant="outlined" {href} target="_blank">
 				Check out the code
 			</Button>
 			<Button {href} target="_blank">Preview</Button>

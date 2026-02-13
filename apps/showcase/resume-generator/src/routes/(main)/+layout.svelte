@@ -43,21 +43,10 @@
 </div>
 
 <footer class="footer muted">
-	<div>
+	<div style="display: flex; align-items: baseline; gap: 0.5rem;">
 		<span>&copy; 2025</span>
-		<Link href="https://dxdns.dev" target="_blank" hover="right">dxdns</Link>
+		<Link href="https://fefade.com" target="_blank" hover="right">fefade</Link>
 	</div>
-
-	<Link
-		hover="underlineNone"
-		href="https://github.com/sponsors/dxdns"
-		target="_blank"
-	>
-		<small>
-			<span style="filter: invert(0.5);">❤️</span>
-			Sponsor this project
-		</small>
-	</Link>
 </footer>
 
 <style>
