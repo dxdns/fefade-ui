@@ -34,7 +34,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://radio.dxdns.dev\"
+            \"site\": \"https://radio.fefade.com\"
         }
     }]
     

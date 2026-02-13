@@ -63,6 +63,7 @@
 	"type": "module",
 	"devDependencies": {
 		"chalk": "^5.4.1",
+		"csstype": "^3.2.3",
 		"esbuild": "0.25.9",
 		"esbuild-css-modules-plugin": "^3.1.5"
 	}
