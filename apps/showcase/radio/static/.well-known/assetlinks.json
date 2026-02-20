@@ -4,9 +4,8 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.fefade.radio",
-      "sha256_cert_fingerprints": [
-        "E7:C5:2B:9F:ED:E5:20:F7:09:DF:6A:09:7D:DD:BE:14:D4:5B:A2:6E:49:7E:E9:21:0B:CA:5D:88:93:6A:D7:A9"
-      ]
+      "sha256_cert_fingerprints":
+        ["1E:A3:2E:9E:78:4D:7B:30:DF:AF:7A:88:94:57:C0:80:FE:9D:FE:7A:6F:7A:33:E2:D2:B7:4B:EB:5D:F5:A3:80"]
     }
   }
 ]
