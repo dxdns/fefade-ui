@@ -2,6 +2,7 @@
 	import { categoriesData } from "@/data"
 	import type { CategoryType } from "@/types"
 	import { Button, Card, Gallery, Text } from "@fefade-ui/svelte"
+	import { onMount } from "svelte"
 
 	interface Props {
 		data: {
@@ -14,7 +15,7 @@
 
 	let { data }: Props = $props()
 
-	let newData = $state(data)
+	let newData: typeof data = $state([])
 	let selectedCategory: CategoryType = $state("All")
 
 	function handleClick(category: CategoryType) {
@@ -30,6 +31,10 @@
 
 		selectedCategory = category
 	}
+
+	onMount(() => {
+		newData = data
+	})
 </script>
 
 <Card

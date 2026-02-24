@@ -1,13 +1,37 @@
 ---
 title: Templates
-head:
-  - tag: meta
-    attrs:
-      name: robots
-      content: noindex
+description:
+  Discover a curated collection of modern, responsive templates. Explore
+  ready-made layouts and reusable components to speed up your development.
+template: splash
+categories: ["react", "vue", "svelte"]
 ---
 
-<meta
-	http-equiv="refresh"
-	content="0; URL='https://github.com/fefade/ui/tree/main/apps/showcase'"
+import TemplateGallery from "@/components/TemplateGallery.svelte"
+
+<TemplateGallery
+	client:load
+	data={[
+		{
+			title: "Landing Page",
+			image:
+				"https://res.cloudinary.com/dkufrbqih/image/upload/v1756225613/fit-flow_imgci4.png",
+			href: "/templates/landing-page",
+			categories: ["Marketing", "Public", "Business"]
+		},
+		{
+			title: "Sign In",
+			image:
+				"https://res.cloudinary.com/dkufrbqih/image/upload/v1756225726/sign-in_ew4byw.png",
+			href: "/templates/sign-in",
+			categories: ["Authentication", "User", "Access"]
+		},
+		{
+			title: "Portfolio",
+			image:
+				"https://res.cloudinary.com/dkufrbqih/image/upload/v1756225789/portfolio_zigxoy.png",
+			href: "/templates/portfolio",
+			categories: ["Personal", "Creative", "Professional"]
+		}
+	]}
 />
