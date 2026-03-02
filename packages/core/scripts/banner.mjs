@@ -1,7 +1,7 @@
 import chalk from "chalk"
 
 export default function banner() {
-	const header = chalk.bold.white("fefade-ui")
+	const header = chalk.bold.white("fefade ui")
 	const description = chalk.blue.underline("https://ui.fefade.com")
 
 	const commands = []

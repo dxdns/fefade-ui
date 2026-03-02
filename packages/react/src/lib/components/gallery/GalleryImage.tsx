@@ -20,7 +20,8 @@ import styles from "@fefade-ui/core/styles/GalleryItem.module.css"
 type HTMLImageAttr = Omit<ImgHTMLAttributes<HTMLImageElement>, "src">
 
 interface Props
-	extends HTMLImageAttr,
+	extends
+		HTMLImageAttr,
 		GalleryItemType<CSSProperties, HTMLImageAttr>,
 		HTMLAttrAnchor,
 		ImageType {}

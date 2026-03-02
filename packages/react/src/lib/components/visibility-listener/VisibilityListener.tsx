@@ -4,8 +4,7 @@ import { checkVisibilityAction } from "@fefade-ui/core/actions"
 import type { VisibilityListenerType } from "@fefade-ui/core/types"
 
 interface Props
-	extends HTMLAttributes<HTMLDivElement>,
-		VisibilityListenerType {}
+	extends HTMLAttributes<HTMLDivElement>, VisibilityListenerType {}
 
 export default forwardRef<HTMLDivElement, Props>(
 	({ className = "", callback, children, ...rest }, _ref) => {

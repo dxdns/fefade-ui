@@ -4,8 +4,7 @@
 	import type { ImageType } from "@fefade-ui/core/types"
 
 	interface Props
-		extends Omit<Omit<HTMLImgAttributes, "src">, "color">,
-			ImageType {}
+		extends Omit<Omit<HTMLImgAttributes, "src">, "color">, ImageType {}
 
 	let {
 		class: className = "",

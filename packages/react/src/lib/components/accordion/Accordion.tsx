@@ -5,8 +5,7 @@ import { keyboardArrowLeftIcon } from "@fefade-ui/core/icons"
 import styles from "@fefade-ui/core/styles/Accordion.module.css"
 
 interface Props
-	extends Omit<HTMLAttributes<HTMLDivElement>, "id">,
-		AccordionType {}
+	extends Omit<HTMLAttributes<HTMLDivElement>, "id">, AccordionType {}
 
 export default forwardRef<HTMLDivElement, Props>(
 	({ className = "", label, variant, autoFocus, children, ...rest }, ref) => {

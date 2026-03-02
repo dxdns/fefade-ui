@@ -4,7 +4,8 @@ import { useAction } from "../../utils"
 import { imageAction } from "@fefade-ui/core/actions"
 
 interface Props
-	extends Omit<ImgHTMLAttributes<Omit<HTMLImageElement, "src">>, "color">,
+	extends
+		Omit<ImgHTMLAttributes<Omit<HTMLImageElement, "src">>, "color">,
 		ImageType {}
 
 export default forwardRef<HTMLImageElement, Props>(

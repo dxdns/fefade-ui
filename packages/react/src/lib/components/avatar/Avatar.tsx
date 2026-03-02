@@ -4,7 +4,8 @@ import { classMapUtil } from "@fefade-ui/core/utils"
 import type { AvatarType } from "@fefade-ui/core/types"
 
 interface Props
-	extends Omit<ImgHTMLAttributes<HTMLImageElement>, "width" | "height">,
+	extends
+		Omit<ImgHTMLAttributes<HTMLImageElement>, "width" | "height">,
 		AvatarType {}
 
 export default forwardRef<HTMLDivElement, Props>(

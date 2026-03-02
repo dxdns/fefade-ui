@@ -6,7 +6,8 @@
 	import styles from "@fefade-ui/core/styles/NavbarItem.module.css"
 
 	interface Props
-		extends Omit<Omit<HTMLAnchorAttributes, "class">, "style">,
+		extends
+			Omit<Omit<HTMLAnchorAttributes, "class">, "style">,
 			LinkType<CSSKebabType | string> {}
 
 	let { children, ...rest }: Props = $props()

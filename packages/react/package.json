@@ -43,11 +43,10 @@
 		"react",
 		"react-ui",
 		"ui",
-		"fefade-ui",
+		"fefade",
 		"components",
 		"ui-components",
 		"react-pkg",
-		"dxdns",
 		"kit"
 	]
 }

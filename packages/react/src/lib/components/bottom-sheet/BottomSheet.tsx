@@ -6,8 +6,7 @@ import type { BottomSheetType } from "@fefade-ui/core/types"
 import styles from "@fefade-ui/core/styles/BottomSheet.module.css"
 
 interface Props
-	extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
-		BottomSheetType {}
+	extends Omit<HTMLAttributes<HTMLDivElement>, "color">, BottomSheetType {}
 
 export default forwardRef<HTMLDivElement, Props>(
 	(

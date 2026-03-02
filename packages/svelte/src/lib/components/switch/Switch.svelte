@@ -8,8 +8,7 @@
 	import styles from "@fefade-ui/core/styles/Switch.module.css"
 
 	interface Props
-		extends Omit<Omit<HTMLInputAttributes, "size">, "type">,
-			SwitchType {
+		extends Omit<Omit<HTMLInputAttributes, "size">, "type">, SwitchType {
 		label?: string | Snippet<[]>
 	}
 

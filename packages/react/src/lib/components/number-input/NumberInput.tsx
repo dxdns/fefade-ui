@@ -13,7 +13,8 @@ import styles from "@fefade-ui/core/styles/NumberInput.module.css"
 import { Button } from "../button"
 
 interface Props
-	extends Omit<
+	extends
+		Omit<
 			Omit<
 				Omit<
 					Omit<Omit<InputHTMLAttributes<HTMLInputElement>, "onChange">, "step">,

@@ -4,8 +4,7 @@ import { forwardRef, InputHTMLAttributes, useEffect, useRef } from "react"
 import styles from "@fefade-ui/core/styles/TextField.module.css"
 
 interface Props
-	extends Omit<InputHTMLAttributes<HTMLInputElement>, "size">,
-		TextFieldType {}
+	extends Omit<InputHTMLAttributes<HTMLInputElement>, "size">, TextFieldType {}
 
 export default forwardRef<HTMLInputElement, Props>(
 	(

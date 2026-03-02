@@ -5,7 +5,8 @@
 	import styles from "@fefade-ui/core/styles/BottomSheetDragButton.module.css"
 
 	interface Props
-		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
+		extends
+			Omit<HTMLAttributes<HTMLDivElement>, "color">,
 			BottomSheetDragButtonType {}
 
 	let {

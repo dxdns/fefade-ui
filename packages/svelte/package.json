@@ -61,13 +61,12 @@
 		"svelte5",
 		"svelte-ui",
 		"ui",
-		"fefade-ui",
+		"fefade",
 		"components",
 		"ui-components",
 		"svelte-pkg",
 		"svelte-actions",
 		"actions",
-		"dxdns",
 		"kit"
 	]
 }

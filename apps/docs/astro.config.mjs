@@ -15,7 +15,7 @@ export default defineConfig({
 	integrations: [
 		sitemap(),
 		starlight({
-			title: "fefade-ui",
+			title: "fefade ui",
 			titleDelimiter: " | ",
 			defaultLocale: "root",
 			head: [

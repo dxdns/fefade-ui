@@ -10,8 +10,7 @@
 	import styles from "@fefade-ui/core/styles/Status.module.css"
 
 	interface Props
-		extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
-			StatusType {}
+		extends Omit<HTMLAttributes<HTMLDivElement>, "color">, StatusType {}
 
 	let {
 		class: className = "",

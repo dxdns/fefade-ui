@@ -6,8 +6,7 @@ import styles from "@fefade-ui/core/styles/Modal.module.css"
 import animationStyle from "@fefade-ui/core/styles/Animation.module.css"
 
 interface Props
-	extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
-		ModalType {}
+	extends Omit<HTMLAttributes<HTMLDivElement>, "color">, ModalType {}
 
 export default forwardRef<HTMLDivElement, Props>(
 	(

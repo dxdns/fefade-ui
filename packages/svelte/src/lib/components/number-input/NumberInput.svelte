@@ -8,7 +8,8 @@
 	import styles from "@fefade-ui/core/styles/NumberInput.module.css"
 
 	interface Props
-		extends Omit<
+		extends
+			Omit<
 				Omit<Omit<Omit<HTMLInputAttributes, "step">, "value">, "type">,
 				"size"
 			>,

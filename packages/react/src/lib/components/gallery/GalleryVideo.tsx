@@ -20,7 +20,8 @@ import styles from "@fefade-ui/core/styles/GalleryItem.module.css"
 type HTMLVideoAttr = Omit<VideoHTMLAttributes<HTMLVideoElement>, "src">
 
 interface Props
-	extends HTMLVideoAttr,
+	extends
+		HTMLVideoAttr,
 		GalleryItemType<CSSProperties, HTMLVideoAttr>,
 		HTMLAttrAnchor,
 		VideoType {}

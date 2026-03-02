@@ -11,7 +11,8 @@ import { Constants } from "@fefade-ui/core"
 import styles from "@fefade-ui/core/styles/RangeInput.module.css"
 
 interface Props
-	extends Omit<
+	extends
+		Omit<
 			Omit<
 				Omit<Omit<InputHTMLAttributes<HTMLInputElement>, "type">, "size">,
 				"value"

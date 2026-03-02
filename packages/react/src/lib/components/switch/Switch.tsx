@@ -10,8 +10,7 @@ import {
 import styles from "@fefade-ui/core/styles/Switch.module.css"
 
 interface Props
-	extends Omit<InputHTMLAttributes<HTMLInputElement>, "size">,
-		SwitchType {
+	extends Omit<InputHTMLAttributes<HTMLInputElement>, "size">, SwitchType {
 	label?: string | ReactNode
 }
 

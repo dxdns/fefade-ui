@@ -4,8 +4,7 @@ import type { DrawerType } from "@fefade-ui/core/types"
 import styles from "@fefade-ui/core/styles/Drawer.module.css"
 
 export interface Props
-	extends React.HTMLAttributes<HTMLDivElement>,
-		DrawerType {}
+	extends React.HTMLAttributes<HTMLDivElement>, DrawerType {}
 
 export default forwardRef<HTMLDivElement, Props>((props, ref) => {
 	const {

@@ -54,7 +54,7 @@
 		"components",
 		"ui",
 		"ui-kit",
-		"fefade-ui",
+		"fefade",
 		"react",
 		"svelte",
 		"next",

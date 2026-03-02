@@ -19,7 +19,8 @@
 	type HTMLVideoAttr = Omit<HTMLVideoAttributes, "src">
 
 	interface Props
-		extends HTMLVideoAttr,
+		extends
+			HTMLVideoAttr,
 			GalleryItemType<CSSKebabType, HTMLVideoAttr>,
 			HTMLAttrAnchor,
 			VideoType {}

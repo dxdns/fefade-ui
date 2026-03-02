@@ -19,7 +19,8 @@
 	type HTMLImageAttr = Omit<HTMLImgAttributes, "src">
 
 	interface Props
-		extends HTMLImageAttr,
+		extends
+			HTMLImageAttr,
 			GalleryItemType<CSSKebabType, HTMLImageAttr>,
 			HTMLAttrAnchor,
 			ImageType {}

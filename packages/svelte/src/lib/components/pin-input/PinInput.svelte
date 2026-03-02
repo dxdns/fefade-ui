@@ -4,8 +4,10 @@
 	import { classMapUtil } from "@fefade-ui/core/utils"
 	import { onMount } from "svelte"
 
-	interface Props
-		extends Omit<Omit<Omit<HTMLInputAttributes, "max">, "min">, "type"> {
+	interface Props extends Omit<
+		Omit<Omit<HTMLInputAttributes, "max">, "min">,
+		"type"
+	> {
 		autoFocus?: boolean
 		isLoading?: boolean
 	}

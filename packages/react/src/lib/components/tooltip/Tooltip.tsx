@@ -4,8 +4,7 @@ import type { TooltipType } from "@fefade-ui/core/types"
 import styles from "@fefade-ui/core/styles/Tooltip.module.css"
 
 interface Props
-	extends Omit<HTMLAttributes<HTMLDivElement>, "color">,
-		TooltipType {}
+	extends Omit<HTMLAttributes<HTMLDivElement>, "color">, TooltipType {}
 
 export default forwardRef<HTMLDivElement, Props>(
 	({ className = "", label, position = "top", children, ...rest }, ref) => {

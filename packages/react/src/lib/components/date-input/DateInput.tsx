@@ -2,8 +2,10 @@ import { forwardRef, InputHTMLAttributes, useRef } from "react"
 import { classMapUtil } from "@fefade-ui/core/utils"
 import styles from "@fefade-ui/core/styles/DateInput.module.css"
 
-interface Props
-	extends Omit<Omit<InputHTMLAttributes<HTMLInputElement>, "size">, "type"> {
+interface Props extends Omit<
+	Omit<InputHTMLAttributes<HTMLInputElement>, "size">,
+	"type"
+> {
 	type?: "date" | "month"
 }
 

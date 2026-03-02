@@ -12,7 +12,8 @@
 	import { Constants } from "@fefade-ui/core"
 
 	interface Props
-		extends Omit<Omit<HTMLAttributes<HTMLDivElement>, "color">, "id">,
+		extends
+			Omit<Omit<HTMLAttributes<HTMLDivElement>, "color">, "id">,
 			ToastType {}
 
 	let {

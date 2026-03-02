@@ -10,7 +10,8 @@
 	import styles from "@fefade-ui/core/styles/RangeInput.module.css"
 
 	interface Props
-		extends Omit<
+		extends
+			Omit<
 				Omit<Omit<Omit<HTMLInputAttributes, "value">, "type">, "size">,
 				"color"
 			>,

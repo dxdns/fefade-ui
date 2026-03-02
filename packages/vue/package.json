@@ -41,11 +41,10 @@
 		"vue",
 		"vue-ui",
 		"ui",
-		"fefade-ui",
+		"fefade",
 		"components",
 		"ui-components",
 		"vue-pkg",
-		"dxdns",
 		"kit"
 	]
 }
