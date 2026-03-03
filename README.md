@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./assets/images/logo.png" width="150" height="120" />
+  <img src="./assets/images/icon-180.png" width="180" height="180" />
 </p>
 
-<h1 align="center">fefade-ui</h1>
+<h1 align="center">fefade ui</h1>
 
 [![license](https://img.shields.io/github/license/fefade/ui)](https://github.com/fefade/ui/blob/master/LICENSE)
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-green)
