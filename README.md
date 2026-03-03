@@ -11,7 +11,7 @@
 
 > Minimal, accessible, dependency-free — made by a developer who loves clean UI.
 
-## Why fefade-ui?
+## Why fefade ui?
 
 - Lightweight by design
 - Isolated styles using CSS Modules — no bleeding styles
@@ -36,7 +36,7 @@ Coming soon in the [https://ui.fefade.com](https://ui.fefade.com).
 ## Contributing
 
 Please see the [Contributing Guide](CONTRIBUTING.md) for information on
-contributing to fefade-ui.
+contributing to fefade ui.
 
 ## License
 

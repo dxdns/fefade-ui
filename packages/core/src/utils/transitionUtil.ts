@@ -1,28 +1,18 @@
-interface TransitionConfig {
-	delay?: number
-	duration?: number
-	easing?: (t: number) => number
-	css?: (t: number, u: number) => string
-	tick?: (t: number, u: number) => void
-}
-
-type TransitionFn = (node: Element, params?: any) => TransitionConfig
-
-interface TransitionEntry {
-	in?: [TransitionFn, any?]
-	out?: [TransitionFn, any?]
-}
+import {
+	TransitionConfigType,
+	TransitionType
+} from "../types/transition.types.js"
 
 export default function transitionUtil<T extends HTMLElement>(
 	node: T,
-	transition?: TransitionEntry
+	transition?: TransitionType
 ) {
 	let intro: Animation | null = null
 	let outro: Animation | null = null
 
 	function createAnimationFromTransitionConfig(
 		node: Element,
-		config: TransitionConfig
+		config: TransitionConfigType
 	): Animation {
 		const keyframes = config.css ? parseCss(config.css) : []
 		const animation = node.animate(keyframes, {

@@ -3,25 +3,11 @@
 	import { transitionUtil } from "@fefade-ui/core/utils"
 	import type { HTMLAttributes } from "svelte/elements"
 	import { mergeStyleUtil } from "@fefade-ui/core/utils"
-
-	interface TransitionConfig {
-		delay?: number
-		duration?: number
-		easing?: (t: number) => number
-		css?: (t: number, u: number) => string
-		tick?: (t: number, u: number) => void
-	}
-
-	type TransitionFn = (node: Element, params?: any) => TransitionConfig
-
-	interface TransitionEntry {
-		in?: [TransitionFn, any?]
-		out?: [TransitionFn, any?]
-	}
+	import type { TransitionType } from "@fefade-ui/core/types"
 
 	interface TabContentProps {
 		isActive?: boolean
-		transition?: TransitionEntry
+		transition?: TransitionType
 	}
 
 	interface Props extends TabContentProps, HTMLAttributes<HTMLDivElement> {}
