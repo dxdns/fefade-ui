@@ -40,7 +40,7 @@
 		}
 	},
 	"peerDependencies": {
-		"@fefade-ui/core": "^0.0.1",
+		"@fefade-ui/core": "^0.0.2",
 		"svelte": "^5.0.0"
 	},
 	"devDependencies": {

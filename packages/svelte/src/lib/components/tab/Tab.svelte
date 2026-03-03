@@ -14,9 +14,11 @@
 		...rest
 	}: Props = $props()
 
-	const style = mergeStyleUtil(
-		orientation === "vertical" ? "display: flex;" : "",
-		rest.style
+	const style = $derived(
+		mergeStyleUtil(
+			orientation === "vertical" ? "display: flex;" : "",
+			rest.style
+		)
 	)
 </script>
 

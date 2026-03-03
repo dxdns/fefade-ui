@@ -53,13 +53,15 @@
 		"data-line-height": lineHeight
 	}
 
-	const style = mergeStyleUtil(
-		"display: flex;",
-		orientation === "vertical" ? "flex-direction: column;" : "",
-		orientation === "horizontal"
-			? `border-bottom: 1px solid color-mix(in srgb, ${lineColor} 50%, gray 50%);`
-			: "",
-		rest.style
+	const style = $derived(
+		mergeStyleUtil(
+			"display: flex;",
+			orientation === "vertical" ? "flex-direction: column;" : "",
+			orientation === "horizontal"
+				? `border-bottom: 1px solid color-mix(in srgb, ${lineColor} 50%, gray 50%);`
+				: "",
+			rest.style
+		)
 	)
 </script>
 

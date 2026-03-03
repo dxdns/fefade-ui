@@ -26,11 +26,13 @@
 		xl: 8
 	}
 
-	const style = mergeStyleUtil(
-		`border-style: ${variant};`,
-		`--size: ${sizes[size]}px;`,
-		`--height: ${height};`,
-		rest.style
+	const style = $derived(
+		mergeStyleUtil(
+			`border-style: ${variant};`,
+			`--size: ${sizes[size]}px;`,
+			`--height: ${height};`,
+			rest.style
+		)
 	)
 </script>
 
