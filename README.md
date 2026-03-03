@@ -7,7 +7,7 @@
 [![license](https://img.shields.io/github/license/fefade/ui)](https://github.com/fefade/ui/blob/master/LICENSE)
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-green)
 
-**fefade-ui** is a lightweight and dependency-free UI component library.
+**fefade ui** is a lightweight and dependency-free UI component library.
 
 > Minimal, accessible, dependency-free — made by a developer who loves clean UI.
 

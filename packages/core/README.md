@@ -1,3 +1,3 @@
-Shared logic and foundational utilities for **fefade-ui** UI libraries.
+Shared logic and foundational utilities for **fefade ui**.
 
 [View documentation](https://ui.fefade.com).
