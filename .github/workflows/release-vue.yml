@@ -4,14 +4,13 @@ on:
   push:
     tags:
       - "vue-v*.*.*"
-    paths:
-      - "packages/vue/**"
 
 permissions:
   contents: write
 
 jobs:
   release:
+    if: contains(github.ref, "refs/tags/vue-v")
     runs-on: ubuntu-latest
 
     steps:

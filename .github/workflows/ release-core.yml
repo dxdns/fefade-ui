@@ -4,14 +4,13 @@ on:
   push:
     tags:
       - "core-v*.*.*"
-    paths:
-      - "packages/core/**"
 
 permissions:
   contents: write
 
 jobs:
   release:
+    if: contains(github.ref, "refs/tags/core-v")
     runs-on: ubuntu-latest
 
     steps:

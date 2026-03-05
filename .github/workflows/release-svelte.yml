@@ -4,14 +4,13 @@ on:
   push:
     tags:
       - "svelte-v*.*.*"
-    paths:
-      - "packages/svelte/**"
 
 permissions:
   contents: write
 
 jobs:
   release:
+    if: contains(github.ref, "refs/tags/svelte-v")
     runs-on: ubuntu-latest
 
     steps:
