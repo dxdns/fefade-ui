@@ -24,6 +24,10 @@
 		"release:svelte:patch": "npm run build:svelte && npm version patch -w @fefade-ui/svelte --no-git-tag-version && git add packages/svelte && git commit -m \"chore(release): bump version svelte\" && git tag svelte-v$(node -p \"require('./packages/svelte/package.json').version\") && npm run git:push",
 		"release:react:patch": "npm run build:react && npm version patch -w @fefade-ui/react --no-git-tag-version && git add packages/react && git commit -m \"chore(release): bump version react\" && git tag react-v$(node -p \"require('./packages/react/package.json').version\") && npm run git:push",
 		"release:vue:patch": "npm run build:vue && npm version patch -w @fefade-ui/vue --no-git-tag-version && git add packages/vue && git commit -m \"chore(release): bump version vue\" && git tag vue-v$(node -p \"require('./packages/vue/package.json').version\") && npm run git:push",
+		"release:core:tag": "npm run build:core && git tag core-v$(node -p \"require('./packages/core/package.json').version\") && git push origin core-v$(node -p \"require('./packages/core/package.json').version\")",
+		"release:svelte:tag": "npm run build:svelte && git tag svelte-v$(node -p \"require('./packages/svelte/package.json').version\") && git push origin svelte-v$(node -p \"require('./packages/svelte/package.json').version\")",
+		"release:react:tag": "npm run build:react && git tag react-v$(node -p \"require('./packages/react/package.json').version\") && git push origin react-v$(node -p \"require('./packages/react/package.json').version\")",
+		"release:vue:tag": "npm run build:vue && git tag vue-v$(node -p \"require('./packages/vue/package.json').version\") && git push origin vue-v$(node -p \"require('./packages/vue/package.json').version\")",
 		"prepare": "npm run build:all",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint ."
