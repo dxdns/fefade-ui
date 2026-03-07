@@ -5,6 +5,7 @@
 	import { providerUtil } from "@fefade-ui/core/utils"
 	import { themeConfigState } from "../../states/index.js"
 	import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
+	import "@fefade-ui/core/styles/globals.css"
 
 	interface Props {
 		theme?: ThemeConfigType
