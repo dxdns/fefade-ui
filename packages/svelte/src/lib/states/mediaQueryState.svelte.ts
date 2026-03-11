@@ -2,6 +2,24 @@ import type { MediaQueryType, BreakpointType } from "@fefade-ui/core/types"
 import { sizeToNumberUtil } from "@fefade-ui/core/utils"
 import { Constants } from "@fefade-ui/core"
 
+function getBreakpointValue(size: string): string {
+	const root = document.documentElement
+	const sizeValue = getComputedStyle(root)
+		.getPropertyValue(`${Constants.CSS_VAR_PREFIX}-${size}`)
+		.trim()
+	return sizeValue || Constants.breakpoints[size as BreakpointType] || size
+}
+
+function matchesQuery(
+	operator: string,
+	width: number,
+	breakpointValue: string
+): boolean {
+	return operator === "min-width"
+		? width >= sizeToNumberUtil(breakpointValue)
+		: width <= sizeToNumberUtil(breakpointValue)
+}
+
 export default function mediaQueryState(...args: MediaQueryType) {
 	const [operator, size, node] = args
 
@@ -14,37 +32,29 @@ export default function mediaQueryState(...args: MediaQueryType) {
 		}
 	}
 
-	let data = $state(false)
-
 	const root = document.documentElement
 	const el = node ?? root
-	const sizeValue = getComputedStyle(root)
-		.getPropertyValue(`${Constants.CSS_VAR_PREFIX}-${size}`)
-		.trim()
-	const breakpointValue =
-		sizeValue || Constants.breakpoints[size as BreakpointType] || size
+	const breakpointValue = getBreakpointValue(size)
+
+	let data = $state(false)
+	let mounted = $state(false)
 
 	const observer = new ResizeObserver((entries) => {
 		for (const entry of entries) {
-			const width = entry.contentRect.width
-			data =
-				operator === "min-width"
-					? width >= sizeToNumberUtil(breakpointValue)
-					: width <= sizeToNumberUtil(breakpointValue)
+			data = matchesQuery(operator, entry.contentRect.width, breakpointValue)
 		}
 	})
 
 	$effect(() => {
 		observer.observe(el)
+		mounted = true
 
-		return () => {
-			observer.disconnect()
-		}
+		return () => observer.disconnect()
 	})
 
 	return {
 		get value() {
-			return data
+			return mounted && data
 		},
 		destroy() {
 			observer.disconnect()

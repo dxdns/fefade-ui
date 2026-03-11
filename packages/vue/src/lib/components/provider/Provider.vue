@@ -10,6 +10,7 @@
 	import { ThemeConfigSymbol } from "../../symbols"
 	// @ts-ignore
 	import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
+	import "@fefade-ui/core/styles/globals.css"
 
 	interface Props {
 		theme?: ThemeConfigType
