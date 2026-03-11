@@ -9,7 +9,6 @@ import type {
 import { ThemeConfigContext } from "../../contexts"
 // @ts-ignore
 import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
-import "@fefade-ui/core/styles/globals.css"
 
 type Props = PropsWithChildren & {
 	theme?: ThemeConfigType

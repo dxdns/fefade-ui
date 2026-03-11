@@ -5,16 +5,11 @@
 	import Button from "../button/index.js"
 	import { Alert } from "../alert/index.js"
 	import { toastState } from "../../states/index.js"
-	import { onDestroy } from "svelte"
 	import ProgressLoader from "../progress-loader/index.js"
 	import { closeIcon } from "@fefade-ui/core/icons"
 	import styles from "@fefade-ui/core/styles/Toast.module.css"
-	import { Constants } from "@fefade-ui/core"
 
-	interface Props
-		extends
-			Omit<Omit<HTMLAttributes<HTMLDivElement>, "color">, "id">,
-			ToastType {}
+	type Props = Omit<HTMLAttributes<HTMLDivElement>, "color" | "id"> & ToastType
 
 	let {
 		class: className = "",
@@ -26,30 +21,36 @@
 		...rest
 	}: Props = $props()
 
-	const _toastState = toastState()
-	const toast = $derived(_toastState.data.get(id))
-	const duration = $derived(toast?.duration ?? 3000)
+	const toast = toastState()
+	const toastData = $derived(toast.data.get(id))
+	const duration = $derived(toastData?.duration ?? 0)
 
-	let timerValue = $state(Constants.TOAST_DEFAULT_DURATION)
+	let timerValue = $state(0)
 	let paused = $state(false)
 
-	const interval = setInterval(() => {
-		if (!paused && timerValue > 0) {
-			timerValue = Math.max(timerValue - 100, 0)
-		}
-	}, 100)
+	$effect(() => {
+		const currentDuration = duration
+
+		timerValue = currentDuration
+
+		if (currentDuration <= 0) return
+
+		const interval = setInterval(() => {
+			if (!paused && timerValue > 0) {
+				timerValue = Math.max(timerValue - 100, 0)
+			}
+		}, 100)
+
+		return () => clearInterval(interval)
+	})
 
 	$effect(() => {
-		timerValue = duration
-
-		if (timerValue <= 0) {
-			_toastState.remove(id)
+		if (duration > 0 && timerValue <= 0) {
+			toast.remove(id)
 		}
 	})
 
-	onDestroy(() => {
-		clearInterval(interval)
-	})
+	const progress = $derived(duration > 0 ? (timerValue / duration) * 100 : 0)
 </script>
 
 <Alert
@@ -68,7 +69,7 @@
 			{message}
 		</div>
 		{#if withProgressLoader}
-			<ProgressLoader value={(timerValue / duration) * 100} {color} />
+			<ProgressLoader value={progress} {color} />
 		{/if}
 	</div>
 	{#if isClosable}
@@ -81,7 +82,7 @@
 			min-width: 20px;
 			"
 			onclick={() => {
-				_toastState.remove(id)
+				toast.remove(id)
 			}}
 		>
 			<svg

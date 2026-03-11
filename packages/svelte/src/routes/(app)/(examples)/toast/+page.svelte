@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, toast } from "@/index.js"
+	import { Button, toast, Toaster } from "@/index.js"
 
 	const colors = ["error", "success", "warning"] as const
 	const positions = [
@@ -11,6 +11,8 @@
 		"top-center"
 	] as const
 </script>
+
+<Toaster />
 
 <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
 	{#each colors as color (color)}
@@ -45,7 +47,8 @@
 			toast({
 				message: "Duration: 50000",
 				duration: 50000,
-				isClosable: true
+				isClosable: true,
+				withProgressLoader: true
 			})
 		}}
 	>

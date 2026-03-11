@@ -1,17 +1,19 @@
 <script lang="ts">
 	import type { HTMLSelectAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade-ui/core/utils"
-	import type { VariantType } from "@fefade-ui/core/types"
+	import { classMapUtil, styleToStringUtil } from "@fefade-ui/core/utils"
+	import type { CSSKebabType, VariantType } from "@fefade-ui/core/types"
 	import { keyboardArrowDownIcon } from "@fefade-ui/core/icons"
 	import styles from "./Select.module.css"
 
 	interface Props extends HTMLSelectAttributes {
 		variant?: VariantType
+		selectStyle?: CSSKebabType
 	}
 
 	let {
 		class: className = "",
 		variant = "contained",
+		selectStyle,
 		children,
 		...rest
 	}: Props = $props()
@@ -26,7 +28,7 @@
 	)}
 	style={rest.style}
 >
-	<select {...rest} style={undefined}>
+	<select {...rest} style={styleToStringUtil(selectStyle)}>
 		{@render children?.()}
 	</select>
 	<svg

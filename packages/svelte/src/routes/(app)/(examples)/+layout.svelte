@@ -1,13 +1,11 @@
 <script lang="ts">
-	import { themeConfig, Navbar, Toaster } from "@/index.js"
+	import { themeConfig, Navbar } from "@/index.js"
 	import { infoIcon } from "@fefade-ui/core/icons"
 
 	let { children } = $props()
 
 	const theme = $derived(themeConfig())
 </script>
-
-<Toaster />
 
 <Navbar
 	style="display: flex; align-items: center; justify-content: space-between;"
