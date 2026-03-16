@@ -25,3 +25,9 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+@media screen and (max-width: 768px) {
+	.message {
+		word-wrap: break-word;
+	}
+}
