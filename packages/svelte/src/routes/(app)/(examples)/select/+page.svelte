@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Constants } from "@fefade-ui/core"
-	import { Badge, Select } from "@/index.js"
+	import { Badge, Select } from "$lib/index.js"
 
 	let currentOption = $state("v2")
 </script>

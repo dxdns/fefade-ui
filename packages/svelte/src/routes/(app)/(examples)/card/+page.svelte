@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from "@/components/button/Button.svelte"
-	import { Card, HoverFollower } from "@/index.js"
+	import Button from "$lib/components/button/Button.svelte"
+	import { Card, HoverFollower } from "$lib/index.js"
 
 	let width = $state(2)
 </script>

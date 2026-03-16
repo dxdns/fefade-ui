@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { themeConfig, Navbar } from "@/index.js"
+	import { themeConfig, Navbar } from "$lib/index.js"
 	import { infoIcon } from "@fefade-ui/core/icons"
 
 	let { children } = $props()

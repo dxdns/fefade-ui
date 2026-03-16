@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { AutoScroll, Testimonial } from "@/index.js"
+	import { AutoScroll, Testimonial } from "$lib/index.js"
 
 	const reviews = [
 		{

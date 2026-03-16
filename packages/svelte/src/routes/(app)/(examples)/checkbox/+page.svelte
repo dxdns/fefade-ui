@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Checkbox } from "@/index.js"
+	import { Checkbox } from "$lib/index.js"
 	import { Constants } from "@fefade-ui/core"
 
 	const colors = [...Constants.statusColors, "secondary"] as const

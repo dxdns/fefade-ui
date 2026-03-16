@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Tooltip } from "@/index.js"
+	import { Tooltip } from "$lib/index.js"
 
 	const positions = ["top", "left", "right", "bottom"] as const
 </script>

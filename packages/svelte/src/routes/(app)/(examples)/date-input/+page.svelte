@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { DateInput } from "@/index.js"
+	import { DateInput } from "$lib/index.js"
 </script>
 
 <br />

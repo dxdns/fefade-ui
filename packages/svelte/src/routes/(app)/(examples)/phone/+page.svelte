@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Phone } from "@/index.js"
+	import { Phone } from "$lib/index.js"
 </script>
 
 <Phone>

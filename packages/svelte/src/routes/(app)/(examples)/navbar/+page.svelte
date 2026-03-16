@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { HoverFollower, Menu, Navbar, Separator, Window } from "@/index.js"
+	import { HoverFollower, Menu, Navbar, Separator, Window } from "$lib/index.js"
 
 	let isOpen = $state(false)
 </script>

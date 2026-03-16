@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Switch, themeConfig } from "@/index.js"
+	import { Switch, themeConfig } from "$lib/index.js"
 
 	let isChecked = $state(false)
 

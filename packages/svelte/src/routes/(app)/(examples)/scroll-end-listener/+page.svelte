@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ScrollEndListener } from "@/index.js"
+	import { ScrollEndListener } from "$lib/index.js"
 
 	function onScrollToEnd() {
 		console.log("end")

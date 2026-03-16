@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Alert } from "@/index.js"
+	import { Alert } from "$lib/index.js"
 	import { Constants } from "@fefade-ui/core"
 </script>
 

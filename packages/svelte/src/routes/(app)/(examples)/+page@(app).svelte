@@ -1,5 +1,5 @@
 <script>
-	import { Link } from "@/index.js"
+	import { Link } from "$lib/index.js"
 </script>
 
 <div class="circle">

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, toast, Toaster } from "@/index.js"
+	import { Button, toast, Toaster } from "$lib/index.js"
 
 	const colors = ["error", "success", "warning"] as const
 	const positions = [
@@ -64,5 +64,18 @@
 		}}
 	>
 		Closable
+	</Button>
+
+	<Button
+		onclick={() => {
+			toast({
+				message:
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, et in praesentium ab eveniet dolor harum. Voluptate nobis magni modi provident? Molestiae laboriosam beatae in. Ratione, iure. Officiis, autem aspernatur.",
+				duration: 150000,
+				position: "bottom-center"
+			})
+		}}
+	>
+		Large message
 	</Button>
 </div>

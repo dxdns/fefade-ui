@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { useMediaQuery } from "@/index.js"
+	import { useMediaQuery } from "$lib/index.js"
 
 	const isSm = useMediaQuery("max-width", "sm")
 	const isMd = useMediaQuery("max-width", "md")

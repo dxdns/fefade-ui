@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Grid } from "@/index.js"
+	import { Grid } from "$lib/index.js"
 
 	const items = [
 		{ color: "#FF6B6B", height: "100px" },

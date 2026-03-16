@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ColorPicker } from "@/index.js"
+	import { ColorPicker } from "$lib/index.js"
 
 	let color = $state("#fde6b0")
 </script>

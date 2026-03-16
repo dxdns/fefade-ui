@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Kbd } from "@/index.js"
+	import { Kbd } from "$lib/index.js"
 
 	const sizes = ["xs", "sm", "md", "lg", "xl"] as const
 </script>

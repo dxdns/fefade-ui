@@ -6,7 +6,7 @@
 		PasswordInput,
 		SearchInput,
 		TextField
-	} from "@/index.js"
+	} from "$lib/index.js"
 
 	let filesData: File[] = $state([])
 

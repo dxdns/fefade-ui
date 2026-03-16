@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Window } from "@/index.js"
+	import { Window } from "$lib/index.js"
 </script>
 
 <Window>test</Window>

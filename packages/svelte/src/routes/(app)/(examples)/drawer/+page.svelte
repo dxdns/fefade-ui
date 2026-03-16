@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Drawer, Navbar, Window } from "@/index.js"
+	import { Button, Drawer, Navbar, Window } from "$lib/index.js"
 
 	let drawerStates = $state({
 		top: false,

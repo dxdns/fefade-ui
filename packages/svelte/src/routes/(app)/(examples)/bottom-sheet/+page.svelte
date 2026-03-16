@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { BottomSheet, Button } from "@/index.js"
+	import { BottomSheet, Button } from "$lib/index.js"
 	import { onMount } from "svelte"
 
 	let isOpen = $state(false)

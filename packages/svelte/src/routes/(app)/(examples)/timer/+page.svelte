@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Timer } from "@/index.js"
+	import { Button, Timer } from "$lib/index.js"
 	import { Constants } from "@fefade-ui/core"
 
 	const themeColor = Constants.themeColorVar

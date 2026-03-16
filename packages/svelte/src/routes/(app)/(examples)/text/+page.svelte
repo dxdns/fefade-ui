@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Text } from "@/index.js"
+	import { Text } from "$lib/index.js"
 </script>
 
 <div style="max-width: 500px;">

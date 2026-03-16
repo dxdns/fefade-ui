@@ -6,7 +6,8 @@
 		0 10px 15px rgba(0, 0, 0, 0.15);
 	backdrop-filter: blur(6px);
 	pointer-events: all;
-	min-width: 100px;
+	min-width: calc(100vw - 100px);
+	max-width: calc(100vw - 100px);
 }
 
 .wrapper {
@@ -21,6 +22,7 @@
 .message {
 	flex: 1;
 	margin: 0;
+	min-width: 0;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -28,6 +30,14 @@
 
 @media screen and (max-width: 768px) {
 	.message {
+		display: -webkit-box;
+		line-clamp: 3;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		box-orient: vertical;
+		white-space: normal;
+		overflow-wrap: break-word;
 		word-wrap: break-word;
+		line-height: 1.3;
 	}
 }

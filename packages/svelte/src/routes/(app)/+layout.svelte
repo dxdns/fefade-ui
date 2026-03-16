@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { createTheme, Provider } from "@/index.js"
+	import { createTheme, Provider } from "$lib/index.js"
 
 	let { children } = $props()
 
