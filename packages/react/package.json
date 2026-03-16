@@ -30,14 +30,17 @@
 	},
 	"devDependencies": {
 		"@fefade-ui/core": "*",
+		"@fefade-ui/react": "*",
+		"@fefade-ui/svelte": "*",
+		"@fefade-ui/vue": "*",
 		"@types/react": "^19.1.8",
 		"@types/react-dom": "^19.1.6",
 		"@vitejs/plugin-react": "^4.6.0",
-		"glob": "^11.0.3",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
 		"vite-plugin-dts": "^4.5.4",
-		"vite-plugin-lib-inject-css": "^2.2.2"
+		"vite-plugin-lib-inject-css": "^2.2.2",
+		"vite": "^7.2.6"
 	},
 	"keywords": [
 		"react",

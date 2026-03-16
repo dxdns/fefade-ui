@@ -9,10 +9,14 @@
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"disable:toolbar": "astro preferences disable devToolbar"
+		"disable:toolbar": "astro preferences disable devToolbar",
+		"format": "prettier --write .",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix"
 	},
 	"dependencies": {
 		"@astrojs/react": "^4.3.0",
+		"@astrojs/sitemap": "^3.7.1",
 		"@astrojs/starlight": "^0.34.1",
 		"@astrojs/svelte": "^7.0.11",
 		"@astrojs/vue": "^5.1.0",
@@ -20,8 +24,6 @@
 		"@fefade-ui/react": "*",
 		"@fefade-ui/svelte": "*",
 		"@fefade-ui/vue": "*",
-		"@types/react": "^19.1.8",
-		"@types/react-dom": "^19.1.6",
 		"astro": "^5.6.1",
 		"astro-breadcrumbs": "^3.3.1",
 		"react": "^19.1.0",
@@ -31,6 +33,10 @@
 		"vue": "^3.5.17"
 	},
 	"devDependencies": {
-		"prettier-plugin-astro": "0.14.1"
+		"@types/react": "^19.1.8",
+		"@types/react-dom": "^19.1.6",
+		"eslint-plugin-astro": "^1.6.0",
+		"prettier-plugin-astro": "0.14.1",
+		"vite": "^7.2.6"
 	}
 }

@@ -1,0 +1,7 @@
+packages:
+  - "packages/*"
+  - "apps/**"
+allowBuilds:
+  "@fefade-ui/core": true
+  esbuild: true
+  sharp: true

@@ -3,6 +3,9 @@
 		"target": "ES2020",
 		"module": "node16",
 		"moduleResolution": "node16",
+		"types": [
+			"node"
+		],
 		"outDir": "dist",
 		"rootDir": "src",
 		"declaration": true,
@@ -13,6 +16,10 @@
 		"skipLibCheck": true,
 		"resolveJsonModule": true
 	},
-	"include": ["src"],
-	"exclude": ["node_modules"]
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"node_modules"
+	]
 }
