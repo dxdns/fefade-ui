@@ -172,6 +172,14 @@ export default defineConfig({
 			alias: {
 				"@": path.resolve("./src/lib")
 			}
+		},
+		ssr: {
+			noExternal: [
+				"@fefade-ui/core",
+				"@fefade-ui/react",
+				"@fefade-ui/svelte",
+				"@fefade-ui/vue"
+			]
 		}
 	}
 })
