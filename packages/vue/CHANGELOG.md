@@ -1,5 +1,12 @@
 # @fefade-ui/vue
 
+## 2.0.0
+
+### Patch Changes
+
+- Updated dependencies [312ccfe]
+  - @fefade-ui/core@2.0.0
+
 ## 1.0.0
 
 ### Patch Changes

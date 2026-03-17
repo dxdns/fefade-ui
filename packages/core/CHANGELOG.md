@@ -1,5 +1,11 @@
 # @fefade-ui/core
 
+## 2.0.0
+
+### Major Changes
+
+- 312ccfe: fix: toast style
+
 ## 1.0.0
 
 ### Major Changes
