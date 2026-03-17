@@ -8,7 +8,9 @@
 		"packages/*",
 		"apps/**"
 	],
+	"packageManager": "pnpm@10.32.1",
 	"scripts": {
+		"ci:publish": "pnpm publish -r",
 		"dev:core": "pnpm --filter @fefade-ui/core run dev",
 		"dev:svelte": "concurrently --names \"CORE,SVELTE\" --prefix-colors \"gray,yellow\" \"pnpm run dev:core\" \"pnpm --filter @fefade-ui/svelte run dev\"",
 		"dev:react": "concurrently --names \"CORE,REACT\" --prefix-colors \"gray,cyan\" \"pnpm run dev:core\" \"pnpm --filter @fefade-ui/react run dev\"",
@@ -19,10 +21,10 @@
 		"build:react": "pnpm --filter @fefade-ui/react run build",
 		"build:vue": "pnpm --filter @fefade-ui/vue run build",
 		"git:push": "git push && git push --tags",
-		"release:core:patch": "pnpm run build:core && pnpm version patch -w @fefade-ui/core --no-git-tag-version && git add packages/core && git commit -m \"chore(release): bump version core\" && git tag core-v$(node -p \"require('./packages/core/package.json').version\") && pnpm run git:push",
-		"release:svelte:patch": "pnpm run build:svelte && pnpm version patch -w @fefade-ui/svelte --no-git-tag-version && git add packages/svelte && git commit -m \"chore(release): bump version svelte\" && git tag svelte-v$(node -p \"require('./packages/svelte/package.json').version\") && pnpm run git:push",
-		"release:react:patch": "pnpm run build:react && pnpm version patch -w @fefade-ui/react --no-git-tag-version && git add packages/react && git commit -m \"chore(release): bump version react\" && git tag react-v$(node -p \"require('./packages/react/package.json').version\") && pnpm run git:push",
-		"release:vue:patch": "pnpm run build:vue && pnpm version patch -w @fefade-ui/vue --no-git-tag-version && git add packages/vue && git commit -m \"chore(release): bump version vue\" && git tag vue-v$(node -p \"require('./packages/vue/package.json').version\") && pnpm run git:push",
+		"release:core:patch": "pnpm run build:core && npm version patch -w @fefade-ui/core --no-git-tag-version && git add packages/core && git commit -m \"chore(release): bump version core\" && git tag core-v$(node -p \"require('./packages/core/package.json').version\") && pnpm run git:push",
+		"release:svelte:patch": "pnpm run build:svelte && npm version patch -w @fefade-ui/svelte --no-git-tag-version && git add packages/svelte && git commit -m \"chore(release): bump version svelte\" && git tag svelte-v$(node -p \"require('./packages/svelte/package.json').version\") && pnpm run git:push",
+		"release:react:patch": "pnpm run build:react && npm version patch -w @fefade-ui/react --no-git-tag-version && git add packages/react && git commit -m \"chore(release): bump version react\" && git tag react-v$(node -p \"require('./packages/react/package.json').version\") && pnpm run git:push",
+		"release:vue:patch": "pnpm run build:vue && npm version patch -w @fefade-ui/vue --no-git-tag-version && git add packages/vue && git commit -m \"chore(release): bump version vue\" && git tag vue-v$(node -p \"require('./packages/vue/package.json').version\") && pnpm run git:push",
 		"release:core:tag": "pnpm run build:core && git tag core-v$(node -p \"require('./packages/core/package.json').version\") && git push origin core-v$(node -p \"require('./packages/core/package.json').version\")",
 		"release:svelte:tag": "pnpm run build:svelte && git tag svelte-v$(node -p \"require('./packages/svelte/package.json').version\") && git push origin svelte-v$(node -p \"require('./packages/svelte/package.json').version\")",
 		"release:react:tag": "pnpm run build:react && git tag react-v$(node -p \"require('./packages/react/package.json').version\") && git push origin react-v$(node -p \"require('./packages/react/package.json').version\")",
@@ -46,14 +48,15 @@
 	},
 	"homepage": "https://github.com/fefade/ui#readme",
 	"devDependencies": {
+		"@changesets/cli": "^2.30.0",
 		"@types/node": "^22.19.15",
 		"concurrently": "^9.2.1",
 		"glob": "^13.0.6",
 		"globals": "^17.4.0",
 		"jiti": "^2.6.1",
 		"prettier": "^3.8.1",
-		"prettier-plugin-svelte": "^3.5.1",
 		"prettier-plugin-astro": "0.14.1",
+		"prettier-plugin-svelte": "^3.5.1",
 		"typescript": "^5.9.3"
 	}
 }
