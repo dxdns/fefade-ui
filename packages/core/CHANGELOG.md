@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- b823063: fix: toast style
+
+## 1.0.1
+
+### Patch Changes
+
 - 2287ec0: fix: toast style
 
 ## 2.0.0
