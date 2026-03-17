@@ -1,0 +1,9 @@
+packages:
+  - "packages/*"
+  - "apps/**"
+allowBuilds:
+  "@fefade-ui/core": true
+  esbuild: true
+  sharp: true
+overrides:
+  core: link:../../.local/share/pnpm/global/5/node_modules/@fefade-ui/core

@@ -1,17 +1,16 @@
-import { tick } from "svelte"
-
 type Props = {
 	target: HTMLElement
 	id: string
+	tick: () => Promise<void>
 }
 
 const portals = new Map<string, HTMLElement>()
 
 export default function createPortalAction(
 	node: HTMLElement,
-	props: Props = { target: document.body, id: "default" }
+	props: Props = { target: document.body, id: "default", tick: async () => {} }
 ) {
-	const { target, id } = props
+	const { target, id, tick } = props
 
 	const key = `$$portal.${id}`
 	let destroy: (() => void) | undefined
