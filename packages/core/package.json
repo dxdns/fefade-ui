@@ -1,6 +1,6 @@
 {
 	"name": "@fefade-ui/core",
-	"version": "0.0.6",
+	"version": "1.0.0",
 	"description": "Shared logic and foundational utilities for fefade ui.",
 	"private": false,
 	"author": "fefade <https://github.com/fefade>",
