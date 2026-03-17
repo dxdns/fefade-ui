@@ -5,7 +5,7 @@ type Props = {
 }
 
 export default function videoAction(node: HTMLVideoElement, props: Props = {}) {
-	let { lazy = false } = props
+	const { lazy = false } = props
 	let checkVisibility: ReturnType<typeof checkVisibilityAction> | null = null
 
 	node.style.opacity = "0"

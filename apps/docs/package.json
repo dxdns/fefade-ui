@@ -9,10 +9,7 @@
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"disable:toolbar": "astro preferences disable devToolbar",
-		"format": "prettier --write .",
-		"lint": "eslint",
-		"lint:fix": "eslint --fix"
+		"disable:toolbar": "astro preferences disable devToolbar"
 	},
 	"dependencies": {
 		"@astrojs/react": "^4.3.0",
@@ -34,9 +31,6 @@
 	},
 	"devDependencies": {
 		"@types/react": "^19.1.8",
-		"@types/react-dom": "^19.1.6",
-		"eslint-plugin-astro": "^1.6.0",
-		"prettier-plugin-astro": "0.14.1",
-		"vite": "^7.2.6"
+		"@types/react-dom": "^19.1.6"
 	}
 }

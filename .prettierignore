@@ -4,3 +4,11 @@ pnpm-lock.yaml
 yarn.lock
 bun.lock
 bun.lockb
+
+node_modules
+dist
+build
+.astro
+.svelte-kit
+assets
+static

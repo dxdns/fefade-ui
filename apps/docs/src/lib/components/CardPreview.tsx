@@ -6,7 +6,7 @@ export default function () {
 	const cardVariants = ["contained", "outlined"] as const
 
 	function handleClick() {
-		setBorderWidth((old) => (old += 4))
+		setBorderWidth((old) => old + 4)
 	}
 
 	return (

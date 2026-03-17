@@ -16,9 +16,7 @@
 	"scripts": {
 		"build": "tsc && node esbuild.config.mjs",
 		"dev": "concurrently \"tsc --watch --emitDeclarationOnly --outDir dist\" \"node scripts/banner.mjs && node esbuild.config.mjs --watch\"",
-		"postinstall": "node ./postinstall.js",
-		"lint": "eslint",
-		"lint:fix": "eslint --fix"
+		"postinstall": "node ./postinstall.js"
 	},
 	"exports": {
 		".": {

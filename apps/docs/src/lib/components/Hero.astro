@@ -6,6 +6,7 @@ import { getTranslations } from "@/i18n"
 import { getPath } from "@/i18n"
 import type { StarlightIcon } from "@astrojs/starlight/types"
 import { capitalizeUtil } from "@fefade-ui/core/utils"
+import type { ImageMetadata } from "astro"
 
 const { buttons } = getTranslations(Astro.currentLocale)
 const { data } = Astro.locals.starlightRoute.entry
