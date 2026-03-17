@@ -1,5 +1,12 @@
 # @fefade-ui/react
 
+## 3.0.0
+
+### Patch Changes
+
+- Updated dependencies [732046b]
+  - @fefade-ui/core@3.0.0
+
 ## 2.0.0
 
 ### Patch Changes
