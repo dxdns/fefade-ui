@@ -4,6 +4,13 @@
 
 ### Patch Changes
 
+- Updated dependencies [443273a]
+  - @fefade-ui/core@2.0.0
+
+## 2.0.0
+
+### Patch Changes
+
 - Updated dependencies [2e81a69]
   - @fefade-ui/core@2.0.0
 
