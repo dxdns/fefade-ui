@@ -3,16 +3,9 @@
 	"changelog": "@changesets/cli/changelog",
 	"commit": true,
 	"fixed": [],
-	"linked": [
-		[
-			"@fefade-ui/core",
-			"@fefade-ui/svelte",
-			"@fefade-ui/react",
-			"@fefade-ui/vue"
-		]
-	],
+	"linked": [],
 	"access": "public",
 	"baseBranch": "main",
-	"updateInternalDependencies": "patch",
-	"ignore": ["docs", "ui"]
+	"updateInternalDependencies": "minor",
+	"ignore": ["docs"]
 }
