@@ -6,7 +6,7 @@
 		0 10px 15px rgba(0, 0, 0, 0.15);
 	backdrop-filter: blur(6px);
 	pointer-events: all;
-	min-width: calc(100vw - 100px);
+	min-width: 250px;
 	max-width: calc(100vw - 100px);
 }
 
