@@ -30,9 +30,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build packages
-        run: pnpm -r build
-
       - name: Copy README to all packages
         run: |
           find packages -mindepth 1 -maxdepth 1 -type d -exec cp README.md {} \;

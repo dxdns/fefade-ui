@@ -16,17 +16,17 @@
 		"@astrojs/starlight": "^0.34.1",
 		"@astrojs/svelte": "^7.0.11",
 		"@astrojs/vue": "^5.1.0",
-		"@fefade-ui/core": "workspace:*",
-		"@fefade-ui/react": "workspace:*",
-		"@fefade-ui/svelte": "workspace:*",
-		"@fefade-ui/vue": "workspace:*",
 		"astro": "^5.6.1",
 		"astro-breadcrumbs": "^3.3.1",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
 		"sharp": "^0.32.5",
 		"svelte": "^5.46.4",
-		"vue": "^3.5.17"
+		"vue": "^3.5.17",
+		"@fefade-ui/core": "workspace:*",
+		"@fefade-ui/react": "workspace:*",
+		"@fefade-ui/svelte": "workspace:*",
+		"@fefade-ui/vue": "workspace:*"
 	},
 	"devDependencies": {
 		"@types/react": "^19.1.8",

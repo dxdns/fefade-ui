@@ -9,6 +9,7 @@
 	],
 	"packageManager": "pnpm@10.32.1",
 	"scripts": {
+		"prepare": "pnpm -r build",
 		"ci:publish": "pnpm publish -r --access public --no-git-checks",
 		"publish:select": "node scripts/publish.mjs",
 		"dev:core": "pnpm --filter @fefade-ui/core run dev",
