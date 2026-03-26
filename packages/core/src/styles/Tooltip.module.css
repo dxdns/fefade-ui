@@ -16,7 +16,7 @@
 	bottom: calc(100% + var(--arrow-size));
 	pointer-events: none;
 	transition: 0.2s;
-	will-change: transform;
+	will-change: auto;
 	z-index: 1001;
 }
 

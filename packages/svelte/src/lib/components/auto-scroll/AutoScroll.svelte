@@ -97,7 +97,7 @@
 	.wrapper {
 		display: flex;
 		gap: 1rem;
-		will-change: transform;
+		will-change: auto;
 	}
 
 	.wrapper:hover {

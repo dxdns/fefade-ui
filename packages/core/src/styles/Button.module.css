@@ -27,7 +27,7 @@
 }
 
 .button.pressedEffect:not(:disabled) {
-	will-change: transform;
+	will-change: auto;
 	transition:
 		transform 0.1s ease,
 		filter 0.1s ease;
