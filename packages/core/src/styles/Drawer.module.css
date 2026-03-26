@@ -7,13 +7,14 @@
 		transform 0.3s cubic-bezier(0.82, 0.085, 0.395, 0.895),
 		width 0.3s cubic-bezier(0.82, 0.085, 0.395, 0.895),
 		height 0.3s cubic-bezier(0.82, 0.085, 0.395, 0.895);
-	will-change: transform, width, height;
+	will-change: auto;
 	overflow: hidden;
 	height: auto;
 	width: auto;
 	min-width: 18rem;
 	margin: 0;
 	box-sizing: border-box;
+	backface-visibility: hidden;
 }
 
 .drawer.temporary {

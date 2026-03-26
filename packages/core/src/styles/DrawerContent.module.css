@@ -9,4 +9,5 @@
 	padding: clamp(1rem, 2vh, 2rem);
 	box-sizing: border-box;
 	min-height: fit-content;
+	-webkit-font-smoothing: antialiased;
 }
