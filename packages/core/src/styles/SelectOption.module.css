@@ -1,0 +1,4 @@
+.option:disabled {
+	color: var(--ff-disabled);
+	pointer-events: none;
+}

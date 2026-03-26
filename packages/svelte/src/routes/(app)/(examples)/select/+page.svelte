@@ -26,6 +26,13 @@
 <br />
 <br />
 
+<Select name="select disabled" disabled>
+	<Select.Option value="disabled">disabled</Select.Option>
+</Select>
+
+<br />
+<br />
+
 {#each Constants.variants as variant (variant)}
 	<Select {variant}>
 		<option>{variant}</option>
