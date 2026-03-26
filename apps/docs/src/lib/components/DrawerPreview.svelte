@@ -43,6 +43,7 @@
 	{@render header()}
 	{@render content()}
 </Drawer>
+
 <Button
 	onclick={() => {
 		isOpenFixed = !isOpenFixed
@@ -50,6 +51,9 @@
 >
 	Right Fixed
 </Button>
+
+<br />
+<br />
 
 <Window style="position: relative; min-height: 500px;">
 	<Drawer.Overlay
