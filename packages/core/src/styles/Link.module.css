@@ -6,6 +6,7 @@
 	line-height: 0.7em;
 	text-decoration: none;
 	font-weight: 400;
+	max-width: fit-content;
 }
 
 .hasHover {
