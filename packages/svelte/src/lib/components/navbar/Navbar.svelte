@@ -5,7 +5,7 @@
 	import type { VariantType } from "@fefade-ui/core/types"
 	import styles from "@fefade-ui/core/styles/Navbar.module.css"
 
-	interface Props extends HTMLAttributes<HTMLDivElement> {
+	interface Props extends HTMLAttributes<HTMLElement> {
 		isTranslucent?: boolean
 		fadeOnScroll?: boolean
 		variant?: VariantType
@@ -21,7 +21,7 @@
 	}: Props = $props()
 </script>
 
-<div
+<nav
 	{...rest}
 	data-fade-on-scroll={fadeOnScroll}
 	class={classMapUtil(
@@ -36,4 +36,4 @@
 	use:fadeOnScrollAction
 >
 	{@render children?.()}
-</div>
+</nav>
