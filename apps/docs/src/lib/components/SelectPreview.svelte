@@ -27,7 +27,7 @@
 <br />
 
 <Select disabled>
-	<Select.Option disabled value="disabled">disabled</Select.Option>
+	<Select.Option value="disabled">disabled</Select.Option>
 </Select>
 
 <br />
