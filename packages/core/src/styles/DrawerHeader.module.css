@@ -3,7 +3,7 @@
 	align-items: center;
 	justify-content: center;
 	gap: 0.5rem;
-	padding: 1rem clamp(1rem, 2vw, 2rem);
+	padding: 1rem;
 	min-height: fit-content;
 }
 
