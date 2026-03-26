@@ -49,5 +49,8 @@
 		"prettier-plugin-astro": "0.14.1",
 		"prettier-plugin-svelte": "^3.5.1",
 		"typescript": "^5.9.3"
+	},
+	"overrides": {
+		"picomatch": "4.0.4"
 	}
 }
