@@ -9,10 +9,11 @@
 
 	let { class: className = "", type = "date", ...rest }: Props = $props()
 
-	let el: HTMLInputElement
+	let el: HTMLInputElement | undefined = $state()
 
 	async function handleClick() {
 		if (!el) return
+
 		el.showPicker()
 	}
 </script>

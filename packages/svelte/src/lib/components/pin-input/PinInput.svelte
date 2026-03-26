@@ -30,9 +30,11 @@
 		RIGHT: "ArrowRight"
 	}
 
-	let el: HTMLInputElement
+	let el: HTMLInputElement | undefined = $state()
 
 	function handleKeyDown(e: KeyboardEvent) {
+		if (!el) return
+
 		const isMeta = e.ctrlKey || e.metaKey
 
 		switch (e.key) {

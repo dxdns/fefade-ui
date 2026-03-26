@@ -21,8 +21,10 @@
 	let el: HTMLDivElement | undefined = $state()
 
 	$effect(() => {
+		if (!el) return
+
 		if (isOpen) {
-			el?.focus()
+			el.focus()
 			show = true
 		}
 	})

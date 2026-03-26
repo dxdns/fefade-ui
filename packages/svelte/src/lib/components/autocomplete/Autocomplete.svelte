@@ -30,7 +30,7 @@
 	let currentIndex = $state(-1)
 	let inputValue = $state("")
 	let filtered: typeof data = $state([])
-	let elItems: HTMLElement[] = $state([])
+	let elItems: HTMLElement[] | undefined = $state([])
 
 	function reset() {
 		currentIndex = -1
@@ -39,6 +39,8 @@
 	}
 
 	function handleSelect(item: T, index: number, e: KeyboardEvent) {
+		if (!elItems) return
+
 		if (e.key === "Enter") {
 			const parent = elItems[index]
 			const child = parent.querySelector("button, a") as HTMLElement
@@ -54,6 +56,8 @@
 	}
 
 	function handleFocusChange(index: number) {
+		if (!elItems) return
+
 		currentIndex = index
 		if (currentIndex === -1) {
 			reset()

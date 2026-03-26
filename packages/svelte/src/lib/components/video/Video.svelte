@@ -13,7 +13,7 @@
 
 	const { getVideoType } = videoUtil()
 
-	let el: HTMLVideoElement
+	let el: HTMLVideoElement | undefined = $state()
 </script>
 
 <video
@@ -23,9 +23,11 @@
 	class={className}
 	preload={lazy ? "none" : undefined}
 	onmouseenter={() => {
+		if (!el) return
 		el.pause()
 	}}
 	onmouseleave={() => {
+		if (!el) return
 		el.play()
 	}}
 	data-src={dataSrc}

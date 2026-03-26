@@ -17,11 +17,13 @@
 		...rest
 	}: Props = $props()
 
-	let el: HTMLInputElement | undefined
+	let el: HTMLInputElement | undefined = $state()
 
 	$effect(() => {
+		if (!el) return
+
 		if (focused) {
-			el?.focus()
+			el.focus()
 		}
 	})
 </script>

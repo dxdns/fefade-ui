@@ -17,9 +17,11 @@
 		...rest
 	}: Props = $props()
 
-	let el: HTMLInputElement
+	let el: HTMLInputElement | undefined = $state()
 
 	onMount(() => {
+		if (!el) return
+
 		if (autofocus) {
 			el.checked = true
 		}

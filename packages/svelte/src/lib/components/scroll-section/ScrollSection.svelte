@@ -33,9 +33,11 @@
 	let isFirst = $state(true)
 	let isLast = $state(false)
 
-	let el: HTMLDivElement
+	let el: HTMLDivElement | undefined = $state()
 
 	function handleChange() {
+		if (!el) return
+
 		checkVisibilityAction(el.firstElementChild as HTMLElement, {
 			callback: (isVisible) => {
 				isFirst = isVisible

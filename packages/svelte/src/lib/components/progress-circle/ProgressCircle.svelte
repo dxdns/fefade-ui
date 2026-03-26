@@ -20,7 +20,7 @@
 	}: Props = $props()
 
 	let strokeDasharray = $state("0")
-	let el: SVGSVGElement
+	let el: SVGSVGElement | undefined = $state()
 
 	$effect(() => {
 		const roundCircum = 2 * 36 * Math.PI

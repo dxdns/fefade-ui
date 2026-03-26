@@ -33,7 +33,7 @@
 	let index = $state(0)
 	let childs: HTMLElement[] = $state([])
 
-	let el: HTMLDivElement
+	let el: HTMLDivElement | undefined = $state()
 	let interval: ReturnType<typeof setInterval>
 	let _scrollNavigatorAction:
 		| ReturnType<typeof scrollNavigatorAction>
@@ -72,6 +72,8 @@
 	}
 
 	onMount(() => {
+		if (!el) return
+
 		if (auto) {
 			interval = setInterval(() => {
 				next()
