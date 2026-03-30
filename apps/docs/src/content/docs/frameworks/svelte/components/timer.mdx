@@ -10,8 +10,8 @@ head:
 categories: ["svelte"]
 ---
 
-import TimerPreview from "@/components/TimerPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import TimerPreview from "$lib/components/TimerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="TimerPreview">
 	<TimerPreview client:load />

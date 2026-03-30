@@ -1,4 +1,4 @@
-export { providerUtil, customThemeConfig, createTheme } from "./providerUtil.js"
+export { providerUtil, createTheme } from "./providerUtil.js"
 
 export { default as classMapUtil } from "./classMapUtil.js"
 export { default as actionUtil } from "./actionUtil.js"

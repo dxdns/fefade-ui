@@ -8,8 +8,8 @@ head:
 categories: ["svelte"]
 ---
 
-import ProgressCirclePreview from "@/components/ProgressCirclePreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import ProgressCirclePreview from "$lib/components/ProgressCirclePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="ProgressCirclePreview">
 	<ProgressCirclePreview client:load />

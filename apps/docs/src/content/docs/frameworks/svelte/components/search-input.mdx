@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import SearchInputPreview from "@/components/SearchInputPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import SearchInputPreview from "$lib/components/SearchInputPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="SearchInputPreview">
 	<SearchInputPreview client:load />

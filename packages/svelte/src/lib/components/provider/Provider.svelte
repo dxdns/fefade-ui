@@ -3,7 +3,7 @@
 	import { Constants } from "@fefade-ui/core"
 	import type { ThemeConfigType, ThemeModeType } from "@fefade-ui/core/types"
 	import { providerUtil } from "@fefade-ui/core/utils"
-	import { themeConfigState } from "../../states/index.js"
+	import { themeConfigState } from "$lib/states/index.js"
 	import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
 	import "@fefade-ui/core/styles/globals.css"
 

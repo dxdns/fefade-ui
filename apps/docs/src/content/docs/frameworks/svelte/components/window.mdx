@@ -8,8 +8,8 @@ head:
 categories: ["svelte"]
 ---
 
-import WindowPreview from "@/components/WindowPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import WindowPreview from "$lib/components/WindowPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="WindowPreview">
 	<WindowPreview client:load />

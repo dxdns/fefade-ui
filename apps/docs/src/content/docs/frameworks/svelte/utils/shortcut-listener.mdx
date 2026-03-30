@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import ShortcutListenerPreview from "@/components/ShortcutListenerPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import ShortcutListenerPreview from "$lib/components/ShortcutListenerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="ShortcutListenerPreview">
 	<ShortcutListenerPreview client:load />

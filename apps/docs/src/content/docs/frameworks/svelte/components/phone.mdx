@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import PhonePreview from "@/components/PhonePreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import PhonePreview from "$lib/components/PhonePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="PhonePreview">
 	<PhonePreview client:load />

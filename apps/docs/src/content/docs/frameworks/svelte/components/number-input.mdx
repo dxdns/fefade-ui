@@ -8,8 +8,8 @@ head:
 categories: ["svelte"]
 ---
 
-import NumberInputPreview from "@/components/NumberInputPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import NumberInputPreview from "$lib/components/NumberInputPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="NumberInputPreview">
 	<NumberInputPreview client:load />

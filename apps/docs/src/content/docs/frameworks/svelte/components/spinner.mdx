@@ -8,8 +8,8 @@ head:
 categories: ["svelte"]
 ---
 
-import SpinnerPreview from "@/components/SpinnerPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import SpinnerPreview from "$lib/components/SpinnerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="SpinnerPreview">
 	<SpinnerPreview client:load />

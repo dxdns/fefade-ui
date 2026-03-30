@@ -7,8 +7,8 @@ head:
 categories: ["svelte"]
 ---
 
-import ClipboardPreview from "@/components/ClipboardPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import ClipboardPreview from "$lib/components/ClipboardPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="ClipboardPreview">
 	<ClipboardPreview client:load />

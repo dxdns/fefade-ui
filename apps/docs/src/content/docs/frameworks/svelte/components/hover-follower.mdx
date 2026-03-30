@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import HoverFollowerPreview from "@/components/HoverFollowerPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import HoverFollowerPreview from "$lib/components/HoverFollowerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="HoverFollowerPreview">
 	<HoverFollowerPreview client:load />

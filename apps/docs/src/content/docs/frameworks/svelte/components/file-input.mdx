@@ -7,8 +7,8 @@ head:
 categories: ["svelte"]
 ---
 
-import FileInputPreview from "@/components/FileInputPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import FileInputPreview from "$lib/components/FileInputPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="FileInputPreview">
 	<FileInputPreview client:load />

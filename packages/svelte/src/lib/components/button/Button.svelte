@@ -2,7 +2,7 @@
 	import type { HTMLButtonAttributes } from "svelte/elements"
 	import { classMapUtil, handleClickUtil } from "@fefade-ui/core/utils"
 	import type { ButtonType, HTMLAttrAnchor } from "@fefade-ui/core/types"
-	import Spinner from "../spinner/index.js"
+	import Spinner from "$lib/components/spinner/index.js"
 	import styles from "@fefade-ui/core/styles/Button.module.css"
 
 	interface Props extends HTMLButtonAttributes, ButtonType, HTMLAttrAnchor {}

@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import LinkPreview from "@/components/LinkPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import LinkPreview from "$lib/components/LinkPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="LinkPreview">
 	<LinkPreview client:load />

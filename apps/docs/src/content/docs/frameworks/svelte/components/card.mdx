@@ -7,8 +7,8 @@ head:
 categories: ["svelte"]
 ---
 
-import CardPreview from "@/components/CardPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import CardPreview from "$lib/components/CardPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="CardPreview">
 	<CardPreview client:load />

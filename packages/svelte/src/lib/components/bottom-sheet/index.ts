@@ -1,7 +1,7 @@
 import BottomSheetComponent from "./BottomSheet.svelte"
 import BottomSheetContentComponent from "./BottomSheetContent.svelte"
 import BottomSheetDragButtonComponent from "./BottomSheetDragButton.svelte"
-import BottomSheetOverlayComponent from "../overlay/Overlay.svelte"
+import BottomSheetOverlayComponent from "$lib/components/overlay/Overlay.svelte"
 
 type BottomSheetComponentType = typeof BottomSheetComponent & {
 	Content: typeof BottomSheetContentComponent

@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { categoriesData } from "@/data"
-	import type { CategoryType } from "@/types"
+	import type { CategoryType } from "$lib/types"
 	import { Button, Card, Gallery, Text } from "@fefade-ui/svelte"
 	import { onMount } from "svelte"
 
@@ -46,7 +45,7 @@
 		flex-wrap: wrap;
 		"
 >
-	{#each categoriesData as category (category)}
+	{#each ["All", "Marketing", "Authentication"] as category (category)}
 		<Button
 			variant={selectedCategory === category ? "contained" : "outlined"}
 			onclick={() => {

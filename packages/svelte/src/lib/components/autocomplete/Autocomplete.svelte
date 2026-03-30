@@ -5,7 +5,7 @@
 	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLInputAttributes } from "svelte/elements"
 	import type { Snippet } from "svelte"
-	import { SearchInput } from "../search-input/index.js"
+	import { SearchInput } from "$lib/components/search-input/index.js"
 
 	interface Props<T> extends Omit<
 		Omit<Omit<HTMLInputAttributes, "color">, "type">,

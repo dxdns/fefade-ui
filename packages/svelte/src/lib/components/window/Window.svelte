@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import Card from "../card/index.js"
-	import Badge from "../badge/index.js"
+	import Card from "$lib/components/card/index.js"
+	import Badge from "$lib/components/badge/index.js"
 	import type { Snippet } from "svelte"
 	import type { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
 	import styles from "@fefade-ui/core/styles/Window.module.css"

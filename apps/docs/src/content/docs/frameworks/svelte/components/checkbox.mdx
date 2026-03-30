@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import CheckboxPreview from "@/components/CheckboxPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import CheckboxPreview from "$lib/components/CheckboxPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="CheckboxPreview">
 	<CheckboxPreview client:load />

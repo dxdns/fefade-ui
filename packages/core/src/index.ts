@@ -1,6 +1,6 @@
 /**
  *  @license MIT
- *  fefade ui
+ *  Fefade UI
  *  https://github.com/fefade/ui
  */
 

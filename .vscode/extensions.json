@@ -1,7 +1,9 @@
 {
 	"recommendations": [
-		"Vue.volar",
 		"esbenp.prettier-vscode",
-		"svelte.svelte-vscode"
+		"svelte.svelte-vscode",
+		"vscode-icons-team.vscode-icons",
+		"unifiedjs.vscode-mdx",
+		"astro-build.astro-vscode"
 	]
 }

@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import ColorPickerPreview from "@/components/ColorPickerPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import ColorPickerPreview from "$lib/components/ColorPickerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="ColorPickerPreview">
 	<ColorPickerPreview client:load />

@@ -8,8 +8,8 @@ head:
 categories: ["svelte"]
 ---
 
-import SkeletonPreview from "@/components/SkeletonPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import SkeletonPreview from "$lib/components/SkeletonPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="SkeletonPreview">
 	<SkeletonPreview client:load />

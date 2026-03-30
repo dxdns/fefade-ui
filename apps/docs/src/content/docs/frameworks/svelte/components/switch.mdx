@@ -8,8 +8,8 @@ head:
 categories: ["svelte"]
 ---
 
-import SwitchPreview from "@/components/SwitchPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import SwitchPreview from "$lib/components/SwitchPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="SwitchPreview">
 	<SwitchPreview client:load />

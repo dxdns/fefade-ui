@@ -12,9 +12,9 @@
 	} from "@fefade-ui/core/types"
 	import styles from "@fefade-ui/core/styles/GalleryItem.module.css"
 	import type { HTMLVideoAttributes } from "svelte/elements"
-	import { Video } from "../video/index.js"
+	import { Video } from "$lib/components/video/index.js"
 	import { createPortalAction } from "@fefade-ui/core/actions"
-	import Modal from "../modal/index.js"
+	import Modal from "$lib/components/modal/index.js"
 
 	type HTMLVideoAttr = Omit<HTMLVideoAttributes, "src">
 

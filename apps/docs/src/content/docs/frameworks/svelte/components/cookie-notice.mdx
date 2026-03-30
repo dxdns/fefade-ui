@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import CookieNoticePreview from "@/components/CookieNoticePreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import CookieNoticePreview from "$lib/components/CookieNoticePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="CookieNoticePreview">
 	<CookieNoticePreview client:load />

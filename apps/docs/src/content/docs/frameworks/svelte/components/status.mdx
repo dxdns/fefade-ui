@@ -7,8 +7,8 @@ head:
 categories: ["svelte"]
 ---
 
-import StatusPreview from "@/components/StatusPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import StatusPreview from "$lib/components/StatusPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="StatusPreview">
 	<StatusPreview client:load />

@@ -1,9 +1,9 @@
 {
 	"name": "@fefade-ui/core",
 	"version": "0.0.8",
-	"description": "Shared logic and foundational utilities for fefade ui.",
+	"description": "Shared logic and foundational utilities for Fefade UI.",
 	"private": false,
-	"author": "fefade <https://github.com/fefade>",
+	"author": "Fefade <https://github.com/fefade>",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -54,10 +54,7 @@
 		"components",
 		"ui",
 		"ui-kit",
-		"fefade",
-		"react",
 		"svelte",
-		"next",
 		"kit"
 	],
 	"type": "module",

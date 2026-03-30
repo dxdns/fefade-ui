@@ -7,8 +7,8 @@ head:
 categories: ["svelte"]
 ---
 
-import TextFieldPreview from "@/components/TextFieldPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import TextFieldPreview from "$lib/components/TextFieldPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="TextFieldPreview">
 	<TextFieldPreview client:load />

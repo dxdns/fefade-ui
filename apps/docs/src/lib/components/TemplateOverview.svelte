@@ -27,12 +27,8 @@
 
 	function getClassNames(s: string) {
 		switch (s.toLowerCase()) {
-			case "react":
-				return "bg-info text-on-info"
 			case "svelte":
 				return "bg-warning text-on-warning"
-			case "vue":
-				return "bg-success text-on-success"
 			case "typescript":
 				return "bg-info text-on-info"
 			case "free":
@@ -81,8 +77,6 @@
 				}}
 				value={frameworkSelected}
 			>
-				<option value="react" disabled>React</option>
-				<option value="vue" disabled>Vue</option>
 				<option value="svelte">Svelte</option>
 			</Select>
 			<Button variant="outlined" href={data.codeUrl} target="_blank">

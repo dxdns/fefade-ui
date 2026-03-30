@@ -10,8 +10,8 @@ head:
 categories: ["svelte"]
 ---
 
-import TestimonialPreview from "@/components/TestimonialPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import TestimonialPreview from "$lib/components/TestimonialPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="TestimonialPreview">
 	<TestimonialPreview client:load />

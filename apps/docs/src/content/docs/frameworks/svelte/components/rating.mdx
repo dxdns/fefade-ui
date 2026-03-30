@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import RatingPreview from "@/components/RatingPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import RatingPreview from "$lib/components/RatingPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="RatingPreview">
 	<RatingPreview client:load />

@@ -8,7 +8,7 @@
 		target="_blank"
 		style="transform: translate(50%, 100%);"
 	>
-		<h1>fefade ui</h1>
+		<h1>Fefade UI</h1>
 	</Link>
 </div>
 

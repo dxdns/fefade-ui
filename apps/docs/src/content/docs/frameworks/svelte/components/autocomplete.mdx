@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import AutocompletePreview from "@/components/AutocompletePreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import AutocompletePreview from "$lib/components/AutocompletePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="AutocompletePreview">
 	<AutocompletePreview client:load />

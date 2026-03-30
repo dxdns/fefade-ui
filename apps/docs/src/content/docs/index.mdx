@@ -1,24 +1,21 @@
 ---
-title: Component Library for React, Vue & Svelte
+title: Component Library for Svelte
 description:
-  Build web interfaces faster with fefade ui. A modern, lightweight, and
-  customizable UI component library compatible with React, Vue, and Svelte.
+  Build web interfaces faster with Fefade UI. A modern, lightweight, and
+  customizable UI component library.
 template: splash
 hero:
   title: UI Component Library
   tagline: Minimal, accessible, dependency-free.
-  # image:
-  #   alt: logo
-  #   file: ../../../public/icon-180.png
 ---
 
 import { CardGrid, LinkCard } from "@astrojs/starlight/components"
 import { Card, Link } from "@fefade-ui/svelte"
-import TextFieldPreview from "@/components/TextFieldPreview.svelte"
-import CarouselPreview from "@/components/CarouselPreview.svelte"
-import ButtonPreview from "@/components/ButtonPreview.svelte"
-import ProgressCirclePreview from "@/components/ProgressCirclePreview.svelte"
-import About from "@/components/About.astro"
+import TextFieldPreview from "$lib/components/TextFieldPreview.svelte"
+import CarouselPreview from "$lib/components/CarouselPreview.svelte"
+import ButtonPreview from "$lib/components/ButtonPreview.svelte"
+import ProgressCirclePreview from "$lib/components/ProgressCirclePreview.svelte"
+import About from "$lib/components/About.astro"
 
 <CardGrid stagger>
 	<Card
@@ -77,10 +74,10 @@ import About from "@/components/About.astro"
 </CardGrid>
 
 <About>
-    fefade ui is a lightweight UI component library built for simplicity and speed.
+    Fefade UI is a lightweight UI component library built for simplicity and speed.
     Design clean, fast, and accessible interfaces with zero dependencies.
 
     MIT-licensed and <a href="https://github.com/fefade/ui" target="_blank" rel="noopener noreferrer">open source.</a>
-    [Learn about fefade ui](/installation)
+    [Learn about Fefade UI](/installation)
 
 </About>

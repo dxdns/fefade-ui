@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import CarouselPreview from "@/components/CarouselPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import CarouselPreview from "$lib/components/CarouselPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="CarouselPreview">
 	<CarouselPreview client:load />

@@ -5,13 +5,7 @@ description: all components.
 
 import { CardGrid, LinkCard } from "@astrojs/starlight/components"
 import { capitalizeUtil } from "@fefade-ui/core/utils"
-import { frameworksData } from "@/data"
 
 <CardGrid>
-	{frameworksData.map((framework) => (
-		<LinkCard
-			title={capitalizeUtil(framework)}
-			href={`/frameworks/${framework}/components/`}
-		/>
-	))}
+	<LinkCard title="Svelte" href="/frameworks/svelte/components/" />
 </CardGrid>

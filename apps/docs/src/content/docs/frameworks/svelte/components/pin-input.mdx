@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import PinInputPreview from "@/components/PinInputPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import PinInputPreview from "$lib/components/PinInputPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="PinInputPreview">
 	<PinInputPreview client:load />

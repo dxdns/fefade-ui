@@ -12,9 +12,9 @@
 	} from "@fefade-ui/core/types"
 	import styles from "@fefade-ui/core/styles/GalleryItem.module.css"
 	import type { HTMLImgAttributes } from "svelte/elements"
-	import { Image } from "../image/index.js"
+	import { Image } from "$lib/components/image/index.js"
 	import { createPortalAction } from "@fefade-ui/core/actions"
-	import Modal from "../modal/index.js"
+	import Modal from "$lib/components/modal/index.js"
 
 	type HTMLImageAttr = Omit<HTMLImgAttributes, "src">
 

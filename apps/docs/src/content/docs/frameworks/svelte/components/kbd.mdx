@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import KbdPreview from "@/components/KbdPreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import KbdPreview from "$lib/components/KbdPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="KbdPreview">
 	<KbdPreview client:load />

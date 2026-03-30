@@ -7,8 +7,8 @@ head:
 categories: ["svelte"]
 ---
 
-import DataTablePreview from "@/components/DataTablePreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import DataTablePreview from "$lib/components/DataTablePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="DataTablePreview">
 	<DataTablePreview client:load />

@@ -9,8 +9,8 @@ head:
 categories: ["svelte"]
 ---
 
-import CodePreview from "@/components/CodePreview.svelte"
-import PreviewTabs from "@/components/PreviewTabs.astro"
+import CodePreview from "$lib/components/CodePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 <PreviewTabs component="CodePreview">
 	<CodePreview client:load />

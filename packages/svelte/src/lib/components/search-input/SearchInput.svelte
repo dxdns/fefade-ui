@@ -2,7 +2,7 @@
 	import type { HTMLInputAttributes } from "svelte/elements"
 	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { TextFieldType } from "@fefade-ui/core/types"
-	import TextField from "../text-field/index.js"
+	import TextField from "$lib/components/text-field/index.js"
 	import { searchIcon } from "@fefade-ui/core/icons"
 	import styles from "@fefade-ui/core/styles/SearchInput.module.css"
 
