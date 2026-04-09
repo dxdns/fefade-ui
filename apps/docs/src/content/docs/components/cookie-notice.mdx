@@ -1,0 +1,41 @@
+---
+title: Cookie Notice
+description:
+  A component to display a banner or dialog informing users about cookie usage
+  and collecting consent in compliance with privacy regulations.
+---
+
+import CookieNoticePreview from "$lib/components/CookieNoticePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `CookieNotice` component displays a banner or dialog to inform users about
+cookie usage and collect consent.  
+It helps your site comply with privacy regulations like GDPR and CCPA.
+
+- **Banner or dialog:** Can appear at the bottom, top, or as a modal.
+- **Customizable actions:** Accept or decline buttons.
+- **Interactive:** Open, close, or toggle programmatically.
+- **Flexible content:** Include text, links, or other interactive elements.
+
+## Usage Example
+
+<PreviewTabs component="CookieNoticePreview">
+	<CookieNoticePreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop / Slot      | Type             | Default  | Description                                          |
+| ---------------- | ---------------- | -------- | ---------------------------------------------------- |
+| `isOpen`         | boolean          | `false`  | Controls whether the notice is visible.              |
+| `Drawer.Header`  | component        | Optional | Header content of the notice (e.g., title or emoji). |
+| `Drawer.Content` | component        | Optional | Main content of the notice (text, buttons, links).   |
+| `Button`         | Svelte component | Optional | Action buttons to accept or decline cookies.         |
+
+## Best Practices
+
+- Show the notice **on initial page load** to comply with regulations.
+- Provide **clear accept and decline options** for users.
+- Keep content **concise and readable** for better UX.
+- Use **Drawer or banner positioning** to avoid obstructing main content.
+- Combine with **persistent state** to remember user consent across sessions.

@@ -14,8 +14,9 @@
 		"url": "git+https://github.com/fefade/ui.git"
 	},
 	"scripts": {
-		"build": "tsc && node esbuild.config.mjs",
-		"dev": "concurrently \"tsc --watch --emitDeclarationOnly --outDir dist\" \"node scripts/banner.mjs && node esbuild.config.mjs --watch\"",
+		"prebuild": "node scripts/banner.mjs",
+		"build": "tsc --incremental && node esbuild.config.mjs",
+		"dev": "concurrently \"tsc --watch --emitDeclarationOnly --outDir dist --incremental\" \"node esbuild.config.mjs --watch\"",
 		"postinstall": "node ./postinstall.js"
 	},
 	"exports": {

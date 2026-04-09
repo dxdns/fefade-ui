@@ -1,0 +1,41 @@
+---
+title: Data Table
+description:
+  A component for displaying structured data in rows and columns, supporting
+  custom content, sorting, and responsive layouts.
+---
+
+import DataTablePreview from "$lib/components/DataTablePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `DataTable` component displays **structured data** in rows and columns.  
+It is ideal for dashboards, reports, and any interface requiring organized
+tabular data.
+
+- **Structured layout:** Display rows and columns with consistent formatting.
+- **Customizable content:** Supports text, numbers, and interactive elements.
+- **Responsive design:** Works across screen sizes.
+- **Easy integration:** Bind your data array directly to the component.
+
+## Usage Example
+
+<PreviewTabs component="DataTablePreview">
+	<DataTablePreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop       | Type    | Default  | Description                                                             |
+| ---------- | ------- | -------- | ----------------------------------------------------------------------- |
+| `data`     | array   | `[]`     | Array of objects to display in the table. Each object represents a row. |
+| `columns`  | array   | Optional | Optional column definitions for custom headers, keys, or formatting.    |
+| `sortable` | boolean | `false`  | Enable sorting functionality on table columns.                          |
+| `style`    | string  | `""`     | Inline styles for layout or table container.                            |
+
+## Best Practices
+
+- Provide **unique keys** in your data rows (e.g., `id`) for performance.
+- Limit the number of columns for readability.
+- Combine with **pagination or virtual scrolling** for large datasets.
+- Include **clear column headers** to improve usability and accessibility.
+- Use consistent **cell formatting** for numbers, dates, or text.

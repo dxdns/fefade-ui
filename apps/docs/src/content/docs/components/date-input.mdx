@@ -1,0 +1,44 @@
+---
+title: Date Input
+description:
+  A form input component that allows users to select or enter dates, supporting
+  different types like day, month, or custom formats.
+---
+
+import DateInputPreview from "$lib/components/DateInputPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `DateInput` component provides a **form input** for selecting or entering
+dates.  
+It can be used for booking forms, scheduling, reporting, or any feature
+requiring date selection.
+
+- **Flexible input types:** Supports `date`, `month`, and custom formats.
+- **Interactive calendar:** Users can pick dates using a calendar interface.
+- **Manual entry:** Users can type a date directly if preferred.
+- **Accessible:** Keyboard and screen reader friendly.
+
+## Usage Example
+
+<PreviewTabs component="DateInputPreview">
+	<DateInputPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop          | Type                  | Default  | Description                                            |
+| ------------- | --------------------- | -------- | ------------------------------------------------------ |
+| `type`        | `"date"` \| `"month"` | `"date"` | Determines the type of date input.                     |
+| `value`       | string                | `""`     | Current value of the input in ISO format (YYYY-MM-DD). |
+| `placeholder` | string                | `""`     | Placeholder text for the input field.                  |
+| `disabled`    | boolean               | `false`  | Disables the input, preventing user interaction.       |
+| `min`         | string                | Optional | Minimum selectable date.                               |
+| `max`         | string                | Optional | Maximum selectable date.                               |
+
+## Best Practices
+
+- Use clear **placeholder text** to indicate expected format.
+- Apply **min and max** to prevent invalid date selections.
+- Ensure **labels** are present for accessibility.
+- Combine with **form validation** to handle required or optional dates.
+- Choose the appropriate `type` for the use case (`date` vs `month`).

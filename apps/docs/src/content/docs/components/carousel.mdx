@@ -1,0 +1,44 @@
+---
+title: Carousel
+description:
+  A carousel component for cycling through images or content panels with
+  navigation controls, autoplay, and custom actions.
+---
+
+import CarouselPreview from "$lib/components/CarouselPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Carousel` component allows you to display a slideshow of images or content
+panels with navigation controls and optional autoplay.  
+It is perfect for galleries, featured content, or interactive UI sections.
+
+- **Multiple items:** Display images, text, or custom content in slides.
+- **Navigation controls:** Buttons or indicators to move between slides.
+- **Autoplay support:** Automatically cycle through slides.
+- **Custom actions:** Slots for custom previous/next buttons or indicators.
+- **Responsive design:** Works with any container size.
+
+## Usage Example
+
+<PreviewTabs component="CarouselPreview">
+	<CarouselPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop            | Type           | Default     | Description                                                             |
+| --------------- | -------------- | ----------- | ----------------------------------------------------------------------- |
+| `id`            | string         | `""`        | Unique identifier for the carousel instance.                            |
+| `auto`          | boolean        | `false`     | Enables automatic cycling through slides.                               |
+| `href`          | string         | `undefined` | Optional link for slides that navigate to a URL.                        |
+| `Carousel.Item` | slot/component | Required    | Individual slide content, can include images, text, or custom elements. |
+| `actions`       | slot/function  | Optional    | Custom navigation controls (prev/next buttons, indicators).             |
+
+## Best Practices
+
+- Use **alt attributes** for images to improve accessibility and SEO.
+- Keep slides **concise and visually clear** for user engagement.
+- Use autoplay **carefully**, especially on mobile, to avoid overwhelming users.
+- Ensure **navigation controls** are visible and intuitive.
+- Combine with **Cards or other layout components** for rich content
+  presentations.

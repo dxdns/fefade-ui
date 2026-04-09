@@ -1,0 +1,44 @@
+---
+title: Code
+description:
+  A component for displaying inline or block code snippets with optional syntax
+  highlighting, line numbers, and customizable styles.
+---
+
+import CodePreview from "$lib/components/CodePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Code` component allows you to display **inline or block code snippets** in
+your applications.  
+It supports **line numbers**, optional **syntax highlighting**, and flexible
+styling for readable, interactive code blocks.
+
+- **Inline or block display:** Render single-line or multi-line code snippets.
+- **Line numbers:** Display line numbers for reference.
+- **Customizable styling:** Control colors, fonts, backgrounds, and highlights.
+- **Interactive use:** Can be combined with copy-to-clipboard functionality.
+
+## Usage Example
+
+<PreviewTabs component="CodePreview">
+	<CodePreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop         | Type      | Default  | Description                                                         |
+| ------------ | --------- | -------- | ------------------------------------------------------------------- |
+| `Code.Item`  | component | Required | Individual line of code with optional `lineNumber`.                 |
+| `lineNumber` | number    | Optional | The line number displayed next to each code line.                   |
+| `style`      | string    | `""`     | Inline CSS styles for custom styling of the code block.             |
+| `syntax`     | string    | Optional | Optional syntax highlighting mode (e.g., `"javascript"`, `"html"`). |
+
+## Best Practices
+
+- Keep code **readable** by using proper indentation and formatting.
+- Use **line numbers** for long blocks of code to improve clarity.
+- Combine with a **Clipboard** component for copy functionality.
+- Apply **contrastive styling** to make code blocks stand out in dark or light
+  themes.
+- Avoid overly long code blocks—consider splitting into multiple smaller
+  snippets for readability.

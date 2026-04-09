@@ -1,0 +1,48 @@
+---
+title: Gallery
+description:
+  A component for displaying collections of images, videos, or other content in
+  organized layouts like columns or masonry, supporting lazy loading and
+  viewers.
+---
+
+import GalleryPreview from "$lib/components/GalleryPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Gallery` component is a flexible container for displaying **collections of
+media**, such as images or videos, in an organized layout.  
+It supports **column layouts, masonry variants, lazy loading, and interactive
+viewers**.
+
+- **Layouts:** Supports fixed columns or masonry-style grids.
+- **Media types:** Handles images and videos seamlessly.
+- **Lazy loading:** Improves performance by loading media on demand.
+- **Interactive viewer:** Optional zoom, controls, and styling for media.
+- **Custom content:** Each media item can include captions, titles, or other
+  elements.
+
+## Usage Example
+
+<PreviewTabs component="GalleryPreview">
+	<GalleryPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop            | Type                     | Default     | Description                                                  |
+| --------------- | ------------------------ | ----------- | ------------------------------------------------------------ |
+| `columns`       | number                   | `1`         | Number of columns for the gallery layout.                    |
+| `variant`       | `"masonry"` \| undefined | `undefined` | Layout style; `"masonry"` enables masonry grid.              |
+| `gap`           | number                   | `0`         | Spacing between items in pixels.                             |
+| `Gallery.Image` | component                | Required    | Individual image item with optional lazy loading and viewer. |
+| `Gallery.Video` | component                | Optional    | Video item with optional autoplay, muted, loop, and viewer.  |
+| `viewer`        | object                   | Optional    | Viewer configuration for zoom, controls, and style.          |
+| `lazy`          | boolean                  | `false`     | Enables lazy loading for images or videos.                   |
+
+## Best Practices
+
+- Use **lazy loading** for large media collections to improve performance.
+- Include **alt text** for images to improve accessibility and SEO.
+- Combine with **Gallery.Video** for mixed media collections.
+- Keep **consistent sizes or aspect ratios** for a clean layout.
+- Use captions or titles to provide context for each media item.

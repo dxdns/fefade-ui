@@ -1,0 +1,56 @@
+---
+title: Accordion
+description:
+  A collapsible accordion component that supports dynamic state, auto-focus, and
+  different variants.
+---
+
+import AccordionAutoFocusPreview from "$lib/components/AccordionAutoFocusPreview.svelte"
+import AccordionVariantPreview from "$lib/components/AccordionVariantPreview.svelte"
+import AccordionDisabledPreview from "$lib/components/AccordionDisabledPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Accordion` component is used to organize content into collapsible
+sections.  
+It improves readability and allows users to focus on specific information while
+hiding other content.
+
+- **Collapsible sections:** Users can expand or collapse items to view content.
+- **Dynamic control:** Supports auto-focus, disabling items, and variant
+  styling.
+- **Flexible content:** Each accordion item can contain any type of content,
+  including text, lists, or other components.
+
+## Variant
+
+Use the `variant` prop to change the visual style of the accordion.
+
+<PreviewTabs component="AccordionVariantPreview">
+	<AccordionVariantPreview client:load />
+</PreviewTabs>
+
+## Auto Focus
+
+Use the `autofocus` prop to automatically expand a specific accordion item on
+load.
+
+<PreviewTabs component="AccordionAutoFocusPreview">
+	<AccordionAutoFocusPreview client:load />
+</PreviewTabs>
+
+## Disabled
+
+Use the `disabled` prop to prevent user interaction with specific accordion
+items.
+
+<PreviewTabs component="AccordionDisabledPreview">
+	<AccordionDisabledPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop        | Type                | Default     | Description                                                                            |
+| ----------- | ------------------- | ----------- | -------------------------------------------------------------------------------------- |
+| `variant`   | string              | `"default"` | Changes the visual style of the accordion.                                             |
+| `autofocus` | number              | `undefined` | Index of the accordion item to expand automatically on load.                           |
+| `disabled`  | boolean \| number[] | `false`     | Disables interaction for a specific item (index) or multiple items (array of indices). |

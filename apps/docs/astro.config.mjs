@@ -81,41 +81,10 @@ export default defineConfig({
 				},
 				{
 					label: "Components",
-					slug: "components"
-				},
-				{
-					label: "Templates",
-					slug: "templates"
-				},
-				{
-					label: "Frameworks",
-					collapsed: false,
-					items: [
-						{
-							label: "Svelte",
-							collapsed: true,
-							items: [
-								{
-									label: "Getting Started",
-									autogenerate: {
-										directory: "frameworks/svelte/getting-started"
-									}
-								},
-								{
-									label: "Components",
-									autogenerate: {
-										directory: "frameworks/svelte/components"
-									}
-								},
-								{
-									label: "Utils",
-									autogenerate: {
-										directory: "frameworks/svelte/utils"
-									}
-								}
-							]
-						}
-					]
+					autogenerate: {
+						directory: "components",
+						collapsed: true
+					}
 				}
 			]
 		}),
@@ -124,7 +93,7 @@ export default defineConfig({
 	vite: {
 		resolve: {
 			alias: {
-				"@": path.resolve("./src/lib")
+				$lib: path.resolve("./src/lib")
 			}
 		},
 		ssr: {

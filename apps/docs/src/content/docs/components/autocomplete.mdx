@@ -1,0 +1,43 @@
+---
+title: Autocomplete
+description:
+  An input component that provides real-time suggestions as you type, with
+  support for dynamic data, multiple variants, and customizable behavior.
+---
+
+import AutocompletePreview from "$lib/components/AutocompletePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Autocomplete` component provides a text input that suggests options in
+real-time as the user types.  
+It is ideal for searching large datasets, selecting from predefined lists, or
+dynamically fetching options.
+
+- **Real-time suggestions:** Filters options as the user types.
+- **Flexible data:** Accepts arrays of objects or dynamic sources.
+- **Variants:** Supports multiple visual styles via the `variant` prop.
+- **Custom rendering:** You can customize how each item is rendered using slots.
+
+## Usage Example
+
+<PreviewTabs component="AutocompletePreview">
+	<AutocompletePreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop          | Type            | Default     | Description                                             |
+| ------------- | --------------- | ----------- | ------------------------------------------------------- |
+| `data`        | array           | `[]`        | Array of items to display in suggestions.               |
+| `variant`     | string          | `"default"` | Visual style of the autocomplete input.                 |
+| `filter`      | `(item) => any` | Required    | Function used to filter the items based on input value. |
+| `placeholder` | string          | `""`        | Placeholder text for the input.                         |
+| `renderInput` | slot            | Optional    | Custom rendering of each suggestion item.               |
+
+## Best Practices
+
+- Keep the dataset reasonably sized for performance.
+- Use clear labels in your data to make suggestions understandable.
+- Provide custom rendering when you need links, icons, or complex content inside
+  suggestions.
+- Choose a `variant` consistent with the surrounding form or UI style.

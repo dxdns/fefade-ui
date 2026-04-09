@@ -1,11 +1,82 @@
 ---
 title: Installation
-description: Check out our comprehensive installation guides.
+description:
+  Learn how to quickly install and configure Fefade UI in your project with our
+  step-by-step guide.
 ---
 
-import { CardGrid, LinkCard } from "@astrojs/starlight/components"
-import { capitalizeUtil } from "@fefade-ui/core/utils"
+import { Button } from "@fefade-ui/svelte"
+import { Tabs, TabItem } from "@astrojs/starlight/components"
+import { Steps } from "@astrojs/starlight/components"
+import { FileTree } from "@astrojs/starlight/components"
 
-<CardGrid>
-	<LinkCard title="Svelte" href="/frameworks/svelte/getting-started/" />
-</CardGrid>
+<Tabs>
+    <TabItem label="Svelte" icon="seti:svelte">
+        <Steps>
+            <ol>
+                <li>
+                    ### Install
+                    <Tabs>
+                        <TabItem label="npm" icon="npm">
+                            ```bash
+                            npm install @fefade-ui/core @fefade-ui/svelte
+                            ```
+                        </TabItem>
+                        <TabItem label="pnpm" icon="pnpm">
+                            ```bash
+                            pnpm add @fefade-ui/core @fefade-ui/svelte
+                            ```
+                        </TabItem>
+                    </Tabs>
+                </li>
+
+                <li>
+                    ### Setup provider
+                    Wrap your application with the `Provider` to enable all Fefade UI components.
+                    This should be done at the layout level to ensure global access.
+
+                    > Recommended: Place this in `src/routes/+layout.svelte` (SvelteKit root layout)
+
+                    <FileTree>
+                        - src
+                            - routes
+                                - +layout.svelte
+                    </FileTree>
+
+                    ```svelte
+                    <script lang="ts">
+                        import { Provider } from "@fefade-ui/svelte"
+                    </script>
+
+                    <Provider>
+                        {@render children()}
+                    </Provider>
+                    ```
+                </li>
+
+                <li>
+                    ### Enjoy!
+                    <Tabs>
+                        <TabItem label="Code">
+                            ```svelte
+                            <script lang="ts">
+                                import { Button } from "@fefade-ui/svelte"
+                            </script>
+
+                            <Button>
+                                Click me
+                            </Button>
+                            ```
+                        </TabItem>
+                        <TabItem label="Preview">
+                            <Button>
+                                Click me
+                            </Button>
+                        </TabItem>
+                    </Tabs>
+                </li>
+            </ol>
+        </Steps>
+    </TabItem>
+
+</Tabs>

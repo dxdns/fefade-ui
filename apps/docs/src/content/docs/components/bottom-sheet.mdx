@@ -1,0 +1,48 @@
+---
+title: Bottom Sheet
+description:
+  A sliding panel that emerges from the bottom of the screen, used to display
+  additional content or actions without navigating away from the current view.
+---
+
+import BottomSheetPreview from "$lib/components/BottomSheetPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `BottomSheet` component is a sliding panel that emerges from the bottom of
+the screen.  
+It is commonly used to display additional content or actions without navigating
+away from the current view.
+
+- **Sliding panel:** Smooth animation from bottom of the screen.
+- **Overlay support:** Dim the background and close on click.
+- **Variants:** Supports different styles for drag handle (`text`, `contained`,
+  `outlined`).
+- **Customizable content:** Place any HTML, Svelte components, or interactive
+  elements inside.
+- **Interactive:** Can open, close, or toggle programmatically.
+
+## Usage Example
+
+<PreviewTabs component="BottomSheetPreview">
+	<BottomSheetPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop          | Type                  | Default     | Description                                                        |
+| ------------- | --------------------- | ----------- | ------------------------------------------------------------------ |
+| `isOpen`      | boolean               | `false`     | Controls whether the bottom sheet is visible.                      |
+| `handleClose` | function              | `undefined` | Callback function to close the bottom sheet.                       |
+| `variant`     | string                | `"text"`    | Visual style of the drag handle (`text`, `contained`, `outlined`). |
+| `Overlay`     | Svelte slot/component | Optional    | Background overlay to dim the screen and detect clicks.            |
+| `Content`     | Svelte slot/component | Optional    | The main content of the bottom sheet.                              |
+| `DragButton`  | Svelte slot/component | Optional    | The draggable handle for opening/closing the sheet.                |
+
+## Best Practices
+
+- Use the overlay to **focus attention** on the bottom sheet and allow easy
+  dismissal.
+- Keep content concise to avoid scrolling within the sheet if possible.
+- Use appropriate **variants** for the drag handle to match UI style.
+- Ensure interactive elements inside the sheet are **accessible and focusable**.
+- Avoid opening multiple bottom sheets simultaneously to prevent user confusion.

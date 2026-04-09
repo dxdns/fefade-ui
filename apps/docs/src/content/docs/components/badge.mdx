@@ -1,0 +1,43 @@
+---
+title: Badge
+description:
+  A small indicator used to display status, counts, or labels, often attached to
+  icons or other UI elements.
+---
+
+import BadgePreview from "$lib/components/BadgePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Badge` component is a small visual indicator that can display status,
+counts, or labels.  
+It is commonly used alongside icons, buttons, avatars, or other UI elements to
+provide additional context.
+
+- **Status indicators:** Show online/offline or other states via colors.
+- **Count badges:** Display numeric or text counts.
+- **Variants and sizes:** Supports different styles (`outlined`, `contained`)
+  and sizes (`sm`, `md`, `lg`).
+- **Customizable:** Rounded or square shapes, background and text colors.
+
+## Usage Example
+
+<PreviewTabs component="BadgePreview">
+	<BadgePreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop          | Type                          | Default      | Description                                                                |
+| ------------- | ----------------------------- | ------------ | -------------------------------------------------------------------------- |
+| `variant`     | `"outlined"` \| `"contained"` | `"outlined"` | Visual style of the badge.                                                 |
+| `size`        | string                        | `"md"`       | Size of the badge. Values from `Constants.sizes` (e.g., `sm`, `md`, `lg`). |
+| `class`       | string                        | `""`         | Custom classes to modify background, text, or shape.                       |
+| `roundedFull` | boolean                       | `false`      | Makes the badge fully rounded.                                             |
+
+## Best Practices
+
+- Use **color-coded badges** for status indicators consistently across the UI.
+- Keep text concise for counts or labels.
+- Combine with icons, avatars, or buttons to provide context.
+- Prefer `roundedFull` for numeric badges to maintain a neat circular look.
+- Ensure sufficient contrast between background and text for accessibility.
