@@ -1,7 +1,7 @@
 <script lang="ts" generics="T">
 	import type { ActionType, VariantType } from "@fefade-ui/core/types"
 	import { keyboardNavigationAction } from "@fefade-ui/core/actions"
-	import styles from "./Autocomplete.module.css"
+	import styles from "@fefade-ui/core/styles/Autocomplete.module.css"
 	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLInputAttributes } from "svelte/elements"
 	import type { Snippet } from "svelte"
@@ -31,6 +31,7 @@
 	let inputValue = $state("")
 	let filtered: typeof data = $state([])
 	let elItems: HTMLElement[] | undefined = $state([])
+	let focused = $state(false)
 
 	function reset() {
 		currentIndex = -1
@@ -102,22 +103,30 @@
 		oninput={handleOnInput}
 		value={inputValue}
 		style={undefined}
+		onfocus={() => {
+			focused = true
+		}}
+		onfocusout={() => {
+			focused = false
+		}}
 	/>
 
-	<div class={styles.content} style={rest.style}>
-		{#each filtered as item, index (index)}
-			<div
-				role="button"
-				tabindex="0"
-				class={classMapUtil(styles.item, {
-					[styles.focused]: currentIndex === index
-				})}
-				onkeyup={() => {}}
-				onclick={reset}
-				bind:this={elItems[index]}
-			>
-				{@render renderInput?.(item)}
-			</div>
-		{/each}
-	</div>
+	{#if focused}
+		<div class={styles.content} style={rest.style}>
+			{#each filtered as item, index (index)}
+				<div
+					role="button"
+					tabindex="0"
+					class={classMapUtil(styles.item, {
+						[styles.focused]: currentIndex === index
+					})}
+					onkeyup={() => {}}
+					onclick={reset}
+					bind:this={elItems[index]}
+				>
+					{@render renderInput?.(item)}
+				</div>
+			{/each}
+		</div>
+	{/if}
 </div>
