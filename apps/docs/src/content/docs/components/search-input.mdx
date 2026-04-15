@@ -3,15 +3,42 @@ title: Search Input
 description:
   An input component optimized for searching content with optional
   customization.
-head:
-  - tag: title
-    content: Svelte Search Input Component
-categories: ["svelte"]
 ---
 
 import SearchInputPreview from "$lib/components/SearchInputPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `SearchInput` component is designed for **searching content** with a
+consistent UI style and optional customization for variants or placeholder text.
+
+- **Customizable variants:** Supports multiple styling variants.
+- **Placeholder support:** Provides hints for expected search content.
+- **Accessible:** Designed for keyboard and screen reader accessibility.
+- **Composable:** Can be used inline or as part of forms and toolbars.
+- **Responsive design:** Adjusts to container width and layout automatically.
+
+## Usage Example
+
 <PreviewTabs component="SearchInputPreview">
 	<SearchInputPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop          | Type    | Default | Description                                                        |
+| ------------- | ------- | ------- | ------------------------------------------------------------------ |
+| `variant`     | string  | —       | Style variant of the search input (e.g., outlined, filled).        |
+| `placeholder` | string  | —       | Placeholder text displayed when the input is empty.                |
+| `value`       | string  | —       | Current value of the input; supports binding for reactive updates. |
+| `disabled`    | boolean | `false` | Disables the input if true.                                        |
+| `class`       | string  | —       | Optional CSS classes for custom styling.                           |
+| `style`       | string  | —       | Inline styles for layout or visual customization.                  |
+
+## Best Practices
+
+- Keep placeholder text concise and descriptive.
+- Use variants consistently across your application for visual coherence.
+- Bind `value` when using the component in reactive or controlled forms.
+- Ensure accessible labeling for screen readers if the input is part of a form.
+- Avoid overloading with extra icons or buttons that may distract from
+  searching.

@@ -2,15 +2,39 @@
 title: Progress Loader
 description:
   A visual indicator used to show the progress of a task or loading state.
-head:
-  - tag: title
-    content: Svelte Progress Loader Component
-categories: ["svelte"]
 ---
 
 import ProgressLoaderPreview from "$lib/components/ProgressLoaderPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `ProgressLoader` component is a **linear progress indicator** used to
+represent the completion status of a task or loading operation.
+
+- **Linear progress:** Displays task progress as a horizontal bar.
+- **Customizable color:** Supports semantic or theme-based colors.
+- **Dynamic updates:** Can be updated programmatically via value binding.
+- **Compact UI element:** Ideal for forms, uploads, or long-running tasks.
+- **Interactive feedback:** Works with buttons or programmatic triggers.
+
+## Usage Example
+
 <PreviewTabs component="ProgressLoaderPreview">
 	<ProgressLoaderPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop    | Type   | Default | Description                                                |
+| ------- | ------ | ------- | ---------------------------------------------------------- |
+| `value` | number | `0`     | Current progress percentage (0–100).                       |
+| `color` | string | —       | Color of the progress bar (e.g., success, warning, error). |
+| `class` | string | —       | Optional CSS classes for styling.                          |
+| `style` | string | —       | Inline style overrides.                                    |
+
+## Best Practices
+
+- Keep `value` between 0 and 100 for accurate display.
+- Use semantic `color` to convey status or importance.
+- Combine with text or labels to clarify what is loading.
+- Reset or stop progress when tasks complete to avoid visual confusion.
+- Avoid overly small bars that reduce visibility.

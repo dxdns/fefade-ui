@@ -1,17 +1,27 @@
 ---
 title: useMediaQuery
 description: Listens for matches to a CSS media query.
-head:
-  - tag: title
-    content: Svelte useMediaQuery Component Util
-categories: ["svelte"]
 ---
 
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 import UseMediaQueryPreview from "$lib/components/UseMediaQueryPreview.svelte"
+
+The `useMediaQuery` hook allows you to listen to CSS media queries and
+reactively update your components based on viewport changes. Ideal for
+responsive design and dynamic layouts.
+
+### Example Usage
 
 > resize for test
 
 <PreviewTabs component="UseMediaQueryPreview">
 	<UseMediaQueryPreview client:load />
 </PreviewTabs>
+
+### Props
+
+| Prop      | Type     | Default | Description                                                                                                                  |
+| --------- | -------- | ------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `feature` | `string` | —       | The CSS media feature to match, such as `"max-width"`, `"min-width"`, `"orientation"`, etc.                                  |
+| `value`   | `string` | —       | The threshold value for the media feature, e.g., `"768px"`, `"sm"`, `"md"`. Supports standard breakpoints and custom values. |
+| `options` | `object` | `{}`    | Optional configuration for the media query listener (e.g., `initial` value).                                                 |

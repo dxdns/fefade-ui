@@ -3,15 +3,38 @@ title: Shortcut Listener
 description:
   A component for detecting and responding to keyboard shortcuts or key
   combinations.
-head:
-  - tag: title
-    content: Svelte Shortcut Listener Component Util
-categories: ["svelte"]
 ---
 
 import ShortcutListenerPreview from "$lib/components/ShortcutListenerPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `ShortcutListener` component **listens for specific key combinations** and
+triggers a callback when they are pressed. This is useful for implementing
+keyboard shortcuts or hotkeys in your application.
+
+- **Custom key combinations:** Define any combination of keys to listen for.
+- **Callback triggered on match:** Executes a function when the shortcut is
+  detected.
+- **Supports modifier keys:** Works with `Ctrl`, `Alt`, `Shift`, and `Meta`.
+
+## Usage Example
+
 <PreviewTabs component="ShortcutListenerPreview">
 	<ShortcutListenerPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop       | Type                             | Default | Description                                                    |
+| ---------- | -------------------------------- | ------- | -------------------------------------------------------------- |
+| `keys`     | `string[]`                       | `[]`    | Array of keys or key names that form the shortcut combination. |
+| `callback` | `(event: KeyboardEvent) => void` | —       | Function called when the specified keys are pressed.           |
+| `disabled` | `boolean`                        | `false` | Whether the listener is inactive.                              |
+| `once`     | `boolean`                        | `false` | If true, the callback is triggered only once per mount.        |
+
+## Best Practices
+
+- Use `Kbd` component to display key combinations in the UI.
+- Avoid conflicts with native browser shortcuts.
+- Combine modifier keys and regular keys to create custom shortcuts.
+- Disable listeners when not needed to prevent unwanted triggers.

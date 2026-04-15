@@ -2,15 +2,41 @@
 title: Switch
 description:
   A toggle component used to switch between two states, such as on and off.
-head:
-  - tag: title
-    content: Svelte Switch Component
-categories: ["svelte"]
 ---
 
 import SwitchPreview from "$lib/components/SwitchPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `Switch` component allows users to **toggle between two states**, commonly
+on and off. It is often used in settings, preferences, or to enable/disable
+features.
+
+- **Customizable labels:** Can display text, icons, or snippets for on/off
+  states.
+- **Sizes:** Supports multiple sizes (sm, md, lg, xl) to fit your UI.
+- **Colors:** Colors can reflect semantic meaning or theme.
+- **Disabled:** Can be rendered inactive for readonly or unavailable actions.
+
+## Usage Example
+
 <PreviewTabs component="SwitchPreview">
 	<SwitchPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop             | Type                                       | Default | Description                                             |
+| ---------------- | ------------------------------------------ | ------- | ------------------------------------------------------- |
+| `checked`        | `boolean`                                  | `false` | Determines whether the switch is on or off.             |
+| `disabled`       | `boolean`                                  | `false` | Disables the switch interaction.                        |
+| `size`           | `"sm" \| "md" \| "lg" \| "xl"`             | `"md"`  | Sets the visual size of the switch.                     |
+| `label`          | `string \| component`                      | —       | Optional label or snippet displayed next to the switch. |
+| `indicatorColor` | `{ checked?: string; unchecked?: string }` | —       | Customizes the color of the indicator based on state.   |
+| `style`          | `CSSProperties`                            | —       | Inline styles for the switch container.                 |
+| `class`          | `string`                                   | —       | Optional CSS class for custom styling.                  |
+
+## Notes
+
+- Supports **icons or custom HTML** inside the switch for visual feedback.
+- Can be combined with labels or text for clear state indication.
+- Ideal for forms, dashboards, or settings panels.

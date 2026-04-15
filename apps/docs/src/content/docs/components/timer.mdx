@@ -4,10 +4,6 @@ description:
   The Timer component provides a simple way to display and manage countdowns or
   elapsed time. It supports both numeric durations and JavaScript timestamps,
   automatically formatting time into hours, minutes, and seconds.
-head:
-  - tag: title
-    content: Svelte Timer Component
-categories: ["svelte"]
 ---
 
 import TimerPreview from "$lib/components/TimerPreview.svelte"
@@ -16,3 +12,14 @@ import PreviewTabs from "$lib/components/PreviewTabs.astro"
 <PreviewTabs component="TimerPreview">
 	<TimerPreview client:load />
 </PreviewTabs>
+
+## Props
+
+### Timer
+
+| Prop            | Type                                              | Default | Description                                                     |
+| --------------- | ------------------------------------------------- | ------- | --------------------------------------------------------------- |
+| `bind:duration` | `number`                                          | `0`     | The current duration of the timer in seconds. Two-way bindable. |
+| `stopped`       | `boolean`                                         | `false` | If `true`, the timer stops counting.                            |
+| `onChange`      | `(value: number, valueFormatted: string) => void` | —       | Callback triggered whenever the timer value changes.            |
+| `style`         | `string`                                          | —       | Inline styles applied to the timer component.                   |

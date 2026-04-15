@@ -2,15 +2,39 @@
 title: Skeleton
 description:
   A placeholder component that mimics the layout of content while loading.
-head:
-  - tag: title
-    content: Svelte Skeleton Component
-categories: ["svelte"]
 ---
 
 import SkeletonPreview from "$lib/components/SkeletonPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `Skeleton` component is used to **display placeholder content** while the
+real data is loading. This helps improve perceived performance and provides
+users with a visual cue of the content structure.
+
+- **Loading states:** Mimics the layout of actual content.
+- **Variants:** Supports pulse animation and other visual styles.
+- **Customizable size and shape:** Works with rectangles, circles, and custom
+  dimensions.
+- **Flexible usage:** Can wrap actual content, which is revealed once
+  `isLoading` is false.
+
+## Usage Example
+
 <PreviewTabs component="SkeletonPreview">
 	<SkeletonPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop        | Type                | Default  | Description                                                              |
+| ----------- | ------------------- | -------- | ------------------------------------------------------------------------ |
+| `isLoading` | `boolean`           | `true`   | Whether the skeleton is visible or the real content should be displayed. |
+| `variant`   | `"pulse" \| "wave"` | `"wave"` | Visual style of the skeleton animation.                                  |
+| `style`     | `CSSProperties`     | —        | Inline styles for width, height, border radius, etc.                     |
+| `class`     | `string`            | —        | Additional classes to customize styling.                                 |
+
+## Notes
+
+- Use `Skeleton` around components that load asynchronously.
+- For circular content, adjust `border-radius` to `50%`.
+- Can be combined with multiple skeletons to mimic complex layouts.

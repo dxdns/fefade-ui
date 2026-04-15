@@ -3,15 +3,41 @@ title: Link
 description:
   A component used to navigate between pages or sections, typically rendering an
   anchor (`<a>`) element with support for styling and accessibility.
-head:
-  - tag: title
-    content: Svelte Link Component
-categories: ["svelte"]
 ---
 
 import LinkPreview from "$lib/components/LinkPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `Link` component is used to **navigate between pages, routes, or sections**
+while maintaining consistent styling and accessibility across the application.
+
+- **Navigation-ready:** Supports internal and external navigation.
+- **Accessible by default:** Uses semantic anchor behavior.
+- **Customizable styling:** Easily adapted to match design systems.
+- **Flexible usage:** Can be used inline or as standalone navigation elements.
+
+## Usage Example
+
 <PreviewTabs component="LinkPreview">
 	<LinkPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop       | Type                                               | Default   | Description                                                             |
+| ---------- | -------------------------------------------------- | --------- | ----------------------------------------------------------------------- |
+| `href`     | string                                             | —         | URL to navigate to. Used for standard anchor navigation.                |
+| `pathname` | string                                             | —         | Enables active route detection based on current path.                   |
+| `hover`    | `"left" \| "center" \| "right" \| "underlineNone"` | `"left"`  | Defines hover animation style.                                          |
+| `target`   | string                                             | `"_self"` | Specifies where to open the link (e.g. `_blank`).                       |
+| `class`    | string \| function                                 | —         | Custom class or function receiving `{ isActive }` for dynamic styling.  |
+| `style`    | object \| function                                 | —         | Inline styles or function receiving `{ isActive }` for dynamic styling. |
+| `children` | node                                               | —         | Content rendered inside the link.                                       |
+
+## Best Practices
+
+- Prefer `pathname` when you need active route detection.
+- Use `href` for simple navigation without route awareness.
+- Avoid overloading links with heavy content inside inline text.
+- Ensure hover styles remain accessible and readable.
+- Use icons sparingly to support meaning, not replace text.

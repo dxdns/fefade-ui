@@ -1,17 +1,31 @@
 ---
 title: Text
 description:
-  A flexible Svelte component for rendering text with support for different
-  styles, variants, and line truncation.
-head:
-  - tag: title
-    content: Svelte Text Component
-categories: ["svelte"]
+  A flexible component for rendering text with support for different styles,
+  variants, and line truncation.
 ---
 
 import TextPreview from "$lib/components/TextPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `Text` component is a **versatile typographic element** that allows
+rendering text in multiple semantic HTML tags while applying styles, truncation,
+and custom variants.
+
+- **Flexible semantic tags:** `h1`, `h2`, `p`, `span`, `small`, and more.
+- **Styling:** Inline styles, color, font weight, and custom CSS.
+- **Line truncation:** Limit displayed lines with the `lines` prop.
+
+## Usage Example
+
 <PreviewTabs component="TextPreview">
 	<TextPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop    | Type     | Default     | Description                                        |
+| ------- | -------- | ----------- | -------------------------------------------------- |
+| `as`    | `string` | `"span"`    | The HTML element to render (`h1`, `h2`, `p`, etc.) |
+| `lines` | `number` | `undefined` | Number of lines to display before truncating text  |
+| `style` | `string` | `undefined` | Inline styles applied to the text                  |

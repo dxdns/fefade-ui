@@ -17,7 +17,7 @@ import ButtonPressedEffectPreview from "$lib/components/ButtonPressedEffectPrevi
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
 The `Button` component is a versatile and interactive element for triggering
-actions in your Svelte application.  
+actions in your application.  
 It supports multiple **variants**, **colors**, **sizes**, and can include
 **icons**, **loading indicators**, or render as a **link**.  
 Use it to create consistent, accessible, and visually appealing buttons across
@@ -96,17 +96,17 @@ Use `pressedEffect` to disable this animation if desired.
 
 ## Props
 
-| Prop            | Type        | Default     | Description                                                               |
-| --------------- | ----------- | ----------- | ------------------------------------------------------------------------- |
-| `variant`       | string      | `"default"` | Changes the visual style of the button (e.g., text, contained, outlined). |
-| `size`          | string      | `"md"`      | Adjusts the button size (`sm`, `md`, `lg`).                               |
-| `class`         | string      | `""`        | Custom classes for colors, borders, or other styles.                      |
-| `isLoading`     | boolean     | `false`     | Shows a loading spinner when true.                                        |
-| `disabled`      | boolean     | `false`     | Disables the button, preventing user interaction.                         |
-| `pressedEffect` | boolean     | `true`      | Enables or disables the press effect animation.                           |
-| `href`          | string      | `""`        | Renders the button as a link if provided.                                 |
-| `target`        | string      | `"_self"`   | Target attribute for link buttons.                                        |
-| `icon`          | Svelte slot | Optional    | Include an icon inside the button.                                        |
+| Prop            | Type    | Default     | Description                                                               |
+| --------------- | ------- | ----------- | ------------------------------------------------------------------------- |
+| `variant`       | string  | `"default"` | Changes the visual style of the button (e.g., text, contained, outlined). |
+| `size`          | string  | `"md"`      | Adjusts the button size (`sm`, `md`, `lg`).                               |
+| `class`         | string  | `""`        | Custom classes for colors, borders, or other styles.                      |
+| `isLoading`     | boolean | `false`     | Shows a loading spinner when true.                                        |
+| `disabled`      | boolean | `false`     | Disables the button, preventing user interaction.                         |
+| `pressedEffect` | boolean | `true`      | Enables or disables the press effect animation.                           |
+| `href`          | string  | `""`        | Renders the button as a link if provided.                                 |
+| `target`        | string  | `"_self"`   | Target attribute for link buttons.                                        |
+| `icon`          | slot    | Optional    | Include an icon inside the button.                                        |
 
 ## Best Practices
 

@@ -4,14 +4,12 @@ description:
   A UI component that briefly displays non-intrusive messages to inform users
   about an action or status, typically appearing at the edge of the screen and
   disappearing automatically.
-head:
-  - tag: title
-    content: Svelte Toast Component
-categories: ["svelte"]
 ---
 
 import ToastPreview from "$lib/components/ToastPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
+import { Tabs, TabItem } from "@astrojs/starlight/components"
+import { Steps } from "@astrojs/starlight/components"
 
 #### Setup
 
@@ -19,23 +17,38 @@ Make sure to include the `Toaster` component inside the provider to enable toast
 notifications.
 
 For installation and setup instructions, see the
-[Getting Started guide](/frameworks/svelte/getting-started).
+[Getting Started guide](/installation).
 
-> Recommended: Place this in `src/routes/+layout.svelte` (SvelteKit root layout)
+<Tabs>
+    <TabItem label="Svelte" icon="seti:svelte">
+		> Recommended: Place this in `src/routes/+layout.svelte` (SvelteKit root layout)
 
-```svelte
-<script lang="ts">
-	import { Provider, Toaster } from "@fefade-ui/svelte"
-</script>
+    	```svelte
+    	<script lang="ts">
+    		import { Provider, Toaster } from "@fefade-ui/svelte"
+    	</script>
 
-<Provider>
-	<Toaster />
-	{@render children()}
-</Provider>
-```
+    	<Provider>
+    		<Toaster />
+    		{@render children()}
+    	</Provider>
+    	```
 
-#### Usage
+    	#### Usage
+    	<PreviewTabs component="ToastPreview">
+    		<ToastPreview client:load />
+    	</PreviewTabs>
+    </TabItem>
 
-<PreviewTabs component="ToastPreview">
-	<ToastPreview client:load />
-</PreviewTabs>
+</Tabs>
+
+### Props
+
+| Prop                 | Type                                                                                              | Default       | Description                                                           |
+| -------------------- | ------------------------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------------------- |
+| `message`            | `string`                                                                                          | —             | The text content to display inside the toast.                         |
+| `color`              | `string`                                                                                          | `"primary"`   | The color variant of the toast (e.g., success, error, warning, info). |
+| `duration`           | `number`                                                                                          | `5000`        | Duration in milliseconds before the toast automatically closes.       |
+| `position`           | `"top-left" \| "top-right" \| "bottom-left" \| "bottom-right" \| "top-center" \| "bottom-center"` | `"top-right"` | Position on the screen where the toast appears.                       |
+| `isClosable`         | `boolean`                                                                                         | `false`       | Whether the toast shows a close button.                               |
+| `withProgressLoader` | `boolean`                                                                                         | `false`       | Whether a progress bar is displayed indicating remaining duration.    |

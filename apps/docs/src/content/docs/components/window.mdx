@@ -2,15 +2,23 @@
 title: Window
 description:
   A component for displaying content in a separate, movable or modal window.
-head:
-  - tag: title
-    content: Svelte Window Component
-categories: ["svelte"]
 ---
 
 import WindowPreview from "$lib/components/WindowPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `Window` component is designed to display content in a floating or modal
+container with optional styling and animations.
+
+### Example Usage
+
 <PreviewTabs component="WindowPreview">
 	<WindowPreview client:load />
 </PreviewTabs>
+
+### Props
+
+| Prop             | Type                        | Default       | Description                                                                                                       |
+| ---------------- | --------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `variant`        | `"contained" \| "outlined"` | `"contained"` | Determines the visual style of the window. `contained` gives a filled background, `outlined` shows a border only. |
+| `animatedBorder` | `boolean`                   | `false`       | If true, animates the window border for visual emphasis.                                                          |

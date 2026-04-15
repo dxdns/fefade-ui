@@ -1,15 +1,38 @@
 ---
 title: Status
 description: A flexible component for displaying status indicators or messages.
-head:
-  - tag: title
-    content: Svelte Status Component
-categories: ["svelte"]
 ---
 
 import StatusPreview from "$lib/components/StatusPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `Status` component is used to **display status indicators or messages** with
+customizable appearance. It is ideal for representing system states,
+notifications, or feedback.
+
+- **Variants:** Different animations or styles (e.g., bounce, none) to indicate
+  dynamic status.
+- **Colors:** Can reflect semantic meanings like success, error, warning, or
+  info.
+- **Sizes:** Supports numeric and string-based sizes for flexible display.
+
+## Usage Example
+
 <PreviewTabs component="StatusPreview">
 	<StatusPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop      | Type                           | Default     | Description                                                                      |
+| --------- | ------------------------------ | ----------- | -------------------------------------------------------------------------------- |
+| `variant` | `"bounce" \| "none" \| string` | `"none"`    | Visual style or animation type for the status indicator.                         |
+| `color`   | `string`                       | `"primary"` | Color of the status indicator, usually aligned with theme or semantic meaning.   |
+| `size`    | `string \| number`             | `"md"`      | Size of the status indicator; can be a numeric pixel value or predefined string. |
+| `class`   | `string`                       | —           | Optional CSS class for additional styling.                                       |
+| `style`   | `CSSProperties`                | —           | Inline styles for custom appearance.                                             |
+
+## Notes
+
+- Can be used in dashboards, forms, or UI areas requiring quick status feedback.
+- Multiple `Status` components can be combined for lists or grouped indicators.

@@ -3,15 +3,50 @@ title: Scroll Section
 description:
   A layout component for organizing content into scrollable sections, often used
   for navigation or storytelling.
-head:
-  - tag: title
-    content: Svelte Scroll Section Component
-categories: ["svelte"]
 ---
 
 import ScrollSectionPreview from "$lib/components/ScrollSectionPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `ScrollSection` component allows content to be **organized into scrollable
+sections**, ideal for page navigation, storytelling, or section-based layouts.
+
+- **Sticky navigation:** Sections remain accessible while scrolling.
+- **Dynamic content:** Supports multiple scrollable sections with unique IDs.
+- **Flexible layout:** Works with cards, panels, or full-page sections.
+- **Customizable styling:** Supports inline styles and theming.
+- **Integrates with reactive data:** Can display dynamically generated sections.
+
+## Usage Example
+
 <PreviewTabs component="ScrollSectionPreview">
 	<ScrollSectionPreview client:load />
 </PreviewTabs>
+
+## Props
+
+### ScrollSection
+
+| Prop    | Type   | Default | Description                                                |
+| ------- | ------ | ------- | ---------------------------------------------------------- |
+| `data`  | array  | `[]`    | Array of section objects to render in the scrollable area. |
+| `style` | string | —       | Inline styles for layout or positioning.                   |
+| `class` | string | —       | Optional CSS classes for custom styling.                   |
+| `id`    | string | —       | Optional unique identifier for the scroll section.         |
+
+### ScrollSection.Content
+
+| Prop    | Type   | Default | Description                                             |
+| ------- | ------ | ------- | ------------------------------------------------------- |
+| `id`    | string | —       | Unique ID for the content section, used for navigation. |
+| `style` | string | —       | Inline styles for individual section content.           |
+| `class` | string | —       | Optional CSS classes for styling.                       |
+
+## Best Practices
+
+- Use **unique IDs** for each section to enable navigation or linking.
+- Keep section content focused to enhance readability while scrolling.
+- Use consistent styling for headers and spacing between sections.
+- Combine with **sticky navigation bars** or **progress indicators** for better
+  UX.
+- Avoid overly long sections that may impact scroll performance.

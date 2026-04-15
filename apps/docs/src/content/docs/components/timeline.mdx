@@ -3,10 +3,6 @@ title: Timeline
 description:
   A versatile container component designed to organize and display content in a
   chronological or sequential order.
-head:
-  - tag: title
-    content: Svelte Timeline Component
-categories: ["svelte"]
 ---
 
 import TimelinePreview from "$lib/components/TimelinePreview.svelte"
@@ -15,3 +11,17 @@ import PreviewTabs from "$lib/components/PreviewTabs.astro"
 <PreviewTabs component="TimelinePreview">
 	<TimelinePreview client:load />
 </PreviewTabs>
+
+## Props
+
+### Timeline
+
+| Prop | Type | Default | Description                  |
+| ---- | ---- | ------- | ---------------------------- |
+| —    | —    | —       | No props used in the example |
+
+### Timeline.Item
+
+| Prop       | Type                | Default  | Description                          |
+| ---------- | ------------------- | -------- | ------------------------------------ |
+| `position` | `'left' \| 'right'` | `'left'` | Position of the item in the timeline |

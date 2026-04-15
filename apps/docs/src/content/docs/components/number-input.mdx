@@ -2,15 +2,41 @@
 title: Number Input
 description:
   A customizable input component for entering and adjusting numeric values.
-head:
-  - tag: title
-    content: Svelte Number Input Component
-categories: ["svelte"]
 ---
 
 import NumberInputPreview from "$lib/components/NumberInputPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `NumberInput` component is used to **enter and control numeric values** with
+built-in support for increment/decrement interactions and validation.
+
+- **Numeric control:** Ensures only valid number input.
+- **Bounded values:** Supports `min` and `max` constraints.
+- **Flexible variants:** Multiple visual styles via `variant`.
+- **State-ready:** Works with two-way binding (`bind:value`).
+- **Accessible interaction:** Supports keyboard and input controls.
+
+## Usage Example
+
 <PreviewTabs component="NumberInputPreview">
 	<NumberInputPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop        | Type    | Default | Description                               |
+| ----------- | ------- | ------- | ----------------------------------------- |
+| `value`     | number  | `0`     | Current numeric value (supports binding). |
+| `variant`   | string  | —       | Visual style variant of the input.        |
+| `min`       | number  | —       | Minimum allowed value.                    |
+| `max`       | number  | —       | Maximum allowed value.                    |
+| `disabled`  | boolean | `false` | Disables user interaction.                |
+| `autoFocus` | boolean | `false` | Automatically focuses the input on mount. |
+
+## Best Practices
+
+- Always define `min` and `max` when the range is known.
+- Use `bind:value` for reactive state management.
+- Prefer clear constraints to prevent invalid input.
+- Use `disabled` only for non-editable or locked states.
+- Keep numeric steps consistent for better UX.

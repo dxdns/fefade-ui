@@ -3,15 +3,45 @@ title: Phone
 description:
   A visual container component that simulates a mobile device, ideal for
   showcasing content as if displayed on a smartphone.
-head:
-  - tag: title
-    content: Svelte Phone Component
-categories: ["svelte"]
 ---
 
 import PhonePreview from "$lib/components/PhonePreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `Phone` component is a **visual container** that simulates the appearance of
+a mobile device, making it ideal for previews, mockups, or showcasing responsive
+content.
+
+- **Device simulation:** Displays content as if on a smartphone.
+- **Composable design:** Supports `Phone.Notch` and custom content.
+- **Flexible layout:** Works with any children content inside the container.
+- **Presentation-ready:** Perfect for demos, prototypes, or showcases.
+
+## Usage Example
+
 <PreviewTabs component="PhonePreview">
 	<PhonePreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop       | Type   | Default | Description                                   |
+| ---------- | ------ | ------- | --------------------------------------------- |
+| `children` | node   | —       | Content rendered inside the phone frame.      |
+| `class`    | string | —       | Optional CSS classes for styling.             |
+| `style`    | string | —       | Inline styles to adjust layout or appearance. |
+
+### Phone.Notch
+
+| Prop    | Type   | Default | Description                                |
+| ------- | ------ | ------- | ------------------------------------------ |
+| `class` | string | —       | Optional CSS classes for notch styling.    |
+| `style` | string | —       | Inline styles for custom notch appearance. |
+
+## Best Practices
+
+- Use `Phone.Notch` to mimic realistic device notches.
+- Keep content visually centered and proportionate.
+- Avoid placing interactive elements that do not scale properly.
+- Combine with other UI components to showcase responsive behavior.
+- Use for visual demos rather than production UI logic.

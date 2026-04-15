@@ -2,17 +2,49 @@
 title: Testimonial
 description:
   The Testimonial component displays customer feedback with quote, author, and
-  optional image or role. It’s ideal for building trust and credibility on
-  landing pages, product sections, or case studies.
-head:
-  - tag: title
-    content: Svelte Testimonial Component
-categories: ["svelte"]
+  optional image or role.
 ---
 
 import TestimonialPreview from "$lib/components/TestimonialPreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
+The `Testimonial` component is designed to **highlight customer feedback or
+reviews** in a visually appealing format. It's ideal for **landing pages,
+product showcases, and case studies** to build trust and credibility.
+
+- **Variants:** Can be `contained`, `outlined`, or other custom styles.
+- **Content:** Includes customer name, role, avatar, rating, and comment.
+- **AutoScroll:** Supports automatic scrolling for multiple testimonials.
+- **Flexible layout:** Works horizontally or vertically with fading transitions.
+
+## Usage Example
+
 <PreviewTabs component="TestimonialPreview">
 	<TestimonialPreview client:load />
 </PreviewTabs>
+
+## Props
+
+| Prop        | Type         | Default     | Description                                   |
+| ----------- | ------------ | ----------- | --------------------------------------------- | ------------------------------------- |
+| `name`      | `string`     | —           | Customer or reviewer name.                    |
+| `role`      | `string`     | —           | Optional role or position of the reviewer.    |
+| `avatarUrl` | `string`     | —           | Optional URL for the reviewer's avatar image. |
+| `rating`    | `number`     | —           | Rating score, e.g., `4.5`.                    |
+| `comment`   | `string`     | —           | Feedback or testimonial text.                 |
+| `variant`   | `"contained" | "outlined"` | `"contained"`                                 | Visual style of the testimonial card. |
+
+### `AutoScroll` Props
+
+| Prop        | Type      | Default   | Description                                  |
+| ----------- | --------- | --------- | -------------------------------------------- | ---------------------------- |
+| `fade`      | `boolean` | `false`   | Apply fade animation when scrolling.         |
+| `direction` | `"top"    | "bottom"` | `"top"`                                      | Scroll direction of content. |
+| `maxHeight` | `number`  | `300`     | Maximum height for the scrollable container. |
+
+## Notes
+
+- Multiple testimonials can be **auto-scrolled** using `AutoScroll`.
+- Supports **avatars, ratings, and custom content** inside each testimonial
+  card.
+- Can be combined with **transitions** to create smooth, interactive displays.
