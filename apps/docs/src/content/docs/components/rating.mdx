@@ -1,0 +1,44 @@
+---
+title: Rating
+description:
+  A component used to display and capture user ratings, typically with stars or
+  similar icons.
+---
+
+import RatingPreview from "$lib/components/RatingPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Rating` component is used to **display and capture user ratings**,
+typically represented with stars, hearts, or other icons.
+
+- **Interactive or read-only:** Can show user ratings or allow input.
+- **Customizable start value:** Supports initial ratings via `startIn`.
+- **Color and size variants:** Flexible styling for design integration.
+- **Disabled state:** Prevents interaction when needed.
+- **Inline or stacked display:** Can be used in lists, cards, or forms.
+
+## Usage Example
+
+<PreviewTabs component="RatingPreview">
+	<RatingPreview client:load />
+</PreviewTabs>
+
+## Props
+
+### Rating
+
+| Prop       | Type    | Default | Description                                          |
+| ---------- | ------- | ------- | ---------------------------------------------------- |
+| `startIn`  | number  | `0`     | Initial rating value. Can be fractional (e.g., 2.5). |
+| `color`    | string  | —       | Color of the filled icons (e.g., blue, red, green).  |
+| `disabled` | boolean | `false` | Prevents interaction if true.                        |
+| `style`    | string  | —       | Inline styles for font size or layout adjustments.   |
+| `class`    | string  | —       | Optional CSS classes for additional styling.         |
+
+## Best Practices
+
+- Use fractional values for more precise initial ratings.
+- Ensure color contrast is accessible for users with visual impairments.
+- Disable interaction for display-only ratings to avoid confusion.
+- Adjust icon size consistently across the UI for visual harmony.
+- Combine with text labels or tooltips for clarity in rating systems.

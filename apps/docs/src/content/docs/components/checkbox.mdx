@@ -1,0 +1,42 @@
+---
+title: Checkbox
+description:
+  A form control that allows users to select one or multiple options from a set,
+  supporting colors, disabled state, and accessibility.
+---
+
+import CheckboxPreview from "$lib/components/CheckboxPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Checkbox` component is a form control that allows users to select one or
+multiple options from a set.  
+It is typically represented as a small square box that can be checked or
+unchecked.
+
+- **Multiple selection:** Users can select multiple options independently.
+- **Custom colors:** Supports different visual styles using
+  `Constants.statusColors` or custom colors.
+- **Disabled state:** Prevents user interaction when needed.
+- **Accessible:** Includes proper labels for screen readers.
+
+## Usage Example
+
+<PreviewTabs component="CheckboxPreview">
+	<CheckboxPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop       | Type    | Default     | Description                                                                    |
+| ---------- | ------- | ----------- | ------------------------------------------------------------------------------ |
+| `label`    | string  | `""`        | Text label displayed next to the checkbox.                                     |
+| `checked`  | boolean | `false`     | Determines if the checkbox is initially checked.                               |
+| `disabled` | boolean | `false`     | Disables user interaction with the checkbox.                                   |
+| `color`    | string  | `"primary"` | Sets the color of the checkbox. Use `Constants.statusColors` or `"secondary"`. |
+
+## Best Practices
+
+- Use **labels** to make checkboxes accessible.
+- Avoid using too many checkboxes in a single form for better UX.
+- Use **consistent colors** to indicate status or importance.
+- Combine with **form validation** to ensure required selections are made.

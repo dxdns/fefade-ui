@@ -1,0 +1,59 @@
+---
+title: Tab
+description:
+  A component for navigating between different views or sections of related
+  content.
+---
+
+import TabPreview from "$lib/components/TabPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Tab` component is designed to **organize content into separate views**
+where only one section is visible at a time. It's ideal for dashboards, forms,
+or any interface that needs segmented content.
+
+- **Orientation:** Supports horizontal (default) and vertical tabs.
+- **Custom content:** Each tab can contain any content including icons,
+  components, or custom snippets.
+- **Transitions:** Smooth entry and exit animations using transitions like
+  `fade` or `fly`.
+- **Scrollable:** Tab headers can scroll if there are many options.
+- **Styling:** Supports line styles, hover effects, and theme-based colors.
+
+## Usage Example
+
+<PreviewTabs component="TabPreview">
+	<TabPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop          | Type            | Default     | Description                             |
+| ------------- | --------------- | ----------- | --------------------------------------- | ------------------------------ |
+| `id`          | `string`        | —           | Unique identifier for the tab instance. |
+| `orientation` | `"horizontal"   | "vertical"` | `"horizontal"`                          | Sets the tab list orientation. |
+| `style`       | `CSSProperties` | —           | Inline styles for the tab container.    |
+| `class`       | `string`        | —           | Optional CSS class for custom styling.  |
+
+### `Tab.List` Props
+
+| Prop            | Type                  | Default     | Description                                        |
+| --------------- | --------------------- | ----------- | -------------------------------------------------- | ----------------------------------------------- |
+| `scrollable`    | `boolean`             | `false`     | Allows horizontal scrolling of tab buttons.        |
+| `lineStyle`     | `CSSProperties`       | —           | Custom styles for the indicator line.              |
+| `hoverFollower` | `{ bgColor: string }` | —           | Adds a hover background effect behind tab buttons. |
+| `orientation`   | `"horizontal"         | "vertical"` | `"horizontal"`                                     | Controls list orientation independently of Tab. |
+
+### `Tab.Panel` Props
+
+| Prop         | Type                 | Default | Description                                        |
+| ------------ | -------------------- | ------- | -------------------------------------------------- |
+| `isActive`   | `boolean`            | `false` | Whether this panel is currently visible.           |
+| `transition` | `TransitionConfig[]` | —       | transitions applied when showing/hiding the panel. |
+
+## Notes
+
+- Tabs can include **icons, custom HTML, or snippets** within the tab button.
+- Each panel is isolated and can render complex content.
+- Works seamlessly with responsive layouts; vertical tabs are useful for side
+  navigation.

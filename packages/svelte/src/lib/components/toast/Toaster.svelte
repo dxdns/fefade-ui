@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Constants } from "@fefade-ui/core"
-	import { toastState } from "../../states/index.js"
+	import { toastState } from "$lib/states/index.js"
 	import Toast from "./Toast.svelte"
 	import type { HTMLAttributes } from "svelte/elements"
 	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"

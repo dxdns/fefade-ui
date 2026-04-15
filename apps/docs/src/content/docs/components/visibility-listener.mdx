@@ -1,0 +1,24 @@
+---
+title: Visibility Listener
+description:
+  A component designed to detect and respond to element visibility changes.
+---
+
+import VisibilityListenerPreview from "$lib/components/VisibilityListenerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `VisibilityListener` component allows you to monitor when an element becomes
+visible or hidden in the viewport. Useful for triggering animations,
+lazy-loading content, or tracking visibility.
+
+### Example Usage
+
+<PreviewTabs component="VisibilityListenerPreview">
+	<VisibilityListenerPreview client:load />
+</PreviewTabs>
+
+### Props
+
+| Prop       | Type                           | Default | Description                                                                                                              |
+| ---------- | ------------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `callback` | `(isVisible: boolean) => void` | —       | A function that is called whenever the visibility of the element changes. Receives `true` if visible, `false` otherwise. |

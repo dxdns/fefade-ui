@@ -17,12 +17,6 @@
 			description:
 				"A project management tool for teams to collaborate on tasks and track progress with an intuitive interface.",
 			link: "/"
-		},
-		{
-			title: "ChatWave",
-			description:
-				"A real-time chat application with voice and video integration, built with WebSockets and React.",
-			link: "/"
 		}
 	]
 

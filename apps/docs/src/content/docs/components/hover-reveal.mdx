@@ -1,0 +1,42 @@
+---
+title: Hover Reveal
+description:
+  A container component that reveals its content on hover, supporting
+  interactive elements, links, and custom layouts.
+---
+
+import HoverReveal from "$lib/components/HoverReveal.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `HoverReveal` component displays hidden content when the user hovers over a
+container.  
+It is useful for **interactive cards, previews, or tooltips** that appear on
+hover.
+
+- **Interactive content:** Reveal buttons, cards, text, or images on hover.
+- **Customizable layout:** Works with links, components, or any HTML content.
+- **Smooth transitions:** Provides visually appealing hover animations.
+- **Flexible design:** Can be used for previews, galleries, or call-to-action
+  overlays.
+
+## Usage Example
+
+<PreviewTabs component="HoverReveal">
+	<HoverReveal client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop       | Type     | Default                                              | Description                      |
+| ---------- | -------- | ---------------------------------------------------- | -------------------------------- |
+| `href`     | string   | `""`                                                 | Optional link for the container. |
+| `children` | Required | Content that is always visible inside the container. |
+| `reveal`   | Optional | Content that appears on hover.                       |
+
+## Best Practices
+
+- Use **concise reveal content** to avoid overwhelming users.
+- Combine with **Cards, Images, or Buttons** for interactive previews.
+- Ensure **hover effects are smooth** and responsive on different screen sizes.
+- Avoid placing essential information exclusively in the hover content.
+- Use links and buttons **accessibly**, with clear focus and hover states.

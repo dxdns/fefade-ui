@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLAttributes } from "svelte/elements"
-	import Card from "../card/index.js"
-	import Avatar from "../avatar/index.js"
-	import { Rating } from "../rating/index.js"
+	import Card from "$lib/components/card/index.js"
+	import Avatar from "$lib/components/avatar/index.js"
+	import { Rating } from "$lib/components/rating/index.js"
 	import type { Snippet } from "svelte"
 	import type { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
 

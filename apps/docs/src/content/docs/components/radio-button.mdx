@@ -1,0 +1,44 @@
+---
+title: Radio Button
+description:
+  A UI component that allows users to select a single option from a group.
+---
+
+import RadioButtonPreview from "$lib/components/RadioButtonPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `RadioButton` component allows users to **select a single option** from a
+group of choices.
+
+- **Single selection:** Only one option in a group can be selected at a time.
+- **Accessible labels:** Supports descriptive labels for each option.
+- **Customizable appearance:** Supports sizes and status colors.
+- **Form integration:** Works with forms and controlled state.
+- **Consistent styling:** Matches theme and UI standards.
+
+## Usage Example
+
+<PreviewTabs component="RadioButtonPreview">
+	<RadioButtonPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop       | Type    | Default | Description                                       |
+| ---------- | ------- | ------- | ------------------------------------------------- |
+| `label`    | string  | —       | Text label displayed alongside the radio button.  |
+| `name`     | string  | —       | Group name for mutually exclusive selection.      |
+| `checked`  | boolean | `false` | Whether the radio button is selected.             |
+| `size`     | string  | —       | Visual size variant (e.g., small, medium, large). |
+| `color`    | string  | —       | Color indicating status or theme.                 |
+| `disabled` | boolean | `false` | Disables user interaction.                        |
+| `class`    | string  | —       | Optional CSS classes for custom styling.          |
+| `style`    | string  | —       | Inline style overrides.                           |
+
+## Best Practices
+
+- Group related radio buttons with the same `name` for exclusive selection.
+- Provide clear and concise labels for accessibility.
+- Avoid using radio buttons for multiple selections; use checkboxes instead.
+- Use consistent `size` and `color` across related options.
+- Ensure keyboard accessibility and focus states are visible.

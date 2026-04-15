@@ -1,0 +1,39 @@
+---
+title: Spinner
+description:
+  A visual indicator used to show loading or processing states in the interface.
+---
+
+import SpinnerPreview from "$lib/components/SpinnerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Spinner` component is used to **indicate loading or processing** within the
+UI. It provides a simple, animated visual cue to users that an operation is in
+progress.
+
+- **Status Colors:** Supports multiple color variants to match different themes
+  or semantic meanings.
+- **Sizes:** Customizable size to fit inline or standalone usage.
+- **Flexible placement:** Can be used inside buttons, cards, or standalone
+  areas.
+
+## Usage Example
+
+<PreviewTabs component="SpinnerPreview">
+	<SpinnerPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop    | Type                   | Default     | Description                                                                              |
+| ------- | ---------------------- | ----------- | ---------------------------------------------------------------------------------------- |
+| `size`  | `"sm" \| "md" \| "lg"` | `"md"`      | Controls the size of the spinner.                                                        |
+| `color` | `string`               | `"primary"` | Sets the color of the spinner, typically aligned with theme colors or status indicators. |
+| `class` | `string`               | —           | Optional CSS class to apply additional styling.                                          |
+| `style` | `CSSProperties`        | —           | Inline styles for further customization.                                                 |
+
+## Notes
+
+- Can be combined with text or other indicators to show progress context.
+- Works well as a standalone loader or inside UI components like buttons,
+  modals, or cards.

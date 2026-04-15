@@ -1,0 +1,48 @@
+---
+title: Card
+description:
+  A flexible container component for grouping content with optional borders,
+  glow effects, and animations.
+---
+
+import CardPreview from "$lib/components/CardPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Card` component is a flexible container for grouping content in your UI.  
+It supports visual enhancements such as **glow on hover**, **animated borders**,
+and multiple **variants**, making it ideal for dashboards, profiles, or
+interactive sections.
+
+- **Flexible container:** Holds any content including text, images, buttons, or
+  other components.
+- **Variants:** Supports `contained` and `outlined` styles.
+- **Glow and animation:** Add visual emphasis on hover or continuously with
+  animated borders.
+- **Customizable:** Configure border width, colors, hover behavior, and
+  animations.
+
+## Usage Example
+
+<PreviewTabs component="CardPreview">
+	<CardPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop             | Type                          | Default       | Description                                                                                                                             |
+| ---------------- | ----------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `variant`        | `"contained"` \| `"outlined"` | `"contained"` | Visual style of the card.                                                                                                               |
+| `glowOnHover`    | boolean                       | `false`       | Adds a glow effect when the card is hovered.                                                                                            |
+| `animatedBorder` | boolean \| object             | `false`       | Enables an animated border. Can be a boolean or an object with configuration: `width`, `primaryColor`, `secondaryColor`, `stopOnHover`. |
+| `style`          | string                        | `""`          | Inline styles for custom layout, size, or cursor.                                                                                       |
+| `onClick`        | function                      | `undefined`   | Click event handler for interactive cards.                                                                                              |
+
+## Best Practices
+
+- Use **variants consistently** for a coherent UI.
+- Prefer `glowOnHover` or `animatedBorder` for emphasis on interactive or
+  highlighted sections.
+- Combine `animatedBorder` with **custom colors** for brand-themed cards.
+- Avoid excessive animations to maintain performance and avoid distraction.
+- Use Cards as **semantic containers** for related content, not for layout
+  spacing only.

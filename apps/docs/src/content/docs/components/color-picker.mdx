@@ -1,0 +1,43 @@
+---
+title: Color Picker
+description:
+  A UI component for selecting and inputting colors using a visual interface,
+  supporting palettes, sliders, and input fields.
+---
+
+import ColorPickerPreview from "$lib/components/ColorPickerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `ColorPicker` component allows users to **select or input colors
+visually**.  
+It can be used in forms, design tools, dashboards, or any UI where color
+selection is needed.
+
+- **Interactive selection:** Pick colors via sliders, palettes, or direct input.
+- **Live preview:** Shows the selected color in real-time.
+- **Customizable value:** Supports HEX, RGB, or other formats depending on your
+  implementation.
+- **Reactive binding:** Easily bind the selected color to your state.
+
+## Usage Example
+
+<PreviewTabs component="ColorPickerPreview">
+	<ColorPickerPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop      | Type     | Default     | Description                                                          |
+| --------- | -------- | ----------- | -------------------------------------------------------------------- |
+| `value`   | string   | `"#ffffff"` | Current selected color value (HEX format).                           |
+| `oninput` | function | `undefined` | Callback triggered when the color changes. Receives the input event. |
+| `style`   | string   | `""`        | Inline styles for custom layout or preview container.                |
+
+## Best Practices
+
+- Use **live color preview** to give immediate feedback to users.
+- Keep **contrast and accessibility** in mind when selecting default colors.
+- Bind the `value` to your application state for reactive updates.
+- Provide **fallback colors** if user input is invalid.
+- Combine with **labels or tooltips** for clarity on what the selected color
+  affects.

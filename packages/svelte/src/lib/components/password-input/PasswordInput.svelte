@@ -2,8 +2,8 @@
 	import type { HTMLInputAttributes } from "svelte/elements"
 	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { ColorType, SizeType, VariantType } from "@fefade-ui/core/types"
-	import Button from "../button/index.js"
-	import TextField from "../text-field/index.js"
+	import Button from "$lib/components/button/index.js"
+	import TextField from "$lib/components/text-field/index.js"
 	import { visibilityIcon, visibilityOffIcon } from "@fefade-ui/core/icons"
 	import styles from "./PasswordInput.module.css"
 

@@ -1,0 +1,45 @@
+---
+title: File Input
+description:
+  A component for selecting files via drag-and-drop or browsing, supporting
+  multiple files, file types, and custom UI.
+---
+
+import FileInputPreview from "$lib/components/FileInputPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `FileInput` component allows users to **select files** through drag-and-drop
+or a file browser.  
+It is fully **accessible**, supports multiple files, and can restrict accepted
+file types.
+
+- **Drag-and-drop support:** Users can drop files onto the component.
+- **Multiple files:** Select or drop more than one file at a time.
+- **File type restrictions:** Accept only certain types (images, PDFs, etc.)
+  using the `accept` prop.
+- **Customizable UI:** You can embed icons, text, buttons, or any interactive
+  element.
+- **Reactive binding:** Selected files can be tracked via state.
+
+## Usage Example
+
+<PreviewTabs component="FileInputPreview">
+	<FileInputPreview client:load />
+</PreviewTabs>
+
+## Prop
+
+| Prop / Slot   | Type     | Default                                                | Description                                                                   |
+| ------------- | -------- | ------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| `multiple`    | boolean  | `false`                                                | Allows selecting multiple files.                                              |
+| `accept`      | string   | `""`                                                   | Comma-separated list of allowed file types (e.g., `"image/*,.pdf"`).          |
+| `onDropEvent` | function | `undefined`                                            | Callback triggered when files are selected or dropped. Receives the `File[]`. |
+| `children`    | Optional | Custom UI inside the FileInput (icons, text, buttons). |
+
+## Best Practices
+
+- Use **file type restrictions** to prevent invalid uploads.
+- Provide **visual feedback** when files are dropped or selected.
+- Keep the **UI simple and accessible**, especially for drag-and-drop zones.
+- Combine with **form validation** to handle required files.
+- Use **state tracking** for managing multiple files efficiently.

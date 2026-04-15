@@ -1,0 +1,45 @@
+---
+title: Avatar
+description:
+  A versatile component for displaying user profiles through images, icons, or
+  initials, with support for customization, fallbacks, and grouped layouts.
+---
+
+import AvatarPreview from "$lib/components/AvatarPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Avatar` component is used to display user profiles or placeholders with
+images, icons, or initials.  
+It supports fallback text, status indicators, grouping, and customizable sizing.
+
+- **Flexible content:** Display images, initials, or icons.
+- **Fallback support:** Show text if no image is available.
+- **Status indicators:** Combine with `Status` to show online/offline or other
+  states.
+- **Grouped avatars:** Display multiple avatars together with proper spacing.
+- **Customizable:** Width, height, border animations, and more.
+
+## Usage Example
+
+<PreviewTabs component="AvatarPreview">
+	<AvatarPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop           | Type             | Default  | Description                                                   |
+| -------------- | ---------------- | -------- | ------------------------------------------------------------- |
+| `src`          | string           | `""`     | URL of the avatar image.                                      |
+| `textFallback` | string           | `""`     | Text to display when no image is provided.                    |
+| `width`        | string \| number | `"3rem"` | Width of the avatar.                                          |
+| `height`       | string \| number | `"3rem"` | Height of the avatar.                                         |
+| `grouped`      | boolean          | `false`  | Whether the avatar is part of a group.                        |
+| `size`         | string           | `"md"`   | Predefined size for grouped avatars (e.g., `sm`, `md`, `lg`). |
+
+## Best Practices
+
+- Use **fallback text** to ensure accessibility if images fail to load.
+- Combine with `Status` to indicate user state.
+- Use `Avatar.Group` for displaying multiple users with proper spacing.
+- Apply custom borders or animations via `Card` for visual emphasis.
+- Keep avatar sizes consistent within a group for a clean layout.

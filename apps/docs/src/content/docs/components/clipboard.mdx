@@ -1,0 +1,41 @@
+---
+title: Clipboard
+description:
+  A utility component to copy text or code to the clipboard with optional
+  feedback and interactive buttons.
+---
+
+import ClipboardPreview from "$lib/components/ClipboardPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Clipboard` utility component allows users to **copy text or code to the
+clipboard** with a single click.  
+It provides visual feedback when the content is successfully copied.
+
+- **Interactive copy button:** Users can click to copy content.
+- **Visual feedback:** Shows a “Copied” state with icons or text.
+- **Supports code or plain text:** Works with `<Code>`, `<div>`, or any text
+  container.
+- **Customizable:** You can style buttons, icons, or code containers as needed.
+
+## Usage Example
+
+<PreviewTabs component="ClipboardPreview">
+	<ClipboardPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop / Slot        | Type               | Default  | Description                                               |
+| ------------------ | ------------------ | -------- | --------------------------------------------------------- |
+| `Button`           | component          | Optional | Customizable copy button with optional icons and text.    |
+| `Code` / `content` | HTMLElement / slot | Required | The text or code block to be copied.                      |
+| `copied`           | boolean            | `false`  | State to indicate if the content was successfully copied. |
+
+## Best Practices
+
+- Always provide **visual feedback** when a copy action succeeds.
+- Ensure **accessibility** by labeling the copy button properly.
+- Use with **scrollable or long code blocks** by restricting container height.
+- Prefer **inline SVG icons** for consistency and fast loading.
+- Reset the copied state after a short duration to allow multiple copy actions.

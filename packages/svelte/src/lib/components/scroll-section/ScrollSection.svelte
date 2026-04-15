@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { SectionType } from "@fefade-ui/core/types"
-	import Button from "../button/index.js"
+	import Button from "$lib/components/button/index.js"
 	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLAttributes } from "svelte/elements"
 	import {

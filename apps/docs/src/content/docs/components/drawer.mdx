@@ -1,0 +1,46 @@
+---
+title: Drawer
+description:
+  A UI component that slides in from the screen edge to show additional content
+  or options without navigating away, supporting top, bottom, left, and right
+  positions.
+---
+
+import DrawerPreview from "$lib/components/DrawerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Drawer` component provides a sliding panel that emerges from any edge of
+the screen.  
+It is useful for displaying menus, options, or additional content without
+leaving the current view.
+
+- **Flexible positioning:** Supports `top`, `bottom`, `left`, and `right`.
+- **Overlay support:** Click outside the drawer to close it.
+- **Customizable content:** Include headers, links, forms, or interactive
+  elements.
+- **Fixed or dynamic:** Can be used as a fixed drawer or controlled
+  programmatically.
+
+## Usage Example
+
+<PreviewTabs component="DrawerPreview">
+	<DrawerPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop / Slot      | Type                                           | Default   | Description                                                          |
+| ---------------- | ---------------------------------------------- | --------- | -------------------------------------------------------------------- |
+| `isOpen`         | boolean                                        | `false`   | Controls whether the drawer is visible.                              |
+| `position`       | `"top"` \| `"bottom"` \| `"left"` \| `"right"` | `"right"` | Side of the screen from which the drawer slides in.                  |
+| `Drawer.Header`  | component                                      | Optional  | Header content of the drawer (title, logo, close button).            |
+| `Drawer.Content` | component                                      | Optional  | Main content inside the drawer (links, forms, interactive elements). |
+| `Drawer.Overlay` | component                                      | Optional  | Background overlay that detects clicks to close the drawer.          |
+
+## Best Practices
+
+- Use **overlay** to focus attention and allow easy dismissal.
+- Keep drawer content **concise** for better user experience.
+- Combine with **buttons or triggers** to open drawers programmatically.
+- Ensure drawers do not **block important content** on mobile screens.
+- Use **consistent positioning** to avoid user confusion.

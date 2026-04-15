@@ -1,0 +1,38 @@
+---
+title: Text Field
+description: A versatile and accessible text input component.
+---
+
+import TextFieldPreview from "$lib/components/TextFieldPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `TextField` component is a **flexible, accessible text input** for forms,
+search bars, or any place you need typed input.
+
+- **Variants:** Multiple visual styles (outlined, filled, etc.).
+- **Sizes:** Configurable for compact or large input fields.
+- **Labels:** Supports descriptive labels for accessibility.
+- **Full reactivity:** Bind values and react to changes in real-time.
+
+## Usage Example
+
+<PreviewTabs component="TextFieldPreview">
+	<TextFieldPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop          | Type      | Default     | Description                                        |
+| ------------- | --------- | ----------- | -------------------------------------------------- | ------------------------------- | ------ | -------------------------------- |
+| `label`       | `string`  | —           | Text label displayed above or inside the input.    |
+| `variant`     | `"filled" | "outlined"` | `"filled"`                                         | Visual style of the text field. |
+| `size`        | `"sm"     | "md"        | "lg"                                               | "xl"`                           | `"md"` | Controls the input's dimensions. |
+| `value`       | `string`  | `""`        | The current input value; supports two-way binding. |
+| `disabled`    | `boolean` | `false`     | Disables the input when true.                      |
+| `placeholder` | `string`  | —           | Placeholder text inside the input.                 |
+
+### Notes
+
+- Works with **form validation** and accessibility features.
+- Supports **reactive bindings** for state management.
+- Can be combined with **icons, helper text, and adornments** for enhanced UX.

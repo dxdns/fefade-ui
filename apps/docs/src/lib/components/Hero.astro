@@ -2,8 +2,8 @@
 import { LinkButton, TabItem, Tabs } from "@astrojs/starlight/components"
 import { Image } from "astro:assets"
 import { Code } from "@astrojs/starlight/components"
-import { getTranslations } from "@/i18n"
-import { getPath } from "@/i18n"
+import { getTranslations } from "$lib/i18n"
+import { getPath } from "$lib/i18n"
 import type { StarlightIcon } from "@astrojs/starlight/types"
 import { capitalizeUtil } from "@fefade-ui/core/utils"
 import type { ImageMetadata } from "astro"
@@ -35,8 +35,6 @@ if (image) {
 }
 
 const iconsData: Record<string, StarlightIcon> = {
-	react: "seti:react",
-	vue: "seti:vue",
 	svelte: "seti:svelte"
 }
 ---

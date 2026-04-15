@@ -1,0 +1,48 @@
+---
+title: Menu
+description:
+  A UI component that displays a list of actions or navigation options,
+  typically triggered by a button or other control element.
+---
+
+import MenuPreview from "$lib/components/MenuPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Menu` component is used to display a **dropdown list of actions or
+options** triggered by an anchor element such as a button.
+
+- **Composable API:** Uses `anchor` and `items` snippets for full flexibility.
+- **Trigger-based:** Opens via click or hover depending on configuration.
+- **Action-ready items:** Supports interactive menu actions with callbacks.
+- **Flexible styling:** Can adapt to different backgrounds and layouts.
+
+## Usage Example
+
+<PreviewTabs component="MenuPreview">
+	<MenuPreview client:load />
+</PreviewTabs>
+
+## Props
+
+### Menu
+
+| Prop            | Type    | Default | Description                                          |
+| --------------- | ------- | ------- | ---------------------------------------------------- |
+| `id`            | string  | —       | Unique identifier for the menu instance.             |
+| `openOnHover`   | boolean | `false` | If `true`, opens the menu on hover instead of click. |
+| `isTranslucent` | boolean | `false` | Applies a translucent background style to the menu.  |
+
+### Menu.Item
+
+| Prop       | Type     | Default | Description                                 |
+| ---------- | -------- | ------- | ------------------------------------------- |
+| `onclick`  | function | —       | Callback executed when the item is clicked. |
+| `children` | node     | —       | Content displayed inside the menu item.     |
+
+## Best Practices
+
+- Always provide a unique `id` for proper menu isolation.
+- Keep menu items short and action-oriented.
+- Avoid placing heavy UI inside `Menu.Item`.
+- Prefer clear verbs for actions (e.g. “Edit”, “Delete”, “Export”).
+- Use `openOnHover` only for non-critical actions to avoid accidental triggers.

@@ -1,24 +1,21 @@
 ---
-title: Componentes UI Modernos para React, Vue e Svelte
+title: Componentes UI Modernos para Svelte
 description:
-  Crie interfaces incríveis e rápidas com fefade ui. Componentes prontos para
+  Crie interfaces incríveis e rápidas com Fefade UI. Componentes prontos para
   uso e de fácil integração para elevar o nível dos seus projetos web.
 template: splash
 hero:
   title: Biblioteca de componentes UI
   tagline: Mínimo, acessível, sem dependências.
-  # image:
-  #   alt: logo
-  #   file: ../../../../public/icon-180.png
 ---
 
 import { CardGrid, LinkCard } from "@astrojs/starlight/components"
 import { Card, Link } from "@fefade-ui/svelte"
-import TextFieldPreview from "@/components/TextFieldPreview.svelte"
-import CarouselPreview from "@/components/CarouselPreview.svelte"
-import ButtonPreview from "@/components/ButtonPreview.svelte"
-import ProgressCirclePreview from "@/components/ProgressCirclePreview.svelte"
-import About from "@/components/About.astro"
+import TextFieldPreview from "$lib/components/TextFieldPreview.svelte"
+import CarouselPreview from "$lib/components/CarouselPreview.svelte"
+import ButtonPreview from "$lib/components/ButtonPreview.svelte"
+import ProgressCirclePreview from "$lib/components/ProgressCirclePreview.svelte"
+import About from "$lib/components/About.astro"
 
 <CardGrid stagger>
 	<Card
@@ -77,10 +74,10 @@ import About from "@/components/About.astro"
 </CardGrid>
 
 <About>
-    O fefade ui é uma biblioteca leve de componentes de interface de usuário (UI) desenvolvida para simplicidade e velocidade.
+    O Fefade UI é uma biblioteca leve de componentes de interface de usuário (UI) desenvolvida para simplicidade e velocidade.
     Projete interfaces limpas, rápidas e acessíveis, sem dependências.
 
     Licenciado pelo MIT e [código aberto](https://github.com/fefade/ui).
-    [Saiba mais sobre o fefade ui](/getting-started)
+    [Saiba mais sobre o Fefade UI](/getting-started)
 
 </About>

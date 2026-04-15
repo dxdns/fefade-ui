@@ -1,0 +1,27 @@
+---
+title: Tooltip
+description:
+  A simple and accessible component that provides contextual hints to users. The
+  Tooltip appears when the user hovers over an element, displaying helpful
+  information or additional details without cluttering the interface.
+---
+
+import TooltipPreview from "$lib/components/TooltipPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+> hover for test
+
+<PreviewTabs component="TooltipPreview">
+	<TooltipPreview client:load />
+</PreviewTabs>
+
+### Props
+
+| Prop       | Type                                     | Default | Description                                                   |
+| ---------- | ---------------------------------------- | ------- | ------------------------------------------------------------- |
+| `label`    | `string`                                 | —       | The text or content shown inside the tooltip.                 |
+| `position` | `"top" \| "bottom" \| "left" \| "right"` | `"top"` | The placement of the tooltip relative to its target element.  |
+| `delay`    | `number`                                 | `0`     | Delay in milliseconds before the tooltip appears after hover. |
+| `disabled` | `boolean`                                | `false` | If true, the tooltip will not be shown.                       |
+| `class`    | `string`                                 | —       | Custom CSS classes for styling the tooltip container.         |
+| `style`    | `string`                                 | —       | Inline styles applied to the tooltip container.               |

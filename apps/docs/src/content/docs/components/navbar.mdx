@@ -1,0 +1,60 @@
+---
+title: Navbar
+description:
+  A responsive and customizable navigation bar component for organizing links,
+  branding, and other content.
+---
+
+import NavbarPreview from "$lib/components/NavbarPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Navbar` component is used to build a **responsive navigation header** that
+can include branding, navigation items, and interactive controls.
+
+It is designed to work seamlessly with responsive layouts, drawers, and mobile
+navigation patterns.
+
+- **Responsive behavior:** Supports adaptive layouts for mobile and desktop.
+- **Composable structure:** Uses slots/snippets for logo and navigation items.
+- **Mobile-ready:** Integrates with togglers and drawers.
+- **Sticky or static modes:** Can remain fixed or scroll with content.
+
+## Usage Example
+
+<PreviewTabs component="NavbarPreview">
+	<NavbarPreview client:load />
+</PreviewTabs>
+
+## Props
+
+### Navbar
+
+| Prop            | Type    | Default | Description                                      |
+| --------------- | ------- | ------- | ------------------------------------------------ |
+| `id`            | string  | —       | Unique identifier for the navbar instance.       |
+| `isTranslucent` | boolean | `false` | Applies a translucent background style.          |
+| `style`         | string  | —       | Inline style overrides for layout customization. |
+| `class`         | string  | —       | Optional additional CSS classes.                 |
+
+### Navbar.Item
+
+| Prop           | Type   | Default | Description                           |
+| -------------- | ------ | ------- | ------------------------------------- |
+| `aria-current` | string | —       | Indicates the active navigation item. |
+| `class`        | string | —       | Custom styling for individual items.  |
+
+### Navbar.Toggler
+
+| Prop       | Type     | Default | Description                                     |
+| ---------- | -------- | ------- | ----------------------------------------------- |
+| `id`       | string   | —       | Unique identifier for toggler state control.    |
+| `checked`  | boolean  | —       | Controls whether the navigation drawer is open. |
+| `onchange` | function | —       | Callback triggered when toggler state changes.  |
+
+## Best Practices
+
+- Use `Navbar.Toggler` for mobile navigation control.
+- Keep navigation items minimal and meaningful.
+- Combine with `Drawer` for responsive mobile menus.
+- Use `isTranslucent` only when background context supports readability.
+- Ensure active states are clearly indicated using `aria-current`.

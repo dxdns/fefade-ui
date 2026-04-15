@@ -1,0 +1,50 @@
+---
+title: Range Input
+description:
+  A customizable range slider input component, ideal for selecting numeric
+  values within a range. Includes support for slider, range input, and
+  customizable styles.
+---
+
+import RangeInputPreview from "$lib/components/RangeInputPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `RangeInput` component is a **slider input** for selecting numeric values
+within a specified range. It supports custom icons, step values, and size or
+color variants.
+
+- **Interactive slider:** Drag or tap to select values.
+- **Bindable value:** Supports two-way binding for reactive state updates.
+- **Customizable icons:** Can display icons to indicate meaning or context.
+- **Flexible appearance:** Supports `size` and `color` props for styling.
+- **Integrates with badges:** Works with visual indicators for dynamic feedback.
+
+## Usage Example
+
+<PreviewTabs component="RangeInputPreview">
+	<RangeInputPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop         | Type    | Default | Description                                    |
+| ------------ | ------- | ------- | ---------------------------------------------- |
+| `value`      | number  | `0`     | Current value of the slider.                   |
+| `bind:value` | number  | —       | Two-way binding for reactive updates.          |
+| `min`        | number  | `0`     | Minimum value of the range.                    |
+| `max`        | number  | `100`   | Maximum value of the range.                    |
+| `step`       | number  | `1`     | Step increment between values.                 |
+| `size`       | string  | —       | Visual size variant (small, medium, large).    |
+| `color`      | string  | —       | Color variant indicating status or theme.      |
+| `icon`       | string  | —       | Optional icon to display alongside the slider. |
+| `disabled`   | boolean | `false` | Disables user interaction.                     |
+| `class`      | string  | —       | Optional CSS classes for styling.              |
+| `style`      | string  | —       | Inline style overrides.                        |
+
+## Best Practices
+
+- Use `step` to control granularity for precise value selection.
+- Bind `value` to state for reactive UI updates.
+- Use icons or labels to clarify slider purpose.
+- Avoid overly small sliders for accessibility and usability.
+- Combine with badges or visual indicators for instant feedback.

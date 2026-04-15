@@ -148,11 +148,6 @@ export function providerUtil() {
 	}
 }
 
-/** @deprecated Use `createTheme` instead */
-export function customThemeConfig(t: ThemeConfigType) {
-	return t
-}
-
 export function createTheme(t: ThemeConfigType) {
 	return t
 }

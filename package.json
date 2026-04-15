@@ -11,33 +11,17 @@
 	"scripts": {
 		"prepare": "pnpm -r build",
 		"ci:publish": "pnpm publish -r --access public --no-git-checks",
-		"publish:select": "node scripts/publish.mjs",
 		"dev:core": "pnpm --filter @fefade-ui/core run dev",
 		"dev:svelte": "concurrently --names \"CORE,SVELTE\" --prefix-colors \"gray,yellow\" \"pnpm run dev:core\" \"pnpm --filter @fefade-ui/svelte run dev\"",
-		"dev:react": "concurrently --names \"CORE,REACT\" --prefix-colors \"gray,cyan\" \"pnpm run dev:core\" \"pnpm --filter @fefade-ui/react run dev\"",
-		"dev:vue": "concurrently --names \"CORE,VUE\" --prefix-colors \"gray,green\" \"pnpm run dev:core\" \"pnpm --filter @fefade-ui/vue run dev\"",
-		"dev:docs": "concurrently --names \"CORE,DOCS\" --prefix-colors \"gray,white\" \"pnpm run dev:core\" \"pnpm --filter docs run dev\"",
+		"dev": "concurrently --names \"CORE,DOCS\" --prefix-colors \"gray,white\" \"pnpm run dev:core\" \"pnpm --filter docs run start\"",
 		"build:core": "pnpm --filter @fefade-ui/core run build",
 		"build:svelte": "pnpm --filter @fefade-ui/svelte run build",
-		"build:react": "pnpm --filter @fefade-ui/react run build",
-		"build:vue": "pnpm --filter @fefade-ui/vue run build",
-		"git:push": "git push && git push --tags",
 		"format": "prettier --write .",
 		"clean:build": "find . -type d \\( -name 'build' -o -name 'dist' \\) -prune -exec rm -rf '{}' +",
 		"clean:modules": "find . -type d -name 'node_modules' -prune -exec rm -rf '{}' +",
 		"clean:lock": "find . -type f -name 'pnpm-lock.yaml' -exec rm -f '{}' +",
 		"clean": "pnpm run clean:modules && pnpm run clean:lock && pnpm clean:build"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/fefade/ui.git"
-	},
-	"author": "fefade <https://github.com/fefade>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/fefade/ui/issues"
-	},
-	"homepage": "https://github.com/fefade/ui#readme",
 	"devDependencies": {
 		"@changesets/cli": "^2.30.0",
 		"@types/node": "^22.19.15",
@@ -49,8 +33,5 @@
 		"prettier-plugin-astro": "0.14.1",
 		"prettier-plugin-svelte": "^3.5.1",
 		"typescript": "^5.9.3"
-	},
-	"overrides": {
-		"picomatch": "4.0.4"
 	}
 }

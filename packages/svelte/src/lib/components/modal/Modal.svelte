@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
 	import { classMapUtil } from "@fefade-ui/core/utils"
-	import Card from "../card/index.js"
+	import Card from "$lib/components/card/index.js"
 	import type { ModalType } from "@fefade-ui/core/types"
 	import styles from "@fefade-ui/core/styles/Modal.module.css"
 	import animationStyle from "@fefade-ui/core/styles/Animation.module.css"
@@ -21,11 +21,11 @@
 	let el: HTMLDivElement | undefined = $state()
 
 	$effect(() => {
-		if (!el) return
-
 		if (isOpen) {
-			el.focus()
 			show = true
+
+			if (!el) return
+			el.focus()
 		}
 	})
 </script>

@@ -1,0 +1,44 @@
+---
+title: Separator
+description:
+  A flexible component used to visually divide or group related content.
+---
+
+import SeparatorPreview from "$lib/components/SeparatorPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Separator` component is used to **visually divide content** or group
+related items in layouts.  
+It supports both horizontal and vertical orientations, different sizes, and
+style variants.
+
+- **Orientation:** Can be horizontal or vertical.
+- **Style variants:** Supports `solid`, `dashed`, and `dotted`.
+- **Custom sizing:** Adjustable thickness and length.
+- **Flexible alignment:** Can align with start, end, or center content.
+
+## Usage Example
+
+<PreviewTabs component="SeparatorPreview">
+	<SeparatorPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop          | Type   | Default      | Description                                                         |
+| ------------- | ------ | ------------ | ------------------------------------------------------------------- |
+| `size`        | string | `md`         | Determines the thickness of the separator (`sm`, `md`, `lg`, `xl`). |
+| `variant`     | string | `solid`      | Style of the line: `solid`, `dashed`, `dotted`.                     |
+| `orientation` | string | `horizontal` | Orientation of the separator: `horizontal` or `vertical`.           |
+| `height`      | string | —            | Optional height for vertical separators.                            |
+| `class`       | string | —            | Custom CSS classes.                                                 |
+| `style`       | string | —            | Inline styles for additional customization.                         |
+
+## Best Practices
+
+- Use separators to **group related content** or divide sections clearly.
+- Prefer subtle variants for less prominent separation, and solid for strong
+  division.
+- Adjust size according to surrounding content and layout.
+- Combine orientation and alignment for responsive layouts.
+- Avoid overusing separators to prevent visual clutter.

@@ -2,7 +2,7 @@
 	import { Constants } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
 	import { activeLineAction } from "@fefade-ui/core/actions"
-	import HoverFollower from "../hover-follower/index.js"
+	import HoverFollower from "$lib/components/hover-follower/index.js"
 	import type { ActionType, OrientationType } from "@fefade-ui/core/types"
 	import {
 		classMapUtil,

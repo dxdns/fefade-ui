@@ -1,0 +1,64 @@
+---
+title: Modal
+description:
+  A UI component that displays content in a focused overlay, often used to
+  capture user attention for tasks like confirmations, forms, or alerts.
+---
+
+import ModalPreview from "$lib/components/ModalPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Modal` component is used to display content in a **focused overlay layer**,
+helping users complete tasks such as confirmations, forms, or alerts without
+leaving the current context.
+
+- **Overlay-based UI:** Focuses user attention on critical content.
+- **Controlled state:** Open/close is managed externally via props.
+- **Composable structure:** Supports header, content, and actions sections.
+- **Accessible behavior:** Designed for keyboard and interaction safety.
+
+## Usage Example
+
+<PreviewTabs component="ModalPreview">
+	<ModalPreview client:load />
+</PreviewTabs>
+
+## Props
+
+### Modal
+
+| Prop          | Type     | Default | Description                                         |
+| ------------- | -------- | ------- | --------------------------------------------------- |
+| `isOpen`      | boolean  | `false` | Controls whether the modal is visible.              |
+| `handleClose` | function | —       | Callback executed when the modal requests to close. |
+
+### Modal.Header
+
+| Prop    | Type   | Default  | Description                        |
+| ------- | ------ | -------- | ---------------------------------- |
+| `align` | string | `"left"` | Controls header content alignment. |
+| `class` | string | —        | Optional additional styles.        |
+| `style` | string | —        | Inline style overrides.            |
+
+### Modal.Content
+
+| Prop    | Type   | Default | Description                      |
+| ------- | ------ | ------- | -------------------------------- |
+| `class` | string | —       | Optional styling for modal body. |
+| `style` | string | —       | Inline style overrides.          |
+
+### Modal.Actions
+
+| Prop    | Type   | Default   | Description                              |
+| ------- | ------ | --------- | ---------------------------------------- |
+| `align` | string | `"right"` | Aligns action buttons within the footer. |
+| `class` | string | —         | Optional styling for actions container.  |
+| `style` | string | —         | Inline style overrides.                  |
+
+## Best Practices
+
+- Keep modal content **focused and task-oriented**.
+- Always provide a clear way to close the modal (`handleClose`).
+- Avoid placing too many actions inside `Modal.Actions`.
+- Use `Modal.Header` for context and clarity.
+- Ensure keyboard accessibility and proper focus handling.

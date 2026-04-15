@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
 	import { classMapUtil } from "@fefade-ui/core/utils"
-	import Button from "../button/index.js"
+	import Button from "$lib/components/button/index.js"
 	import type { AlignType } from "@fefade-ui/core/types"
 	import { closeIcon } from "@fefade-ui/core/icons"
 	import styles from "@fefade-ui/core/styles/ModalHeader.module.css"

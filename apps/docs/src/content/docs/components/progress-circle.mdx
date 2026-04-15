@@ -1,0 +1,40 @@
+---
+title: Progress Circle
+description:
+  A circular progress indicator used to display loading or completion status.
+---
+
+import ProgressCirclePreview from "$lib/components/ProgressCirclePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `ProgressCircle` component is a **circular visual indicator** used to
+display progress, loading states, or completion percentages in a compact format.
+
+- **Circular visualization:** Displays progress as a proportion of a circle.
+- **Customizable color:** Supports dynamic or theme-based colors.
+- **Labeling support:** Can include text or percentages inside the circle.
+- **Compact and responsive:** Ideal for dashboards, charts, or small UI areas.
+- **Composable:** Works in groups or standalone.
+
+## Usage Example
+
+<PreviewTabs component="ProgressCirclePreview">
+	<ProgressCirclePreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop    | Type   | Default | Description                                                 |
+| ------- | ------ | ------- | ----------------------------------------------------------- |
+| `value` | number | `0`     | The progress value (0–100) to display.                      |
+| `color` | string | —       | Color of the progress stroke. Can be theme-based or custom. |
+| `class` | string | —       | Optional CSS classes for styling.                           |
+| `style` | string | —       | Inline style overrides.                                     |
+
+## Best Practices
+
+- Use `value` in the range of 0–100 for proper visualization.
+- Combine with text or labels to clearly indicate the metric.
+- Use contrasting colors for better readability.
+- Group multiple `ProgressCircle` components for comparative displays.
+- Avoid overly small circles that obscure numeric labels.

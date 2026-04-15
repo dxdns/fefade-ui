@@ -1,0 +1,45 @@
+---
+title: Hover Follower
+description:
+  A interactive component that follows the mouse cursor on hover, ideal for
+  dynamic visual effects and responsive UI experiences.
+---
+
+import HoverFollowerPreview from "$lib/components/HoverFollowerPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `HoverFollower` component allows elements to **follow the mouse cursor** on
+hover, creating interactive visual effects.  
+It is useful for dashboards, galleries, cards, or any component that benefits
+from responsive, dynamic movement.
+
+- **Interactive motion:** Elements follow the cursor for a dynamic feel.
+- **Flexible layout:** Supports horizontal or vertical orientation and flexible
+  wrapping.
+- **Custom styling:** Background color, gap, and alignment can be customized.
+- **Composable:** Works with any component, such as cards, images, or text
+  blocks.
+
+## Usage Example
+
+<PreviewTabs component="HoverFollowerPreview">
+	<HoverFollowerPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop          | Type                           | Default                                        | Description                                               |
+| ------------- | ------------------------------ | ---------------------------------------------- | --------------------------------------------------------- |
+| `orientation` | `"horizontal"` \| `"vertical"` | `"vertical"`                                   | Determines the layout direction of the follower elements. |
+| `bgColor`     | string                         | `""`                                           | Background color applied to the follower container.       |
+| `style`       | string                         | `""`                                           | Inline styles for layout, spacing, or alignment.          |
+| `children`    | Required                       | Elements that will follow the cursor on hover. |
+
+## Best Practices
+
+- Use **lightweight elements** to maintain performance during hover movement.
+- Keep **consistent spacing and alignment** for a smooth visual effect.
+- Combine with **Cards, Images, or Text** to create interactive galleries or
+  tooltips.
+- Avoid overcrowding the follower area to maintain clarity.
+- Use **subtle movements** for better UX and less distraction.

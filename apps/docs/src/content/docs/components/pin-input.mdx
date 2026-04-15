@@ -1,0 +1,44 @@
+---
+title: Pin Input
+description:
+  A component for entering a sequence of digits, often used for PINs or
+  verification codes.
+---
+
+import PinInputPreview from "$lib/components/PinInputPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `PinInput` component is used to **capture sequences of numeric codes**, such
+as PINs or verification codes, in a structured and user-friendly way.
+
+- **Sequential input:** Supports multiple inputs for each digit of the code.
+- **Auto-focus support:** Focuses the next input as users type.
+- **Loading state:** Can indicate processing or verification status.
+- **Accessible design:** Works with keyboard and screen readers.
+- **Form-ready:** Can be used inside modals or verification flows.
+
+## Usage Example
+
+<PreviewTabs component="PinInputPreview">
+	<PinInputPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop        | Type    | Default | Description                                      |
+| ----------- | ------- | ------- | ------------------------------------------------ |
+| `value`     | string  | `""`    | Current value of the input.                      |
+| `autoFocus` | boolean | `false` | Automatically focus this input when rendered.    |
+| `isLoading` | boolean | `false` | Displays a loading state to indicate processing. |
+| `disabled`  | boolean | `false` | Disables user interaction.                       |
+| `class`     | string  | —       | Optional additional CSS classes.                 |
+| `style`     | string  | —       | Inline style overrides.                          |
+
+## Best Practices
+
+- Use `autoFocus` on the first input to guide users naturally through the PIN.
+- Keep the sequence length consistent for better UX.
+- Combine with `isLoading` or feedback mechanisms to indicate verification
+  status.
+- Avoid placing critical actions elsewhere while PIN input is active.
+- Use clear spacing and alignment for readability of digits.

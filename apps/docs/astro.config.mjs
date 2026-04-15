@@ -3,8 +3,6 @@ import { defineConfig } from "astro/config"
 import starlight from "@astrojs/starlight"
 import svelte from "@astrojs/svelte"
 import path from "path"
-import react from "@astrojs/react"
-import vue from "@astrojs/vue"
 import sitemap from "@astrojs/sitemap"
 
 const googleAnalyticsId = "G-FZ5T41CT85"
@@ -15,7 +13,7 @@ export default defineConfig({
 	integrations: [
 		sitemap(),
 		starlight({
-			title: "fefade ui",
+			title: "Fefade UI",
 			titleDelimiter: " | ",
 			defaultLocale: "root",
 			head: [
@@ -83,103 +81,23 @@ export default defineConfig({
 				},
 				{
 					label: "Components",
-					slug: "components"
-				},
-				{
-					label: "Templates",
-					slug: "templates"
-				},
-				{
-					label: "Frameworks",
-					collapsed: false,
-					items: [
-						{
-							label: "Svelte",
-							collapsed: true,
-							items: [
-								{
-									label: "Getting Started",
-									autogenerate: {
-										directory: "frameworks/svelte/getting-started"
-									}
-								},
-								{
-									label: "Components",
-									autogenerate: {
-										directory: "frameworks/svelte/components"
-									}
-								},
-								{
-									label: "Utils",
-									autogenerate: {
-										directory: "frameworks/svelte/utils"
-									}
-								}
-							]
-						},
-						{
-							label: "React",
-							collapsed: true,
-							items: [
-								{
-									label: "Getting Started",
-									autogenerate: {
-										directory: "frameworks/react/getting-started"
-									}
-								},
-								{
-									label: "Components",
-									autogenerate: {
-										directory: "frameworks/react/components"
-									}
-								},
-								{
-									label: "Utils",
-									autogenerate: {
-										directory: "frameworks/react/utils"
-									}
-								}
-							]
-						},
-						{
-							label: "Vue",
-							collapsed: true,
-							items: [
-								{
-									label: "Getting Started",
-									autogenerate: {
-										directory: "frameworks/vue/getting-started"
-									}
-								},
-								{
-									label: "Components",
-									autogenerate: {
-										directory: "frameworks/vue/components"
-									}
-								}
-							]
-						}
-					]
+					autogenerate: {
+						directory: "components",
+						collapsed: true
+					}
 				}
 			]
 		}),
-		svelte(),
-		react(),
-		vue()
+		svelte()
 	],
 	vite: {
 		resolve: {
 			alias: {
-				"@": path.resolve("./src/lib")
+				$lib: path.resolve("./src/lib")
 			}
 		},
 		ssr: {
-			noExternal: [
-				"@fefade-ui/core",
-				"@fefade-ui/react",
-				"@fefade-ui/svelte",
-				"@fefade-ui/vue"
-			]
+			noExternal: ["@fefade-ui/core", "@fefade-ui/svelte"]
 		}
 	}
 })

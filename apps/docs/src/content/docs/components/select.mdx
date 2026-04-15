@@ -1,0 +1,45 @@
+---
+title: Select
+description:
+  A dropdown menu that lets users pick one option from a list, making it easy to
+  choose without typing.
+---
+
+import SelectPreview from "$lib/components/SelectPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Select` component provides a **dropdown menu** for choosing a single option
+from a list. It is commonly used in forms, filters, and settings where users
+need to make a selection without typing.
+
+- **Single selection:** Only one option can be selected at a time.
+- **Accessible:** Uses native `<select>` behavior for keyboard and screen reader
+  support.
+- **Customizable styling:** Supports variants and custom CSS classes.
+- **Disabled state:** Can be disabled to prevent user interaction.
+- **Reactive value binding:** Works with reactive state for dynamic updates.
+
+## Usage Example
+
+<PreviewTabs component="SelectPreview">
+	<SelectPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop       | Type     | Default | Description                                           |
+| ---------- | -------- | ------- | ----------------------------------------------------- |
+| `value`    | string   | —       | Current selected value; supports reactive binding.    |
+| `variant`  | string   | —       | Style variant of the select (e.g., outlined, filled). |
+| `disabled` | boolean  | `false` | Disables the select when true.                        |
+| `class`    | string   | —       | Optional CSS classes for custom styling.              |
+| `style`    | string   | —       | Inline styles for layout or visual customization.     |
+| `onchange` | function | —       | Callback triggered when the selected value changes.   |
+
+## Best Practices
+
+- Keep option labels short and descriptive.
+- Use variants consistently for UI coherence.
+- Bind `value` for reactive updates in forms or dynamic UI.
+- Disable the select when input is not relevant or temporarily unavailable.
+- Ensure accessible labeling with `<label>` or `aria-label`.

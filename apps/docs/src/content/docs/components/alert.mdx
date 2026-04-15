@@ -1,0 +1,43 @@
+---
+title: Alert
+description:
+  An alert component used to display messages with different status colors.
+---
+
+import AlertPreview from "$lib/components/AlertPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Alert` component is designed to display important messages or feedback to
+users.  
+It uses color to indicate status, making it clear and easy to understand at a
+glance.
+
+- **Simple and direct:** highlights messages without extra complexity.
+- **Status colors:** choose from `Constants.statusColors` for different alert
+  types.
+- **Flexible content:** supports text, titles, descriptions, or other elements
+  inside the alert.
+- **Access colors individually:** you can also access colors directly using
+  `Constants.themeColorVar`, for example: `Constants.themeColorVar.success`.
+
+## Usage Example
+
+Display messages for success, warnings, or important notifications within forms,
+dashboards, or other UI sections.
+
+<PreviewTabs component="AlertPreview">
+	<AlertPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop    | Type   | Description                                                                                                                                                                      |
+| ------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `color` | string | Sets the alert color. Values can be from `Constants.statusColors` <br /> or accessed individually via `Constants.themeColorVar`.<br />Example: `Constants.themeColorVar.success` |
+
+## Best Practices
+
+- Use consistent colors for similar meanings (e.g., green for success, red for
+  error).
+- Keep messages concise and clear.
+- Avoid displaying too many alerts at once to prevent clutter.

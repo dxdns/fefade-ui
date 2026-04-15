@@ -1,0 +1,117 @@
+---
+title: Button
+description:
+  A versatile and customizable button component for interactive UI elements,
+  supporting variants, colors, sizes, icons, loading state, links, and pressed
+  effects.
+---
+
+import ButtonVariantPreview from "$lib/components/ButtonVariantPreview.svelte"
+import ButtonColorPreview from "$lib/components/ButtonColorPreview.svelte"
+import ButtonSizePreview from "$lib/components/ButtonSizePreview.svelte"
+import ButtonLoadingPreview from "$lib/components/ButtonLoadingPreview.svelte"
+import ButtonIconPreview from "$lib/components/ButtonIconPreview.svelte"
+import ButtonLinkPreview from "$lib/components/ButtonLinkPreview.svelte"
+import ButtonDisabledPreview from "$lib/components/ButtonDisabledPreview.svelte"
+import ButtonPressedEffectPreview from "$lib/components/ButtonPressedEffectPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Button` component is a versatile and interactive element for triggering
+actions in your application.  
+It supports multiple **variants**, **colors**, **sizes**, and can include
+**icons**, **loading indicators**, or render as a **link**.  
+Use it to create consistent, accessible, and visually appealing buttons across
+your UI.
+
+## Variant
+
+Use the `variant` prop to change the visual style of the button (text,
+contained, outlined).
+
+<PreviewTabs component="ButtonVariantPreview">
+	<ButtonVariantPreview />
+</PreviewTabs>
+
+## Color
+
+Use the `class` or `style` prop to change the color of the button, including
+background and text color.
+
+<PreviewTabs component="ButtonColorPreview">
+	<ButtonColorPreview client:load />
+</PreviewTabs>
+
+## Size
+
+Use the `size` prop to adjust the button's size for different contexts, such as
+form actions or toolbars.
+
+<PreviewTabs component="ButtonSizePreview">
+	<ButtonSizePreview client:load />
+</PreviewTabs>
+
+## Loading
+
+Pass the `isLoading` prop to show a spinner or loading indicator inside the
+button. Ideal for async actions.
+
+<PreviewTabs component="ButtonLoadingPreview">
+	<ButtonLoadingPreview />
+</PreviewTabs>
+
+## Icon
+
+Include an icon inside the button for actions like “submit”, “delete”, or
+“download”.
+
+<PreviewTabs component="ButtonIconPreview">
+	<ButtonIconPreview />
+</PreviewTabs>
+
+## Link
+
+Render a button as a link using the `href` prop. Use `target` to control link
+behavior (e.g., `_blank`).
+
+<PreviewTabs component="ButtonLinkPreview">
+	<ButtonLinkPreview client:load />
+</PreviewTabs>
+
+## Disabled
+
+Disable the button to prevent interactions using the `disabled` prop.
+
+<PreviewTabs component="ButtonDisabledPreview">
+	<ButtonDisabledPreview />
+</PreviewTabs>
+
+## Pressed effect
+
+The press effect provides visual feedback when clicking the button.  
+Use `pressedEffect` to disable this animation if desired.
+
+<PreviewTabs component="ButtonPressedEffectPreview">
+	<ButtonPressedEffectPreview />
+</PreviewTabs>
+
+## Props
+
+| Prop            | Type    | Default     | Description                                                               |
+| --------------- | ------- | ----------- | ------------------------------------------------------------------------- |
+| `variant`       | string  | `"default"` | Changes the visual style of the button (e.g., text, contained, outlined). |
+| `size`          | string  | `"md"`      | Adjusts the button size (`sm`, `md`, `lg`).                               |
+| `class`         | string  | `""`        | Custom classes for colors, borders, or other styles.                      |
+| `isLoading`     | boolean | `false`     | Shows a loading spinner when true.                                        |
+| `disabled`      | boolean | `false`     | Disables the button, preventing user interaction.                         |
+| `pressedEffect` | boolean | `true`      | Enables or disables the press effect animation.                           |
+| `href`          | string  | `""`        | Renders the button as a link if provided.                                 |
+| `target`        | string  | `"_self"`   | Target attribute for link buttons.                                        |
+| `icon`          | slot    | Optional    | Include an icon inside the button.                                        |
+
+## Best Practices
+
+- Use **variants** consistently across your app for clarity.
+- Always provide **loading states** for async actions.
+- Combine **icons and text** for better accessibility and UX.
+- Ensure **contrast and color accessibility** for visibility.
+- Prefer using `href` for navigation actions to keep semantic HTML.

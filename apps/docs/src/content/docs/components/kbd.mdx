@@ -1,0 +1,42 @@
+---
+title: Kbd
+description:
+  A semantic component used to display keyboard inputs or shortcuts, typically
+  rendered in a monospace style to indicate user-entered text.
+---
+
+import KbdPreview from "$lib/components/KbdPreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+The `Kbd` component is used to **display keyboard inputs or shortcuts** in a
+semantic and visually consistent way.  
+It is commonly used in documentation, tutorials, and UI hints to indicate user
+actions.
+
+- **Semantic meaning:** Clearly represents keyboard input (`Ctrl`, `Enter`,
+  etc.).
+- **Consistent styling:** Monospace and accessible default appearance.
+- **Flexible usage:** Works inline with text or inside UI components.
+- **Composable:** Can be combined with shortcuts, tooltips, or guides.
+
+## Usage Example
+
+<PreviewTabs component="KbdPreview">
+	<KbdPreview client:load />
+</PreviewTabs>
+
+## Props
+
+| Prop       | Type   | Default | Description                                        |
+| ---------- | ------ | ------- | -------------------------------------------------- |
+| `children` | node   | —       | The keyboard key or shortcut text to be displayed. |
+| `class`    | string | `""`    | Optional additional classes for custom styling.    |
+| `style`    | string | `""`    | Inline styles for layout or visual customization.  |
+
+## Best Practices
+
+- Use **short and recognizable labels** (e.g., `Ctrl`, `S`, `Enter`).
+- Combine multiple `Kbd` components to represent shortcuts (e.g., `Ctrl + S`).
+- Avoid overusing in body text to maintain readability.
+- Keep styling subtle to preserve semantic meaning.
+- Use consistently across documentation for better UX familiarity.
