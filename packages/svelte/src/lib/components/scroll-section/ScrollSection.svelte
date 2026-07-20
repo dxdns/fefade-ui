@@ -1,16 +1,12 @@
 <script lang="ts">
-	import type { SectionType } from "@fefade-ui/core/types"
 	import Button from "$lib/components/button/index.js"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, type SectionType } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
-	import {
-		checkVisibilityAction,
-		scrollNavigatorAction
-	} from "@fefade-ui/core/actions"
+	import { checkVisibilityAction, scrollNavigatorAction } from "@fefade-ui/core"
 	import {
 		keyboardArrowLeftIcon,
 		keyboardArrowRightIcon
-	} from "@fefade-ui/core/icons"
+	} from "@fefade-ui/core"
 	import styles from "./ScrollSection.module.css"
 
 	interface Props extends HTMLAttributes<HTMLElement> {
@@ -27,8 +23,7 @@
 	}: Props = $props()
 
 	let _scrollNavigatorAction:
-		| ReturnType<typeof scrollNavigatorAction>
-		| undefined
+		ReturnType<typeof scrollNavigatorAction> | undefined
 
 	let isFirst = $state(true)
 	let isLast = $state(false)

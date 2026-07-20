@@ -1,9 +1,5 @@
 export type HTMLAttrAnchorTarget =
-	| "_self"
-	| "_blank"
-	| "_parent"
-	| "_top"
-	| (string & {})
+	"_self" | "_blank" | "_parent" | "_top" | (string & {})
 
 export type HTMLAttrAnchor = {
 	target?: HTMLAttrAnchorTarget
@@ -12,16 +8,7 @@ export type HTMLAttrAnchor = {
 }
 
 export type HTMLTagTextType =
-	| "p"
-	| "span"
-	| "h1"
-	| "h2"
-	| "h3"
-	| "h4"
-	| "h5"
-	| "h6"
-	| "div"
-	| "small"
+	"p" | "span" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "div" | "small"
 
 export type HTMLTagMap = {
 	a: HTMLAnchorElement

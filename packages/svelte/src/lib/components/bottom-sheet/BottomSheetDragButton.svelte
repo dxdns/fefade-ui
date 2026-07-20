@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, type BottomSheetDragButtonType } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { BottomSheetDragButtonType } from "@fefade-ui/core/types"
 	import styles from "@fefade-ui/core/styles/BottomSheetDragButton.module.css"
 
 	interface Props

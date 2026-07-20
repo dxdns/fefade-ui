@@ -5,14 +5,8 @@ async function start() {
 	const isWatch = process.argv.includes("--watch")
 
 	const ctx = await esbuild.context({
-		entryPoints: [
-			"src/index.ts",
-			"src/utils/index.ts",
-			"src/types/index.ts",
-			"src/actions/index.ts",
-			"src/icons/index.ts",
-			"src/styles/**/*.css"
-		],
+		entryPoints: ["src/index.ts", "src/styles/**/*.css"],
+		splitting: true,
 		bundle: true,
 		outdir: "dist",
 		format: "esm",

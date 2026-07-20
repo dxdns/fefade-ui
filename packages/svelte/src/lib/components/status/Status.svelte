@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { Constants } from "@fefade-ui/core"
 	import {
+		Constants,
 		classMapUtil,
 		mergeStyleUtil,
-		normalizeSizeUtil
-	} from "@fefade-ui/core/utils"
+		normalizeSizeUtil,
+		type StatusType
+	} from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { StatusType } from "@fefade-ui/core/types"
 	import styles from "@fefade-ui/core/styles/Status.module.css"
 
 	interface Props

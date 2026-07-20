@@ -3,17 +3,17 @@
 		classMapUtil,
 		handleClickUtil,
 		styleToStringUtil
-	} from "@fefade-ui/core/utils"
+	} from "@fefade-ui/core"
 	import type {
 		CSSKebabType,
 		GalleryItemType,
 		HTMLAttrAnchor,
 		VideoType
-	} from "@fefade-ui/core/types"
+	} from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/GalleryItem.module.css"
 	import type { HTMLVideoAttributes } from "svelte/elements"
 	import { Video } from "$lib/components/video/index.js"
-	import { createPortalAction } from "@fefade-ui/core/actions"
+	import { createPortalAction } from "@fefade-ui/core"
 	import Modal from "$lib/components/modal/index.js"
 
 	type HTMLVideoAttr = Omit<HTMLVideoAttributes, "src">

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { createTheme } from "@fefade-ui/core/utils"
+	import { createTheme } from "@fefade-ui/core"
 	import { Provider } from "$lib/index.js"
 
 	let { children } = $props()

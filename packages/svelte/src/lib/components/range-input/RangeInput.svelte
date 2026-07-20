@@ -1,12 +1,12 @@
 <script lang="ts">
-	import type { RangeInputType } from "@fefade-ui/core/types"
+	import type { RangeInputType } from "@fefade-ui/core"
 	import {
+		Constants,
 		classMapUtil,
 		mergeStyleUtil,
 		dataIconUrlUtil
-	} from "@fefade-ui/core/utils"
+	} from "@fefade-ui/core"
 	import type { HTMLInputAttributes } from "svelte/elements"
-	import { Constants } from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/RangeInput.module.css"
 
 	interface Props

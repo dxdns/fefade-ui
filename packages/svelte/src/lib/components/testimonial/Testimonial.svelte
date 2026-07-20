@@ -1,11 +1,14 @@
 <script lang="ts">
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import {
+		classMapUtil,
+		type CardType,
+		type HTMLAttrAnchor
+	} from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
 	import Card from "$lib/components/card/index.js"
 	import Avatar from "$lib/components/avatar/index.js"
 	import { Rating } from "$lib/components/rating/index.js"
 	import type { Snippet } from "svelte"
-	import type { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
 
 	interface Props
 		extends

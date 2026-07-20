@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { HTMLButtonAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil } from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Overlay.module.css"
 
 	interface Props extends HTMLButtonAttributes {

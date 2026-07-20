@@ -3,17 +3,17 @@
 		classMapUtil,
 		handleClickUtil,
 		styleToStringUtil
-	} from "@fefade-ui/core/utils"
+	} from "@fefade-ui/core"
 	import type {
 		CSSKebabType,
 		GalleryItemType,
 		HTMLAttrAnchor,
 		ImageType
-	} from "@fefade-ui/core/types"
+	} from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/GalleryItem.module.css"
 	import type { HTMLImgAttributes } from "svelte/elements"
 	import { Image } from "$lib/components/image/index.js"
-	import { createPortalAction } from "@fefade-ui/core/actions"
+	import { createPortalAction } from "@fefade-ui/core"
 	import Modal from "$lib/components/modal/index.js"
 
 	type HTMLImageAttr = Omit<HTMLImgAttributes, "src">

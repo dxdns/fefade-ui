@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade-ui/core/utils"
-	import type { SizeType } from "@fefade-ui/core/types"
+	import { classMapUtil, type SizeType } from "@fefade-ui/core"
 
 	interface Props extends HTMLAttributes<HTMLElement> {
 		size?: SizeType

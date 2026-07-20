@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { HTMLAnchorAttributes } from "svelte/elements"
-	import { classMapUtil, styleToStringUtil } from "@fefade-ui/core/utils"
-	import type { CSSKebabType, LinkType } from "@fefade-ui/core/types"
+	import {
+		classMapUtil,
+		styleToStringUtil,
+		type CSSKebabType,
+		type LinkType
+	} from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Link.module.css"
 	import buttonStyles from "@fefade-ui/core/styles/Button.module.css"
 

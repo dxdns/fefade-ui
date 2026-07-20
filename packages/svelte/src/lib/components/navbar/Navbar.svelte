@@ -1,8 +1,10 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade-ui/core/utils"
-	import { fadeOnScrollAction } from "@fefade-ui/core/actions"
-	import type { VariantType } from "@fefade-ui/core/types"
+	import {
+		classMapUtil,
+		fadeOnScrollAction,
+		type VariantType
+	} from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Navbar.module.css"
 
 	interface Props extends HTMLAttributes<HTMLElement> {

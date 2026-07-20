@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { BadgeType } from "@fefade-ui/core/types"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, type BadgeType } from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Badge.module.css"
 
 	interface Props extends HTMLAttributes<HTMLSpanElement>, BadgeType {}

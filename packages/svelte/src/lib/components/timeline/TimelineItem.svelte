@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { HorizontalPositionType } from "@fefade-ui/core/types"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, type HorizontalPositionType } from "@fefade-ui/core"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
 		position: Exclude<HorizontalPositionType, "center">

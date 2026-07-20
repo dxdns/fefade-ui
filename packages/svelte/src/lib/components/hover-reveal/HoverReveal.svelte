@@ -3,7 +3,7 @@
 		HTMLAttributeAnchorTarget,
 		HTMLAttributes
 	} from "svelte/elements"
-	import { classMapUtil, normalizeSizeUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, normalizeSizeUtil } from "@fefade-ui/core"
 	import type { Snippet } from "svelte"
 	import styles from "./HoverReveal.module.css"
 

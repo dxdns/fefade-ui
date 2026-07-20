@@ -7,5 +7,4 @@ export type PositionType = VerticalPositionType | HorizontalPositionType
 export type AlignmentType = `${VerticalPositionType}-${HorizontalPositionType}`
 
 export type PositionNoCenterType =
-	| VerticalPositionType
-	| Exclude<HorizontalPositionType, "center">
+	VerticalPositionType | Exclude<HorizontalPositionType, "center">

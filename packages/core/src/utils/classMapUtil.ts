@@ -1,13 +1,7 @@
 type ClassDictionary = Record<string, any>
 type ClassArray = ClassValue[]
 type ClassValue =
-	| string
-	| number
-	| boolean
-	| ClassDictionary
-	| ClassArray
-	| null
-	| undefined
+	string | number | boolean | ClassDictionary | ClassArray | null | undefined
 
 type ClassMapTuple = [
 	string | string[] | undefined | null,

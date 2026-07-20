@@ -1,8 +1,10 @@
 <script lang="ts">
-	import { bottomSheetAction } from "@fefade-ui/core/actions"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import {
+		classMapUtil,
+		bottomSheetAction,
+		type BottomSheetType
+	} from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { BottomSheetType } from "@fefade-ui/core/types"
 	import styles from "@fefade-ui/core/styles/BottomSheet.module.css"
 
 	interface Props

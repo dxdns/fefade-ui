@@ -1,10 +1,13 @@
 <script lang="ts">
-	import { Constants } from "@fefade-ui/core"
 	import { toastState } from "$lib/states/index.js"
 	import Toast from "./Toast.svelte"
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
-	import type { AlignmentType } from "@fefade-ui/core/types"
+	import {
+		Constants,
+		classMapUtil,
+		mergeStyleUtil,
+		type AlignmentType
+	} from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Toaster.module.css"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {

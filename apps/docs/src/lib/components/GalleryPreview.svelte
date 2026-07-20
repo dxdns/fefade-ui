@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Gallery, Text } from "@fefade-ui/svelte"
-	import { videoUtil } from "@fefade-ui/core/utils"
+	import { videoUtil } from "@fefade-ui/core"
 
 	const sizes = [200, 250, 650, 750, 850, 950, 300, 350, 450, 550]
 

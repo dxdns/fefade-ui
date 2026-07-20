@@ -1,8 +1,7 @@
 <script lang="ts">
 	import type { HTMLInputAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, type NumberInputType } from "@fefade-ui/core"
 	import Button from "$lib/components/button/index.js"
-	import type { NumberInputType } from "@fefade-ui/core/types"
 	import { onMount, tick } from "svelte"
 	import { fly } from "svelte/transition"
 	import styles from "@fefade-ui/core/styles/NumberInput.module.css"

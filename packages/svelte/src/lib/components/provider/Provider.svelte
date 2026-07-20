@@ -1,11 +1,14 @@
 <script lang="ts">
 	import { onMount, type Snippet } from "svelte"
-	import { Constants } from "@fefade-ui/core"
-	import type { ThemeConfigType, ThemeModeType } from "@fefade-ui/core/types"
-	import { providerUtil } from "@fefade-ui/core/utils"
+	import {
+		providerUtil,
+		Constants,
+		type ThemeConfigType,
+		type ThemeModeType
+	} from "@fefade-ui/core"
 	import { themeConfigState } from "$lib/states/index.js"
 	import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
-	import "@fefade-ui/core/styles/globals.css"
+	import "@fefade-ui/core/styles/Utils.css"
 
 	interface Props {
 		theme?: ThemeConfigType

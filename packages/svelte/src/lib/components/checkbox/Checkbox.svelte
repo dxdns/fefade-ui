@@ -1,8 +1,10 @@
 <script lang="ts">
-	import { classMapUtil } from "@fefade-ui/core/utils"
 	import type { HTMLInputAttributes } from "svelte/elements"
-	import type { CheckboxType } from "@fefade-ui/core/types"
-	import { checkmarkIcon } from "@fefade-ui/core/icons"
+	import {
+		classMapUtil,
+		checkmarkIcon,
+		type CheckboxType
+	} from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Checkbox.module.css"
 
 	interface Props

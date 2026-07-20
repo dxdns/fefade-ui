@@ -1,6 +1,10 @@
 <script lang="ts">
-	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
-	import type { OrientationType, SizeType } from "@fefade-ui/core/types"
+	import {
+		classMapUtil,
+		mergeStyleUtil,
+		type OrientationType,
+		type SizeType
+	} from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {

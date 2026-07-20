@@ -1,14 +1,12 @@
 <script lang="ts">
-	import { Constants } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade-ui/core/utils"
-	import type { AlertType } from "@fefade-ui/core/types"
+	import { classMapUtil, Constants, type AlertType } from "@fefade-ui/core"
 	import {
 		checkCircleIcon,
 		errorIcon,
 		infoIcon,
 		warningIcon
-	} from "@fefade-ui/core/icons"
+	} from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Alert.module.css"
 
 	interface Props

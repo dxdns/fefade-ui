@@ -1,15 +1,16 @@
 <script lang="ts">
-	import { Constants } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
 	import {
+		Constants,
 		classMapUtil,
 		getPropValueUtil,
 		handleClickUtil,
 		mergeStyleUtil,
-		normalizeSizeUtil
-	} from "@fefade-ui/core/utils"
-	import { glowOnHoverAction } from "@fefade-ui/core/actions"
-	import type { CardType, HTMLAttrAnchor } from "@fefade-ui/core/types"
+		normalizeSizeUtil,
+		type CardType,
+		type HTMLAttrAnchor
+	} from "@fefade-ui/core"
+	import { glowOnHoverAction } from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Card.module.css"
 
 	interface Props

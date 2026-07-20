@@ -1,8 +1,7 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
 	import styles from "./Carousel.module.css"
-	import { scrollNavigatorAction } from "@fefade-ui/core/actions"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { scrollNavigatorAction, classMapUtil } from "@fefade-ui/core"
 	import { onDestroy, onMount, type Snippet } from "svelte"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {
@@ -36,8 +35,7 @@
 	let el: HTMLDivElement | undefined = $state()
 	let interval: ReturnType<typeof setInterval>
 	let _scrollNavigatorAction:
-		| ReturnType<typeof scrollNavigatorAction>
-		| undefined
+		ReturnType<typeof scrollNavigatorAction> | undefined
 
 	const isLast = $derived(index === childs.length - 1)
 

@@ -1,6 +1,5 @@
 <script lang="ts">
-	import type { SpinnerType } from "@fefade-ui/core/types"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, type SpinnerType } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
 	import styles from "@fefade-ui/core/styles/Spinner.module.css"
 

@@ -1,8 +1,7 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade-ui/core/utils"
 	import Button from "$lib/components/button/index.js"
-	import { closeIcon } from "@fefade-ui/core/icons"
+	import { classMapUtil, closeIcon } from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/DrawerHeader.module.css"
 
 	interface Props extends HTMLAttributes<HTMLDivElement> {

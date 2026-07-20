@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import { scrollSectionAction } from "@fefade-ui/core/actions"
+	import { scrollSectionAction } from "@fefade-ui/core"
 	import { scrollSectionState } from "$lib/states/index.js"
 
 	interface Props extends HTMLAttributes<HTMLElement> {}

@@ -1,10 +1,13 @@
 <script lang="ts">
-	import { Constants } from "@fefade-ui/core"
-	import type { SwitchType } from "@fefade-ui/core/types"
 	import type { HTMLInputAttributes } from "svelte/elements"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import {
+		Constants,
+		classMapUtil,
+		mergeStyleUtil,
+		getPropValueUtil,
+		type SwitchType
+	} from "@fefade-ui/core"
 	import type { Snippet } from "svelte"
-	import { mergeStyleUtil, getPropValueUtil } from "@fefade-ui/core/utils"
 	import styles from "@fefade-ui/core/styles/Switch.module.css"
 
 	interface Props

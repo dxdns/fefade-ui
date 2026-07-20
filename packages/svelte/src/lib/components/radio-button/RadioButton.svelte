@@ -1,8 +1,11 @@
 <script lang="ts">
 	import type { HTMLInputAttributes } from "svelte/elements"
 	import styles from "./RadioButton.module.css"
-	import type { SizeType, StatusColorType } from "@fefade-ui/core/types"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import {
+		classMapUtil,
+		type SizeType,
+		type StatusColorType
+	} from "@fefade-ui/core"
 
 	interface Props extends Omit<HTMLInputAttributes, "size"> {
 		label?: string

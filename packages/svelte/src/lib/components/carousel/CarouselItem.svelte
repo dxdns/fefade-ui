@@ -1,8 +1,11 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
 	import styles from "./CarouselItem.module.css"
-	import { classMapUtil, handleClickUtil } from "@fefade-ui/core/utils"
-	import type { HTMLAttrAnchor } from "@fefade-ui/core/types"
+	import {
+		classMapUtil,
+		handleClickUtil,
+		type HTMLAttrAnchor
+	} from "@fefade-ui/core"
 
 	interface Props
 		extends Omit<HTMLAttributes<HTMLDivElement>, "color">, HTMLAttrAnchor {}

@@ -1,11 +1,7 @@
 <script lang="ts" generics="T extends HTMLTagTextType">
-	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
-	import type {
-		HTMLTagMap,
-		HTMLTagTextType,
-		TextType
-	} from "@fefade-ui/core/types"
+	import type { HTMLTagMap, HTMLTagTextType, TextType } from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/Text.module.css"
 
 	interface Props<T extends HTMLTagTextType>

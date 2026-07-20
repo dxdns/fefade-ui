@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { imageAction } from "@fefade-ui/core/actions"
+	import { imageAction, type ImageType } from "@fefade-ui/core"
 	import type { HTMLImgAttributes } from "svelte/elements"
-	import type { ImageType } from "@fefade-ui/core/types"
 
 	interface Props
 		extends Omit<Omit<HTMLImgAttributes, "src">, "color">, ImageType {}

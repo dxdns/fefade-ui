@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
 	import styles from "@fefade-ui/core/styles/SelectOption.module.css"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil } from "@fefade-ui/core"
 
 	interface Props extends HTMLAttributes<HTMLOptionElement> {
 		value?: string | number

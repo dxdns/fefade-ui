@@ -1,6 +1,9 @@
-import type { MediaQueryType, BreakpointType } from "@fefade-ui/core/types"
-import { sizeToNumberUtil } from "@fefade-ui/core/utils"
-import { Constants } from "@fefade-ui/core"
+import {
+	Constants,
+	sizeToNumberUtil,
+	type MediaQueryType,
+	type BreakpointType
+} from "@fefade-ui/core"
 
 function getBreakpointValue(size: string): string {
 	const root = document.documentElement

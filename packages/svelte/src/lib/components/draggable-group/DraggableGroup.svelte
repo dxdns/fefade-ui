@@ -1,8 +1,11 @@
 <script lang="ts">
 	import type { HTMLAttributes } from "svelte/elements"
-	import type { DraggableGroupType } from "@fefade-ui/core/types"
-	import { classMapUtil, mergeStyleUtil } from "@fefade-ui/core/utils"
-	import { draggableGroupAction } from "@fefade-ui/core/actions"
+	import {
+		draggableGroupAction,
+		classMapUtil,
+		mergeStyleUtil,
+		type DraggableGroupType
+	} from "@fefade-ui/core"
 	import styles from "@fefade-ui/core/styles/DraggableGroup.module.css"
 	import stylesItem from "@fefade-ui/core/styles/DraggableGroupItem.module.css"
 

@@ -93,7 +93,9 @@ export const themeColorVar = Object.fromEntries(
 		`var(${CSS_VAR_PREFIX}-${toKebabCaseUtil(key)})`
 	])
 ) as {
-	[K in keyof ThemeColorType]: `var(${typeof CSS_VAR_PREFIX}-${KebabType<K & string>})`
+	[
+		K in keyof ThemeColorType
+	]: `var(${typeof CSS_VAR_PREFIX}-${KebabType<K & string>})`
 }
 
 export const ForegroundColor = (color: string) => {

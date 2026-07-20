@@ -1,12 +1,10 @@
 <script lang="ts">
-	import type { ToastType } from "@fefade-ui/core/types"
-	import { classMapUtil } from "@fefade-ui/core/utils"
+	import { classMapUtil, closeIcon, type ToastType } from "@fefade-ui/core"
 	import type { HTMLAttributes } from "svelte/elements"
 	import Button from "$lib/components/button/index.js"
 	import { Alert } from "$lib/components/alert/index.js"
 	import { toastState } from "$lib/states/index.js"
 	import ProgressLoader from "$lib/components/progress-loader/index.js"
-	import { closeIcon } from "@fefade-ui/core/icons"
 	import styles from "@fefade-ui/core/styles/Toast.module.css"
 
 	type Props = Omit<HTMLAttributes<HTMLDivElement>, "color" | "id"> & ToastType
