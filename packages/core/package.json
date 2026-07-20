@@ -24,6 +24,22 @@
 			"import": "./dist/index.js",
 			"types": "./dist/index.d.ts"
 		},
+		"./utils": {
+			"import": "./dist/utils/index.js",
+			"types": "./dist/utils/index.d.ts"
+		},
+		"./types": {
+			"import": "./dist/types/index.js",
+			"types": "./dist/types/index.d.ts"
+		},
+		"./actions": {
+			"import": "./dist/actions/index.js",
+			"types": "./dist/actions/index.d.ts"
+		},
+		"./icons": {
+			"import": "./dist/icons/index.js",
+			"types": "./dist/icons/index.d.ts"
+		},
 		"./styles/*.css": {
 			"types": "./dist/styles/*.css.d.ts",
 			"default": "./dist/styles/*.css"

@@ -8,7 +8,6 @@
 	} from "@fefade-ui/core"
 	import { themeConfigState } from "$lib/states/index.js"
 	import rawStyle from "@fefade-ui/core/styles/Provider.css?raw"
-	import "@fefade-ui/core/styles/Utils.css"
 
 	interface Props {
 		theme?: ThemeConfigType

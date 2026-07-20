@@ -34,6 +34,7 @@ export { default as Window } from "./components/window/index.js"
 export { default as Separator } from "./components/separator/index.js"
 export { default as ProgressCircle } from "./components/progress-circle/index.js"
 export { default as TextField } from "./components/text-field/index.js"
+export { default as StyleUtil } from "./components/style-util/index.js"
 
 export { default as Select } from "./components/select/index.js"
 export { default as Avatar } from "./components/avatar/index.js"
