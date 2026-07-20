@@ -28,28 +28,28 @@ or any interface that needs segmented content.
 
 ## Props
 
-| Prop          | Type            | Default     | Description                             |
-| ------------- | --------------- | ----------- | --------------------------------------- | ------------------------------ |
-| `id`          | `string`        | —           | Unique identifier for the tab instance. |
-| `orientation` | `"horizontal"   | "vertical"` | `"horizontal"`                          | Sets the tab list orientation. |
-| `style`       | `CSSProperties` | —           | Inline styles for the tab container.    |
-| `class`       | `string`        | —           | Optional CSS class for custom styling.  |
+| Prop          | Type                         | Default          | Description                             |
+| ------------- | ---------------------------- | ---------------- | --------------------------------------- |
+| `id`          | `string`                     | —                | Unique identifier for the tab instance. |
+| `orientation` | `"horizontal" \| "vertical"` | `"horizontal"`   | Sets the tab list orientation.          |
+| `style`       | `CSSProperties`              | —                | Inline styles for the tab container.    |
+| `class`       | `string`                     | —                | Optional CSS class for custom styling.  |
 
 ### `Tab.List` Props
 
-| Prop            | Type                  | Default     | Description                                        |
-| --------------- | --------------------- | ----------- | -------------------------------------------------- | ----------------------------------------------- |
-| `scrollable`    | `boolean`             | `false`     | Allows horizontal scrolling of tab buttons.        |
-| `lineStyle`     | `CSSProperties`       | —           | Custom styles for the indicator line.              |
-| `hoverFollower` | `{ bgColor: string }` | —           | Adds a hover background effect behind tab buttons. |
-| `orientation`   | `"horizontal"         | "vertical"` | `"horizontal"`                                     | Controls list orientation independently of Tab. |
+| Prop            | Type                         | Default        | Description                                        |
+| --------------- | ---------------------------- | -------------- | -------------------------------------------------- |
+| `scrollable`    | `boolean`                    | `false`        | Allows horizontal scrolling of tab buttons.        |
+| `lineStyle`     | `CSSProperties`              | —              | Custom styles for the indicator line.              |
+| `hoverFollower` | `{ bgColor: string }`        | —              | Adds a hover background effect behind tab buttons. |
+| `orientation`   | `"horizontal" \| "vertical"` | `"horizontal"` | Controls list orientation independently of Tab.     |
 
 ### `Tab.Panel` Props
 
 | Prop         | Type                 | Default | Description                                        |
 | ------------ | -------------------- | ------- | -------------------------------------------------- |
 | `isActive`   | `boolean`            | `false` | Whether this panel is currently visible.           |
-| `transition` | `TransitionConfig[]` | —       | transitions applied when showing/hiding the panel. |
+| `transition` | `TransitionConfig[]` | —       | Transitions applied when showing/hiding the panel. |
 
 ## Notes
 
