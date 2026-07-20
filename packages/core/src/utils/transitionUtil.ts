@@ -1,7 +1,7 @@
 import {
 	TransitionConfigType,
 	TransitionType
-} from "../types/transition.types.js"
+} from "../types/transitionType.js"
 
 export default function transitionUtil<T extends HTMLElement>(
 	node: T,

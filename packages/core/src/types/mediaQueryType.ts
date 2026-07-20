@@ -1,4 +1,4 @@
-import { BreakpointType } from "./breakpoint.types.js"
+import { BreakpointType } from "./breakpointType.js"
 
 type BaseType = {
 	operator: "min-width" | "max-width"

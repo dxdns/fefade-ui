@@ -1,5 +1,5 @@
-import { StatusColorType } from "./color.types.js"
-import { SizeType } from "./size.types.js"
+import { StatusColorType } from "./colorType.js"
+import { SizeType } from "./sizeType.js"
 
 export type CheckboxType = {
 	label?: string

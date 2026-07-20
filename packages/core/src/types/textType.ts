@@ -1,4 +1,4 @@
-import { HTMLTagTextType } from "./html.types.js"
+import { HTMLTagTextType } from "./htmlType.js"
 
 export type TextType = {
 	as?: HTMLTagTextType

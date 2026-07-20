@@ -1,4 +1,4 @@
-import type { BreakpointThemeConfigType } from "./breakpoint.types.js"
+import type { BreakpointThemeConfigType } from "./breakpointType.js"
 
 export type ThemeModeType = "dark" | "light"
 

@@ -1,4 +1,4 @@
-import { VariantType } from "./variant.types.js"
+import { VariantType } from "./variantType.js"
 
 export type ModalType = {
 	isOpen: boolean

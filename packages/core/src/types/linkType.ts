@@ -1,4 +1,4 @@
-import { VariantType } from "./variant.types.js"
+import { VariantType } from "./variantType.js"
 
 type ActiveStyleType<T = string> =
 	T | (({ isActive }: { isActive: boolean }) => T | undefined)

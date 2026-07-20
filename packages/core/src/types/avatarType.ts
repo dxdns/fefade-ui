@@ -1,4 +1,4 @@
-import { SizeType } from "./size.types.js"
+import { SizeType } from "./sizeType.js"
 
 /**
  * Type definition for Avatar component props.

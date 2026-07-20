@@ -1,4 +1,4 @@
-import type { OrientationType } from "../types/orientation.types.js"
+import type { OrientationType } from "../types/orientationType.js"
 
 type Props = {
 	firstChildIndex?: number

@@ -1,4 +1,4 @@
-import { type VariantType } from "./variant.types.js"
+import { type VariantType } from "./variantType.js"
 
 export type CardType = {
 	isTranslucent?: boolean

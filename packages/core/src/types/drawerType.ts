@@ -1,4 +1,4 @@
-import { PositionNoCenterType } from "./position.types.js"
+import { PositionNoCenterType } from "./positionType.js"
 
 export type DrawerType = {
 	isOpen: boolean

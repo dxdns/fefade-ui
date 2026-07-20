@@ -1,5 +1,5 @@
-import { SizeType } from "./size.types.js"
-import { VariantType } from "./variant.types.js"
+import { SizeType } from "./sizeType.js"
+import { VariantType } from "./variantType.js"
 
 export type NumberInputType = {
 	variant?: VariantType

@@ -1,6 +1,6 @@
-import { StatusColorType } from "./color.types.js"
-import { OverrideType } from "./override.types.js"
-import { SizeType } from "./size.types.js"
+import { StatusColorType } from "./colorType.js"
+import { OverrideType } from "./overrideType.js"
+import { SizeType } from "./sizeType.js"
 
 export type RangeInputType<T = {}> = OverrideType<
 	{

@@ -1,4 +1,4 @@
-import type { SizeType } from "./size.types.js"
+import type { SizeType } from "./sizeType.js"
 
 export type BreakpointType = Exclude<SizeType, "xs"> | "2xl"
 

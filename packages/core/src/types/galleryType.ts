@@ -1,4 +1,4 @@
-import { OverrideType } from "./override.types.js"
+import { OverrideType } from "./overrideType.js"
 
 export type GalleryItemType<
 	C = string,

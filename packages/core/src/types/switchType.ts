@@ -1,4 +1,4 @@
-import { SizeType } from "./size.types.js"
+import { SizeType } from "./sizeType.js"
 
 export type SwitchType = {
 	size?: SizeType

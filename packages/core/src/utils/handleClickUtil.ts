@@ -1,4 +1,4 @@
-import { HTMLAttrAnchor } from "../types/html.types.js"
+import { HTMLAttrAnchor } from "../types/htmlType.js"
 
 interface Props extends HTMLAttrAnchor {
 	onClick?: () => void

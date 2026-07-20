@@ -1,6 +1,6 @@
-import { ActionEntryType } from "./action.types.js"
-import { SizeType } from "./size.types.js"
-import { VariantType } from "./variant.types.js"
+import { ActionEntryType } from "./actionType.js"
+import { SizeType } from "./sizeType.js"
+import { VariantType } from "./variantType.js"
 
 export type TextFieldType = {
 	label?: string

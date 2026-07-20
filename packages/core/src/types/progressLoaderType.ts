@@ -1,4 +1,4 @@
-import { StatusColorType } from "./color.types.js"
+import { StatusColorType } from "./colorType.js"
 
 export type ProgressLoaderType = {
 	value: number
