@@ -6,9 +6,7 @@
 		children: Snippet<[]>
 	}
 
-	let {
-		children
-	}: Props = $props()
+	let { children }: Props = $props()
 </script>
 
 {@render children?.()}

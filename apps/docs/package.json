@@ -5,7 +5,6 @@
 	"scripts": {
 		"prestart": "pnpm run disable:toolbar",
 		"dev": "astro dev",
-		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
@@ -17,7 +16,7 @@
 		"@astrojs/svelte": "^7.0.11",
 		"astro": "^5.6.1",
 		"astro-breadcrumbs": "^3.3.1",
-		"sharp": "^0.32.5",
+		"sharp": "^0.35.0",
 		"svelte": "^5.46.4",
 		"@fefade-ui/core": "workspace:*",
 		"@fefade-ui/svelte": "workspace:*"

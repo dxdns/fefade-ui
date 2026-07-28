@@ -13,12 +13,11 @@ async function start() {
 			"src/icons/index.ts",
 			"src/styles/**/*.css"
 		],
-		splitting: true,
 		bundle: true,
 		outdir: "dist",
 		format: "esm",
 		logLevel: "info",
-		minify: true,
+		minify: !isWatch,
 		plugins: [
 			cssModulesPlugin({
 				outputCss: true,
@@ -32,11 +31,11 @@ async function start() {
 		],
 		outbase: "src"
 	})
-	await ctx.rebuild()
 
 	if (isWatch) {
 		await ctx.watch()
 	} else {
+		await ctx.rebuild()
 		await ctx.dispose()
 	}
 }

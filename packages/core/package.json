@@ -1,6 +1,6 @@
 {
 	"name": "@fefade-ui/core",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "Shared logic and foundational utilities for Fefade UI.",
 	"private": false,
 	"author": "Fefade <https://github.com/fefade>",
@@ -14,10 +14,10 @@
 		"url": "git+https://github.com/fefade/ui.git"
 	},
 	"scripts": {
-		"prebuild": "node scripts/banner.mjs",
-		"build": "tsc --emitDeclarationOnly && node esbuild.config.mjs",
+		"watch:dist": "tsc --watch --emitDeclarationOnly --outDir dist",
+		"build": "tsc && node esbuild.config.mjs",
 		"dev": "node esbuild.config.mjs --watch",
-		"postinstall": "node ./postinstall.js"
+		"dev:watch": "concurrently \"npm:dev\" \"npm:watch:dist\""
 	},
 	"exports": {
 		".": {

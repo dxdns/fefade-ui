@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { DataTable } from "@fefade-ui/svelte"
+	import { DataTable } from "$lib/index.js"
 </script>
 
 <DataTable

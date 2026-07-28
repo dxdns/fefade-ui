@@ -14,6 +14,7 @@
 	text-align: -webkit-center;
 	height: fit-content;
 	color: var(--ff-on-bg);
+	vertical-align: middle;
 }
 
 .table > thead {

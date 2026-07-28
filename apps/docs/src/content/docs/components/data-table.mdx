@@ -2,18 +2,18 @@
 title: Data Table
 description:
   A component for displaying structured data in rows and columns, supporting
-  custom content, sorting, and responsive layouts.
+  custom cell rendering and expandable rows.
 ---
 
 import DataTablePreview from "$lib/components/DataTablePreview.svelte"
 import PreviewTabs from "$lib/components/PreviewTabs.astro"
 
-The `DataTable` component displays **structured data** in rows and columns.  
-It is ideal for dashboards, reports, and any interface requiring organized
-tabular data.
+The `DataTable` component displays **structured data** in rows and columns with
+support for **custom cell rendering** and **expandable rows**.
 
 - **Structured layout:** Display rows and columns with consistent formatting.
-- **Customizable content:** Supports text, numbers, and interactive elements.
+- **Custom rendering:** Render any Svelte content inside table cells.
+- **Expandable rows:** Display additional content below a row when expanded.
 - **Responsive design:** Works across screen sizes.
 - **Easy integration:** Bind your data array directly to the component.
 
@@ -25,17 +25,41 @@ tabular data.
 
 ## Props
 
-| Prop       | Type    | Default  | Description                                                             |
-| ---------- | ------- | -------- | ----------------------------------------------------------------------- |
-| `data`     | array   | `[]`     | Array of objects to display in the table. Each object represents a row. |
-| `columns`  | array   | Optional | Optional column definitions for custom headers, keys, or formatting.    |
-| `sortable` | boolean | `false`  | Enable sorting functionality on table columns.                          |
-| `style`    | string  | `""`     | Inline styles for layout or table container.                            |
+| Prop               | Type      | Default     | Description                                                                                                                 |
+| ------------------ | --------- | ----------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `data`             | `T[]`     | `[]`        | Array of objects displayed as table rows.                                                                                   |
+| `bodyRender`       | `Snippet` | —           | Required snippet used to render the content of each cell. Receives `key`, `value`, `index`, `row`, `expanded` and `toggle`. |
+| `expandableRender` | `Snippet` | `undefined` | Optional snippet rendered below a row when it is expanded. Receives `row` and `index`.                                      |
+| `class`            | `string`  | `""`        | Additional CSS classes applied to the table element.                                                                        |
+
+## bodyRender
+
+The `bodyRender` snippet receives the following properties:
+
+| Property   | Type         | Description                                    |
+| ---------- | ------------ | ---------------------------------------------- |
+| `key`      | `keyof T`    | Current column key.                            |
+| `value`    | `T[keyof T]` | Current cell value.                            |
+| `index`    | `number`     | Row index.                                     |
+| `row`      | `T`          | Complete row object.                           |
+| `expanded` | `boolean`    | Indicates whether the row is expanded.         |
+| `toggle`   | `() => void` | Toggles the expanded state of the current row. |
+
+## expandableRender
+
+When provided, rows whose data contains `expandable: true` can be expanded. The
+snippet receives:
+
+| Property | Type     | Description          |
+| -------- | -------- | -------------------- |
+| `row`    | `T`      | Complete row object. |
+| `index`  | `number` | Row index.           |
 
 ## Best Practices
 
-- Provide **unique keys** in your data rows (e.g., `id`) for performance.
-- Limit the number of columns for readability.
-- Combine with **pagination or virtual scrolling** for large datasets.
-- Include **clear column headers** to improve usability and accessibility.
-- Use consistent **cell formatting** for numbers, dates, or text.
+- Provide a stable unique identifier for each row whenever possible.
+- Keep column values concise for better readability.
+- Use `bodyRender` to render badges, buttons, icons, or formatted values.
+- Use `expandableRender` for additional details that should not be visible by
+  default.
+- For large datasets, combine the table with pagination or virtual scrolling.

@@ -9,6 +9,10 @@ export const keyboardArrowLeftIcon =
 	"M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"
 export const keyboardArrowDownIcon =
 	"M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"
+
+export const keyboardArrowUpIcon =
+	"M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"
+
 export const keyboardArrowRightIcon =
 	"M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
 

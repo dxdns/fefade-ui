@@ -30,10 +30,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Copy README to all packages
-        run: |
-          find packages -mindepth 1 -maxdepth 1 -type d -exec cp README.md {} \;
-
       - name: Create and publish versions
         uses: changesets/action@v1
         with:
