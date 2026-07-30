@@ -1,0 +1,24 @@
+.row {
+	padding: 0.5rem;
+}
+
+.row:not(.collapse) {
+	border-bottom: 1px solid var(--ff-border);
+}
+
+.row:not(.collapse):hover {
+	background-color: var(--ff-bg);
+}
+
+.row:last-child {
+	border: none;
+}
+
+@media screen and (max-width: 600px) {
+	.row {
+		border-bottom: 3px solid var(--ff-border);
+		display: block;
+		margin-bottom: 1rem;
+		padding: 0;
+	}
+}

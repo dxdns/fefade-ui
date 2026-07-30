@@ -1,0 +1,21 @@
+.cell {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-inline-end: 1rem;
+	text-align: -webkit-center;
+	color: var(--ff-on-bg);
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+	.cell {
+		border-bottom: 1px solid var(--ff-border);
+		display: block;
+		font-size: 0.875rem;
+		text-align: -webkit-right;
+	}
+
+	.cell:last-child {
+		border-bottom: 0;
+	}
+}

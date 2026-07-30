@@ -1,13 +1,8 @@
 <script lang="ts" generics="T extends object">
 	import type { HTMLAttributes } from "svelte/elements"
-	import {
-		classMapUtil,
-		keyboardArrowDownIcon,
-		keyboardArrowRightIcon
-	} from "@fefade-ui/core"
-	import styles from "./DataTable.module.css"
 	import { SvelteSet } from "svelte/reactivity"
 	import type { Snippet } from "svelte"
+	import Table from "../table/index.js"
 
 	interface Props extends HTMLAttributes<HTMLTableElement> {
 		data: T[]
@@ -57,38 +52,9 @@
 	}
 </script>
 
-{#snippet arrowDownIcon()}
-	<svg
-		class={styles.icon}
-		viewBox="0 -960 960 960"
-		style="
-		display: inline-block; 
-		vertical-align: middle;
-		fill: currentColor;
-		width: 24px;
-		height: 24px;
-		"
-	>
-		<path d={keyboardArrowDownIcon}></path>
-	</svg>
-{/snippet}
-
-{#snippet arrowUpIcon()}
-	<svg
-		xmlns="http://www.w3.org/2000/svg"
-		height="24px"
-		viewBox="0 -960 960 960"
-		width="24px"
-		fill="#e3e3e3"><path d={keyboardArrowRightIcon} /></svg
-	>
-{/snippet}
-
-<table
-	{...rest}
-	class={classMapUtil(className, [className, styles], styles.table)}
->
-	<thead>
-		<tr>
+<Table {...rest}>
+	<Table.Head>
+		<Table.Row>
 			{#if hasExpandableColumn}
 				<th></th>
 			{/if}
@@ -96,12 +62,12 @@
 			{#each columnKeys as key (key)}
 				<th>{key}</th>
 			{/each}
-		</tr>
-	</thead>
+		</Table.Row>
+	</Table.Head>
 
 	<tbody>
 		{#each data as row, i (i)}
-			<tr
+			<Table.Row
 				style="
 				cursor: {canExpand(row) ? 'pointer' : 'auto'}; 
 				user-select: {canExpand(row) ? 'none' : 'auto'};
@@ -113,21 +79,17 @@
 					: undefined}
 			>
 				{#if hasExpandableColumn}
-					<td>
+					<Table.Cell>
 						{#if canExpand(row)}
-							{#if expanded.has(i)}
-								{@render arrowDownIcon()}
-							{:else}
-								{@render arrowUpIcon()}
-							{/if}
+							<Table.ExpandButton expanded={expanded.has(i)} />
 						{/if}
-					</td>
+					</Table.Cell>
 				{/if}
 
 				{#each columnKeys as key (key)}
 					{@const value = row[key as keyof T]}
 
-					<td>
+					<Table.Cell>
 						{@render bodyRender?.({
 							key: key as keyof T,
 							value,
@@ -136,13 +98,13 @@
 							expanded: expanded.has(i),
 							toggle: () => toggle(i)
 						})}
-					</td>
+					</Table.Cell>
 				{/each}
-			</tr>
+			</Table.Row>
 
 			{#if canExpand(row) && expanded.has(i)}
-				<tr>
-					<td
+				<Table.Row>
+					<Table.Cell
 						colspan={hasExpandableColumn
 							? columnKeys.length + 1
 							: columnKeys.length}
@@ -151,9 +113,9 @@
 							row,
 							index: i
 						})}
-					</td>
-				</tr>
+					</Table.Cell>
+				</Table.Row>
 			{/if}
 		{/each}
 	</tbody>
-</table>
+</Table>

@@ -1,0 +1,21 @@
+.button {
+	color: var(--ff-on-bg);
+	cursor: pointer;
+	padding: 0.75rem;
+	background: none;
+	display: table;
+}
+
+.button::after {
+	content: "\25BC";
+	color: var(--ff-muted);
+	font-weight: bold;
+	float: right;
+	margin-left: 0.5rem;
+	transition: transform 0.3s;
+	transform: rotate(-90deg);
+}
+
+.active::after {
+	transform: rotate(0deg);
+}

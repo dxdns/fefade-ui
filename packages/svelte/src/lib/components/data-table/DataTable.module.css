@@ -90,11 +90,12 @@
 	font-weight: bold;
 	float: right;
 	margin-left: 0.5rem;
+	transition: transform 0.6s;
+	transform: rotate(-90deg);
 }
 
 .table .expand-btn.active:after {
-	transform: rotate(-180deg);
-	transition: transform 0.6s;
+	transform: rotate(0deg);
 }
 
 @media screen and (max-width: 600px) {
