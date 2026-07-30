@@ -1,4 +1,4 @@
-<script lang="ts" generics="T extends Record<string, unknown>">
+<script lang="ts" generics="T extends object">
 	import type { HTMLAttributes } from "svelte/elements"
 	import {
 		classMapUtil,
@@ -38,10 +38,11 @@
 
 	const hasExpandableColumn = $derived(data.some((row) => canExpand(row)))
 
-	const columnKeys =
+	const columnKeys = $derived(
 		data.length > 0
 			? Object.keys(data[0]).filter((key) => key !== "expandable")
 			: []
+	)
 
 	function toggle(index: number) {
 		if (expanded.has(index)) {
@@ -124,11 +125,11 @@
 				{/if}
 
 				{#each columnKeys as key (key)}
-					{@const value = row[key] as T[keyof T]}
+					{@const value = row[key as keyof T]}
 
 					<td>
 						{@render bodyRender?.({
-							key,
+							key: key as keyof T,
 							value,
 							index: i,
 							row,
