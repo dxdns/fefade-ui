@@ -1,6 +1,6 @@
 {
 	"name": "@fefade-ui/svelte",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "Reusable Svelte UI components powered by the Fefade UI core system.",
 	"private": false,
 	"author": "Fefade <https://github.com/fefade>",
@@ -40,7 +40,7 @@
 		}
 	},
 	"peerDependencies": {
-		"@fefade-ui/core": "^0.0.10",
+		"@fefade-ui/core": "^0.0.11",
 		"svelte": "^5.0.0"
 	},
 	"devDependencies": {
