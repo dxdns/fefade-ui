@@ -1,21 +1,21 @@
-.row {
+.tableRow {
 	padding: 0.5rem;
 }
 
-.row:not(.collapse) {
+.tableRow:not(.collapse) {
 	border-bottom: 1px solid var(--ff-border);
 }
 
-.row:not(.collapse):hover {
+.tableRow:not(.collapse):hover {
 	background-color: var(--ff-bg);
 }
 
-.row:last-child {
+.tableRow:last-child {
 	border: none;
 }
 
 @media screen and (max-width: 600px) {
-	.row {
+	.tableRow {
 		border-bottom: 3px solid var(--ff-border);
 		display: block;
 		margin-bottom: 1rem;

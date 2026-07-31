@@ -59,6 +59,15 @@ input[type="number"] {
 	font-weight: 500;
 }
 
+.sl-markdown-content :is(th, td):not(:where(.not-content *)) {
+	border-bottom: none;
+}
+
+.sl-markdown-content
+	:is(th:first-child, td:first-child):not(:where(.not-content *)) {
+	padding-inline-start: inherit;
+}
+
 @media screen and (max-width: 768px) {
 	main {
 		width: 90%;

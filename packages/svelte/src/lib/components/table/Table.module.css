@@ -6,17 +6,6 @@
 	table-layout: fixed;
 }
 
-.table th,
-.table td {
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-inline-end: 1rem;
-	text-align: -webkit-center;
-	height: fit-content;
-	color: var(--ff-on-bg);
-	vertical-align: middle;
-}
-
 @media screen and (max-width: 600px) {
 	.table {
 		border: 0;

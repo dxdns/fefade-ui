@@ -1,0 +1,84 @@
+---
+title: Table
+description:
+  A semantic HTML table component for building accessible data tables with
+  expandable rows, nested tables, and a composable API for structured data
+  presentation.
+---
+
+import TablePreview from "$lib/components/TablePreview.svelte"
+import PreviewTabs from "$lib/components/PreviewTabs.astro"
+
+# Table Component
+
+The `Table` component provides a **composable API for creating accessible,
+semantic HTML tables** with support for **expandable rows**, **nested tables**,
+and flexible customization.
+
+It is designed for displaying structured data using native HTML table elements
+while maintaining accessibility, reusable subcomponents, and full control over
+table interactions.
+
+## Features
+
+- **Composable table API:** Build structured tables using `Table.Head`,
+  `Table.HeaderCell`, `Table.Row`, and `Table.Cell`.
+- **Semantic HTML markup:** Uses native table elements (`table`, `thead`, `tr`,
+  `th`, and `td`) for improved accessibility and SEO.
+- **Expandable table rows:** Reveal additional information dynamically below
+  individual rows.
+- **Nested tables support:** Display related datasets inside expandable
+  sections.
+- **Flexible styling:** Apply custom classes and styles to any table element.
+
+## Table Component Usage Example
+
+<PreviewTabs component="TablePreview">
+	<TablePreview client:load />
+</PreviewTabs>
+
+## Table Subcomponents
+
+| Component            | Description                             |
+| -------------------- | --------------------------------------- |
+| `Table`              | Root container for the HTML table.      |
+| `Table.Head`         | Wrapper for the table header (`thead`). |
+| `Table.HeaderCell`   | Table header cell component (`th`).     |
+| `Table.Row`          | Table row component (`tr`).             |
+| `Table.Cell`         | Table data cell component (`td`).       |
+| `Table.ExpandButton` | Expandable row toggle indicator.        |
+
+## Table Component Props
+
+| Component            | Prop       | Type       | Default | Description                                          |
+| -------------------- | ---------- | ---------- | ------- | ---------------------------------------------------- |
+| `Table`              | `class`    | `string`   | `""`    | Additional CSS classes applied to the table element. |
+| `Table.HeaderCell`   | `colspan`  | `number`   | `1`     | Number of columns the header cell spans.             |
+| `Table.HeaderCell`   | `class`    | `string`   | `""`    | Additional CSS classes applied to the header cell.   |
+| `Table.Row`          | `class`    | `string`   | `""`    | Additional CSS classes applied to the table row.     |
+| `Table.Row`          | `onclick`  | `function` | —       | Optional click handler for row interactions.         |
+| `Table.Cell`         | `colspan`  | `number`   | `1`     | Number of columns the table cell spans.              |
+| `Table.Cell`         | `class`    | `string`   | `""`    | Additional CSS classes applied to the table cell.    |
+| `Table.ExpandButton` | `expanded` | `boolean`  | `false` | Controls the expanded state of the toggle indicator. |
+
+## Expandable Table Rows
+
+The `Table` component supports expandable rows by allowing applications to
+manage expansion state externally and render additional `Table.Row` elements
+when needed.
+
+The `Table.ExpandButton` component works as a visual indicator for expandable
+content. The expansion behavior and state management remain fully controlled by
+your application.
+
+## Accessible HTML Tables Best Practices
+
+- Use semantic HTML table elements to improve accessibility and search engine
+  understanding.
+- Use `Table.HeaderCell` for column labels instead of regular data cells.
+- Keep row interactions predictable and provide clear visual feedback.
+- Use `Table.ExpandButton` to indicate expandable table content.
+- Render expanded content inside a dedicated `Table.Row` with a `Table.Cell`
+  spanning all columns.
+- Use nested tables only for related structured data that benefits from
+  hierarchical presentation.

@@ -13,7 +13,7 @@
 
 <thead
 	{...rest}
-	class={classMapUtil(className, [className, styles], styles.head)}
+	class={classMapUtil(className, [className, styles], styles.tableHead)}
 >
 	{@render children?.()}
 </thead>

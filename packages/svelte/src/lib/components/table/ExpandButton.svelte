@@ -12,7 +12,7 @@
 
 <div
 	{...rest}
-	class={classMapUtil(className, [className, styles], styles.button, {
+	class={classMapUtil(className, [className, styles], styles.expandButton, {
 		[styles.active]: expanded
 	})}
 ></div>

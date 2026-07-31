@@ -1,4 +1,4 @@
-.button {
+.expandButton {
 	color: var(--ff-on-bg);
 	cursor: pointer;
 	padding: 0.75rem;
@@ -6,7 +6,7 @@
 	display: table;
 }
 
-.button::after {
+.expandButton::after {
 	content: "\25BC";
 	color: var(--ff-muted);
 	font-weight: bold;

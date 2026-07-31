@@ -8,6 +8,9 @@
 	let { class: className = "", children, ...rest }: Props = $props()
 </script>
 
-<tr {...rest} class={classMapUtil(className, [className, styles], styles.row)}>
+<tr
+	{...rest}
+	class={classMapUtil(className, [className, styles], styles.tableRow)}
+>
 	{@render children?.()}
 </tr>

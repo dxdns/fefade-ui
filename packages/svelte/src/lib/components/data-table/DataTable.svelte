@@ -56,11 +56,11 @@
 	<Table.Head>
 		<Table.Row>
 			{#if hasExpandableColumn}
-				<th></th>
+				<Table.HeaderCell></Table.HeaderCell>
 			{/if}
 
 			{#each columnKeys as key (key)}
-				<th>{key}</th>
+				<Table.HeaderCell>{key}</Table.HeaderCell>
 			{/each}
 		</Table.Row>
 	</Table.Head>
