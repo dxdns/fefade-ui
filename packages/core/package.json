@@ -1,6 +1,6 @@
 {
 	"name": "@fefade-ui/core",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"description": "Shared logic and foundational utilities for Fefade UI.",
 	"private": false,
 	"author": "Fefade <https://github.com/fefade>",
@@ -43,6 +43,9 @@
 		"./styles/*.css": {
 			"types": "./dist/styles/*.css.d.ts",
 			"default": "./dist/styles/*.css"
+		},
+		"./styles/StyleUtil.css": {
+			"default": "./dist/styles/StyleUtil.css"
 		}
 	},
 	"files": [
