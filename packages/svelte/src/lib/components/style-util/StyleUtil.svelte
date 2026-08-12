@@ -3,7 +3,7 @@
 	import "@fefade-ui/core/styles/StyleUtil.css"
 
 	interface Props {
-		children: Snippet<[]>
+		children?: Snippet<[]>
 	}
 
 	let { children }: Props = $props()

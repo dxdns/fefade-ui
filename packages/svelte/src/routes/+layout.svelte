@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { createTheme } from "@fefade-ui/core"
-	import { Provider } from "$lib/index.js"
+	import { Provider, StyleUtil } from "$lib/index.js"
 
 	let { children } = $props()
 
@@ -15,5 +15,6 @@
 </svelte:head>
 
 <Provider {theme} defaultThemeMode="light">
+	<StyleUtil />
 	{@render children()}
 </Provider>

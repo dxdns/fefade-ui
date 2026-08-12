@@ -43,9 +43,6 @@
 		"./styles/*.css": {
 			"types": "./dist/styles/*.css.d.ts",
 			"default": "./dist/styles/*.css"
-		},
-		"./styles/StyleUtil.css": {
-			"default": "./dist/styles/StyleUtil.css"
 		}
 	},
 	"files": [
